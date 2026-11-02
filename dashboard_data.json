@@ -1,10 +1,24 @@
 {
-  "total": 0,
-  "success": 0,
+  "total": 1,
+  "success": 1,
   "fail": 0,
-  "rate": 0,
+  "rate": 100,
   "fail_logs": [],
-  "all_logs": [],
-  "shipment_stats": {},
-  "update_time": "2026-11-02 19:42:28"
+  "all_logs": [
+    {
+      "时间": "2026-11-02 19:42:37",
+      "文件名": "FBA19VBSC9SW.pdf",
+      "货件号": "FBA19VBSC9SW",
+      "页码范围": "1-4页",
+      "状态": "成功",
+      "备注": ""
+    }
+  ],
+  "shipment_stats": {
+    "FBA19VBSC9SW": {
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "update_time": "2026-11-02 19:43:28"
 }
