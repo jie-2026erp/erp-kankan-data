@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-02 20:01:39",
+  "update_time": "2026-11-02 20:03:37",
   "pack3": {
-    "total": 16,
+    "total": 18,
     "over24": 1,
     "over48": 1,
-    "max_hours": 53.3,
+    "max_hours": 53.4,
     "dtb_count": 0,
     "list": [
       {
@@ -16,8 +16,21 @@
         "err_msg": "货件收件地址异常!",
         "box_total": 3,
         "pack_time": "2026-10-31 14:41:18",
-        "hours": 53.3,
+        "hours": 53.4,
         "owner": "杨雨薇",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261019048",
+        "platform": "NEWOUDA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-54",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 19,
+        "pack_time": "2026-11-02 17:40:59",
+        "hours": 2.4,
+        "owner": "杨晓如",
         "transport": "海运欧洲"
       },
       {
@@ -32,19 +45,6 @@
         "hours": 2.3,
         "owner": "刘启瑞",
         "transport": "慢船海卡（美西）"
-      },
-      {
-        "code": "HWC261019048",
-        "platform": "NEWOUDA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-54",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 19,
-        "pack_time": "2026-11-02 17:40:59",
-        "hours": 2.3,
-        "owner": "杨晓如",
-        "transport": "海运欧洲"
       },
       {
         "code": "FBA261102006",
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-02 19:06:09",
-        "hours": 0.9,
+        "hours": 1.0,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-02 19:46:42",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "汪颖",
         "transport": "慢船海卡（美西）"
       },
@@ -102,7 +102,7 @@
         "code": "HWC261102021",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0904",
+        "space": "FH-11-49",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 6,
@@ -125,6 +125,19 @@
         "transport": "慢船海卡（美西）"
       },
       {
+        "code": "HWC261102048",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0898",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-02 19:59:09",
+        "hours": 0.1,
+        "owner": "华陈茜",
+        "transport": "慢船海卡（美西）"
+      },
+      {
         "code": "HWC261102044",
         "platform": "eMAG",
         "warehouse": "FBA中转仓-金华2仓",
@@ -136,6 +149,19 @@
         "hours": 0.1,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
+      },
+      {
+        "code": "HWC261102040",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0899",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-02 19:59:18",
+        "hours": 0.1,
+        "owner": "汪颖",
+        "transport": "慢船海卡（美西）"
       },
       {
         "code": "HWC261102052",
@@ -151,6 +177,19 @@
         "transport": "慢船海卡（美西）"
       },
       {
+        "code": "HWC261031002",
+        "platform": "Cdiscount",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0900",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-02 19:59:19",
+        "hours": 0.1,
+        "owner": "刘瑜",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "HWC261102064",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
@@ -164,43 +203,30 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261102048",
+        "code": "HWC261102025",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0898",
+        "space": "JH11-0893",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-02 19:59:09",
-        "hours": 0.0,
-        "owner": "华陈茜",
-        "transport": "慢船海卡（美西）"
-      },
-      {
-        "code": "HWC261102040",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0899",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-02 19:59:18",
+        "box_total": 2,
+        "pack_time": "2026-11-02 20:03:25",
         "hours": 0.0,
         "owner": "汪颖",
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261031002",
-        "platform": "Cdiscount",
+        "code": "HWC261102053",
+        "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0900",
+        "space": "JH11-0894",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-02 19:59:19",
+        "box_total": 1,
+        "pack_time": "2026-11-02 20:02:48",
         "hours": 0.0,
-        "owner": "刘瑜",
-        "transport": "卡航欧洲"
+        "owner": "华陈茜",
+        "transport": "慢船海卡（美西）"
       },
       {
         "code": "FBA261030084",
