@@ -276,7 +276,7 @@ td { color:#334155; }
 <script>
 async function loadStock(){
     try{
-        const res = await fetch('https://raw.githubusercontent.com/jie-2026erp/erp-kankan-data/main/stock_data.json?t='+Date.now());
+        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/stock_data.json?t='+Date.now());
         const d = await res.json();
         document.getElementById('stockUpdateTime').textContent = '实时 · '+(d.update_time||'--');
         document.getElementById('stockPrint').textContent = d.print_boxes||0;
@@ -382,7 +382,7 @@ function showHourDetail(hr){
 
 async function loadScanData(){
     try{
-        const res = await fetch('https://raw.githubusercontent.com/jie-2026erp/erp-kankan-data/main/scan_data.json?t='+Date.now());
+        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/scan_data.json?t='+Date.now());
         const data = await res.json();
         document.getElementById('scanUpdateTime').textContent = '实时 · '+(data.update_time||'--');
         document.getElementById('scanTotalBoxes').textContent = data.total_boxes||0;
@@ -568,7 +568,7 @@ async function loadScanData(){
 
 async function loadPrintData(){
     try{
-        const res = await fetch('https://raw.githubusercontent.com/jie-2026erp/erp-kankan-data/main/dashboard_data.json?t='+Date.now());
+        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/dashboard_data.json?t='+Date.now());
         const d = await res.json();
         document.getElementById('printTotal').textContent = d.total||0;
         document.getElementById('printSuccess').textContent = d.success||0;
@@ -596,7 +596,7 @@ setInterval(loadPrintData, 5000);
 
 async function loadTimelyData(){
     try{
-        const res = await fetch('https://raw.githubusercontent.com/jie-2026erp/erp-kankan-data/main/timely_data.json?t='+Date.now());
+        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/timely_data.json?t='+Date.now());
         const d = await res.json();
         document.getElementById('timelyUpdateTime').textContent = '实时 · '+(d.update_time||'--');
 
