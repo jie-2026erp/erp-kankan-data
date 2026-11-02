@@ -236,6 +236,14 @@ td { color:#c8e2f4; }
             <tbody id="unmarkedTable"></tbody>
         </table></div>
     </div>
+
+    <div class="card">
+        <div class="card-t">⏳ 部分标记提货单 <span style="color:#ffcc4d;font-weight:normal;font-size:11px;">正在扫 · 不限当天</span></div>
+        <div class="tw"><table>
+            <thead><tr><th>提货单号</th><th>仓库</th><th>物流商</th><th>总箱数</th><th>已标记箱数</th><th>未标记箱数</th></tr></thead>
+            <tbody id="partialTable"></tbody>
+        </table></div>
+    </div>
 </div>
 
 <!-- Tab4 仓库库存 -->
@@ -449,6 +457,22 @@ async function loadScanData(){
             document.getElementById('unmarkedTable').innerHTML = '<tr><td colspan="8" style="text-align:center;color:#4dff88;">✅ 全部已标记</td></tr>';
         }
         } catch(e){ console.error('unmarked render:',e); }
+
+        // 部分标记（正在扫的单，不限当天）
+        try {
+            const pl = data.partial_list||[];
+            let ph = '';
+            pl.forEach(p=>{
+                ph += `<tr>
+                    <td><span class="tag tag-teal">${p.batch_code}</span></td>
+                    <td style="color:#8fb2d4;">${p.warehouse||''}</td>
+                    <td>${p.provider||''}</td>
+                    <td>${p.total_box||0} 箱</td>
+                    <td style="color:#2affb2;font-weight:600;">${p.marked_box||0} 箱</td>
+                    <td style="color:#ffcc4d;font-weight:600;">${p.unmarked_box||0} 箱</td></tr>`;
+            });
+            document.getElementById('partialTable').innerHTML = ph || '<tr><td colspan="6" style="text-align:center;color:#6d8db0;">暂无部分标记单</td></tr>';
+        } catch(e){ console.error('partial render:',e); }
 
         const users = data.by_user||[];
         const total = data.total_boxes||0;
