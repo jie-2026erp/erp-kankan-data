@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-02 17:32:39",
+  "update_time": "2026-11-02 17:38:14",
   "pack3": {
-    "total": 1,
+    "total": 3,
     "over24": 1,
     "over48": 1,
     "max_hours": 50.9,
@@ -19,6 +19,32 @@
         "hours": 50.9,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261031043",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0948",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-02 17:34:08",
+        "hours": 0.1,
+        "owner": "时惠",
+        "transport": "卡航英国"
+      },
+      {
+        "code": "FBA261031044",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0947",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-02 17:35:28",
+        "hours": 0.0,
+        "owner": "时惠",
+        "transport": "卡航英国"
       }
     ]
   },
