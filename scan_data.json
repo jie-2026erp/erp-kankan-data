@@ -1,21 +1,21 @@
 {
   "date": "2026-11-02",
-  "update_time": "2026-11-02 18:30:16",
-  "total_boxes": 156,
+  "update_time": "2026-11-02 18:31:53",
+  "total_boxes": 184,
   "total_users": 1,
   "total_batches": 2,
   "total_marked_bulk": 16.77,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 156,
-      "shipments": 15
+      "boxes": 184,
+      "shipments": 16
     }
   ],
   "hourly": {
     "汪宗标": {
       "17": 127,
-      "18": 29
+      "18": 57
     }
   },
   "unmarked": [
@@ -40,10 +40,12 @@
   ],
   "unmarked_count": 2,
   "unmarked_bulk": 19.15,
+  "partial_list": [],
+  "partial_count": 0,
   "week_stat": {
-    "bulk": 9.33,
-    "boxes": 102,
-    "count": 1
+    "bulk": 16.77,
+    "boxes": 184,
+    "count": 2
   },
   "last_week_stat": {
     "bulk": 619.21,
@@ -51,8 +53,8 @@
     "count": 50
   },
   "month_stat": {
-    "bulk": 9.33,
-    "boxes": 102,
-    "count": 1
+    "bulk": 16.77,
+    "boxes": 184,
+    "count": 2
   }
 }
