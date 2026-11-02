@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-02 18:57:16",
+  "update_time": "2026-11-02 18:59:10",
   "pack3": {
-    "total": 8,
+    "total": 7,
     "over24": 1,
     "over48": 1,
     "max_hours": 52.3,
@@ -21,6 +21,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "HWC261102001",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0942",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-02 17:43:05",
+        "hours": 1.3,
+        "owner": "刘启瑞",
+        "transport": "慢船海卡（美西）"
+      },
+      {
         "code": "HWC261019048",
         "platform": "NEWOUDA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -32,19 +45,6 @@
         "hours": 1.3,
         "owner": "杨晓如",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261102001",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0942",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-02 17:43:05",
-        "hours": 1.2,
-        "owner": "刘启瑞",
-        "transport": "慢船海卡（美西）"
       },
       {
         "code": "FBA261102006",
@@ -71,19 +71,6 @@
         "hours": 0.2,
         "owner": "谢晓璐",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA15MTC8BCQ",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-71",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-02 18:55:32",
-        "hours": 0.0,
-        "owner": "郝惜",
-        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MTC796Y",
