@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-02 18:38:13",
+  "update_time": "2026-11-02 18:40:06",
   "pack3": {
     "total": 6,
     "over24": 1,
     "over48": 1,
-    "max_hours": 51.9,
+    "max_hours": 52.0,
     "dtb_count": 0,
     "list": [
       {
@@ -16,9 +16,22 @@
         "err_msg": "货件收件地址异常!",
         "box_total": 3,
         "pack_time": "2026-10-31 14:41:18",
-        "hours": 51.9,
+        "hours": 52.0,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261102001",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0942",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-02 17:43:05",
+        "hours": 1.0,
+        "owner": "刘启瑞",
+        "transport": "慢船海卡（美西）"
       },
       {
         "code": "HWC261019048",
@@ -34,17 +47,17 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "HWC261102001",
-        "platform": "WALMART",
+        "code": "FBA15MTBKTPM",
+        "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0942",
+        "space": "FH-12-68",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-02 17:43:05",
-        "hours": 0.9,
-        "owner": "刘启瑞",
-        "transport": "慢船海卡（美西）"
+        "box_total": 39,
+        "pack_time": "2026-11-02 18:35:37",
+        "hours": 0.1,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
       },
       {
         "code": "FBA261102006",
@@ -71,19 +84,6 @@
         "hours": 0.0,
         "owner": "郝惜",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MTBKTPM",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0932,JH11-0931,JH11-0930,JH11-0929",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 39,
-        "pack_time": "2026-11-02 18:35:37",
-        "hours": 0.0,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
       }
     ]
   },
