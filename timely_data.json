@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-02 18:36:19",
+  "update_time": "2026-11-02 18:38:13",
   "pack3": {
     "total": 6,
     "over24": 1,
@@ -21,6 +21,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "HWC261019048",
+        "platform": "NEWOUDA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-54",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 19,
+        "pack_time": "2026-11-02 17:40:59",
+        "hours": 1.0,
+        "owner": "杨晓如",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "HWC261102001",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
@@ -34,27 +47,27 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261019048",
-        "platform": "NEWOUDA",
+        "code": "FBA261102006",
+        "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-54",
+        "space": "JH11-0928",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 19,
-        "pack_time": "2026-11-02 17:40:59",
-        "hours": 0.9,
-        "owner": "杨晓如",
-        "transport": "海运欧洲"
+        "box_total": 11,
+        "pack_time": "2026-11-02 18:34:02",
+        "hours": 0.1,
+        "owner": "袁梦蝶",
+        "transport": "美森美西-海派美西（正班）"
       },
       {
-        "code": "FBA261102019",
+        "code": "FBA15MTC5Q77",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0927",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 5,
-        "pack_time": "2026-11-02 18:34:41",
+        "pack_time": "2026-11-02 18:38:04",
         "hours": 0.0,
         "owner": "郝惜",
         "transport": "卡航欧洲"
@@ -71,19 +84,6 @@
         "hours": 0.0,
         "owner": "王贝贝",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA261102006",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0928",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 11,
-        "pack_time": "2026-11-02 18:34:02",
-        "hours": 0.0,
-        "owner": "袁梦蝶",
-        "transport": "美森美西-海派美西（正班）"
       }
     ]
   },
