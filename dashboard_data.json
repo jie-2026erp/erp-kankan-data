@@ -1,6 +1,6 @@
 {
-  "total": 7,
-  "success": 7,
+  "total": 9,
+  "success": 9,
   "fail": 0,
   "rate": 100,
   "fail_logs": [],
@@ -60,6 +60,22 @@
       "页码范围": "1-5页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-02 19:46:23",
+      "文件名": "FBA19VT6MCBS,FBA19VTBYNLF.pdf",
+      "货件号": "FBA19VT6MCBS",
+      "页码范围": "1-3页",
+      "状态": "成功",
+      "备注": ""
+    },
+    {
+      "时间": "2026-11-02 19:46:54",
+      "文件名": "FBA19VT6MCBS,FBA19VTBYNLF.pdf",
+      "货件号": "FBA19VTBYNLF",
+      "页码范围": "4-6页",
+      "状态": "成功",
+      "备注": ""
     }
   ],
   "shipment_stats": {
@@ -90,7 +106,15 @@
     "FBA19VSKCT80": {
       "success": 1,
       "fail": 0
+    },
+    "FBA19VT6MCBS": {
+      "success": 1,
+      "fail": 0
+    },
+    "FBA19VTBYNLF": {
+      "success": 1,
+      "fail": 0
     }
   },
-  "update_time": "2026-11-02 19:46:28"
+  "update_time": "2026-11-02 19:47:28"
 }
