@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-02 19:57:39",
+  "update_time": "2026-11-02 19:59:34",
   "pack3": {
-    "total": 12,
+    "total": 14,
     "over24": 1,
     "over48": 1,
     "max_hours": 53.3,
@@ -21,6 +21,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "HWC261102001",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0942",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-02 17:43:05",
+        "hours": 2.3,
+        "owner": "刘启瑞",
+        "transport": "慢船海卡（美西）"
+      },
+      {
         "code": "HWC261019048",
         "platform": "NEWOUDA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -32,19 +45,6 @@
         "hours": 2.3,
         "owner": "杨晓如",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261102001",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0942",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-02 17:43:05",
-        "hours": 2.2,
-        "owner": "刘启瑞",
-        "transport": "慢船海卡（美西）"
       },
       {
         "code": "FBA261102006",
@@ -99,19 +99,6 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261102057",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0906",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-02 19:42:44",
-        "hours": 0.2,
-        "owner": "华陈茜",
-        "transport": "慢船海卡（美西）"
-      },
-      {
         "code": "HWC261102021",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
@@ -120,9 +107,22 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-02 19:49:10",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261102044",
+        "platform": "eMAG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0901",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 15,
+        "pack_time": "2026-11-02 19:55:14",
+        "hours": 0.1,
+        "owner": "郝诗佳",
+        "transport": "铁路罗马尼亚"
       },
       {
         "code": "HWC261102058",
@@ -138,19 +138,6 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261102044",
-        "platform": "eMAG",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0901",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 15,
-        "pack_time": "2026-11-02 19:55:14",
-        "hours": 0.0,
-        "owner": "郝诗佳",
-        "transport": "铁路罗马尼亚"
-      },
-      {
         "code": "HWC261102052",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
@@ -159,9 +146,48 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-02 19:55:46",
+        "hours": 0.1,
+        "owner": "华陈茜",
+        "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261102048",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0898",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-02 19:59:09",
         "hours": 0.0,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261102040",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0899",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-02 19:59:18",
+        "hours": 0.0,
+        "owner": "汪颖",
+        "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261031002",
+        "platform": "Cdiscount",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0900",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-02 19:59:19",
+        "hours": 0.0,
+        "owner": "刘瑜",
+        "transport": "卡航欧洲"
       }
     ]
   },
