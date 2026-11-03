@@ -316,7 +316,6 @@ td { color:#c8e2f4; }
 
     <div class="kpis">
         <div class="kpi" style="--c:#2affb2;"><div class="v" id="costOutQty">0</div><div class="l">今日出库量(P次数)</div></div>
-        <div class="kpi" style="--c:#5ce1ff;"><div class="v" id="costShipCount">0</div><div class="l">今日标记发货单数</div></div>
         <div class="kpi" style="--c:#ffab40;"><div class="v" id="costTotal">0</div><div class="l">今日人力总成本(元)</div></div>
         <div class="kpi" style="--c:#ff7ad9;"><div class="v" id="costAvg">0</div><div class="l">今日件均成本(元/件)</div></div>
     </div>
@@ -346,14 +345,6 @@ td { color:#c8e2f4; }
             <tbody id="costPersonsTable"><tr><td colspan="9" style="text-align:center;color:#6d8db0;">加载中...</td></tr></tbody>
         </table></div>
         <div id="costHiddenNote" style="margin-top:8px;font-size:12px;color:#8fb2d4;display:none;"></div>
-    </div>
-
-    <div class="card">
-        <div class="card-t">📦 今日标记发货明细 <span class="tip">单箱数量=详情页P次数 · 0表示该单单箱数量未填(回退申报量)</span></div>
-        <div class="tw"><table>
-            <thead><tr><th>货件号</th><th>仓库</th><th>标记时间</th><th>单箱数量</th></tr></thead>
-            <tbody id="costShipmentsTable"><tr><td colspan="4" style="text-align:center;color:#6d8db0;">加载中...</td></tr></tbody>
-        </table></div>
     </div>
 </div>
 
@@ -872,7 +863,6 @@ async function loadCostData(){
         const d = await res.json();
         document.getElementById('costUpdateTime').textContent = '实时 · '+(d.update_time||'--');
         document.getElementById('costOutQty').textContent = fmtNum(d.today_out_qty);
-        document.getElementById('costShipCount').textContent = fmtNum(d.today_out_count);
         document.getElementById('costTotal').textContent = fmtMoney(d.today_cost);
         document.getElementById('costAvg').textContent = fmtMoney(d.today_avg);
 
@@ -953,26 +943,13 @@ async function loadCostData(){
         } else {
             document.getElementById('costPersonsTable').innerHTML = '<tr><td colspan="9" style="text-align:center;color:#6d8db0;">今日暂无人员成本数据（等待考勤录入或名单配置）</td></tr>';
         }
-        // 管理岗保密成本提示（金额不在明细/JSON中体现，已计入总成本）
+        // 管理岗保密成本提示
         const hn = document.getElementById('costHiddenNote');
         if(d.has_hidden_cost){
             hn.style.display = 'block';
-            hn.textContent = '注：另含管理岗人力成本，已计入上方“今日人力总成本”，个人明细保密不展示。';
+            hn.textContent = '注：另含管理岗人力成本，已计入上方”今日人力总成本”，个人明细保密不展示。';
         } else {
             hn.style.display = 'none'; hn.textContent='';
-        }
-
-        // 货件明细
-        const ships = d.shipments_today||[];
-        if(ships.length){
-            let html='';
-            ships.forEach(s=>{
-                const pc = s.per_box>0 ? 'font-weight:700;color:#2affb2;' : 'color:#ff5d73;';
-                html += `<tr><td style="font-weight:600;color:#5ce1ff;">${s.code}</td><td style="color:#8fb2d4;font-size:12px;">${(s.warehouse||'').replace('FBA中转仓-','')}</td><td style="color:#8fb2d4;">${s.mark_time}</td><td style="${pc}">${fmtNum(s.per_box)}</td></tr>`;
-            });
-            document.getElementById('costShipmentsTable').innerHTML = html;
-        } else {
-            document.getElementById('costShipmentsTable').innerHTML = '<tr><td colspan="4" style="text-align:center;color:#6d8db0;">今日暂无标记发货</td></tr>';
         }
     }catch(e){ console.log(e); document.getElementById('costUpdateTime').textContent='加载失败'; }
 }
