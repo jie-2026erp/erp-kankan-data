@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-03 13:48:24",
+  "update_time": "2026-11-03 13:49:17",
   "pack3": {
     "total": 26,
     "over24": 0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-02 18:34:03",
-        "hours": 19.2,
+        "hours": 19.3,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 18.5,
+        "hours": 18.6,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -229,6 +229,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MTHN5SX",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-1-8",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 9,
+        "pack_time": "2026-11-03 11:51:56",
+        "hours": 2.0,
+        "owner": "丁胜玥",
+        "transport": "卡航英国"
+      },
+      {
         "code": "HWC261102079",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -255,23 +268,10 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA15MTHN5SX",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-1-8",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 9,
-        "pack_time": "2026-11-03 11:51:56",
-        "hours": 1.9,
-        "owner": "丁胜玥",
-        "transport": "卡航英国"
-      },
-      {
         "code": "FBA261102089",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-14-47,FH-14-53",
+        "space": "FH-14-47,FH-14-53,FH-14-45",
         "is_dtb": false,
         "err_msg": "There's an input error with the resource 'YH-WF-M8W1-pink'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'YH-WF-M8W1-grey'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'YH-WF-M8W1-black'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 85,
