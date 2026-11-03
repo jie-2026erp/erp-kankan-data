@@ -1048,15 +1048,21 @@ function selectEditDate(key){
   ROSTER.forEach(p=>{
     const saved = offTimes[p.name] || p.stdOff; // 默认标准下班
     const badgeColor = p.shift==='BOSS' ? '#ffab40' : '#5ce1ff';
+    const isBoss = p.shift==='BOSS';
+    const nameShow = isBoss ? '管理岗(保密)' : p.name;
+    const payShow = isBoss ? '***' : (p.dailyBase+MEAL).toFixed(2);
+    const totShow = isBoss ? '***' : '';
+    const otShow = isBoss ? '***' : '0h';
+    const otpShow = isBoss ? '***' : '0.00';
     html += `<tr style="border-bottom:1px solid rgba(148,190,220,.1);">
-      <td style="padding:8px;font-weight:600;color:#dff3ff;">${p.name}</td>
+      <td style="padding:8px;font-weight:600;color:${isBoss?'#ffab40':'#dff3ff'};">${nameShow}</td>
       <td style="padding:8px;"><span style="font-size:12px;padding:2px 8px;border-radius:8px;background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${badgeColor};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
       <td style="padding:8px;text-align:center;color:#8fb2d4;font-size:12px;">${p.stdOff}</td>
       <td style="padding:8px;text-align:center;"><input type="time" data-name="${p.name}" value="${saved}" step="1800" style="width:80px;padding:4px 6px;background:rgba(255,122,217,.08);border:1px solid rgba(255,122,217,.25);border-radius:4px;color:#ff7ad9;font-size:13px;text-align:center;" oninput="recalcCost()"></td>
-      <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="ot_${p.name}">0h</td>
-      <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="otp_${p.name}">0.00</td>
-      <td style="padding:8px;text-align:right;color:#8fb2d4;font-size:13px;">${(p.dailyBase+MEAL).toFixed(2)}</td>
-      <td style="padding:8px;text-align:right;font-weight:700;color:#2affb2;font-size:13px;" id="tot_${p.name}">${(p.dailyBase+MEAL).toFixed(2)}</td>
+      <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="ot_${p.name}">${otShow}</td>
+      <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="otp_${p.name}">${otpShow}</td>
+      <td style="padding:8px;text-align:right;color:#8fb2d4;font-size:13px;">${payShow}</td>
+      <td style="padding:8px;text-align:right;font-weight:700;color:${isBoss?'#ffab40':'#2affb2'};font-size:13px;" id="tot_${p.name}">${payShow}</td>
     </tr>`;
   });
   document.getElementById('edPersonsBody').innerHTML = html;
@@ -1079,9 +1085,12 @@ function recalcCost(){
     }
     const personTotal = p.dailyBase + MEAL + otPay;
     totalCost += personTotal;
-    document.getElementById('ot_'+p.name).textContent = otH.toFixed(1)+'h';
-    document.getElementById('otp_'+p.name).textContent = otPay.toFixed(2);
-    document.getElementById('tot_'+p.name).textContent = personTotal.toFixed(2);
+    // BOSS行金额保密不显示
+    if(p.shift !== 'BOSS'){
+      document.getElementById('ot_'+p.name).textContent = otH.toFixed(1)+'h';
+      document.getElementById('otp_'+p.name).textContent = otPay.toFixed(2);
+      document.getElementById('tot_'+p.name).textContent = personTotal.toFixed(2);
+    }
   });
   const oq = parseFloat(document.getElementById('edOutQty').value)||0;
   document.getElementById('edTotalCost').textContent = totalCost.toFixed(2);
