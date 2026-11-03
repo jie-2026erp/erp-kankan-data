@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-03 13:47:17",
+  "update_time": "2026-11-03 13:48:24",
   "pack3": {
-    "total": 23,
+    "total": 26,
     "over24": 0,
     "over48": 0,
     "max_hours": 20.1,
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-02 21:03:16",
-        "hours": 16.7,
+        "hours": 16.8,
         "owner": "柯宗磊",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -190,6 +190,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MTHF79X",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-14-63",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-03 11:39:05",
+        "hours": 2.2,
+        "owner": "丁胜玥",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA15MTHQDT8",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -200,19 +213,6 @@
         "pack_time": "2026-11-03 11:36:40",
         "hours": 2.2,
         "owner": "朱磊",
-        "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MTHF79X",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-14-63",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-03 11:39:05",
-        "hours": 2.1,
-        "owner": "丁胜玥",
         "transport": "海运英国"
       },
       {
@@ -271,7 +271,7 @@
         "code": "FBA261102089",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-14-53",
+        "space": "FH-14-47,FH-14-53",
         "is_dtb": false,
         "err_msg": "There's an input error with the resource 'YH-WF-M8W1-pink'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'YH-WF-M8W1-grey'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'YH-WF-M8W1-black'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 85,
@@ -289,7 +289,7 @@
         "err_msg": "",
         "box_total": 16,
         "pack_time": "2026-11-03 13:32:26",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -302,6 +302,45 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-03 13:45:12",
+        "hours": 0.1,
+        "owner": "丁胜玥",
+        "transport": "海运英国"
+      },
+      {
+        "code": "HWC261102090",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0771",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-03 13:48:11",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261102081",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0769",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-03 13:48:13",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "FBA261102057",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0772",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 11,
+        "pack_time": "2026-11-03 13:48:06",
         "hours": 0.0,
         "owner": "丁胜玥",
         "transport": "海运英国"
