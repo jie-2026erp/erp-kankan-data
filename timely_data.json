@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-03 13:36:27",
+  "update_time": "2026-11-03 13:37:12",
   "pack3": {
     "total": 26,
     "over24": 0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-02 18:34:03",
-        "hours": 19.0,
+        "hours": 19.1,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 18.3,
+        "hours": 18.4,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -115,7 +115,7 @@
         "code": "HWC261030071",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0852",
+        "space": "FH-1-25",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 1,
@@ -193,7 +193,7 @@
         "code": "FBA15MTHBRNS",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0812",
+        "space": "FH-1-21",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 1,
@@ -268,10 +268,23 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MTHN5SX",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0786",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 9,
+        "pack_time": "2026-11-03 11:51:56",
+        "hours": 1.8,
+        "owner": "丁胜玥",
+        "transport": "卡航英国"
+      },
+      {
         "code": "HWC261102079",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0782",
+        "space": "FH-1-23",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 1,
@@ -292,19 +305,6 @@
         "hours": 1.7,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA15MTHN5SX",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0786",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 9,
-        "pack_time": "2026-11-03 11:51:56",
-        "hours": 1.7,
-        "owner": "丁胜玥",
-        "transport": "卡航英国"
       },
       {
         "code": "FBA261102089",
