@@ -308,7 +308,10 @@ td { color:#c8e2f4; }
             <h1>💰 件均人力成本</h1>
             <div class="sub">出库量(P次数) ÷ 当日人力总成本 · 员工4000+500按26天折算 · 加班17元/小时(半小时取整) · 含管理岗人力成本（明细保密）</div>
         </div>
-        <div class="live"><div class="dot"></div><span id="costUpdateTime">加载中...</span></div>
+        <div class="live">
+        <div class="dot"></div><span id="costUpdateTime">加载中...</span>
+        <button id="btnEditCost" onclick="openCostEditor()" style="margin-left:10px;padding:4px 12px;border-radius:6px;border:1px solid rgba(255,122,217,.4);background:rgba(255,122,217,.12);color:#ff7ad9;font-size:12px;cursor:pointer;font-weight:600;">✏️ 编辑数据</button>
+    </div>
     </div>
 
     <div class="kpis">
@@ -352,6 +355,53 @@ td { color:#c8e2f4; }
             <tbody id="costShipmentsTable"><tr><td colspan="4" style="text-align:center;color:#6d8db0;">加载中...</td></tr></tbody>
         </table></div>
     </div>
+</div>
+
+<!-- 编辑数据弹窗 -->
+<div id="costEditorModal" style="display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.7);backdrop-filter:blur(4px);">
+  <div style="max-width:760px;margin:30px auto;background:#0d1724;border:1px solid rgba(255,122,217,.3);border-radius:16px;padding:24px;max-height:90vh;overflow-y:auto;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+      <h3 style="color:#ff7ad9;font-size:18px;">✏️ 编辑当日成本</h3>
+      <button onclick="closeCostEditor()" style="background:none;border:none;color:#8fb2d4;font-size:22px;cursor:pointer;">✕</button>
+    </div>
+    <div style="font-size:12px;color:#8fb2d4;margin-bottom:12px;">选日期 → 填出库量 → 填每人实际下班时间 → 自动算薪资 → 保存发布</div>
+
+    <!-- 日期选择 -->
+    <div id="costEditorDays" style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;"></div>
+
+    <!-- 出库量 -->
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;padding:10px;background:rgba(255,171,64,.06);border-radius:8px;">
+      <span style="font-size:14px;color:#ffab40;font-weight:600;">📦 出库量(件)：</span>
+      <input type="number" id="edOutQty" placeholder="填当天出库总件数" style="width:160px;padding:6px 10px;background:rgba(255,171,64,.1);border:1px solid rgba(255,171,64,.3);border-radius:6px;color:#ffab40;font-size:15px;text-align:right;" oninput="recalcCost()">
+    </div>
+
+    <!-- 员工下班时间表 -->
+    <table style="width:100%;border-collapse:collapse;margin-bottom:14px;">
+      <thead><tr style="background:rgba(0,229,255,.06);">
+        <th style="padding:8px;text-align:left;font-size:12px;color:#8fb2d4;">员工</th>
+        <th style="padding:8px;text-align:left;font-size:12px;color:#8fb2d4;">班次</th>
+        <th style="padding:8px;text-align:center;font-size:12px;color:#8fb2d4;">标准下班</th>
+        <th style="padding:8px;text-align:center;font-size:12px;color:#8fb2d4;">实际下班</th>
+        <th style="padding:8px;text-align:right;font-size:12px;color:#8fb2d4;">加班(h)</th>
+        <th style="padding:8px;text-align:right;font-size:12px;color:#8fb2d4;">加班费</th>
+        <th style="padding:8px;text-align:right;font-size:12px;color:#8fb2d4;">日薪+餐补</th>
+        <th style="padding:8px;text-align:right;font-size:12px;color:#8fb2d4;">合计</th>
+      </tr></thead>
+      <tbody id="edPersonsBody"></tbody>
+    </table>
+
+    <!-- 汇总 -->
+    <div style="display:flex;gap:16px;justify-content:flex-end;align-items:center;margin-bottom:16px;padding:12px;background:rgba(255,122,217,.06);border-radius:8px;">
+      <span style="font-size:13px;color:#8fb2d4;">人力总成本：<b id="edTotalCost" style="color:#5ce1ff;font-size:18px;">0.00</b> 元</span>
+      <span style="font-size:13px;color:#8fb2d4;">件均：<b id="edAvgCost" style="color:#ff7ad9;font-size:18px;">—</b> 元/件</span>
+    </div>
+
+    <div style="display:flex;gap:10px;justify-content:flex-end;">
+      <button onclick="closeCostEditor()" style="padding:10px 20px;border-radius:8px;border:1px solid rgba(148,190,220,.2);background:transparent;color:#8fb2d4;cursor:pointer;">取消</button>
+      <button onclick="saveCostData()" id="btnSaveCost" style="padding:10px 24px;border-radius:8px;border:none;background:linear-gradient(135deg,#ff7ad9,#b388ff);color:#0d1724;font-weight:700;cursor:pointer;">💾 保存并发布</button>
+    </div>
+    <div id="costEditorMsg" style="margin-top:10px;font-size:13px;color:#ffcc4d;"></div>
+  </div>
 </div>
 
 <script>
@@ -920,6 +970,217 @@ async function loadCostData(){
 }
 loadCostData();
 setInterval(loadCostData, 60000);
+
+/* ============ 编辑数据 ============ */
+const GH_REPO = 'jie-2026erp/erp-kankan-data';
+const GH_FILE = 'cost_data.json';
+function getToken(){ return localStorage.getItem('gh_token')||''; }
+function setToken(t){ localStorage.setItem('gh_token', t); }
+// 员工班次配置：日薪=月薪4500/26天=173.08，BOSS=10000/26天=384.62
+const ROSTER = [
+  {name:'詹坤林', shift:'A',    stdOffMin:17*60+30, otRate:17, dailyBase:173.08, stdOff:'17:30'},
+  {name:'汪宗标', shift:'B',    stdOffMin:19*60+30, otRate:17, dailyBase:173.08, stdOff:'19:30'},
+  {name:'叶帆',   shift:'B',    stdOffMin:19*60+30, otRate:17, dailyBase:173.08, stdOff:'19:30'},
+  {name:'赵忠军', shift:'B',    stdOffMin:19*60+30, otRate:17, dailyBase:173.08, stdOff:'19:30'},
+  {name:'朱文亮', shift:'B',    stdOffMin:19*60+30, otRate:17, dailyBase:173.08, stdOff:'19:30'},
+  {name:'王梦吉', shift:'BOSS',  stdOffMin:17*60,    otRate:12, dailyBase:384.62, stdOff:'17:00'},
+];
+const MEAL = 8; // 餐补8元/人/天
+let _costDataCache = null;
+let _curEditDate = null;
+
+function minToStr(m){
+  if(m==null||isNaN(m)||m<0) return '';
+  const h = Math.floor(m/60), mm = m%60;
+  return String(h).padStart(2,'0')+':'+String(mm).padStart(2,'0');
+}
+function strToMin(s){
+  if(!s) return null;
+  const parts = s.split(':');
+  return parseInt(parts[0])*60 + parseInt(parts[1]);
+}
+
+async function openCostEditor(){
+  const msg = document.getElementById('costEditorMsg');
+  msg.textContent = '加载数据中...';
+  msg.style.color = '#ffcc4d';
+  document.getElementById('costEditorModal').style.display = 'block';
+  try{
+    const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/cost_data.json?t='+Date.now());
+    _costDataCache = await res.json();
+    const d = _costDataCache;
+    // 渲染本周日期按钮
+    const now0 = new Date();
+    const mon0 = new Date(now0.getFullYear(), now0.getMonth(), now0.getDate() - ((now0.getDay()+6)%7));
+    const weekNames = ['一','二','三','四','五','六','日'];
+    let dh = '';
+    for(let i=0;i<7;i++){
+      const dd = new Date(mon0.getFullYear(), mon0.getMonth(), mon0.getDate()+i);
+      const key = dd.getFullYear()+'-'+String(dd.getMonth()+1).padStart(2,'0')+'-'+String(dd.getDate()).padStart(2,'0');
+      const isToday = key===d.today;
+      const isFuture = dd.getTime() > now0.getTime()+86400000;
+      dh += `<button data-date="${key}" onclick="selectEditDate('${key}')" style="padding:8px 14px;border-radius:8px;border:1px solid rgba(0,229,255,.2);background:${isToday?'rgba(255,122,217,.25)':'rgba(0,229,255,.06)'};color:${isToday?'#ff7ad9':'#8fb2d4'};font-size:13px;cursor:pointer;font-weight:${isToday?'700':'400'};">${dd.getMonth()+1}/${dd.getDate()} 周${weekNames[i]}${isToday?'·今':''}</button>`;
+    }
+    document.getElementById('costEditorDays').innerHTML = dh;
+    // 默认选今天
+    selectEditDate(d.today);
+    msg.textContent = '';
+  }catch(e){
+    msg.textContent = '加载失败: '+e.message;
+  }
+}
+
+function selectEditDate(key){
+  _curEditDate = key;
+  // 高亮按钮
+  document.querySelectorAll('#costEditorDays button').forEach(b=>{
+    b.style.background = b.dataset.date===key ? 'rgba(255,122,217,.25)' : 'rgba(0,229,255,.06)';
+    b.style.color = b.dataset.date===key ? '#ff7ad9' : '#8fb2d4';
+    b.style.fontWeight = b.dataset.date===key ? '700' : '400';
+  });
+  const d = _costDataCache;
+  const rec = (d.daily||{})[key] || {};
+  const offTimes = rec.off_times || {};
+  // 出库量
+  document.getElementById('edOutQty').value = rec.out_qty || '';
+  // 员工表格
+  let html = '';
+  ROSTER.forEach(p=>{
+    const saved = offTimes[p.name] || p.stdOff; // 默认标准下班
+    const badgeColor = p.shift==='BOSS' ? '#ffab40' : '#5ce1ff';
+    html += `<tr style="border-bottom:1px solid rgba(148,190,220,.1);">
+      <td style="padding:8px;font-weight:600;color:#dff3ff;">${p.name}</td>
+      <td style="padding:8px;"><span style="font-size:12px;padding:2px 8px;border-radius:8px;background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${badgeColor};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
+      <td style="padding:8px;text-align:center;color:#8fb2d4;font-size:12px;">${p.stdOff}</td>
+      <td style="padding:8px;text-align:center;"><input type="time" data-name="${p.name}" value="${saved}" step="1800" style="width:80px;padding:4px 6px;background:rgba(255,122,217,.08);border:1px solid rgba(255,122,217,.25);border-radius:4px;color:#ff7ad9;font-size:13px;text-align:center;" oninput="recalcCost()"></td>
+      <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="ot_${p.name}">0h</td>
+      <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="otp_${p.name}">0.00</td>
+      <td style="padding:8px;text-align:right;color:#8fb2d4;font-size:13px;">${(p.dailyBase+MEAL).toFixed(2)}</td>
+      <td style="padding:8px;text-align:right;font-weight:700;color:#2affb2;font-size:13px;" id="tot_${p.name}">${(p.dailyBase+MEAL).toFixed(2)}</td>
+    </tr>`;
+  });
+  document.getElementById('edPersonsBody').innerHTML = html;
+  recalcCost();
+}
+
+function recalcCost(){
+  if(!_curEditDate) return;
+  let totalCost = 0;
+  ROSTER.forEach(p=>{
+    const inp = document.querySelector(`#edPersonsBody input[data-name="${p.name}"]`);
+    const actualStr = inp ? inp.value : p.stdOff;
+    const actualMin = strToMin(actualStr);
+    let otMin = 0, otH = 0, otPay = 0;
+    if(actualMin != null && actualMin > p.stdOffMin){
+      otMin = actualMin - p.stdOffMin;
+      otMin = Math.floor(otMin/30)*30; // 半小时取整
+      otH = otMin/60;
+      otPay = otH * p.otRate;
+    }
+    const personTotal = p.dailyBase + MEAL + otPay;
+    totalCost += personTotal;
+    document.getElementById('ot_'+p.name).textContent = otH.toFixed(1)+'h';
+    document.getElementById('otp_'+p.name).textContent = otPay.toFixed(2);
+    document.getElementById('tot_'+p.name).textContent = personTotal.toFixed(2);
+  });
+  const oq = parseFloat(document.getElementById('edOutQty').value)||0;
+  document.getElementById('edTotalCost').textContent = totalCost.toFixed(2);
+  document.getElementById('edAvgCost').textContent = (oq>0 && totalCost>0) ? (totalCost/oq).toFixed(2) : '—';
+}
+
+function closeCostEditor(){
+  document.getElementById('costEditorModal').style.display = 'none';
+  _costDataCache = null;
+  _curEditDate = null;
+}
+
+async function saveCostData(){
+  const msg = document.getElementById('costEditorMsg');
+  const btn = document.getElementById('btnSaveCost');
+  if(!_costDataCache || !_curEditDate){ msg.textContent='数据未加载'; return; }
+  // 检查token
+  let token = getToken();
+  if(!token){
+    token = prompt('首次使用请输入GitHub Token（只存在本机浏览器，不会上传）：');
+    if(!token){ msg.textContent='需要Token才能保存'; return; }
+    setToken(token.trim());
+  }
+  btn.disabled = true; btn.textContent = '保存中...'; msg.style.color='#ffcc4d'; msg.textContent = '正在提交到GitHub...';
+  try{
+    const key = _curEditDate;
+    const d = _costDataCache;
+    const oq = parseFloat(document.getElementById('edOutQty').value)||0;
+    // 收集下班时间和总人力成本
+    const offTimes = {};
+    let totalCost = 0;
+    ROSTER.forEach(p=>{
+      const inp = document.querySelector(`#edPersonsBody input[data-name="${p.name}"]`);
+      const actualStr = inp ? inp.value : p.stdOff;
+      offTimes[p.name] = actualStr;
+      const actualMin = strToMin(actualStr);
+      let otMin = 0, otPay = 0;
+      if(actualMin != null && actualMin > p.stdOffMin){
+        otMin = Math.floor((actualMin-p.stdOffMin)/30)*30;
+        otPay = (otMin/60) * p.otRate;
+      }
+      totalCost += p.dailyBase + MEAL + otPay;
+    });
+    totalCost = Math.round(totalCost*100)/100;
+    const avg = (oq>0) ? Math.round(totalCost/oq*100)/100 : 0;
+
+    // 写入缓存
+    d.daily = d.daily||{};
+    if(!d.daily[key]) d.daily[key] = {};
+    d.daily[key].out_qty = oq;
+    d.daily[key].cost = totalCost;
+    d.daily[key].avg = avg;
+    d.daily[key].persons_count = 5;
+    d.daily[key].off_times = offTimes;
+    // 同步今天KPI
+    if(key === d.today){
+      d.today_out_qty = oq;
+      d.today_cost = totalCost;
+      d.today_avg = avg;
+    }
+    d.update_time = new Date().toLocaleString('zh-CN',{hour12:false});
+
+    // 获取当前文件sha
+    const ghRes = await fetch('https://api.github.com/repos/'+GH_REPO+'/contents/'+GH_FILE,{
+      headers:{'Authorization':'token '+token}
+    });
+    const ghInfo = await ghRes.json();
+    const sha = ghInfo.sha;
+
+    // PUT新文件
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(d,null,2))));
+    const putRes = await fetch('https://api.github.com/repos/'+GH_REPO+'/contents/'+GH_FILE,{
+      method:'PUT',
+      headers:{
+        'Authorization':'token '+token,
+        'Content-Type':'application/json'
+      },
+      body: JSON.stringify({
+        message: '手动编辑 '+key+' 出库'+oq+'件 成本'+totalCost+'元',
+        content: content,
+        sha: sha
+      })
+    });
+    if(putRes.ok){
+      msg.style.color = '#2affb2';
+      msg.textContent = '✅ 保存成功！页面将在2秒后刷新...';
+      setTimeout(()=>location.reload(), 2000);
+    } else {
+      const err = await putRes.json();
+      msg.style.color = '#ff5d73';
+      msg.textContent = '❌ 保存失败: '+(err.message||putRes.status);
+      btn.disabled = false; btn.textContent = '💾 保存并发布';
+    }
+  }catch(e){
+    msg.style.color = '#ff5d73';
+    msg.textContent = '❌ 出错: '+e.message;
+    btn.disabled = false; btn.textContent = '💾 保存并发布';
+  }
+}
 </script>
 </body>
 </html>
