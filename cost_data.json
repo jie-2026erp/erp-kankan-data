@@ -1,0 +1,182 @@
+{
+ "update_time": "2026-11-03 09:00:00",
+ "today": "2026-11-03",
+ "today_out_qty": 751,
+ "today_out_count": 24,
+ "today_cost": 0,
+ "today_avg": 0.0,
+ "persons": [],
+ "cost_error": "当天考勤 sheet 未找到（11.3）",
+ "skipped_no_roster": [],
+ "daily": {
+  "2026-11-02": {
+   "out_qty": 350,
+   "out_count": 12,
+   "cost": null,
+   "avg": null
+  },
+  "2026-11-03": {
+   "out_qty": 751,
+   "out_count": 24,
+   "cost": 0,
+   "avg": 0.0,
+   "skipped_no_roster": [],
+   "cost_error": "当天考勤 sheet 未找到（11.3）",
+   "persons_count": 0
+  }
+ },
+ "weekly": [
+  {
+   "week_start": "2026-11-02",
+   "out_qty": 1101,
+   "cost": 0.0,
+   "avg": 0.0
+  }
+ ],
+ "shipments_today": [
+  {
+   "code": "FBA261102097",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:58:59",
+   "per_box": 30
+  },
+  {
+   "code": "FBA261102096",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:11:09",
+   "per_box": 20
+  },
+  {
+   "code": "FBA261102093",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:56:15",
+   "per_box": 0
+  },
+  {
+   "code": "FBA261102092",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:55:27",
+   "per_box": 32
+  },
+  {
+   "code": "FBA261102090",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:19:49",
+   "per_box": 24
+  },
+  {
+   "code": "FBA261102087",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:50:16",
+   "per_box": 0
+  },
+  {
+   "code": "FBA261102085",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:52:05",
+   "per_box": 100
+  },
+  {
+   "code": "FBA261102084",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:39:42",
+   "per_box": 30
+  },
+  {
+   "code": "FBA261102082",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:47:40",
+   "per_box": 0
+  },
+  {
+   "code": "HWC261102074",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:44:30",
+   "per_box": 27
+  },
+  {
+   "code": "HWC261102073",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:36:31",
+   "per_box": 30
+  },
+  {
+   "code": "HWC261102072",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:42:37",
+   "per_box": 15
+  },
+  {
+   "code": "HWC261102071",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:42:27",
+   "per_box": 15
+  },
+  {
+   "code": "FBA261102079",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:20:56",
+   "per_box": 30
+  },
+  {
+   "code": "FBA261102078",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:31:41",
+   "per_box": 30
+  },
+  {
+   "code": "FBA261102077",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:45:48",
+   "per_box": 28
+  },
+  {
+   "code": "FBA261102076",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:27:51",
+   "per_box": 30
+  },
+  {
+   "code": "FBA261102075",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:37:01",
+   "per_box": 0
+  },
+  {
+   "code": "FBA261102074",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:23:26",
+   "per_box": 20
+  },
+  {
+   "code": "FBA261102073",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:26:50",
+   "per_box": 30
+  },
+  {
+   "code": "FBA261102072",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:22:55",
+   "per_box": 200
+  },
+  {
+   "code": "FBA261102071",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:20:36",
+   "per_box": 30
+  },
+  {
+   "code": "FBA261102070",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:30:02",
+   "per_box": 0
+  },
+  {
+   "code": "FBA261102069",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 08:15:07",
+   "per_box": 30
+  }
+ ]
+}
