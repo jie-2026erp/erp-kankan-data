@@ -1,39 +1,39 @@
 {
-  "update_time": "2026-11-03 21:03:33",
+  "update_time": "2026-11-03 21:04:33",
   "total_dup_spaces": 1,
-  "total_boxes": 4,
+  "total_boxes": 2,
   "max_dup": 2,
   "space_count": 1,
   "list": [
     {
-      "space": "FH-13-15",
+      "space": "6FH-02-02-14",
       "count": 2,
-      "total_boxes": 4,
+      "total_boxes": 2,
       "codes": [
-        "FBA15MSH2H0C",
-        "FBA15MSH2H0C"
+        "HWC261028014",
+        "HWC261028014"
       ],
       "transports": [
-        "FBA"
+        "GOODCANG"
       ],
       "items": [
         {
-          "code": "FBA15MSH2H0C",
-          "platform": "FBA",
+          "code": "HWC261028014",
+          "platform": "GOODCANG",
           "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-13-15",
+          "space": "6FH-02-02-14",
           "err_msg": "",
-          "box_total": 2,
-          "creater": "杨雨薇"
+          "box_total": 1,
+          "creater": "system"
         },
         {
-          "code": "FBA15MSH2H0C",
-          "platform": "FBA",
+          "code": "HWC261028014",
+          "platform": "GOODCANG",
           "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-13-15",
+          "space": "6FH-02-02-14",
           "err_msg": "",
-          "box_total": 2,
-          "creater": "杨雨薇"
+          "box_total": 1,
+          "creater": "system"
         }
       ]
     }
