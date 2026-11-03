@@ -12,97 +12,94 @@
 * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
 html,body { overflow-x:hidden; }
 body {
-    font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
-    background: #f3f2f1;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    background: #f0f2f5;
     min-height: 100vh;
-    padding: 24px;
-    color: #252423;
+    padding: 20px;
+    color: #333;
     font-size: 14px;
-    -webkit-font-smoothing: antialiased;
 }
 .container { max-width: 1280px; margin: 0 auto; }
 
-/* Tab栏 - Power BI风格 */
+/* Tab栏 */
 .tabs {
-    display:flex; gap:0; margin-bottom:20px;
-    background: #ffffff; border-radius:8px;
-    border:1px solid #e1dfdd;
+    display:flex; gap:8px; margin-bottom:20px;
+    background: #ffffff; padding:8px; border-radius:8px;
     width:fit-content; max-width:100%;
     overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none;
 }
 .tabs::-webkit-scrollbar { display:none; }
 .tab-btn {
-    padding:12px 20px; border:none; background:transparent;
-    font-size:14px; cursor:pointer; color:#605e5c; font-weight:600;
+    padding:10px 20px; border-radius:6px; border:none; background:transparent;
+    font-size:14px; cursor:pointer; color:#666; font-weight:500;
     transition:all .15s; white-space:nowrap;
-    border-bottom:3px solid transparent;
 }
-.tab-btn:hover { color:#0078d4; }
+.tab-btn:hover { color:#333; }
 .tab-btn.active {
-    color:#0078d4;
-    border-bottom-color:#0078d4;
-    background:#f8f8f8;
+    background: #1890ff;
+    color:#fff; font-weight:500;
 }
 .tab-page { display:none; }
 .tab-page.active { display:block; }
 
-/* 顶部标题条 */
+/* 顶部标题条 - 渐变彩色 */
 .topbar {
-    background: #ffffff;
-    border:1px solid #e1dfdd;
+    background: linear-gradient(135deg, #d4380d 0%, #fa541c 50%, #fa8c16 100%);
     border-radius:8px; padding:20px 24px; margin-bottom:20px;
-    color:#252423; display:flex; justify-content:space-between; align-items:center;
+    color:#fff; display:flex; justify-content:space-between; align-items:center;
     flex-wrap:wrap; gap:10px;
 }
-.topbar h1 { font-size:20px; font-weight:600; color:#252423; }
-.topbar .sub { font-size:13px; margin-top:4px; color:#605e5c; }
+.topbar h1 { font-size:18px; font-weight:600; color:#fff; }
+.topbar .sub { font-size:13px; margin-top:4px; color:rgba(255,255,255,.85); }
 .topbar .live {
-    background:#f3f2f1; padding:6px 12px; border-radius:4px;
-    font-size:12px; display:flex; align-items:center; gap:6px; color:#605e5c;
+    background:rgba(255,255,255,.2); padding:6px 12px; border-radius:20px;
+    font-size:12px; display:flex; align-items:center; gap:6px; color:#fff;
 }
-.dot { width:8px; height:8px; background:#107c10; border-radius:50%; }
+.dot { width:8px; height:8px; background:#52c41a; border-radius:50%; }
 
-/* KPI卡 - Power BI风格 */
+/* KPI卡 - 顶部彩色边框 */
 .kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:20px; }
 .kpi {
     background:#ffffff; border-radius:8px; padding:20px;
-    border:1px solid #e1dfdd;
+    border-top:3px solid var(--c,#f5222d);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
 }
-.kpi .v { font-size:32px; font-weight:700; color:#252423; font-variant-numeric:tabular-nums; line-height:1.2; }
-.kpi .l { font-size:13px; color:#605e5c; margin-top:8px; }
+.kpi .v { font-size:28px; font-weight:700; color:var(--c,#f5222d); font-variant-numeric:tabular-nums; line-height:1.2; }
+.kpi .l { font-size:13px; color:#666; margin-top:8px; }
 
 /* 卡片 */
 .card {
     background:#ffffff; border-radius:8px; padding:20px;
-    border:1px solid #e1dfdd;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
     margin-bottom:16px;
 }
-.card-t, .card-title { font-size:16px; font-weight:600; color:#252423; margin-bottom:16px; }
-.card-t .tip { font-size:12px; color:#605e5c; font-weight:normal; margin-left:8px; }
+.card-t, .card-title { font-size:15px; font-weight:600; color:#333; margin-bottom:16px; }
+.card-t .tip { font-size:12px; color:#999; font-weight:normal; margin-left:8px; }
 
 .row2 { display:grid; grid-template-columns:1.5fr 1fr; gap:16px; margin-bottom:16px; }
 .row1 { margin-bottom:16px; }
 
-/* 表格 - Power BI风格 */
+/* 表格 */
 .tw { overflow-x:auto; -webkit-overflow-scrolling:touch; }
 table { width:100%; border-collapse:collapse; min-width:560px; }
-th,td { padding:12px; text-align:left; border-bottom:1px solid #e1dfdd; font-size:13px; white-space:nowrap; }
-th { color:#605e5c; font-weight:600; font-size:13px; background:#f3f2f1; }
-td { color:#252423; }
-td:first-child { font-weight:600; }
-.tag { padding:3px 10px; border-radius:4px; font-size:12px; font-weight:600; display:inline-block; }
-.tag-blue { background:#cce5ff; color:#0078d4; }
-.tag-orange { background:#fff4ce; color:#ca5010; }
-.tag-teal { background:#dff6dd; color:#107c10; }
+th,td { padding:12px; text-align:left; border-bottom:1px solid #f0f0f0; font-size:13px; white-space:nowrap; }
+th { color:#999; font-weight:500; font-size:13px; background:#fafafa; }
+td { color:#333; }
+td:first-child { color:#1890ff; font-weight:600; }
+.tag { padding:2px 8px; border-radius:4px; font-size:12px; font-weight:500; display:inline-block; }
+.tag-blue { background:#e6f7ff; color:#1890ff; }
+.tag-orange { background:#fff7e6; color:#fa8c16; }
+.tag-red { background:#fff1f0; color:#f5222d; }
+.tag-teal { background:#f6ffed; color:#52c41a; }
 
 /* 响应式 */
 @media (max-width:768px) {
     body { padding:12px; }
     .kpis { grid-template-columns:repeat(2,1fr); gap:12px; }
     .row2 { grid-template-columns:1fr; }
-    .topbar h1 { font-size:18px; }
-    .kpi .v { font-size:24px; }
-    .tab-btn { padding:10px 14px; font-size:13px; }
+    .topbar h1 { font-size:16px; }
+    .kpi .v { font-size:22px; }
+    .tab-btn { padding:8px 14px; font-size:13px; }
 }
 </style>
 </head>
@@ -235,11 +232,11 @@ td:first-child { font-weight:600; }
 
 <!-- Tab4 仓库库存 -->
 <div id="tab-stock" class="tab-page">
-    <div class="topbar">
+    <div class="topbar" style="background:linear-gradient(135deg,#096dd9 0%,#1890ff 50%,#40a9ff 100%);">
         <div>
             <h1>📋 仓库库存详情</h1>
             <div class="sub">FBA中转仓-金华 / 金华2仓 · 各环节待处理箱数</div>
-            <div style="color:#333;font-size:14px;font-weight:600;margin-top:8px;">📊 三环节合计库存：<span id="stockTotal" style="font-size:20px;font-weight:600;color:#1890ff;">-</span> 箱 <span id="stockTotalCount" style="font-size:12px;font-weight:400;color:#999;"></span></div>
+            <div style="color:#fff;font-size:14px;font-weight:600;margin-top:8px;">📊 三环节合计库存：<span id="stockTotal" style="font-size:20px;font-weight:700;">-</span> 箱 <span id="stockTotalCount" style="font-size:12px;font-weight:400;color:rgba(255,255,255,.8);"></span></div>
         </div>
         <div class="live"><div class="dot"></div><span id="stockUpdateTime">加载中...</span></div>
     </div>
@@ -288,14 +285,14 @@ td:first-child { font-weight:600; }
 
 <!-- Tab5 件均人力成本 -->
 <div id="tab-cost" class="tab-page">
-    <div class="topbar">
+    <div class="topbar" style="background:linear-gradient(135deg,#531dab 0%,#722ed1 50%,#9254de 100%);">
         <div>
             <h1>💰 件均人力成本</h1>
             <div class="sub">出库量(P次数) ÷ 当日人力总成本 · 员工4000+500按26天折算 · 加班17元/小时(半小时取整) · 含管理岗人力成本（明细保密）</div>
         </div>
         <div class="live">
         <div class="dot"></div><span id="costUpdateTime">加载中...</span>
-        <button id="btnEditCost" onclick="openCostEditor()" style="margin-left:10px;padding:5px 14px;border-radius:6px;border:1px solid #d9d9d9;background:#fff;color:#666;font-size:12px;cursor:pointer;font-weight:500;">✏️ 编辑数据</button>
+        <button id="btnEditCost" onclick="openCostEditor()" style="margin-left:10px;padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#fff;font-size:12px;cursor:pointer;font-weight:500;">✏️ 编辑数据</button>
     </div>
     </div>
 
