@@ -414,6 +414,12 @@ td { color:#c8e2f4; }
 
 <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
 <script>
+window.onerror = function(msg, url, line){
+  var d = document.createElement('div');
+  d.style.cssText = 'position:fixed;top:0;left:0;right:0;background:#ff3344;color:#fff;padding:10px;z-index:99999;font-size:14px;';
+  d.textContent = 'JS错误: '+msg+' (行'+line+')';
+  document.body.appendChild(d);
+};
 async function loadStock(){
     try{
         const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/stock_data.json?t='+Date.now());
