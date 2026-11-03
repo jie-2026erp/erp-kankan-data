@@ -548,6 +548,10 @@ document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click',()=>
     document.querySelectorAll('.tab-page').forEach(p=>p.classList.remove('active'));
     b.classList.add('active');
     document.getElementById('tab-'+b.dataset.tab).classList.add('active');
+    // 切换到scan tab时，重新渲染打印小时图表
+    if(b.dataset.tab === 'scan'){
+        setTimeout(()=>{ if(window._printHourlyChart) window._printHourlyChart.resize(); }, 100);
+    }
 }));
 
 const colors = ['#00e5ff','#ffab40','#2affb2','#b388ff','#ff5d73','#4dff88','#ff7ad9','#4d7cff'];
