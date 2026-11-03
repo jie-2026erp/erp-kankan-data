@@ -1,6 +1,6 @@
 {
-  "total": 4,
-  "success": 4,
+  "total": 5,
+  "success": 5,
   "fail": 0,
   "rate": 100,
   "fail_logs": [],
@@ -36,6 +36,14 @@
       "页码范围": "3-5页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-03 15:37:57",
+      "文件名": "FBA15MSJ9QNV FBA15MSNG60R.pdf",
+      "货件号": "FBA15MSJ9QNV",
+      "页码范围": "1-5页",
+      "状态": "成功",
+      "备注": ""
     }
   ],
   "shipment_stats": {
@@ -54,7 +62,11 @@
     "FBA15MSWB3W6": {
       "success": 1,
       "fail": 0
+    },
+    "FBA15MSJ9QNV": {
+      "success": 1,
+      "fail": 0
     }
   },
-  "update_time": "2026-11-03 15:37:32"
+  "update_time": "2026-11-03 15:38:33"
 }
