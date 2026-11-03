@@ -1,10 +1,36 @@
 {
-  "total": 0,
-  "success": 0,
+  "total": 2,
+  "success": 2,
   "fail": 0,
-  "rate": 0,
+  "rate": 100,
   "fail_logs": [],
-  "all_logs": [],
-  "shipment_stats": {},
-  "update_time": "2026-11-03 15:35:32"
+  "all_logs": [
+    {
+      "时间": "2026-11-03 15:35:08",
+      "文件名": "FBA15MSGJW42.pdf",
+      "货件号": "FBA15MSGJW42",
+      "页码范围": "1-3页",
+      "状态": "成功",
+      "备注": ""
+    },
+    {
+      "时间": "2026-11-03 15:35:33",
+      "文件名": "FBA15MSGVK42.pdf",
+      "货件号": "FBA15MSGVK42",
+      "页码范围": "1-4页",
+      "状态": "成功",
+      "备注": ""
+    }
+  ],
+  "shipment_stats": {
+    "FBA15MSGJW42": {
+      "success": 1,
+      "fail": 0
+    },
+    "FBA15MSGVK42": {
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "update_time": "2026-11-03 15:36:32"
 }
