@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-03 19:54:57",
+  "update_time": "2026-11-03 19:56:52",
   "pack3": {
-    "total": 17,
+    "total": 14,
     "over24": 3,
     "over48": 0,
     "max_hours": 24.8,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 24.6,
+        "hours": 24.7,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -73,45 +73,6 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
-        "code": "HWC261103003",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-1-39",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-03 16:17:49",
-        "hours": 3.6,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261102112",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-1-15",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-03 16:17:49",
-        "hours": 3.6,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261102102",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-1-19",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-03 16:17:46",
-        "hours": 3.6,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261102111",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -120,7 +81,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-03 16:28:45",
-        "hours": 3.4,
+        "hours": 3.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -146,35 +107,9 @@
         "err_msg": "",
         "box_total": 23,
         "pack_time": "2026-11-03 18:05:05",
-        "hours": 1.8,
+        "hours": 1.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA15MTMGMTT",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0691",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 10,
-        "pack_time": "2026-11-03 19:50:37",
-        "hours": 0.1,
-        "owner": "杨雨薇",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MTPSCM7",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0692",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 11,
-        "pack_time": "2026-11-03 19:50:50",
-        "hours": 0.1,
-        "owner": "杨雨薇",
-        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MTPN4WB",
@@ -190,14 +125,14 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA261103038",
+        "code": "FBA15MTNFZT4",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0689",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
-        "pack_time": "2026-11-03 19:52:22",
+        "pack_time": "2026-11-03 19:56:35",
         "hours": 0.0,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
@@ -211,6 +146,32 @@
         "err_msg": "",
         "box_total": 13,
         "pack_time": "2026-11-03 19:54:38",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MTMGMTT",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0691",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 10,
+        "pack_time": "2026-11-03 19:55:15",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MTPSCM7",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0692",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 11,
+        "pack_time": "2026-11-03 19:55:00",
         "hours": 0.0,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
