@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-03 15:58:45",
+  "update_time": "2026-11-03 16:00:46",
   "pack3": {
-    "total": 12,
+    "total": 13,
     "over24": 0,
     "over48": 0,
     "max_hours": 22.3,
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 16,
         "pack_time": "2026-11-03 13:32:26",
-        "hours": 2.4,
+        "hours": 2.5,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-03 13:56:06",
-        "hours": 2.0,
+        "hours": 2.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-03 14:56:21",
-        "hours": 1.0,
+        "hours": 1.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -154,12 +154,25 @@
         "code": "HWC261102080",
         "platform": "BAISHIMY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0754,JH11-0753,JH11-0752,JH11-0751",
+        "space": "FH-14-41",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 50,
         "pack_time": "2026-11-03 15:46:31",
         "hours": 0.2,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261102109",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0744",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 15,
+        "pack_time": "2026-11-03 15:59:43",
+        "hours": 0.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       }
