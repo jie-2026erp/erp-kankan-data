@@ -194,6 +194,12 @@ td:first-child { color:#1890ff; font-weight:600; }
         <div id="hourlyDetail" style="margin-top:10px;padding:10px;background:rgba(0,229,255,.06);border-radius:8px;font-size:13px;color:#9db8d4;">点图上的圆点查看该小时详情</div>
     </div>
 
+    <!-- 每小时打印箱子标签统计 -->
+    <div class="card">
+        <div class="card-t">🖨️ 每小时打印箱子标签统计 <span class="tip">今天</span></div>
+        <div id="printHourlyChart" style="height:260px;"></div>
+    </div>
+
     <!-- 对比图+饼图 -->
     <div class="row2">
         <div class="card" style="margin-bottom:0;">
@@ -422,6 +428,24 @@ async function loadStock(){
         document.getElementById('stockTodayPrintCount').textContent = (d.print_today_count||0)+'票 · '+(d.print_today_boxes||0)+'箱';
         document.getElementById('stockYestPrint').textContent = d.print_yesterday_boxes||0;
         document.getElementById('stockYestPrintCount').textContent = (d.print_yesterday_count||0)+'票 · '+(d.print_yesterday_boxes||0)+'箱';
+        // 每小时打印箱子标签统计
+        const hourly = d.print_hourly || {};
+        const hours = [];
+        const values = [];
+        for(let h=8; h<=23; h++){
+            const key = String(h).padStart(2,'0');
+            hours.push(h+'时');
+            values.push(hourly[key] || 0);
+        }
+        if(window._printHourlyChart){ window._printHourlyChart.dispose(); }
+        window._printHourlyChart = echarts.init(document.getElementById('printHourlyChart'));
+        window._printHourlyChart.setOption({
+            tooltip:{trigger:'axis'},
+            grid:{left:40,right:20,top:20,bottom:30},
+            xAxis:{type:'category',data:hours,axisLabel:{color:#666,fontSize:11}},
+            yAxis:{type:'value',axisLabel:{color:#666,fontSize:11}},
+            series:[{type:'bar',data:values,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
+        });
         // 明细
         const lst = d.confirm_list||[];
         document.getElementById('confirmCountTip').textContent = '共'+lst.length+'票';
@@ -502,10 +526,10 @@ loadStock();
     </div>
 
     <div class="card">
-        <div class="card-t">📋 重复暂存位明细 <span class="tip">同一暂存位有多个货件的 · 需移库分开</span></div>
+        <div class="card-t">📋 重复暂存位货件明细 <span class="tip">同一暂存位有多个货件的 · 需移库分开</span></div>
         <div class="tw"><table>
-            <thead><tr><th>暂存库位</th><th>货件数</th><th>总箱数</th><th>货件列表</th><th>物流方式</th></tr></thead>
-            <tbody id="transferTable"><tr><td colspan="5" style="text-align:center;color:#666;">加载中...</td></tr></tbody>
+            <thead><tr><th>货件号</th><th>仓库</th><th>平台</th><th>暂存库位</th><th>箱数</th><th>异常信息</th></tr></thead>
+            <tbody id="transferTable"><tr><td colspan="6" style="text-align:center;color:#666;">加载中...</td></tr></tbody>
         </table></div>
     </div>
 </div>
@@ -831,42 +855,36 @@ setInterval(loadTimelyData, 30000);
 /* ================= 分仓件移库 ================= */
 async function loadTransferData(){
     try{
-        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/timely_data.json?t='+Date.now());
+        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/transfer_data.json?t='+Date.now());
         const d = await res.json();
         document.getElementById('transferUpdateTime').textContent = '实时 · '+(d.update_time||'--');
-        const list = (d.pack9 && d.pack9.list) || [];
-        // 按暂存位分组
-        const groups = {};
-        list.forEach(r=>{
-            const sp = r.space || '(空)';
-            if(!groups[sp]) groups[sp] = [];
-            groups[sp].push(r);
-        });
-        // 筛选出重复的（>1个）
-        const dupSpaces = Object.entries(groups).filter(([sp, items]) => items.length > 1);
-        dupSpaces.sort((a,b) => b[1].length - a[1].length);
-        // 统计
-        document.getElementById('transferTotal').textContent = dupSpaces.length;
-        document.getElementById('transferBoxCount').textContent = dupSpaces.reduce((s,[sp,items]) => s + items.reduce((ss,r)=>ss+(r.box_total||0),0), 0);
-        document.getElementById('transferMaxDup').textContent = dupSpaces.length > 0 ? dupSpaces[0][1].length : 0;
-        document.getElementById('transferSpaceCount').textContent = dupSpaces.length;
-        // 渲染表格
-        if(dupSpaces.length === 0){
-            document.getElementById('transferTable').innerHTML = '<tr><td colspan="5" style="text-align:center;color:#52c41a;font-weight:600;">✅ 没有重复暂存位，无需移库</td></tr>';
+        document.getElementById('transferTotal').textContent = d.total_dup_spaces||0;
+        document.getElementById('transferBoxCount').textContent = d.total_boxes||0;
+        document.getElementById('transferMaxDup').textContent = d.max_dup||0;
+        document.getElementById('transferSpaceCount').textContent = d.space_count||0;
+        const list = d.list || [];
+        if(list.length === 0){
+            document.getElementById('transferTable').innerHTML = '<tr><td colspan="6" style="text-align:center;color:#52c41a;font-weight:600;">✅ 没有重复暂存位，无需移库</td></tr>';
             return;
         }
         let html = '';
-        dupSpaces.forEach(([sp, items])=>{
-            const totalBoxes = items.reduce((s,r)=>s+(r.box_total||0),0);
-            const codes = items.map(r=>r.code||'').join('<br>');
-            const transports = [...new Set(items.map(r=>r.transport||''))].join('、');
-            html += `<tr style="background:#fff1f0;">
-                <td style="font-weight:700;color:#f5222d;">🔴 ${sp}</td>
-                <td style="text-align:center;font-weight:600;">${items.length}</td>
-                <td style="text-align:center;">${totalBoxes}</td>
-                <td style="font-size:12px;">${codes}</td>
-                <td style="font-size:12px;color:#666;">${transports}</td>
-            </tr>`;
+        list.forEach(g=>{
+            g.items.forEach((r, idx)=>{
+                const spaceColor = g.count > 1 ? '#f5222d' : '#333';
+                const rowBg = idx === 0 ? 'background:#fff1f0;' : '';
+                let errHtml = '<span style="color:#52c41a;">无</span>';
+                if(r.err_msg){
+                    errHtml = `<span style="color:#f5222d;font-weight:600;">⚠ ${r.err_msg.slice(0,20)}${r.err_msg.length>20?'…':''}</span>`;
+                }
+                html += `<tr style="${rowBg}">
+                    <td style="font-weight:600;color:#1890ff;">${r.code||''}</td>
+                    <td style="font-size:12px;color:#666;">${(r.warehouse||'').replace('FBA中转仓-','')}</td>
+                    <td>${r.platform||''}</td>
+                    <td style="color:${spaceColor};font-weight:600;">🔴 ${r.space||''}</td>
+                    <td style="text-align:center;">${r.box_total||0}</td>
+                    <td>${errHtml}</td>
+                </tr>`;
+            });
         });
         document.getElementById('transferTable').innerHTML = html;
     }catch(e){ console.log(e); document.getElementById('transferUpdateTime').textContent='加载失败'; }
