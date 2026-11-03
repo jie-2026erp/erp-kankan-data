@@ -342,6 +342,7 @@ td { color:#c8e2f4; }
             <thead><tr><th>员工</th><th>班次</th><th>考勤班次</th><th>下班时间</th><th>日薪(元)</th><th>加班(h)</th><th>加班费(元)</th><th>合计(元)</th><th>打卡结果</th></tr></thead>
             <tbody id="costPersonsTable"><tr><td colspan="9" style="text-align:center;color:#6d8db0;">加载中...</td></tr></tbody>
         </table></div>
+        <div id="costHiddenNote" style="margin-top:8px;font-size:12px;color:#8fb2d4;display:none;"></div>
     </div>
 
     <div class="card">
@@ -819,7 +820,7 @@ async function loadCostData(){
 
         // 状态提示
         const status = [];
-        if(d.cost_estimated) status.push('⏳ 今日考勤未出，名单6人暂按基础日薪预估（加班计0），考勤更新后自动修正');
+        if(d.cost_estimated) status.push('⏳ 今日考勤未出，名单人员暂按基础日薪预估（加班计0），考勤更新后自动修正');
         else if(d.cost_error) status.push('⚠ '+d.cost_error);
         if(d.skipped_no_roster && d.skipped_no_roster.length) status.push('未配置班次名单: '+d.skipped_no_roster.join('、'));
         if(d.today_cost===0 && !d.cost_error) status.push('今日成本为0，可能考勤数据未录入或名单未配置');
@@ -827,11 +828,18 @@ async function loadCostData(){
 
         // 周度
         const weeks = (d.weekly||[]).slice().reverse();
+        // 本周一日期，用于标注“进行中”的周
+        const now0 = new Date();
+        const mon0 = new Date(now0.getFullYear(), now0.getMonth(), now0.getDate() - ((now0.getDay()+6)%7));
+        const thisWeekStart = mon0.getFullYear()+'-'+String(mon0.getMonth()+1).padStart(2,'0')+'-'+String(mon0.getDate()).padStart(2,'0');
         if(weeks.length){
             costChart('weeklySvg', weeks.map(w=>w.week_start.slice(5).replace('-','/')), weeks.map(w=>w.out_qty), weeks.map(w=>w.avg), {barColor:'rgba(255,171,64,.5)'});
             let wh='<div class="tw"><table><thead><tr><th>周(周一)</th><th>出库量</th><th>人力成本(元)</th><th>件均(元/件)</th></tr></thead><tbody>';
             weeks.forEach(w=>{
-                wh += `<tr><td>${w.week_start}</td><td style="font-weight:600;color:#ffab40;">${fmtNum(w.out_qty)}</td><td>${fmtMoney(w.cost)}</td><td style="font-weight:700;color:#ff7ad9;">${fmtMoney(w.avg)}</td></tr>`;
+                const wlabel = w.week_start===thisWeekStart
+                    ? `${w.week_start}<br><span style="color:#ffcc4d;font-size:11px;">本周累计·进行中(非单日)</span>`
+                    : w.week_start;
+                wh += `<tr><td>${wlabel}</td><td style="font-weight:600;color:#ffab40;">${fmtNum(w.out_qty)}</td><td>${fmtMoney(w.cost)}</td><td style="font-weight:700;color:#ff7ad9;">${fmtMoney(w.avg)}</td></tr>`;
             });
             document.getElementById('weeklyTable').innerHTML = wh+'</tbody></table></div>';
         } else {
@@ -870,6 +878,14 @@ async function loadCostData(){
             document.getElementById('costPersonsTable').innerHTML = html;
         } else {
             document.getElementById('costPersonsTable').innerHTML = '<tr><td colspan="9" style="text-align:center;color:#6d8db0;">今日暂无人员成本数据（等待考勤录入或名单配置）</td></tr>';
+        }
+        // 管理岗保密成本提示（金额不在明细/JSON中体现，已计入总成本）
+        const hn = document.getElementById('costHiddenNote');
+        if(d.has_hidden_cost){
+            hn.style.display = 'block';
+            hn.textContent = '注：另含管理岗人力成本，已计入上方“今日人力总成本”，个人明细保密不展示。';
+        } else {
+            hn.style.display = 'none'; hn.textContent='';
         }
 
         // 货件明细
