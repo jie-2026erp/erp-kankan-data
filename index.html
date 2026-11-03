@@ -375,6 +375,14 @@ td { color:#c8e2f4; }
       <input type="number" id="edOutQty" placeholder="填当天出库总件数" style="width:160px;padding:6px 10px;background:rgba(255,171,64,.1);border:1px solid rgba(255,171,64,.3);border-radius:6px;color:#ffab40;font-size:15px;text-align:right;" oninput="recalcCost()">
     </div>
 
+    <!-- 上传考勤Excel -->
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;padding:10px;background:rgba(0,255,157,.06);border:1px dashed rgba(0,255,157,.3);border-radius:8px;">
+      <span style="font-size:13px;color:#2affb2;font-weight:600;">📤 上传考勤Excel：</span>
+      <input type="file" id="attFile" accept=".xlsx,.xls" style="display:none;" onchange="parseAttendance(this)">
+      <button onclick="document.getElementById('attFile').click()" style="padding:6px 16px;border-radius:6px;border:1px solid rgba(0,255,157,.3);background:rgba(0,255,157,.1);color:#2affb2;font-size:13px;cursor:pointer;font-weight:600;">选择考勤文件</button>
+      <span id="attFileName" style="font-size:12px;color:#8fb2d4;"></span>
+    </div>
+
     <!-- 员工下班时间表 -->
     <table style="width:100%;border-collapse:collapse;margin-bottom:14px;">
       <thead><tr style="background:rgba(0,229,255,.06);">
@@ -404,8 +412,8 @@ td { color:#c8e2f4; }
   </div>
 </div>
 
+<script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
 <script>
-async function loadStock(){
     try{
         const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/stock_data.json?t='+Date.now());
         const d = await res.json();
@@ -1101,6 +1109,65 @@ function closeCostEditor(){
   document.getElementById('costEditorModal').style.display = 'none';
   _costDataCache = null;
   _curEditDate = null;
+}
+
+/* 解析上传的考勤Excel文件 */
+function parseAttendance(input){
+  const file = input.files[0];
+  if(!file) return;
+  document.getElementById('attFileName').textContent = '正在解析: '+file.name;
+  const reader = new FileReader();
+  reader.onload = function(e){
+    try{
+      const data = new Uint8Array(e.target.result);
+      const wb = XLSX.read(data, {type:'array', cellDates:true});
+      // 遍历所有sheet找考勤表
+      let found = {};
+      for(let sn of wb.SheetNames){
+        const ws = wb.Sheets[sn];
+        const rows = XLSX.utils.sheet_to_json(ws, {header:1, raw:false});
+        if(rows.length < 2) continue;
+        const header = rows[0].map(h=>String(h||'').trim());
+        // 找列
+        let iName = header.indexOf('姓名');
+        let iOut = header.findIndex(h=>h.indexOf('下班')>=0 && h.indexOf('打卡时间')>=0);
+        if(iName<0 || iOut<0) continue;
+        // 遍历数据行
+        for(let r of rows.slice(1)){
+          const name = String(r[iName]||'').trim();
+          if(!name || name==='姓名') continue;
+          let outT = r[iOut];
+          if(!outT) continue;
+          outT = String(outT).trim();
+          // 只保留HH:MM格式
+          if(outT.indexOf(':')<0) continue;
+          outT = outT.slice(0,5);
+          found[name] = outT;
+        }
+        break; // 找到第一个sheet就够
+      }
+      if(Object.keys(found).length === 0){
+        document.getElementById('attFileName').textContent = '未识别到考勤数据';
+        return;
+      }
+      // 填充到编辑面板
+      let filled = 0;
+      ROSTER.forEach(p=>{
+        if(found[p.name]){
+          const inp = document.querySelector(`#edPersonsBody input[data-name="${p.name}"]`);
+          if(inp){
+            inp.value = found[p.name];
+            filled++;
+          }
+        }
+      });
+      recalcCost();
+      document.getElementById('attFileName').textContent = `✅ 识别到${filled}人下班时间`;
+    }catch(err){
+      document.getElementById('attFileName').textContent = '解析失败: '+err.message;
+    }
+  };
+  reader.readAsArrayBuffer(file);
 }
 
 async function saveCostData(){
