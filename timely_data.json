@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-03 15:42:26",
+  "update_time": "2026-11-03 15:44:25",
   "pack3": {
-    "total": 17,
+    "total": 16,
     "over24": 0,
     "over48": 0,
-    "max_hours": 22.0,
+    "max_hours": 22.1,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 19,
         "pack_time": "2026-11-02 17:40:59",
-        "hours": 22.0,
+        "hours": 22.1,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-02 18:34:03",
-        "hours": 21.1,
+        "hours": 21.2,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 20.4,
+        "hours": 20.5,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -78,7 +78,7 @@
         "warehouse": "FBA中转仓-金华2仓",
         "space": "FH-2-14",
         "is_dtb": false,
-        "err_msg": "There's an input error with the resource 'sh94934828-6c59-44ca-a3d7-b12017359260'.-ERROR: Invalid transportation option ID that either does not belong to provided shipment ID or is not AVAILABLE was passed in. [RESOURCE_ID: sh94934828-6c59-44ca-a3d7-b12017359260, RESOURCE_TYPE: SHIPMENT]",
+        "err_msg": "",
         "box_total": 32,
         "pack_time": "2026-11-03 10:36:55",
         "hours": 5.1,
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-03 15:21:46",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -185,7 +185,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-03 15:21:45",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -203,19 +203,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA19VZS0ZLF",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-2-13",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 12,
-        "pack_time": "2026-11-03 15:40:56",
-        "hours": 0.0,
-        "owner": "文欣",
-        "transport": "慢船海派（美西）"
-      },
-      {
         "code": "FBA19VZP0XDS",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -223,7 +210,7 @@
         "is_dtb": false,
         "err_msg": "",
         "box_total": 3,
-        "pack_time": "2026-11-03 15:40:56",
+        "pack_time": "2026-11-03 15:44:14",
         "hours": 0.0,
         "owner": "文欣",
         "transport": "慢船海派（美西）"
