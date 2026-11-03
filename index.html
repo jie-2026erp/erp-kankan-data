@@ -194,11 +194,11 @@ td:first-child { color:#1890ff; font-weight:600; }
         <div id="hourlyDetail" style="margin-top:10px;padding:10px;background:rgba(0,229,255,.06);border-radius:8px;font-size:13px;color:#9db8d4;">点图上的圆点查看该小时详情</div>
     </div>
 
-    <!-- 每小时打印箱子标签统计（暂时注释，排查页面卡死问题） -->
-    <!-- <div class="card">
+    <!-- 每小时打印箱子标签统计 -->
+    <div class="card">
         <div class="card-t">🖨️ 每小时打印箱子标签统计 <span class="tip">今天</span></div>
         <div id="printHourlyChart" style="height:260px;"></div>
-    </div> -->
+    </div>
 
     <!-- 对比图+饼图 -->
     <div class="row2">
@@ -335,11 +335,11 @@ td:first-child { color:#1890ff; font-weight:600; }
         </div>
     </div>
 
-    <!-- 本月逐日明细（暂时注释，排查页面卡死问题） -->
-    <!-- <div class="card">
+    <!-- 本月逐日明细 -->
+    <div class="card">
         <div class="card-t">📅 本月逐日明细 <span class="tip">月初~今天 · 持续更新到月底</span></div>
         <div id="monthlyTable" class="tw" style="overflow-x:auto;"></div>
-    </div> -->
+    </div>
 
     <div class="card">
         <div class="card-t">📋 今日人力成本明细 <span class="tip">按考勤表 · 请假/休息/缺卡不计</span></div>
@@ -434,29 +434,29 @@ async function loadStock(){
         document.getElementById('stockTodayPrintCount').textContent = (d.print_today_count||0)+'票 · '+(d.print_today_boxes||0)+'箱';
         document.getElementById('stockYestPrint').textContent = d.print_yesterday_boxes||0;
         document.getElementById('stockYestPrintCount').textContent = (d.print_yesterday_count||0)+'票 · '+(d.print_yesterday_boxes||0)+'箱';
-        // 每小时打印箱子标签统计（暂时注释，排查页面卡死问题）
-        // try{
-        //     const hourly = d.print_hourly || {};
-        //     const hours = [];
-        //     const values = [];
-        //     for(let h=8; h<=23; h++){
-        //         const key = String(h).padStart(2,'0');
-        //         hours.push(h+'时');
-        //         values.push(hourly[key] || 0);
-        //     }
-        //     if(window._printHourlyChart){ window._printHourlyChart.dispose(); }
-        //     const el = document.getElementById('printHourlyChart');
-        //     if(el && el.offsetWidth > 0){
-        //         window._printHourlyChart = echarts.init(el);
-        //         window._printHourlyChart.setOption({
-        //             tooltip:{trigger:'axis'},
-        //             grid:{left:40,right:20,top:20,bottom:30},
-        //             xAxis:{type:'category',data:hours,axisLabel:{color:#666,fontSize:11}},
-        //             yAxis:{type:'value',axisLabel:{color:#666,fontSize:11}},
-        //             series:[{type:'bar',data:values,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
-        //         });
-        //     }
-        // }catch(e){ console.warn('print hourly chart init fail:', e); }
+        // 每小时打印箱子标签统计（包try-catch，避免隐藏tab初始化报错中断整个函数）
+        try{
+            const hourly = d.print_hourly || {};
+            const hours = [];
+            const values = [];
+            for(let h=8; h<=23; h++){
+                const key = String(h).padStart(2,'0');
+                hours.push(h+'时');
+                values.push(hourly[key] || 0);
+            }
+            if(window._printHourlyChart){ window._printHourlyChart.dispose(); }
+            const el = document.getElementById('printHourlyChart');
+            if(el && el.offsetWidth > 0){
+                window._printHourlyChart = echarts.init(el);
+                window._printHourlyChart.setOption({
+                    tooltip:{trigger:'axis'},
+                    grid:{left:40,right:20,top:20,bottom:30},
+                    xAxis:{type:'category',data:hours,axisLabel:{color:#666,fontSize:11}},
+                    yAxis:{type:'value',axisLabel:{color:#666,fontSize:11}},
+                    series:[{type:'bar',data:values,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
+                });
+            }
+        }catch(e){ console.warn('print hourly chart init fail:', e); }
         // 明细
         const lst = d.confirm_list||[];
         document.getElementById('confirmCountTip').textContent = '共'+lst.length+'票';
@@ -1049,35 +1049,37 @@ async function loadCostData(){
         });
         document.getElementById('weeklyTable').innerHTML = wh+'</tbody></table></div>';
 
-        // 本月逐日明细（暂时注释，排查页面卡死问题）
-        // const now = new Date();
-        // const y = now.getFullYear(), m = now.getMonth();
-        // const daysInMonth = new Date(y, m+1, 0).getDate();
-        // const weekNames = ['周日','周一','周二','周三','周四','周五','周六'];
-        // let mh = '<table><thead><tr><th>日期</th><th>星期</th><th style="text-align:right;">出库量</th><th style="text-align:right;">人力成本(元)</th><th style="text-align:right;">件均(元/件)</th></tr></thead><tbody>';
-        // let mOut=0, mCost=0;
-        // for(let day=1; day<=daysInMonth; day++){
-        //     const dd = new Date(y, m, day);
-        //     if(dd.getTime() > now.getTime()) break;
-        //     const key = y+'-'+String(m+1).padStart(2,'0')+'-'+String(day).padStart(2,'0');
-        //     const rec = dMap[key]||null;
-        //     const label = String(day).padStart(2,'0');
-        //     const wname = weekNames[dd.getDay()];
-        //     const isToday = key===d.today;
-        //     if(rec){
-        //         const oq = rec.out_qty||0;
-        //         const ct = rec.cost||0;
-        //         const av = rec.out_qty>0 ? rec.avg : null;
-        //         mOut += oq; mCost += ct;
-        //         const tag = isToday ? '<br><span style="color:#ffcc4d;font-size:11px;">今日·进行中</span>' : '';
-        //         mh += `<tr><td>${label}日${tag}</td><td>${wname}</td><td style="font-weight:600;color:#ffab40;text-align:right;">${fmtNum(oq)}</td><td style="text-align:right;">${fmtMoney(ct)}</td><td style="font-weight:700;color:#ff7ad9;text-align:right;">${av==null?'—':fmtMoney(av)}</td></tr>`;
-        //     } else {
-        //         mh += `<tr style="opacity:.5;"><td>${label}日</td><td>${wname}</td><td style="text-align:right;color:#4d6a8a;">—</td><td style="text-align:right;color:#4d6a8a;">—</td><td style="text-align:right;color:#4d6a8a;">—</td></tr>`;
-        //     }
-        // }
-        // const mAvg = mOut>0 ? Math.round(mCost/mOut*100)/100 : 0;
-        // mh += `<tr style="border-top:2px solid #ff7ad9;font-weight:700;background:rgba(255,122,217,.06);"><td>合计</td><td>—</td><td style="text-align:right;color:#ffab40;">${fmtNum(mOut)}</td><td style="text-align:right;">${fmtMoney(mCost)}</td><td style="text-align:right;color:#ff7ad9;">${fmtMoney(mAvg)}</td></tr>`;
-        // document.getElementById('monthlyTable').innerHTML = mh+'</tbody></table>';
+        // 本月逐日明细（包try-catch，避免出错影响整个页面）
+        try{
+            const now = new Date();
+            const y = now.getFullYear(), m = now.getMonth();
+            const daysInMonth = new Date(y, m+1, 0).getDate();
+            const monthWeekNames = ['周日','周一','周二','周三','周四','周五','周六'];
+            let mh = '<table><thead><tr><th>日期</th><th>星期</th><th style="text-align:right;">出库量</th><th style="text-align:right;">人力成本(元)</th><th style="text-align:right;">件均(元/件)</th></tr></thead><tbody>';
+            let mOut=0, mCost=0;
+            for(let day=1; day<=daysInMonth; day++){
+                const dd = new Date(y, m, day);
+                if(dd.getTime() > now.getTime()) break;
+                const key = y+'-'+String(m+1).padStart(2,'0')+'-'+String(day).padStart(2,'0');
+                const rec = dMap[key]||null;
+                const label = String(day).padStart(2,'0');
+                const wname = monthWeekNames[dd.getDay()];
+                const isToday = key===d.today;
+                if(rec){
+                    const oq = rec.out_qty||0;
+                    const ct = rec.cost||0;
+                    const av = rec.out_qty>0 ? rec.avg : null;
+                    mOut += oq; mCost += ct;
+                    const tag = isToday ? '<br><span style="color:#ffcc4d;font-size:11px;">今日·进行中</span>' : '';
+                    mh += `<tr><td>${label}日${tag}</td><td>${wname}</td><td style="font-weight:600;color:#ffab40;text-align:right;">${fmtNum(oq)}</td><td style="text-align:right;">${fmtMoney(ct)}</td><td style="font-weight:700;color:#ff7ad9;text-align:right;">${av==null?'—':fmtMoney(av)}</td></tr>`;
+                } else {
+                    mh += `<tr style="opacity:.5;"><td>${label}日</td><td>${wname}</td><td style="text-align:right;color:#4d6a8a;">—</td><td style="text-align:right;color:#4d6a8a;">—</td><td style="text-align:right;color:#4d6a8a;">—</td></tr>`;
+                }
+            }
+            const mAvg = mOut>0 ? Math.round(mCost/mOut*100)/100 : 0;
+            mh += `<tr style="border-top:2px solid #ff7ad9;font-weight:700;background:rgba(255,122,217,.06);"><td>合计</td><td>—</td><td style="text-align:right;color:#ffab40;">${fmtNum(mOut)}</td><td style="text-align:right;">${fmtMoney(mCost)}</td><td style="text-align:right;color:#ff7ad9;">${fmtMoney(mAvg)}</td></tr>`;
+            document.getElementById('monthlyTable').innerHTML = mh+'</tbody></table>';
+        }catch(e){ console.warn('monthly detail render fail:', e); }
 
         // 周度对比图（上周 vs 本周）
         costChart('weeklyCompareSvg',
