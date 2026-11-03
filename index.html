@@ -315,9 +315,18 @@ td { color:#c8e2f4; }
     </div>
 
     <div class="kpis">
-        <div class="kpi" style="--c:#2affb2;"><div class="v" id="costOutQty">0</div><div class="l">今日出库量(P次数)</div></div>
-        <div class="kpi" style="--c:#ffab40;"><div class="v" id="costTotal">0</div><div class="l">今日人力总成本(元)</div></div>
-        <div class="kpi" style="--c:#ff7ad9;"><div class="v" id="costAvg">0</div><div class="l">今日件均成本(元/件)</div></div>
+        <div class="kpi" style="--c:#2affb2;">
+            <div class="v" id="weekOutQty">0</div>
+            <div class="l">本周出库量(件) <span id="weekOutQtyCmp" style="font-size:11px;font-weight:400;"></span></div>
+        </div>
+        <div class="kpi" style="--c:#ffab40;">
+            <div class="v" id="weekCost">0</div>
+            <div class="l">本周人力成本(元) <span id="weekCostCmp" style="font-size:11px;font-weight:400;"></span></div>
+        </div>
+        <div class="kpi" style="--c:#ff7ad9;">
+            <div class="v" id="weekAvg">0</div>
+            <div class="l">本周件均(元/件) <span id="weekAvgCmp" style="font-size:11px;font-weight:400;"></span></div>
+        </div>
     </div>
 
     <!-- 本周逐日波动 -->
@@ -329,11 +338,11 @@ td { color:#c8e2f4; }
         <div id="weeklyTable" style="margin-top:10px;"></div>
     </div>
 
-    <!-- 日度波动 -->
+    <!-- 周度对比 -->
     <div class="card row1">
-        <div class="card-t">📉 近14天日度件均波动 <span class="tip">柱=出库量(P次数) 线=件均成本(元)</span></div>
+        <div class="card-t">📊 周度对比 <span class="tip">上周 vs 本周 · 柱=出库量 线=件均(元)</span></div>
         <div class="tw" style="overflow-x:auto;">
-            <svg id="dailySvg" viewBox="0 0 1100 320" style="min-width:640px;width:100%;height:100%;"></svg>
+            <svg id="weeklyCompareSvg" viewBox="0 0 1100 320" style="min-width:640px;width:100%;height:100%;"></svg>
         </div>
     </div>
 
@@ -862,9 +871,46 @@ async function loadCostData(){
         const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/cost_data.json?t='+Date.now());
         const d = await res.json();
         document.getElementById('costUpdateTime').textContent = '实时 · '+(d.update_time||'--');
-        document.getElementById('costOutQty').textContent = fmtNum(d.today_out_qty);
-        document.getElementById('costTotal').textContent = fmtMoney(d.today_cost);
-        document.getElementById('costAvg').textContent = fmtMoney(d.today_avg);
+
+        // 本周汇总（周一~今天）
+        const now0 = new Date();
+        const mon0 = new Date(now0.getFullYear(), now0.getMonth(), now0.getDate() - ((now0.getDay()+6)%7));
+        const dMap = d.daily||{};
+        let wkOut=0, wkCost=0;
+        for(let i=0;i<7;i++){
+            const dd = new Date(mon0.getFullYear(), mon0.getMonth(), mon0.getDate()+i);
+            if(dd.getTime() > now0.getTime()) break;
+            const key = dd.getFullYear()+'-'+String(dd.getMonth()+1).padStart(2,'0')+'-'+String(dd.getDate()).padStart(2,'0');
+            const rec = dMap[key];
+            if(rec){ wkOut += rec.out_qty||0; wkCost += rec.cost||0; }
+        }
+        const wkAvg = wkOut>0 ? Math.round(wkCost/wkOut*100)/100 : 0;
+
+        // 上周汇总
+        const lastMon = new Date(mon0); lastMon.setDate(lastMon.getDate()-7);
+        let lwOut=0, lwCost=0;
+        for(let i=0;i<7;i++){
+            const dd = new Date(lastMon.getFullYear(), lastMon.getMonth(), lastMon.getDate()+i);
+            const key = dd.getFullYear()+'-'+String(dd.getMonth()+1).padStart(2,'0')+'-'+String(dd.getDate()).padStart(2,'0');
+            const rec = dMap[key];
+            if(rec){ lwOut += rec.out_qty||0; lwCost += rec.cost||0; }
+        }
+        const lwAvg = lwOut>0 ? Math.round(lwCost/lwOut*100)/100 : 0;
+
+        // 环比函数
+        function cmp(cur, prev, invert){
+            if(!prev || prev===0) return '';
+            const pct = (cur-prev)/prev*100;
+            const arrow = pct>0?'↑':pct<0?'↓':'→';
+            const color = (invert ? pct<0 : pct>0) ? '#2affb2' : '#ff5d73';
+            return `<span style="color:${color};">${arrow} ${Math.abs(pct).toFixed(1)}%</span>`;
+        }
+        document.getElementById('weekOutQty').textContent = fmtNum(wkOut);
+        document.getElementById('weekOutQtyCmp').innerHTML = cmp(wkOut, lwOut);
+        document.getElementById('weekCost').textContent = fmtMoney(wkCost);
+        document.getElementById('weekCostCmp').innerHTML = cmp(wkCost, lwCost);
+        document.getElementById('weekAvg').textContent = fmtMoney(wkAvg);
+        document.getElementById('weekAvgCmp').innerHTML = cmp(wkAvg, lwAvg, true); // 件均越低越好，下降是绿色
 
         // 状态提示
         const status = [];
@@ -911,17 +957,12 @@ async function loadCostData(){
         });
         document.getElementById('weeklyTable').innerHTML = wh+'</tbody></table></div>';
 
-        // 日度近14天
-        const daily = d.daily||{};
-        const days = Object.keys(daily).sort().slice(-14);
-        if(days.length){
-            costChart('dailySvg', days.map(x=>x.slice(5).replace('-','/')),
-                days.map(x=>daily[x].out_qty||0),
-                days.map(x=>daily[x].avg),
-                {barColor:'rgba(0,229,255,.5)'});
-        } else {
-            document.getElementById('dailySvg').innerHTML = '<text x="550" y="160" text-anchor="middle" fill="#6d8db0">暂无日度数据</text>';
-        }
+        // 周度对比图（上周 vs 本周）
+        costChart('weeklyCompareSvg',
+            ['上周', '本周'],
+            [lwOut, wkOut],
+            [lwAvg, wkAvg],
+            {barColor:'rgba(255,171,64,.5)'});
 
         // 人员明细
         const persons = d.persons||[];
