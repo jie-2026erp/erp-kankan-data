@@ -66,7 +66,7 @@ body {
     background:#ffffff; border-radius:10px; padding:20px;
     border:1px solid #e4e4e7;
 }
-.kpi .v { font-size:28px; font-weight:700; color:var(--c,#2563eb); font-variant-numeric:tabular-nums; line-height:1.2; letter-spacing:-.02em; }
+.kpi .v { font-size:28px; font-weight:700; color:#0a0a0a; font-variant-numeric:tabular-nums; line-height:1.2; letter-spacing:-.02em; }
 .kpi .l { font-size:13px; color:#71717a; margin-top:6px; }
 
 /* 卡片 */
@@ -129,7 +129,7 @@ td:first-child { font-weight:600; }
         <div class="kpi" style="--c:#2affb2;"><div class="v" id="printTotal">0</div><div class="l">今日总数</div></div>
         <div class="kpi" style="--c:#4dff88;"><div class="v" id="printSuccess">0</div><div class="l">成功</div></div>
         <div class="kpi" style="--c:#ff5d73;"><div class="v" id="printFail">0</div><div class="l">失败</div></div>
-        <div class="kpi" style="--c:#5ce1ff;"><div class="v" id="printRate">0%</div><div class="l">成功率</div></div>
+        <div class="kpi" style="--c:#0a0a0a;"><div class="v" id="printRate">0%</div><div class="l">成功率</div></div>
     </div>
 
     <div class="card">
@@ -153,7 +153,7 @@ td:first-child { font-weight:600; }
 
     <div class="kpis">
         <div class="kpi" style="--c:#2affb2;"><div class="v" id="scanTotalBoxes">0</div><div class="l">今日已扫箱数</div></div>
-        <div class="kpi" style="--c:#5ce1ff;"><div class="v" id="markedBulk">0</div><div class="l">已扫方数(m³)</div></div>
+        <div class="kpi" style="--c:#0a0a0a;"><div class="v" id="markedBulk">0</div><div class="l">已扫方数(m³)</div></div>
         <div class="kpi" style="--c:#ffab40;"><div class="v" id="scanTotalBatches">0</div><div class="l">已标记提货单</div></div>
         <div class="kpi" style="--c:#b388ff;"><div class="v" id="scanMaxUser">-</div><div class="l">今日最多</div></div>
         <div class="kpi" style="--c:#9d7bff;"><div class="v" id="avgEff">-</div><div class="l">整体平均(箱/h)</div></div>
@@ -168,19 +168,19 @@ td:first-child { font-weight:600; }
         <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;" id="historyStats">
             <div style="text-align:center;padding:12px;background:rgba(0,229,255,.07);border:1px solid rgba(0,229,255,.18);border-radius:10px;">
                 <div style="font-size:22px;font-weight:700;color:#2affb2;text-shadow:0 0 12px rgba(42,255,178,.5);" id="todayBulk">-</div>
-                <div style="font-size:12px;color:#8fb2d4;margin-top:4px;">今天累计</div>
+                <div style="font-size:12px;color:#71717a;margin-top:4px;">今天累计</div>
             </div>
             <div style="text-align:center;padding:12px;background:rgba(0,229,255,.07);border:1px solid rgba(0,229,255,.18);border-radius:10px;">
-                <div style="font-size:22px;font-weight:700;color:#5ce1ff;text-shadow:0 0 12px rgba(92,225,255,.5);" id="weekBulk">-</div>
-                <div style="font-size:12px;color:#8fb2d4;margin-top:4px;">本周(周一至今)</div>
+                <div style="font-size:22px;font-weight:700;color:#0a0a0a;text-shadow:0 0 12px rgba(92,225,255,.5);" id="weekBulk">-</div>
+                <div style="font-size:12px;color:#71717a;margin-top:4px;">本周(周一至今)</div>
             </div>
             <div style="text-align:center;padding:12px;background:rgba(255,171,64,.07);border:1px solid rgba(255,171,64,.2);border-radius:10px;">
                 <div style="font-size:22px;font-weight:700;color:#ffab40;text-shadow:0 0 12px rgba(255,171,64,.5);" id="lastWeekBulk">-</div>
-                <div style="font-size:12px;color:#8fb2d4;margin-top:4px;">上周整周</div>
+                <div style="font-size:12px;color:#71717a;margin-top:4px;">上周整周</div>
             </div>
             <div style="text-align:center;padding:12px;background:rgba(255,122,217,.07);border:1px solid rgba(255,122,217,.2);border-radius:10px;">
                 <div style="font-size:22px;font-weight:700;color:#ff7ad9;text-shadow:0 0 12px rgba(255,122,217,.5);" id="monthBulk">-</div>
-                <div style="font-size:12px;color:#8fb2d4;margin-top:4px;">本月累计</div>
+                <div style="font-size:12px;color:#71717a;margin-top:4px;">本月累计</div>
             </div>
         </div>
     </div>
@@ -242,28 +242,28 @@ td:first-child { font-weight:600; }
         <div class="live"><div class="dot"></div><span id="stockUpdateTime">加载中...</span></div>
     </div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:16px;">
-        <div class="kpi" style="--c:#5ce1ff;">
+        <div class="kpi" style="--c:#0a0a0a;">
             <div class="v" id="stockPrint">-</div>
-            <div class="l">📦 待打印箱子标签 <span id="stockPrintCount" style="font-weight:400;font-size:12px;color:#8fb2d4;"></span></div>
+            <div class="l">📦 待打印箱子标签 <span id="stockPrintCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
         </div>
         <div class="kpi" style="--c:#ffcc4d;">
             <div class="v" id="stockQuote">-</div>
-            <div class="l">🚚 待上传物流询价 <span id="stockQuoteCount" style="font-weight:400;font-size:12px;color:#8fb2d4;"></span></div>
+            <div class="l">🚚 待上传物流询价 <span id="stockQuoteCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
         </div>
         <div class="kpi" style="--c:#2affb2;">
             <div class="v" id="stockConfirm">-</div>
-            <div class="l">✅ 待确认发货 <span id="stockConfirmCount" style="font-weight:400;font-size:12px;color:#8fb2d4;"></span></div>
+            <div class="l">✅ 待确认发货 <span id="stockConfirmCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
         </div>
     </div>
     <!-- 今日/昨日打印箱子标签 当日量 -->
     <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;padding:0 16px 16px;">
         <div class="kpi" style="--c:#9d7bff;">
             <div class="v" id="stockTodayPrint">-</div>
-            <div class="l">🖨️ 今日打印箱子标签 <span id="stockTodayPrintCount" style="font-weight:400;font-size:12px;color:#8fb2d4;"></span></div>
+            <div class="l">🖨️ 今日打印箱子标签 <span id="stockTodayPrintCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
         </div>
-        <div class="kpi" style="--c:#5ce1ff;">
+        <div class="kpi" style="--c:#0a0a0a;">
             <div class="v" id="stockYestPrint">-</div>
-            <div class="l">🗓️ 昨日打印箱子标签 <span id="stockYestPrintCount" style="font-weight:400;font-size:12px;color:#8fb2d4;"></span></div>
+            <div class="l">🗓️ 昨日打印箱子标签 <span id="stockYestPrintCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
         </div>
     </div>
     <!-- 待确认发货明细 -->
@@ -336,7 +336,7 @@ td:first-child { font-weight:600; }
             <thead><tr><th>员工</th><th>班次</th><th>考勤班次</th><th>下班时间</th><th>日薪(元)</th><th>加班(h)</th><th>加班费(元)</th><th>合计(元)</th><th>打卡结果</th></tr></thead>
             <tbody id="costPersonsTable"><tr><td colspan="9" style="text-align:center;color:#6d8db0;">加载中...</td></tr></tbody>
         </table></div>
-        <div id="costHiddenNote" style="margin-top:8px;font-size:12px;color:#8fb2d4;display:none;"></div>
+        <div id="costHiddenNote" style="margin-top:8px;font-size:12px;color:#71717a;display:none;"></div>
     </div>
 </div>
 
@@ -345,9 +345,9 @@ td:first-child { font-weight:600; }
   <div style="max-width:760px;margin:30px auto;background:#fff;border:1px solid #e0e6ed;border-radius:16px;padding:24px;max-height:90vh;overflow-y:auto;color:#333;">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
       <h3 style="color:#ff7ad9;font-size:18px;">✏️ 编辑当日成本</h3>
-      <button onclick="closeCostEditor()" style="background:none;border:none;color:#8fb2d4;font-size:22px;cursor:pointer;">✕</button>
+      <button onclick="closeCostEditor()" style="background:none;border:none;color:#71717a;font-size:22px;cursor:pointer;">✕</button>
     </div>
-    <div style="font-size:12px;color:#8fb2d4;margin-bottom:12px;">选日期 → 填出库量 → 填每人实际下班时间 → 自动算薪资 → 保存发布</div>
+    <div style="font-size:12px;color:#71717a;margin-bottom:12px;">选日期 → 填出库量 → 填每人实际下班时间 → 自动算薪资 → 保存发布</div>
 
     <!-- 日期选择 -->
     <div id="costEditorDays" style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;"></div>
@@ -363,32 +363,32 @@ td:first-child { font-weight:600; }
       <span style="font-size:13px;color:#2affb2;font-weight:600;">📤 上传考勤Excel：</span>
       <input type="file" id="attFile" accept=".xlsx,.xls" style="display:none;" onchange="parseAttendance(this)">
       <button onclick="document.getElementById('attFile').click()" style="padding:6px 16px;border-radius:6px;border:1px solid rgba(0,255,157,.3);background:rgba(0,255,157,.1);color:#2affb2;font-size:13px;cursor:pointer;font-weight:600;">选择考勤文件</button>
-      <span id="attFileName" style="font-size:12px;color:#8fb2d4;"></span>
+      <span id="attFileName" style="font-size:12px;color:#71717a;"></span>
     </div>
 
     <!-- 员工下班时间表 -->
     <table style="width:100%;border-collapse:collapse;margin-bottom:14px;">
       <thead><tr style="background:rgba(0,229,255,.06);">
-        <th style="padding:8px;text-align:left;font-size:12px;color:#8fb2d4;">员工</th>
-        <th style="padding:8px;text-align:left;font-size:12px;color:#8fb2d4;">班次</th>
-        <th style="padding:8px;text-align:center;font-size:12px;color:#8fb2d4;">标准下班</th>
-        <th style="padding:8px;text-align:center;font-size:12px;color:#8fb2d4;">实际下班</th>
-        <th style="padding:8px;text-align:right;font-size:12px;color:#8fb2d4;">加班(h)</th>
-        <th style="padding:8px;text-align:right;font-size:12px;color:#8fb2d4;">加班费</th>
-        <th style="padding:8px;text-align:right;font-size:12px;color:#8fb2d4;">日薪+餐补</th>
-        <th style="padding:8px;text-align:right;font-size:12px;color:#8fb2d4;">合计</th>
+        <th style="padding:8px;text-align:left;font-size:12px;color:#71717a;">员工</th>
+        <th style="padding:8px;text-align:left;font-size:12px;color:#71717a;">班次</th>
+        <th style="padding:8px;text-align:center;font-size:12px;color:#71717a;">标准下班</th>
+        <th style="padding:8px;text-align:center;font-size:12px;color:#71717a;">实际下班</th>
+        <th style="padding:8px;text-align:right;font-size:12px;color:#71717a;">加班(h)</th>
+        <th style="padding:8px;text-align:right;font-size:12px;color:#71717a;">加班费</th>
+        <th style="padding:8px;text-align:right;font-size:12px;color:#71717a;">日薪+餐补</th>
+        <th style="padding:8px;text-align:right;font-size:12px;color:#71717a;">合计</th>
       </tr></thead>
       <tbody id="edPersonsBody"></tbody>
     </table>
 
     <!-- 汇总 -->
     <div style="display:flex;gap:16px;justify-content:flex-end;align-items:center;margin-bottom:16px;padding:12px;background:rgba(255,122,217,.06);border-radius:8px;">
-      <span style="font-size:13px;color:#8fb2d4;">人力总成本：<b id="edTotalCost" style="color:#5ce1ff;font-size:18px;">0.00</b> 元</span>
-      <span style="font-size:13px;color:#8fb2d4;">件均：<b id="edAvgCost" style="color:#ff7ad9;font-size:18px;">—</b> 元/件</span>
+      <span style="font-size:13px;color:#71717a;">人力总成本：<b id="edTotalCost" style="color:#0a0a0a;font-size:18px;">0.00</b> 元</span>
+      <span style="font-size:13px;color:#71717a;">件均：<b id="edAvgCost" style="color:#ff7ad9;font-size:18px;">—</b> 元/件</span>
     </div>
 
     <div style="display:flex;gap:10px;justify-content:flex-end;">
-      <button onclick="closeCostEditor()" style="padding:10px 20px;border-radius:8px;border:1px solid rgba(148,190,220,.2);background:transparent;color:#8fb2d4;cursor:pointer;">取消</button>
+      <button onclick="closeCostEditor()" style="padding:10px 20px;border-radius:8px;border:1px solid rgba(148,190,220,.2);background:transparent;color:#71717a;cursor:pointer;">取消</button>
       <button onclick="saveCostData()" id="btnSaveCost" style="padding:10px 24px;border-radius:8px;border:none;background:linear-gradient(135deg,#ff7ad9,#b388ff);color:#0d1724;font-weight:700;cursor:pointer;">💾 保存并发布</button>
     </div>
     <div id="costEditorMsg" style="margin-top:10px;font-size:13px;color:#ffcc4d;"></div>
@@ -429,10 +429,10 @@ async function loadStock(){
         lst.forEach(it=>{
             html += `<tr style="border-bottom:1px solid rgba(148,190,220,.12);">
                 <td style="padding:10px;color:#333;font-weight:600;">${it.code}</td>
-                <td style="padding:10px;color:#8fb2d4;">${it.space||'-'}</td>
+                <td style="padding:10px;color:#71717a;">${it.space||'-'}</td>
                 <td style="padding:10px;">${it.creater||'-'}</td>
                 <td style="padding:10px;text-align:right;font-weight:600;color:#2affb2;">${it.boxes}</td>
-                <td style="padding:10px;color:#8fb2d4;">${it.transport||'-'}</td></tr>`;
+                <td style="padding:10px;color:#71717a;">${it.transport||'-'}</td></tr>`;
         });
         document.getElementById('confirmTable').innerHTML = html;
     }catch(e){ document.getElementById('stockUpdateTime').textContent='加载失败'; }
@@ -470,7 +470,7 @@ loadStock();
     <!-- 打印箱子标签 -->
     <div class="kpis" style="margin-top:16px;">
         <div class="kpi" style="--c:#2563eb;"><div class="v" id="printTotal">0</div><div class="l">🖨️ 待打印箱子标签</div></div>
-        <div class="kpi" style="--c:#5ce1ff;"><div class="v" id="printDtb">0</div><div class="l">DTB暂存位</div></div>
+        <div class="kpi" style="--c:#0a0a0a;"><div class="v" id="printDtb">0</div><div class="l">DTB暂存位</div></div>
         <div class="kpi" style="--c:#ffab40;"><div class="v" id="printOver24">0</div><div class="l">已停留 ≥24h</div></div>
         <div class="kpi" style="--c:#7c3aed;"><div class="v" id="printMax">0h</div><div class="l">最长停留</div></div>
     </div>
@@ -547,9 +547,9 @@ async function loadScanData(){
                 const wc = waitNum>4?'#ff5d73':waitNum>2?'#ffab40':'#2affb2';
                 uh0 += `<tr>
                     <td><span class="tag tag-orange">${u.batch_code}</span></td>
-                    <td style="color:#8fb2d4;">${u.warehouse||''}</td>
+                    <td style="color:#71717a;">${u.warehouse||''}</td>
                     <td>${u.provider||''}</td>
-                    <td style="color:#8fb2d4;">${u.datetime||''}</td>
+                    <td style="color:#71717a;">${u.datetime||''}</td>
                     <td style="font-weight:600;color:${wc};">${wait}</td>
                     <td>${u.sum_box||0} 箱</td>
                     <td style="font-weight:600;color:#ff5d73;">${(Number(u.bulk)||0).toFixed(2)}</td>
@@ -568,7 +568,7 @@ async function loadScanData(){
             pl.forEach(p=>{
                 ph += `<tr>
                     <td><span class="tag tag-teal">${p.batch_code}</span></td>
-                    <td style="color:#8fb2d4;">${p.warehouse||''}</td>
+                    <td style="color:#71717a;">${p.warehouse||''}</td>
                     <td>${p.provider||''}</td>
                     <td>${p.total_box||0} 箱</td>
                     <td style="color:#2affb2;font-weight:600;">${p.marked_box||0} 箱</td>
@@ -654,7 +654,7 @@ async function loadScanData(){
             svg += circles + labels;
         });
         allHours.forEach((hr,idx)=>{
-            const lc = hr > nowH ? '#4a6a8a' : '#8fb2d4';
+            const lc = hr > nowH ? '#4a6a8a' : '#71717a';
             svg += `<text x="${xOf(idx)}" y="${H-padB+18}" text-anchor="middle" font-size="12" fill="${lc}" style="cursor:pointer;font-weight:600;" onclick="showHourDetail(${hr})">${hr}时</text>`;
         });
         let lgX = padL;
@@ -698,12 +698,12 @@ async function loadScanData(){
                 <td style="font-size:16px;font-weight:700;color:#2affb2;">${u.boxes} 箱</td>
                 <td>${u.shipments} 票</td>
                 <td>${wh}h</td>
-                <td><b style="color:#5ce1ff;">${avg}</b> 箱/h</td>
+                <td><b style="color:#0a0a0a;">${avg}</b> 箱/h</td>
                 <td style="width:25%;">
                     <div style="display:flex;align-items:center;gap:8px;">
                         <div style="flex:1;height:6px;background:rgba(0,229,255,.12);border-radius:3px;overflow:hidden;">
                             <div style="height:100%;width:${p}%;background:#2affb2;border-radius:3px;"></div>
-                        </div><span style="font-size:12px;color:#8fb2d4;min-width:36px;">${p}%</span>
+                        </div><span style="font-size:12px;color:#71717a;min-width:36px;">${p}%</span>
                     </div></td></tr>`;
         });
         document.getElementById('scanSummaryTable').innerHTML = rows;
@@ -784,16 +784,16 @@ function renderTimelyTable(tbodyId, list, highlightDtb){
         const rowBg = (highlightDtb && r.is_dtb) ? 'background:rgba(255,93,115,.08);' : '';
         const spaceHtml = (highlightDtb && r.is_dtb)
             ? `<span style="color:#ff5d73;font-weight:700;">🔴 ${r.space||''}</span>`
-            : `<span style="color:#8fb2d4;">${r.space||''}</span>`;
+            : `<span style="color:#71717a;">${r.space||''}</span>`;
         html += `<tr style="${rowBg}">
             <td style="font-weight:600;color:#dff3ff;">${r.code||''}</td>
-            <td style="font-size:12px;color:#8fb2d4;">${(r.warehouse||'').replace('FBA中转仓-','')}</td>
+            <td style="font-size:12px;color:#71717a;">${(r.warehouse||'').replace('FBA中转仓-','')}</td>
             <td>${r.platform||''}</td>
             <td>${spaceHtml}</td>
-            <td style="color:#8fb2d4;">${r.transport||''}</td>
-            <td style="text-align:center;color:#8fb2d4;">${r.box_total||0}</td>
+            <td style="color:#71717a;">${r.transport||''}</td>
+            <td style="text-align:center;color:#71717a;">${r.box_total||0}</td>
             <td>${errHtml}</td>
-            <td style="color:#8fb2d4;">${r.pack_time||''}</td>
+            <td style="color:#71717a;">${r.pack_time||''}</td>
             <td><span class="tag" style="background:${color}18;color:${color};font-weight:700;">${hTxt}</span> <span style="font-size:11px;color:${color};">${badge}</span></td>
             <td>${r.owner||''}</td></tr>`;
     });
@@ -849,9 +849,9 @@ function costChart(svgId, labels, bars, line, opts){
     if(path){ s += `<path d="${path}" fill="none" stroke="#ff7ad9" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`+dots+labelsSvg; }
     // x 轴标签
     labels.forEach((lb,i)=>{
-        s += `<text x="${xOf(i)}" y="${H-padB+18}" text-anchor="middle" font-size="11" fill="#8fb2d4">${lb}</text>`;
+        s += `<text x="${xOf(i)}" y="${H-padB+18}" text-anchor="middle" font-size="11" fill="#71717a">${lb}</text>`;
     });
-    s += `<text x="${padL}" y="18" font-size="11" fill="#5ce1ff">出库量(P次数)</text>`;
+    s += `<text x="${padL}" y="18" font-size="11" fill="#0a0a0a">出库量(P次数)</text>`;
     s += `<text x="${W-padR-4}" y="18" font-size="11" fill="#ff7ad9" text-anchor="end">件均(元)</text>`;
     svg.innerHTML = s;
 }
@@ -958,14 +958,14 @@ async function loadCostData(){
             persons.forEach(p=>{
                 html += `<tr>
                     <td style="font-weight:600;color:#dff3ff;">${p.name}</td>
-                    <td><span class="tag" style="background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${p.shift==='BOSS'?'#ffab40':'#5ce1ff'};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
-                    <td style="color:#8fb2d4;font-size:12px;">${p.shift_actual||''}</td>
+                    <td><span class="tag" style="background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${p.shift==='BOSS'?'#ffab40':'#0a0a0a'};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
+                    <td style="color:#71717a;font-size:12px;">${p.shift_actual||''}</td>
                     <td>${p.leave}</td>
                     <td>${fmtMoney(p.daily)}</td>
-                    <td style="color:#8fb2d4;">${p.ot_hours||0}h</td>
+                    <td style="color:#71717a;">${p.ot_hours||0}h</td>
                     <td>${fmtMoney(p.ot_pay)}</td>
                     <td style="font-weight:700;color:#2affb2;">${fmtMoney(p.total)}</td>
-                    <td style="color:#8fb2d4;font-size:12px;">${p.result||''}</td></tr>`;
+                    <td style="color:#71717a;font-size:12px;">${p.result||''}</td></tr>`;
             });
             document.getElementById('costPersonsTable').innerHTML = html;
         } else {
@@ -1032,7 +1032,7 @@ async function openCostEditor(){
       const key = dd.getFullYear()+'-'+String(dd.getMonth()+1).padStart(2,'0')+'-'+String(dd.getDate()).padStart(2,'0');
       const isToday = key===d.today;
       const isFuture = dd.getTime() > now0.getTime()+86400000;
-      dh += `<button data-date="${key}" onclick="selectEditDate('${key}')" style="padding:8px 14px;border-radius:8px;border:1px solid rgba(0,229,255,.2);background:${isToday?'rgba(255,122,217,.25)':'rgba(0,229,255,.06)'};color:${isToday?'#ff7ad9':'#8fb2d4'};font-size:13px;cursor:pointer;font-weight:${isToday?'700':'400'};">${dd.getMonth()+1}/${dd.getDate()} 周${weekNames[i]}${isToday?'·今':''}</button>`;
+      dh += `<button data-date="${key}" onclick="selectEditDate('${key}')" style="padding:8px 14px;border-radius:8px;border:1px solid rgba(0,229,255,.2);background:${isToday?'rgba(255,122,217,.25)':'rgba(0,229,255,.06)'};color:${isToday?'#ff7ad9':'#71717a'};font-size:13px;cursor:pointer;font-weight:${isToday?'700':'400'};">${dd.getMonth()+1}/${dd.getDate()} 周${weekNames[i]}${isToday?'·今':''}</button>`;
     }
     document.getElementById('costEditorDays').innerHTML = dh;
     // 默认选今天
@@ -1048,7 +1048,7 @@ function selectEditDate(key){
   // 高亮按钮
   document.querySelectorAll('#costEditorDays button').forEach(b=>{
     b.style.background = b.dataset.date===key ? 'rgba(255,122,217,.25)' : 'rgba(0,229,255,.06)';
-    b.style.color = b.dataset.date===key ? '#ff7ad9' : '#8fb2d4';
+    b.style.color = b.dataset.date===key ? '#ff7ad9' : '#71717a';
     b.style.fontWeight = b.dataset.date===key ? '700' : '400';
   });
   const d = _costDataCache;
@@ -1060,7 +1060,7 @@ function selectEditDate(key){
   let html = '';
   ROSTER.forEach(p=>{
     const saved = offTimes[p.name] || p.stdOff; // 默认标准下班
-    const badgeColor = p.shift==='BOSS' ? '#ffab40' : '#5ce1ff';
+    const badgeColor = p.shift==='BOSS' ? '#ffab40' : '#0a0a0a';
     const isBoss = p.shift==='BOSS';
     const nameShow = isBoss ? '管理岗(保密)' : p.name;
     const payShow = isBoss ? '***' : (p.dailyBase+MEAL).toFixed(2);
@@ -1070,11 +1070,11 @@ function selectEditDate(key){
     html += `<tr style="border-bottom:1px solid rgba(148,190,220,.1);">
       <td style="padding:8px;font-weight:600;color:${isBoss?'#ffab40':'#dff3ff'};">${nameShow}</td>
       <td style="padding:8px;"><span style="font-size:12px;padding:2px 8px;border-radius:8px;background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${badgeColor};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
-      <td style="padding:8px;text-align:center;color:#8fb2d4;font-size:12px;">${p.stdOff}</td>
+      <td style="padding:8px;text-align:center;color:#71717a;font-size:12px;">${p.stdOff}</td>
       <td style="padding:8px;text-align:center;"><input type="time" data-name="${p.name}" value="${saved}" step="1800" style="width:80px;padding:4px 6px;background:rgba(255,122,217,.08);border:1px solid rgba(255,122,217,.25);border-radius:4px;color:#ff7ad9;font-size:13px;text-align:center;" oninput="recalcCost()"></td>
       <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="ot_${p.name}">${otShow}</td>
       <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="otp_${p.name}">${otpShow}</td>
-      <td style="padding:8px;text-align:right;color:#8fb2d4;font-size:13px;">${payShow}</td>
+      <td style="padding:8px;text-align:right;color:#71717a;font-size:13px;">${payShow}</td>
       <td style="padding:8px;text-align:right;font-weight:700;color:${isBoss?'#ffab40':'#2affb2'};font-size:13px;" id="tot_${p.name}">${payShow}</td>
     </tr>`;
   });
