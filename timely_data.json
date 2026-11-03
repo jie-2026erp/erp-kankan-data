@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-03 08:39:02",
+  "update_time": "2026-11-03 08:41:01",
   "pack3": {
-    "total": 19,
+    "total": 21,
     "over24": 0,
     "over48": 0,
     "max_hours": 15.0,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-02 19:06:09",
-        "hours": 13.5,
+        "hours": 13.6,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-02 19:55:15",
-        "hours": 12.7,
+        "hours": 12.8,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-02 20:00:55",
-        "hours": 12.6,
+        "hours": 12.7,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-02 20:13:05",
-        "hours": 12.4,
+        "hours": 12.5,
         "owner": "刘瑜",
         "transport": "卡航欧洲"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-02 20:43:13",
-        "hours": 11.9,
+        "hours": 12.0,
         "owner": "蒋宇林",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -159,9 +159,22 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-03 08:25:21",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "卞孜孜",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261102036",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0861",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-03 08:31:06",
+        "hours": 0.2,
+        "owner": "蒋宇林",
+        "transport": "慢船海派（美东）"
       },
       {
         "code": "HWC261102006",
@@ -203,17 +216,17 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "FBA261102036",
-        "platform": "FBA",
+        "code": "HWC261102010",
+        "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0861",
+        "space": "JH11-0856",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-03 08:31:06",
-        "hours": 0.1,
-        "owner": "蒋宇林",
-        "transport": "慢船海派（美东）"
+        "box_total": 10,
+        "pack_time": "2026-11-03 08:31:19",
+        "hours": 0.2,
+        "owner": "欧阳子航",
+        "transport": "慢船海卡（美西）"
       },
       {
         "code": "HWC261102005",
@@ -229,19 +242,6 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261102010",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0856",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 10,
-        "pack_time": "2026-11-03 08:31:19",
-        "hours": 0.1,
-        "owner": "欧阳子航",
-        "transport": "慢船海卡（美西）"
-      },
-      {
         "code": "HWC261102011",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
@@ -250,8 +250,34 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-03 08:37:20",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "欧阳子航",
+        "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261030003",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0853",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-03 08:39:56",
+        "hours": 0.0,
+        "owner": "刘启瑞",
+        "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261030071",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0852",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-03 08:40:44",
+        "hours": 0.0,
+        "owner": "郭星媛",
         "transport": "慢船海卡（美西）"
       }
     ]
