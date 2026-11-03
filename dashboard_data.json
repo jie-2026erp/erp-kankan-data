@@ -1,6 +1,6 @@
 {
-  "total": 44,
-  "success": 44,
+  "total": 45,
+  "success": 45,
   "fail": 0,
   "rate": 100,
   "fail_logs": [],
@@ -356,6 +356,14 @@
       "页码范围": "4-5页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-03 17:36:57",
+      "文件名": "FBA15MSMYJXP FBA15MSV6K5M.pdf",
+      "货件号": "FBA15MSMYJXP",
+      "页码范围": "1-12页",
+      "状态": "成功",
+      "备注": ""
     }
   ],
   "shipment_stats": {
@@ -534,7 +542,11 @@
     "FBA15MSPW56G": {
       "success": 1,
       "fail": 0
+    },
+    "FBA15MSMYJXP": {
+      "success": 1,
+      "fail": 0
     }
   },
-  "update_time": "2026-11-03 17:36:29"
+  "update_time": "2026-11-03 17:37:29"
 }
