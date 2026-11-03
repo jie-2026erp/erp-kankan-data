@@ -1,8 +1,41 @@
 {
-  "update_time": "2026-11-03 20:03:33",
-  "total_dup_spaces": 0,
-  "total_boxes": 0,
-  "max_dup": 0,
-  "space_count": 0,
-  "list": []
+  "update_time": "2026-11-03 20:04:33",
+  "total_dup_spaces": 1,
+  "total_boxes": 2,
+  "max_dup": 2,
+  "space_count": 1,
+  "list": [
+    {
+      "space": "6FH-02-01-06",
+      "count": 2,
+      "total_boxes": 2,
+      "codes": [
+        "HWC261027046",
+        "HWC261027046"
+      ],
+      "transports": [
+        "CHUKOUYI"
+      ],
+      "items": [
+        {
+          "code": "HWC261027046",
+          "platform": "CHUKOUYI",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "6FH-02-01-06",
+          "err_msg": "",
+          "box_total": 1,
+          "creater": "丁胜玥"
+        },
+        {
+          "code": "HWC261027046",
+          "platform": "CHUKOUYI",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "6FH-02-01-06",
+          "err_msg": "",
+          "box_total": 1,
+          "creater": "丁胜玥"
+        }
+      ]
+    }
+  ]
 }
