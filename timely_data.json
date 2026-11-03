@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-03 15:46:34",
+  "update_time": "2026-11-03 15:48:29",
   "pack3": {
-    "total": 15,
+    "total": 17,
     "over24": 0,
     "over48": 0,
     "max_hours": 22.1,
@@ -19,19 +19,6 @@
         "hours": 22.1,
         "owner": "杨晓如",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA19VZR8XRF",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-66",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 11,
-        "pack_time": "2026-11-02 18:34:03",
-        "hours": 21.2,
-        "owner": "袁梦蝶",
-        "transport": "美森美西-海派美西（正班）"
       },
       {
         "code": "HWC261102043",
@@ -71,19 +58,6 @@
         "hours": 19.9,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
-      },
-      {
-        "code": "FBA261102061",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-2-14",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 32,
-        "pack_time": "2026-11-03 10:36:55",
-        "hours": 5.2,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261102079",
@@ -133,7 +107,7 @@
         "err_msg": "",
         "box_total": 16,
         "pack_time": "2026-11-03 13:32:26",
-        "hours": 2.2,
+        "hours": 2.3,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -146,7 +120,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-03 13:56:06",
-        "hours": 1.8,
+        "hours": 1.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -159,7 +133,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-03 14:56:21",
-        "hours": 0.8,
+        "hours": 0.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -199,6 +173,58 @@
         "box_total": 15,
         "pack_time": "2026-11-03 15:24:38",
         "hours": 0.4,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "FBA15MTKGC64",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-2-14",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-03 15:48:12",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MTKSX4M",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-2-14",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 30,
+        "pack_time": "2026-11-03 15:48:06",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261102130",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0750",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 15,
+        "pack_time": "2026-11-03 15:46:33",
+        "hours": 0.0,
+        "owner": "王盼盼",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261102080",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0754,JH11-0753,JH11-0752,JH11-0751",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 50,
+        "pack_time": "2026-11-03 15:46:31",
+        "hours": 0.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       }
