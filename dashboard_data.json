@@ -1,6 +1,6 @@
 {
-  "total": 31,
-  "success": 31,
+  "total": 33,
+  "success": 33,
   "fail": 0,
   "rate": 100,
   "fail_logs": [],
@@ -252,6 +252,22 @@
       "页码范围": "1-11页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-03 17:29:26",
+      "文件名": "FBA15MSGFQ04 FBA15MSKMYYY FBA15MSWB33Z FBA15MSZNKSD FBA15MT1MR1X.pdf",
+      "货件号": "FBA15MSKMYYY",
+      "页码范围": "12-15页",
+      "状态": "成功",
+      "备注": ""
+    },
+    {
+      "时间": "2026-11-03 17:29:52",
+      "文件名": "FBA15MSGFQ04 FBA15MSKMYYY FBA15MSWB33Z FBA15MSZNKSD FBA15MT1MR1X.pdf",
+      "货件号": "FBA15MSWB33Z",
+      "页码范围": "16-18页",
+      "状态": "成功",
+      "备注": ""
     }
   ],
   "shipment_stats": {
@@ -378,7 +394,15 @@
     "FBA15MSGFQ04": {
       "success": 1,
       "fail": 0
+    },
+    "FBA15MSKMYYY": {
+      "success": 1,
+      "fail": 0
+    },
+    "FBA15MSWB33Z": {
+      "success": 1,
+      "fail": 0
     }
   },
-  "update_time": "2026-11-03 17:29:28"
+  "update_time": "2026-11-03 17:30:28"
 }
