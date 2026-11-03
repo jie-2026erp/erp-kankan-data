@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "update_time": "2026-11-03 13:58:22",
+  "update_time": "2026-11-03 13:59:29",
   "total_boxes": 183,
   "total_users": 2,
   "total_batches": 1,
@@ -25,9 +25,19 @@
       "10": 78
     }
   },
-  "unmarked": [],
-  "unmarked_count": 0,
-  "unmarked_bulk": 0.0,
+  "unmarked": [
+    {
+      "batch_code": "TH26110300309",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "福州弘丰国际物流",
+      "datetime": "2026-11-03 13:59:36",
+      "bulk": 4.4342,
+      "sum_box": "60",
+      "is_write": "未填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 4.43,
   "partial_list": [],
   "partial_count": 0,
   "week_stat": {
