@@ -434,29 +434,29 @@ async function loadStock(){
         document.getElementById('stockTodayPrintCount').textContent = (d.print_today_count||0)+'票 · '+(d.print_today_boxes||0)+'箱';
         document.getElementById('stockYestPrint').textContent = d.print_yesterday_boxes||0;
         document.getElementById('stockYestPrintCount').textContent = (d.print_yesterday_count||0)+'票 · '+(d.print_yesterday_boxes||0)+'箱';
-        // 每小时打印箱子标签统计（包try-catch，避免隐藏tab初始化报错中断整个函数）
-        try{
-            const hourly = d.print_hourly || {};
-            const hours = [];
-            const values = [];
-            for(let h=8; h<=23; h++){
-                const key = String(h).padStart(2,'0');
-                hours.push(h+'时');
-                values.push(hourly[key] || 0);
-            }
-            if(window._printHourlyChart){ window._printHourlyChart.dispose(); }
-            const el = document.getElementById('printHourlyChart');
-            if(el && el.offsetWidth > 0){
-                window._printHourlyChart = echarts.init(el);
-                window._printHourlyChart.setOption({
-                    tooltip:{trigger:'axis'},
-                    grid:{left:40,right:20,top:20,bottom:30},
-                    xAxis:{type:'category',data:hours,axisLabel:{color:#666,fontSize:11}},
-                    yAxis:{type:'value',axisLabel:{color:#666,fontSize:11}},
-                    series:[{type:'bar',data:values,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
-                });
-            }
-        }catch(e){ console.warn('print hourly chart init fail:', e); }
+        // 每小时打印箱子标签统计（暂时注释，排查页面卡死问题）
+        // try{
+        //     const hourly = d.print_hourly || {};
+        //     const hours = [];
+        //     const values = [];
+        //     for(let h=8; h<=23; h++){
+        //         const key = String(h).padStart(2,'0');
+        //         hours.push(h+'时');
+        //         values.push(hourly[key] || 0);
+        //     }
+        //     if(window._printHourlyChart){ window._printHourlyChart.dispose(); }
+        //     const el = document.getElementById('printHourlyChart');
+        //     if(el && el.offsetWidth > 0){
+        //         window._printHourlyChart = echarts.init(el);
+        //         window._printHourlyChart.setOption({
+        //             tooltip:{trigger:'axis'},
+        //             grid:{left:40,right:20,top:20,bottom:30},
+        //             xAxis:{type:'category',data:hours,axisLabel:{color:#666,fontSize:11}},
+        //             yAxis:{type:'value',axisLabel:{color:#666,fontSize:11}},
+        //             series:[{type:'bar',data:values,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
+        //         });
+        //     }
+        // }catch(e){ console.warn('print hourly chart init fail:', e); }
         // 明细
         const lst = d.confirm_list||[];
         document.getElementById('confirmCountTip').textContent = '共'+lst.length+'票';
