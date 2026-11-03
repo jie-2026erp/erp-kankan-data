@@ -13,110 +13,93 @@
 html,body { overflow-x:hidden; }
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
-    background: #f5f7fa;
+    background: #f8f9fa;
     min-height: 100vh;
-    padding: 12px;
-    color: #333;
+    padding: 20px;
+    color: #212529;
+    font-size: 14px;
 }
-/* 浅色网格氛围 */
-body::before {
-    content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
-    background:
-        linear-gradient(rgba(0,120,200,.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0,120,200,.04) 1px, transparent 1px);
-    background-size: 42px 42px;
-}
-.container { max-width: 1280px; margin: 0 auto; position:relative; z-index:1; }
+.container { max-width: 1280px; margin: 0 auto; }
 
-/* Tab栏 科技胶囊 */
+/* Tab栏 */
 .tabs {
-    display:flex; gap:6px; margin-bottom:16px;
-    background: #ffffff; padding:6px; border-radius:12px;
-    border:1px solid #e0e6ed;
-    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    display:flex; gap:4px; margin-bottom:20px;
+    background: #ffffff; padding:4px; border-radius:8px;
+    border:1px solid #e9ecef;
     width:fit-content; max-width:100%;
     overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none;
 }
 .tabs::-webkit-scrollbar { display:none; }
 .tab-btn {
-    padding:10px 20px; border-radius:8px; border:none; background:transparent;
-    font-size:14px; cursor:pointer; color:#666; font-weight:500;
-    transition:all .2s; white-space:nowrap;
+    padding:10px 20px; border-radius:6px; border:none; background:transparent;
+    font-size:14px; cursor:pointer; color:#6c757d; font-weight:500;
+    transition:all .15s; white-space:nowrap;
 }
-.tab-btn:hover { color:#333; }
+.tab-btn:hover { color:#212529; background:#f8f9fa; }
 .tab-btn.active {
-    background: linear-gradient(135deg,#00a8ff,#4d7cff);
-    color:#fff; font-weight:700;
-    box-shadow:0 2px 8px rgba(0,168,255,.3);
+    background: #0d6efd;
+    color:#fff; font-weight:600;
 }
-.tab-page { display:none; animation: fadeIn .3s; }
+.tab-page { display:none; }
 .tab-page.active { display:block; }
-@keyframes fadeIn { from{opacity:0;transform:translateY(6px);} to{opacity:1;transform:none;} }
 
-/* 顶部标题条 浅色 */
+/* 顶部标题条 */
 .topbar {
-    background: linear-gradient(135deg,#ffffff 0%,#f0f7ff 60%,#e8f4ff 100%);
-    border:1px solid #d0e0f0;
-    border-radius:16px; padding:18px 24px; margin-bottom:16px;
-    color:#333; display:flex; justify-content:space-between; align-items:center;
-    box-shadow:0 2px 12px rgba(0,120,200,.08);
-    flex-wrap:wrap; gap:10px; position:relative; overflow:hidden;
+    background: #ffffff;
+    border:1px solid #e9ecef;
+    border-radius:8px; padding:20px 24px; margin-bottom:20px;
+    color:#212529; display:flex; justify-content:space-between; align-items:center;
+    flex-wrap:wrap; gap:10px;
 }
-.topbar::after {
-    content:""; position:absolute; left:0; right:0; bottom:0; height:2px;
-    background: linear-gradient(90deg,transparent,#00a8ff,transparent);
-}
-.topbar h1 { font-size:20px; font-weight:700; letter-spacing:.5px; }
-.topbar .sub { font-size:12px; opacity:.85; margin-top:2px; color:#666; }
+.topbar h1 { font-size:18px; font-weight:600; }
+.topbar .sub { font-size:13px; margin-top:4px; color:#6c757d; }
 .topbar .live {
-    background:rgba(0,168,255,.08); padding:6px 14px; border-radius:20px;
-    font-size:12px; display:flex; align-items:center; gap:6px; color:#0077cc;
-    border:1px solid rgba(0,168,255,.25);
+    background:#f8f9fa; padding:6px 12px; border-radius:6px;
+    font-size:12px; display:flex; align-items:center; gap:6px; color:#495057;
+    border:1px solid #e9ecef;
 }
-.dot { width:8px; height:8px; background:#00c853; border-radius:50%; box-shadow:0 0 6px #00c853; animation:pulse 2s infinite; }
-@keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.35;} }
+.dot { width:8px; height:8px; background:#198754; border-radius:50%; }
 
 /* KPI卡 */
-.kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
+.kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:20px; }
 .kpi {
-    background:#ffffff; border-radius:14px; padding:16px;
-    border:1px solid #e0e6ed;
-    box-shadow:0 2px 8px rgba(0,0,0,.05);
-    border-top:2px solid var(--c,#00a8ff);
+    background:#ffffff; border-radius:8px; padding:20px;
+    border:1px solid #e9ecef;
+    border-left:3px solid var(--c,#0d6efd);
 }
-.kpi .v { font-size:26px; font-weight:700; color:var(--c,#00a8ff); font-variant-numeric:tabular-nums; }
-.kpi .l { font-size:12px; color:#666; margin-top:4px; }
+.kpi .v { font-size:32px; font-weight:700; color:#212529; font-variant-numeric:tabular-nums; line-height:1.2; }
+.kpi .l { font-size:13px; color:#6c757d; margin-top:6px; }
 
 /* 卡片 */
 .card {
-    background:#ffffff; border-radius:14px; padding:18px;
-    border:1px solid #e0e6ed;
-    box-shadow:0 2px 8px rgba(0,0,0,.05); margin-bottom:14px;
+    background:#ffffff; border-radius:8px; padding:20px;
+    border:1px solid #e9ecef;
+    margin-bottom:16px;
 }
-.card-t, .card-title { font-size:15px; font-weight:600; color:#333; margin-bottom:14px; }
-.card-t .tip { font-size:11px; color:#999; font-weight:normal; margin-left:6px; }
+.card-t, .card-title { font-size:15px; font-weight:600; color:#212529; margin-bottom:16px; }
+.card-t .tip { font-size:12px; color:#6c757d; font-weight:normal; margin-left:8px; }
 
-.row2 { display:grid; grid-template-columns:1.5fr 1fr; gap:14px; margin-bottom:14px; }
-.row1 { margin-bottom:14px; }
+.row2 { display:grid; grid-template-columns:1.5fr 1fr; gap:16px; margin-bottom:16px; }
+.row1 { margin-bottom:16px; }
 
 /* 表格 */
 .tw { overflow-x:auto; -webkit-overflow-scrolling:touch; }
 table { width:100%; border-collapse:collapse; min-width:560px; }
-th,td { padding:10px 8px; text-align:left; border-bottom:1px solid #e8eef5; font-size:13px; white-space:nowrap; }
-th { color:#666; font-weight:500; font-size:12px; background:#f5f8fc; }
-td { color:#333; }
-.tag { padding:4px 10px; border-radius:10px; font-size:12px; font-weight:500; display:inline-block; }
-.tag-blue { background:rgba(0,168,255,.1); color:#0077cc; }
-.tag-orange { background:rgba(255,152,0,.1); color:#e65100; }
-.tag-teal { background:rgba(0,200,83,.1); color:#00c853; }
+th,td { padding:10px 12px; text-align:left; border-bottom:1px solid #e9ecef; font-size:13px; white-space:nowrap; }
+th { color:#495057; font-weight:600; font-size:12px; background:#f8f9fa; text-transform:uppercase; letter-spacing:.5px; }
+td { color:#212529; }
+.tag { padding:3px 10px; border-radius:4px; font-size:12px; font-weight:500; display:inline-block; }
+.tag-blue { background:#cfe2ff; color:#084298; }
+.tag-orange { background:#fff3cd; color:#664d03; }
+.tag-teal { background:#d1e7dd; color:#0f5132; }
 
 /* 响应式 */
 @media (max-width:768px) {
-    body { padding:8px; }
-    .kpis { grid-template-columns:repeat(2,1fr); gap:10px; }
+    body { padding:12px; }
+    .kpis { grid-template-columns:repeat(2,1fr); gap:12px; }
     .row2 { grid-template-columns:1fr; }
     .topbar h1 { font-size:16px; }
-    .kpi .v { font-size:20px; }
+    .kpi .v { font-size:24px; }
     .tab-btn { padding:8px 14px; font-size:13px; }
 }
 </style>
@@ -250,11 +233,11 @@ td { color:#333; }
 
 <!-- Tab4 仓库库存 -->
 <div id="tab-stock" class="tab-page">
-    <div class="topbar" style="background:linear-gradient(135deg,#ffffff 0%,#f0f7ff 60%,#e8f0ff 100%);border-color:#c8d8f0;">
+    <div class="topbar">
         <div>
-            <h1 style="color:#1565c0;">📋 仓库库存详情</h1>
+            <h1 style="color:#212529;">📋 仓库库存详情</h1>
             <div class="sub">FBA中转仓-金华 / 金华2仓 · 各环节待处理箱数</div>
-            <div style="color:#333;font-size:14px;font-weight:600;margin-top:6px;">📊 三环节合计库存：<span id="stockTotal" style="font-size:18px;">-</span> 箱 <span id="stockTotalCount" style="font-size:12px;font-weight:400;color:#666;"></span></div>
+            <div style="color:#212529;font-size:14px;font-weight:600;margin-top:8px;">📊 三环节合计库存：<span id="stockTotal" style="font-size:20px;font-weight:700;">-</span> 箱 <span id="stockTotalCount" style="font-size:12px;font-weight:400;color:#6c757d;"></span></div>
         </div>
         <div class="live"><div class="dot"></div><span id="stockUpdateTime">加载中...</span></div>
     </div>
@@ -303,14 +286,14 @@ td { color:#333; }
 
 <!-- Tab5 件均人力成本 -->
 <div id="tab-cost" class="tab-page">
-    <div class="topbar" style="background:linear-gradient(135deg,#ffffff 0%,#fff0f8 60%,#ffe8f4 100%);border-color:#f0c8e0;">
+    <div class="topbar">
         <div>
-            <h1 style="color:#c2185b;">💰 件均人力成本</h1>
+            <h1 style="color:#212529;">💰 件均人力成本</h1>
             <div class="sub">出库量(P次数) ÷ 当日人力总成本 · 员工4000+500按26天折算 · 加班17元/小时(半小时取整) · 含管理岗人力成本（明细保密）</div>
         </div>
         <div class="live">
         <div class="dot"></div><span id="costUpdateTime">加载中...</span>
-        <button id="btnEditCost" onclick="openCostEditor()" style="margin-left:10px;padding:4px 12px;border-radius:6px;border:1px solid #e060a0;background:#fff0f8;color:#c2185b;font-size:12px;cursor:pointer;font-weight:600;">✏️ 编辑数据</button>
+        <button id="btnEditCost" onclick="openCostEditor()" style="margin-left:10px;padding:5px 14px;border-radius:6px;border:1px solid #dee2e6;background:#f8f9fa;color:#495057;font-size:12px;cursor:pointer;font-weight:500;">✏️ 编辑数据</button>
     </div>
     </div>
 
@@ -460,9 +443,9 @@ loadStock();
 
 <!-- Tab3 时效提醒 -->
 <div id="tab-timely" class="tab-page">
-    <div class="topbar" style="background:linear-gradient(135deg,#ffffff 0%,#fff5f0 60%,#ffe8e0 100%);border-color:#f0c8b8;">
+    <div class="topbar">
         <div>
-            <h1 style="color:#bf360c;">⏰ 时效提醒</h1>
+            <h1 style="color:#212529;">⏰ 时效提醒</h1>
             <div class="sub">FBA中转仓-金华 / 金华2仓 · 等待进入下一环节的货件</div>
         </div>
         <div class="live"><div class="dot"></div><span id="timelyUpdateTime">加载中...</span></div>
