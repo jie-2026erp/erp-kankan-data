@@ -414,6 +414,7 @@ td { color:#c8e2f4; }
 
 <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
 <script>
+async function loadStock(){
     try{
         const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/stock_data.json?t='+Date.now());
         const d = await res.json();
@@ -921,10 +922,7 @@ async function loadCostData(){
         document.getElementById('costStatus').textContent = status.join('　')||'';
 
         // 本周逐日（周一~周日，不累计，每天单独算；跨周自动只显示新一周）
-        const now0 = new Date();
-        const mon0 = new Date(now0.getFullYear(), now0.getMonth(), now0.getDate() - ((now0.getDay()+6)%7));
         const weekNames = ['周一','周二','周三','周四','周五','周六','周日'];
-        const dMap = d.daily||{};
         const weekDays = [];
         for(let i=0;i<7;i++){
             const dd = new Date(mon0.getFullYear(), mon0.getMonth(), mon0.getDate()+i);
