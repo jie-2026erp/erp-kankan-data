@@ -335,6 +335,12 @@ td:first-child { color:#1890ff; font-weight:600; }
         </div>
     </div>
 
+    <!-- 本月逐日明细 -->
+    <div class="card">
+        <div class="card-t">📅 本月逐日明细 <span class="tip">月初~今天 · 持续更新到月底</span></div>
+        <div id="monthlyTable" class="tw" style="overflow-x:auto;"></div>
+    </div>
+
     <div class="card">
         <div class="card-t">📋 今日人力成本明细 <span class="tip">按考勤表 · 请假/休息/缺卡不计</span></div>
         <div id="costStatus" style="margin-bottom:10px;font-size:13px;color:#ffcc4d;"></div>
@@ -1033,6 +1039,36 @@ async function loadCostData(){
             }
         });
         document.getElementById('weeklyTable').innerHTML = wh+'</tbody></table></div>';
+
+        // 本月逐日明细
+        const now = new Date();
+        const y = now.getFullYear(), m = now.getMonth();
+        const daysInMonth = new Date(y, m+1, 0).getDate();
+        const weekNames = ['周日','周一','周二','周三','周四','周五','周六'];
+        let mh = '<table><thead><tr><th>日期</th><th>星期</th><th style="text-align:right;">出库量</th><th style="text-align:right;">人力成本(元)</th><th style="text-align:right;">件均(元/件)</th></tr></thead><tbody>';
+        let mOut=0, mCost=0;
+        for(let day=1; day<=daysInMonth; day++){
+            const dd = new Date(y, m, day);
+            if(dd.getTime() > now.getTime()) break; // 只显示到今天
+            const key = y+'-'+String(m+1).padStart(2,'0')+'-'+String(day).padStart(2,'0');
+            const rec = dMap[key]||null;
+            const label = String(day).padStart(2,'0');
+            const wname = weekNames[dd.getDay()];
+            const isToday = key===d.today;
+            if(rec){
+                const oq = rec.out_qty||0;
+                const ct = rec.cost||0;
+                const av = rec.out_qty>0 ? rec.avg : null;
+                mOut += oq; mCost += ct;
+                const tag = isToday ? '<br><span style="color:#ffcc4d;font-size:11px;">今日·进行中</span>' : '';
+                mh += `<tr><td>${label}日${tag}</td><td>${wname}</td><td style="font-weight:600;color:#ffab40;text-align:right;">${fmtNum(oq)}</td><td style="text-align:right;">${fmtMoney(ct)}</td><td style="font-weight:700;color:#ff7ad9;text-align:right;">${av==null?'—':fmtMoney(av)}</td></tr>`;
+            } else {
+                mh += `<tr style="opacity:.5;"><td>${label}日</td><td>${wname}</td><td style="text-align:right;color:#4d6a8a;">—</td><td style="text-align:right;color:#4d6a8a;">—</td><td style="text-align:right;color:#4d6a8a;">—</td></tr>`;
+            }
+        }
+        const mAvg = mOut>0 ? Math.round(mCost/mOut*100)/100 : 0;
+        mh += `<tr style="border-top:2px solid #ff7ad9;font-weight:700;background:rgba(255,122,217,.06);"><td>合计</td><td>—</td><td style="text-align:right;color:#ffab40;">${fmtNum(mOut)}</td><td style="text-align:right;">${fmtMoney(mCost)}</td><td style="text-align:right;color:#ff7ad9;">${fmtMoney(mAvg)}</td></tr>`;
+        document.getElementById('monthlyTable').innerHTML = mh+'</tbody></table>';
 
         // 周度对比图（上周 vs 本周）
         costChart('weeklyCompareSvg',
