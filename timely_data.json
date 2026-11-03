@@ -1,8 +1,8 @@
 {
-  "update_time": "2026-11-03 19:12:14",
+  "update_time": "2026-11-03 19:14:10",
   "pack3": {
-    "total": 20,
-    "over24": 1,
+    "total": 21,
+    "over24": 2,
     "over48": 0,
     "max_hours": 24.1,
     "dtb_count": 0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 23.9,
+        "hours": 24.0,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-03 16:28:45",
-        "hours": 2.7,
+        "hours": 2.8,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 23,
         "pack_time": "2026-11-03 18:05:05",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-03 18:51:27",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -201,6 +201,19 @@
         "hours": 0.1,
         "owner": "郝惜",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261103022",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0700",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-03 19:10:04",
+        "hours": 0.1,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
       },
       {
         "code": "FBA15MTMCW96",
@@ -242,14 +255,14 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA261103022",
+        "code": "FBA261103019",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0700",
+        "space": "JH11-0701",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-03 19:10:04",
+        "box_total": 5,
+        "pack_time": "2026-11-03 19:13:03",
         "hours": 0.0,
         "owner": "杨雨薇",
         "transport": "卡航英国"
