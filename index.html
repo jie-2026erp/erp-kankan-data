@@ -35,7 +35,9 @@ body::before {
     border:1px solid rgba(0,229,255,.18);
     box-shadow: 0 0 16px rgba(0,229,255,.08);
     width:fit-content; max-width:100%;
+    overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none;
 }
+.tabs::-webkit-scrollbar { display:none; }
 .tab-btn {
     padding:10px 20px; border-radius:8px; border:none; background:transparent;
     font-size:14px; cursor:pointer; color:#6f8fb2; font-weight:500;
@@ -120,6 +122,7 @@ td { color:#c8e2f4; }
 </style>
 </head>
 <body>
+<div id="pwdGate" style="position:fixed;top:0;left:0;right:0;bottom:0;background:#eef2f9;z-index:9999;display:flex;align-items:center;justify-content:center;"><div style="background:white;border-radius:16px;padding:36px 40px;box-shadow:0 8px 30px rgba(30,58,95,.15);text-align:center;max-width:340px;width:90%;"><h2 style="font-size:18px;color:#1e3a5f;margin-bottom:6px;">ERP 订单发货看板</h2><p style="font-size:12px;color:#64748b;margin-bottom:20px;">内部数据 · 请输入访问密码</p><input id="pwdInput" type="password" placeholder="访问密码" style="width:100%;padding:12px;border:1px solid #dbe3f0;border-radius:8px;font-size:16px;text-align:center;outline:none;margin-bottom:14px;"><button onclick="checkPwd()" style="width:100%;padding:12px;border:none;border-radius:8px;background:linear-gradient(135deg,#1e6fff,#3b82f6);color:white;font-size:15px;cursor:pointer;">进入看板</button><div id="pwdErr" style="color:#ef4444;font-size:12px;margin-top:10px;display:none;">密码错误，请重试</div></div></div><script>function checkPwd(){var v=document.getElementById('pwdInput').value;if(v==='erp2026'){document.getElementById('pwdGate').style.display='none';}else{document.getElementById('pwdErr').style.display='block';}}document.getElementById('pwdInput').addEventListener('keydown',function(e){if(e.key==='Enter'){checkPwd();}});</script>
 <div class="container">
 
 <div class="tabs">
@@ -127,6 +130,7 @@ td { color:#c8e2f4; }
     <button class="tab-btn" data-tab="scan">📦 员工扫描</button>
     <button class="tab-btn" data-tab="timely">⏰ 时效提醒</button>
     <button class="tab-btn" data-tab="stock">📋 仓库库存</button>
+    <button class="tab-btn" data-tab="cost">💰 件均成本</button>
 </div>
 
 <!-- Tab1 打印 -->
@@ -295,6 +299,58 @@ td { color:#c8e2f4; }
                 <tbody id="confirmTable"></tbody>
             </table>
         </div>
+    </div>
+</div>
+
+<!-- Tab5 件均人力成本 -->
+<div id="tab-cost" class="tab-page">
+    <div class="topbar" style="background:linear-gradient(135deg,#1a0e2e 0%,#2e1a5c 60%,#4a2f8a 100%);">
+        <div>
+            <h1>💰 件均人力成本</h1>
+            <div class="sub">出库量(P次数) ÷ 当日人力总成本 · 员工4000+500/26天 · 老板8000+2000/26天 · 加班17元/12元每小时(半小时取整)</div>
+        </div>
+        <div class="live"><div class="dot"></div><span id="costUpdateTime">加载中...</span></div>
+    </div>
+
+    <div class="kpis">
+        <div class="kpi" style="--c:#2affb2;"><div class="v" id="costOutQty">0</div><div class="l">今日出库量(P次数)</div></div>
+        <div class="kpi" style="--c:#5ce1ff;"><div class="v" id="costShipCount">0</div><div class="l">今日标记发货单数</div></div>
+        <div class="kpi" style="--c:#ffab40;"><div class="v" id="costTotal">0</div><div class="l">今日人力总成本(元)</div></div>
+        <div class="kpi" style="--c:#ff7ad9;"><div class="v" id="costAvg">0</div><div class="l">今日件均成本(元/件)</div></div>
+    </div>
+
+    <!-- 周度波动 -->
+    <div class="card row1">
+        <div class="card-t">📈 周度件均成本波动 <span class="tip">每周件均成本 = 周人力总成本 ÷ 周出库量</span></div>
+        <div id="weeklyChart" class="tw" style="overflow-x:auto;">
+            <svg id="weeklySvg" viewBox="0 0 1100 320" style="min-width:640px;width:100%;height:100%;"></svg>
+        </div>
+        <div id="weeklyTable" style="margin-top:10px;"></div>
+    </div>
+
+    <!-- 日度波动 -->
+    <div class="card row1">
+        <div class="card-t">📉 近14天日度件均波动 <span class="tip">柱=出库量(P次数) 线=件均成本(元)</span></div>
+        <div class="tw" style="overflow-x:auto;">
+            <svg id="dailySvg" viewBox="0 0 1100 320" style="min-width:640px;width:100%;height:100%;"></svg>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-t">📋 今日人力成本明细 <span class="tip">按考勤表 · 请假/休息/缺卡不计</span></div>
+        <div id="costStatus" style="margin-bottom:10px;font-size:13px;color:#ffcc4d;"></div>
+        <div class="tw"><table>
+            <thead><tr><th>员工</th><th>班次</th><th>考勤班次</th><th>下班时间</th><th>日薪(元)</th><th>加班(h)</th><th>加班费(元)</th><th>合计(元)</th><th>打卡结果</th></tr></thead>
+            <tbody id="costPersonsTable"><tr><td colspan="9" style="text-align:center;color:#6d8db0;">加载中...</td></tr></tbody>
+        </table></div>
+    </div>
+
+    <div class="card">
+        <div class="card-t">📦 今日标记发货明细 <span class="tip">单箱数量=详情页P次数 · 0表示该单单箱数量未填(回退申报量)</span></div>
+        <div class="tw"><table>
+            <thead><tr><th>货件号</th><th>仓库</th><th>标记时间</th><th>单箱数量</th></tr></thead>
+            <tbody id="costShipmentsTable"><tr><td colspan="4" style="text-align:center;color:#6d8db0;">加载中...</td></tr></tbody>
+        </table></div>
     </div>
 </div>
 
@@ -697,6 +753,141 @@ function renderTimelyTable(tbodyId, list, highlightDtb){
 }
 loadTimelyData();
 setInterval(loadTimelyData, 30000);
+
+/* ================= 件均人力成本 ================= */
+function fmtNum(n){ return (n===null||n===undefined||isNaN(n))?'—':Number(n).toLocaleString('zh-CN'); }
+function fmtMoney(n){ return (n===null||n===undefined||isNaN(n))?'—':Number(n).toFixed(2); }
+
+function costChart(svgId, labels, bars, line, opts){
+    opts = opts||{};
+    const svg = document.getElementById(svgId);
+    const W=1100, H=320, padL=56, padR=24, padT=36, padB=44;
+    const plotW=W-padL-padR, plotH=H-padT-padB;
+    const maxBar = Math.max(1, ...bars);
+    const maxLine = Math.max(0.0001, ...line.filter(v=>v!==null&&!isNaN(v)));
+    const n = labels.length;
+    const xOf = i => padL + plotW*(n===1?0.5:(i/(n-1)));
+    const yBar = v => padT + plotH - plotH*v/maxBar;
+    const yLine = v => padT + plotH - plotH*(v===null||isNaN(v)?0:v)/maxLine;
+    let s = '';
+    for(let i=0;i<=4;i++){
+        const y = padT + plotH*i/4;
+        const bv = Math.round(maxBar*(4-i)/4);
+        s += `<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="rgba(0,229,255,.12)"/>`;
+        s += `<text x="${padL-8}" y="${y+4}" text-anchor="end" font-size="10" fill="#6d8db0">${bv}</text>`;
+    }
+    // 右轴件均刻度
+    for(let i=0;i<=4;i++){
+        const y = padT + plotH*i/4;
+        const lv = (maxLine*(4-i)/4).toFixed(1);
+        s += `<text x="${W-padR+6}" y="${y+4}" font-size="10" fill="#ff7ad9">${lv}</text>`;
+    }
+    // 柱
+    const bw = Math.max(10, Math.min(40, plotW/n*0.55));
+    bars.forEach((v,i)=>{
+        const x = xOf(i)-bw/2, y = yBar(v);
+        s += `<rect x="${x}" y="${y}" width="${bw}" height="${padT+plotH-y}" rx="4" fill="${opts.barColor||'rgba(0,229,255,.5)'}"/>`;
+        s += `<text x="${x+bw/2}" y="${y-6}" text-anchor="middle" font-size="10" fill="#dff3ff">${fmtNum(v)}</text>`;
+    });
+    // 线
+    let path='', dots='', labelsSvg='';
+    line.forEach((v,i)=>{
+        if(v===null||isNaN(v)) return;
+        const x=xOf(i), y=yLine(v);
+        path += (path===''?'M':'L')+x+','+y+' ';
+        dots += `<circle cx="${x}" cy="${y}" r="4" fill="#0d1724" stroke="#ff7ad9" stroke-width="2"/>`;
+        labelsSvg += `<text x="${x}" y="${y-10}" text-anchor="middle" font-size="10" font-weight="600" fill="#ff7ad9">${fmtMoney(v)}</text>`;
+    });
+    if(path){ s += `<path d="${path}" fill="none" stroke="#ff7ad9" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`+dots+labelsSvg; }
+    // x 轴标签
+    labels.forEach((lb,i)=>{
+        s += `<text x="${xOf(i)}" y="${H-padB+18}" text-anchor="middle" font-size="11" fill="#8fb2d4">${lb}</text>`;
+    });
+    s += `<text x="${padL}" y="18" font-size="11" fill="#5ce1ff">出库量(P次数)</text>`;
+    s += `<text x="${W-padR-4}" y="18" font-size="11" fill="#ff7ad9" text-anchor="end">件均(元)</text>`;
+    svg.innerHTML = s;
+}
+
+async function loadCostData(){
+    try{
+        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/cost_data.json?t='+Date.now());
+        const d = await res.json();
+        document.getElementById('costUpdateTime').textContent = '实时 · '+(d.update_time||'--');
+        document.getElementById('costOutQty').textContent = fmtNum(d.today_out_qty);
+        document.getElementById('costShipCount').textContent = fmtNum(d.today_out_count);
+        document.getElementById('costTotal').textContent = fmtMoney(d.today_cost);
+        document.getElementById('costAvg').textContent = fmtMoney(d.today_avg);
+
+        // 状态提示
+        const status = [];
+        if(d.cost_error) status.push('⚠ '+d.cost_error);
+        if(d.skipped_no_roster && d.skipped_no_roster.length) status.push('未配置班次名单: '+d.skipped_no_roster.join('、'));
+        if(d.today_cost===0 && !d.cost_error) status.push('今日成本为0，可能考勤数据未录入或名单未配置');
+        document.getElementById('costStatus').textContent = status.join('　')||'';
+
+        // 周度
+        const weeks = (d.weekly||[]).slice().reverse();
+        if(weeks.length){
+            costChart('weeklySvg', weeks.map(w=>w.week_start.slice(5).replace('-','/')), weeks.map(w=>w.out_qty), weeks.map(w=>w.avg), {barColor:'rgba(255,171,64,.5)'});
+            let wh='<div class="tw"><table><thead><tr><th>周(周一)</th><th>出库量</th><th>人力成本(元)</th><th>件均(元/件)</th></tr></thead><tbody>';
+            weeks.forEach(w=>{
+                wh += `<tr><td>${w.week_start}</td><td style="font-weight:600;color:#ffab40;">${fmtNum(w.out_qty)}</td><td>${fmtMoney(w.cost)}</td><td style="font-weight:700;color:#ff7ad9;">${fmtMoney(w.avg)}</td></tr>`;
+            });
+            document.getElementById('weeklyTable').innerHTML = wh+'</tbody></table></div>';
+        } else {
+            document.getElementById('weeklySvg').innerHTML = '<text x="550" y="160" text-anchor="middle" fill="#6d8db0">暂无周度数据</text>';
+            document.getElementById('weeklyTable').innerHTML='';
+        }
+
+        // 日度近14天
+        const daily = d.daily||{};
+        const days = Object.keys(daily).sort().slice(-14);
+        if(days.length){
+            costChart('dailySvg', days.map(x=>x.slice(5).replace('-','/')),
+                days.map(x=>daily[x].out_qty||0),
+                days.map(x=>daily[x].avg),
+                {barColor:'rgba(0,229,255,.5)'});
+        } else {
+            document.getElementById('dailySvg').innerHTML = '<text x="550" y="160" text-anchor="middle" fill="#6d8db0">暂无日度数据</text>';
+        }
+
+        // 人员明细
+        const persons = d.persons||[];
+        if(persons.length){
+            let html='';
+            persons.forEach(p=>{
+                html += `<tr>
+                    <td style="font-weight:600;color:#dff3ff;">${p.name}</td>
+                    <td><span class="tag" style="background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${p.shift==='BOSS'?'#ffab40':'#5ce1ff'};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
+                    <td style="color:#8fb2d4;font-size:12px;">${p.shift_actual||''}</td>
+                    <td>${p.leave}</td>
+                    <td>${fmtMoney(p.daily)}</td>
+                    <td style="color:#8fb2d4;">${p.ot_hours||0}h</td>
+                    <td>${fmtMoney(p.ot_pay)}</td>
+                    <td style="font-weight:700;color:#2affb2;">${fmtMoney(p.total)}</td>
+                    <td style="color:#8fb2d4;font-size:12px;">${p.result||''}</td></tr>`;
+            });
+            document.getElementById('costPersonsTable').innerHTML = html;
+        } else {
+            document.getElementById('costPersonsTable').innerHTML = '<tr><td colspan="9" style="text-align:center;color:#6d8db0;">今日暂无人员成本数据（等待考勤录入或名单配置）</td></tr>';
+        }
+
+        // 货件明细
+        const ships = d.shipments_today||[];
+        if(ships.length){
+            let html='';
+            ships.forEach(s=>{
+                const pc = s.per_box>0 ? 'font-weight:700;color:#2affb2;' : 'color:#ff5d73;';
+                html += `<tr><td style="font-weight:600;color:#5ce1ff;">${s.code}</td><td style="color:#8fb2d4;font-size:12px;">${(s.warehouse||'').replace('FBA中转仓-','')}</td><td style="color:#8fb2d4;">${s.mark_time}</td><td style="${pc}">${fmtNum(s.per_box)}</td></tr>`;
+            });
+            document.getElementById('costShipmentsTable').innerHTML = html;
+        } else {
+            document.getElementById('costShipmentsTable').innerHTML = '<tr><td colspan="4" style="text-align:center;color:#6d8db0;">今日暂无标记发货</td></tr>';
+        }
+    }catch(e){ console.log(e); document.getElementById('costUpdateTime').textContent='加载失败'; }
+}
+loadCostData();
+setInterval(loadCostData, 60000);
 </script>
 </body>
 </html>
