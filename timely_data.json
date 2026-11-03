@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-03 19:24:05",
+  "update_time": "2026-11-03 19:25:59",
   "pack3": {
-    "total": 25,
+    "total": 24,
     "over24": 2,
     "over48": 0,
     "max_hours": 24.3,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 24.1,
+        "hours": 24.2,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-03 16:28:45",
-        "hours": 2.9,
+        "hours": 3.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -162,19 +162,6 @@
         "hours": 0.7,
         "owner": "杨雨薇",
         "transport": "卡航英国"
-      },
-      {
-        "code": "HWC261103008",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-5",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 9,
-        "pack_time": "2026-11-03 18:51:27",
-        "hours": 0.5,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
       },
       {
         "code": "HWC261103020",
@@ -281,6 +268,19 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA261103025",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0695",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-03 19:21:55",
+        "hours": 0.1,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA15MTL7L5S",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -302,19 +302,6 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-03 19:23:23",
-        "hours": 0.0,
-        "owner": "杨雨薇",
-        "transport": "海运英国"
-      },
-      {
-        "code": "FBA261103025",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0695",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-03 19:21:55",
         "hours": 0.0,
         "owner": "杨雨薇",
         "transport": "海运英国"
