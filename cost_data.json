@@ -1,10 +1,10 @@
 {
- "update_time": "2026-11-03 13:49:33",
+ "update_time": "2026-11-03 13:50:32",
  "today": "2026-11-03",
- "today_out_qty": 1885,
- "today_out_count": 19,
+ "today_out_qty": 0,
+ "today_out_count": 0,
  "today_cost": 1298.02,
- "today_avg": 0.69,
+ "today_avg": null,
  "persons": [
   {
    "name": "詹坤林",
@@ -116,10 +116,10 @@
    "has_hidden_cost": true
   },
   "2026-11-03": {
-   "out_qty": 1885,
-   "out_count": 19,
+   "out_qty": 0,
+   "out_count": 0,
    "cost": 1298.02,
-   "avg": 0.69,
+   "avg": null,
    "skipped_no_roster": [],
    "cost_error": "当天考勤 sheet 未找到（11.3）（暂按基础日薪预估，考勤更新后自动修正）",
    "estimated": true,
@@ -130,125 +130,10 @@
  "weekly": [
   {
    "week_start": "2026-11-02",
-   "out_qty": 2235,
+   "out_qty": 350,
    "cost": 2722.04,
-   "avg": 1.22
+   "avg": 7.78
   }
  ],
- "shipments_today": [
-  {
-   "code": "HWC261102106",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 13:45:18",
-   "per_box": 3
-  },
-  {
-   "code": "HWC261102105",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 13:45:26",
-   "per_box": 12
-  },
-  {
-   "code": "HWC261102101",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 13:28:49",
-   "per_box": 4
-  },
-  {
-   "code": "HWC261102100",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 13:34:13",
-   "per_box": 64
-  },
-  {
-   "code": "HWC261102099",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 13:17:45",
-   "per_box": 5
-  },
-  {
-   "code": "HWC261102098",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 13:36:51",
-   "per_box": 147
-  },
-  {
-   "code": "HWC261102097",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 13:40:57",
-   "per_box": 279
-  },
-  {
-   "code": "HWC261102096",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 11:58:48",
-   "per_box": 129
-  },
-  {
-   "code": "HWC261102095",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 13:01:32",
-   "per_box": 223
-  },
-  {
-   "code": "HWC261102093",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 11:58:19",
-   "per_box": 71
-  },
-  {
-   "code": "HWC261102092",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 11:40:48",
-   "per_box": 122
-  },
-  {
-   "code": "HWC261102091",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 11:21:50",
-   "per_box": 54
-  },
-  {
-   "code": "HWC261102089",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 10:47:30",
-   "per_box": 55
-  },
-  {
-   "code": "HWC261102088",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 10:48:03",
-   "per_box": 64
-  },
-  {
-   "code": "HWC261102087",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 11:16:35",
-   "per_box": 69
-  },
-  {
-   "code": "HWC261102085",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 10:22:09",
-   "per_box": 84
-  },
-  {
-   "code": "HWC261102084",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 10:13:35",
-   "per_box": 55
-  },
-  {
-   "code": "HWC261102082",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 10:10:01",
-   "per_box": 293
-  },
-  {
-   "code": "HWC261102080",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 10:15:02",
-   "per_box": 152
-  }
- ]
+ "shipments_today": []
 }
