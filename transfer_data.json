@@ -1,8 +1,41 @@
 {
-  "update_time": "2026-11-03 20:08:33",
-  "total_dup_spaces": 0,
-  "total_boxes": 0,
-  "max_dup": 0,
-  "space_count": 0,
-  "list": []
+  "update_time": "2026-11-03 20:09:33",
+  "total_dup_spaces": 1,
+  "total_boxes": 4,
+  "max_dup": 2,
+  "space_count": 1,
+  "list": [
+    {
+      "space": "FH-3-71",
+      "count": 2,
+      "total_boxes": 4,
+      "codes": [
+        "HWC261030073",
+        "HWC261030073"
+      ],
+      "transports": [
+        "WALMART"
+      ],
+      "items": [
+        {
+          "code": "HWC261030073",
+          "platform": "WALMART",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "FH-3-71",
+          "err_msg": "",
+          "box_total": 2,
+          "creater": "郭星媛"
+        },
+        {
+          "code": "HWC261030073",
+          "platform": "WALMART",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "FH-3-71",
+          "err_msg": "",
+          "box_total": 2,
+          "creater": "郭星媛"
+        }
+      ]
+    }
+  ]
 }
