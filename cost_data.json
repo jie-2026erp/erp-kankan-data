@@ -1,8 +1,8 @@
 {
- "update_time": "2026-11-03 10:52:30",
+ "update_time": "2026-11-03 10:54:06",
  "today": "2026-11-03",
- "today_out_qty": 633,
- "today_out_count": 24,
+ "today_out_qty": 597,
+ "today_out_count": 23,
  "today_cost": 0,
  "today_avg": 0.0,
  "persons": [],
@@ -12,12 +12,43 @@
   "2026-11-02": {
    "out_qty": 350,
    "out_count": 12,
-   "cost": null,
-   "avg": null
+   "cost": 1376.02,
+   "avg": 3.93,
+   "persons_count": 6,
+   "cost_error": null,
+   "skipped_no_roster": [
+    "马运宏",
+    "高杨",
+    "邱滔",
+    "温来宝",
+    "何恒",
+    "李群山",
+    "宋德讲",
+    "谭德波",
+    "汪金锋",
+    "徐刚",
+    "赵前望",
+    "何建",
+    "田号",
+    "曾辉",
+    "傅超前",
+    "陈佳勤",
+    "吕兴科",
+    "方万鑫",
+    "甘成隆",
+    "高亮",
+    "王丽",
+    "吴盈",
+    "杨华富",
+    "李雪静",
+    "胡景文",
+    "梁少伟",
+    "张国杰"
+   ]
   },
   "2026-11-03": {
-   "out_qty": 633,
-   "out_count": 24,
+   "out_qty": 597,
+   "out_count": 23,
    "cost": 0,
    "avg": 0.0,
    "skipped_no_roster": [],
@@ -28,9 +59,9 @@
  "weekly": [
   {
    "week_start": "2026-11-02",
-   "out_qty": 983,
-   "cost": 0.0,
-   "avg": 0.0
+   "out_qty": 947,
+   "cost": 1376.02,
+   "avg": 1.45
   }
  ],
  "shipments_today": [
@@ -153,12 +184,6 @@
    "warehouse": "FBA中转仓-金华2仓",
    "mark_time": "2026-11-03 09:04:13",
    "per_box": 32
-  },
-  {
-   "code": "FBA261102094",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 09:03:14",
-   "per_box": 36
   },
   {
    "code": "FBA261102093",
