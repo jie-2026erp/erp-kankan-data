@@ -65,10 +65,10 @@ body {
 .kpi {
     background:#ffffff; border-radius:8px; padding:20px;
     border:1px solid #e9ecef;
-    border-left:3px solid var(--c,#0d6efd);
+    border-left:4px solid var(--c,#0d6efd);
 }
-.kpi .v { font-size:32px; font-weight:700; color:#212529; font-variant-numeric:tabular-nums; line-height:1.2; }
-.kpi .l { font-size:13px; color:#6c757d; margin-top:6px; }
+.kpi .v { font-size:32px; font-weight:700; color:var(--c,#0d6efd); font-variant-numeric:tabular-nums; line-height:1.2; }
+.kpi .l { font-size:13px; color:#495057; margin-top:6px; }
 
 /* 卡片 */
 .card {
@@ -233,13 +233,13 @@ td { color:#212529; }
 
 <!-- Tab4 仓库库存 -->
 <div id="tab-stock" class="tab-page">
-    <div class="topbar">
+    <div class="topbar" style="background:#0d6efd;border-color:#0d6efd;">
         <div>
-            <h1 style="color:#212529;">📋 仓库库存详情</h1>
-            <div class="sub">FBA中转仓-金华 / 金华2仓 · 各环节待处理箱数</div>
-            <div style="color:#212529;font-size:14px;font-weight:600;margin-top:8px;">📊 三环节合计库存：<span id="stockTotal" style="font-size:20px;font-weight:700;">-</span> 箱 <span id="stockTotalCount" style="font-size:12px;font-weight:400;color:#6c757d;"></span></div>
+            <h1 style="color:#fff;">📋 仓库库存详情</h1>
+            <div class="sub" style="color:rgba(255,255,255,.85);">FBA中转仓-金华 / 金华2仓 · 各环节待处理箱数</div>
+            <div style="color:#fff;font-size:14px;font-weight:600;margin-top:8px;">📊 三环节合计库存：<span id="stockTotal" style="font-size:20px;font-weight:700;">-</span> 箱 <span id="stockTotalCount" style="font-size:12px;font-weight:400;color:rgba(255,255,255,.8);"></span></div>
         </div>
-        <div class="live"><div class="dot"></div><span id="stockUpdateTime">加载中...</span></div>
+        <div class="live" style="background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.3);color:#fff;"><div class="dot" style="background:#fff;"></div><span id="stockUpdateTime">加载中...</span></div>
     </div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:16px;">
         <div class="kpi" style="--c:#5ce1ff;">
@@ -286,14 +286,14 @@ td { color:#212529; }
 
 <!-- Tab5 件均人力成本 -->
 <div id="tab-cost" class="tab-page">
-    <div class="topbar">
+    <div class="topbar" style="background:#6f42c1;border-color:#6f42c1;">
         <div>
-            <h1 style="color:#212529;">💰 件均人力成本</h1>
-            <div class="sub">出库量(P次数) ÷ 当日人力总成本 · 员工4000+500按26天折算 · 加班17元/小时(半小时取整) · 含管理岗人力成本（明细保密）</div>
+            <h1 style="color:#fff;">💰 件均人力成本</h1>
+            <div class="sub" style="color:rgba(255,255,255,.85);">出库量(P次数) ÷ 当日人力总成本 · 员工4000+500按26天折算 · 加班17元/小时(半小时取整) · 含管理岗人力成本（明细保密）</div>
         </div>
-        <div class="live">
-        <div class="dot"></div><span id="costUpdateTime">加载中...</span>
-        <button id="btnEditCost" onclick="openCostEditor()" style="margin-left:10px;padding:5px 14px;border-radius:6px;border:1px solid #dee2e6;background:#f8f9fa;color:#495057;font-size:12px;cursor:pointer;font-weight:500;">✏️ 编辑数据</button>
+        <div class="live" style="background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.3);color:#fff;">
+        <div class="dot" style="background:#fff;"></div><span id="costUpdateTime">加载中...</span>
+        <button id="btnEditCost" onclick="openCostEditor()" style="margin-left:10px;padding:5px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#fff;font-size:12px;cursor:pointer;font-weight:500;">✏️ 编辑数据</button>
     </div>
     </div>
 
@@ -428,7 +428,7 @@ async function loadStock(){
         let html = '';
         lst.forEach(it=>{
             html += `<tr style="border-bottom:1px solid rgba(148,190,220,.12);">
-                <td style="padding:10px;color:#5ce1ff;font-weight:600;">${it.code}</td>
+                <td style="padding:10px;color:#0d6efd;font-weight:600;">${it.code}</td>
                 <td style="padding:10px;color:#8fb2d4;">${it.space||'-'}</td>
                 <td style="padding:10px;">${it.creater||'-'}</td>
                 <td style="padding:10px;text-align:right;font-weight:600;color:#2affb2;">${it.boxes}</td>
@@ -443,12 +443,12 @@ loadStock();
 
 <!-- Tab3 时效提醒 -->
 <div id="tab-timely" class="tab-page">
-    <div class="topbar">
+    <div class="topbar" style="background:#dc3545;border-color:#dc3545;">
         <div>
-            <h1 style="color:#212529;">⏰ 时效提醒</h1>
-            <div class="sub">FBA中转仓-金华 / 金华2仓 · 等待进入下一环节的货件</div>
+            <h1 style="color:#fff;">⏰ 时效提醒</h1>
+            <div class="sub" style="color:rgba(255,255,255,.85);">FBA中转仓-金华 / 金华2仓 · 等待进入下一环节的货件</div>
         </div>
-        <div class="live"><div class="dot"></div><span id="timelyUpdateTime">加载中...</span></div>
+        <div class="live" style="background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.3);color:#fff;"><div class="dot" style="background:#fff;"></div><span id="timelyUpdateTime">加载中...</span></div>
     </div>
 
     <!-- 上传装箱信息 -->
