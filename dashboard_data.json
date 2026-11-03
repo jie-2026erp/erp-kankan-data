@@ -1,6 +1,6 @@
 {
-  "total": 48,
-  "success": 48,
+  "total": 49,
+  "success": 49,
   "fail": 0,
   "rate": 100,
   "fail_logs": [],
@@ -388,6 +388,14 @@
       "页码范围": "11-13页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-03 17:39:55",
+      "文件名": "FBA15MSNGCCK FBA15MSYW5X4.pdf",
+      "货件号": "FBA15MSNGCCK",
+      "页码范围": "1-6页",
+      "状态": "成功",
+      "备注": ""
     }
   ],
   "shipment_stats": {
@@ -582,7 +590,11 @@
     "FBA15MT1BMRY": {
       "success": 1,
       "fail": 0
+    },
+    "FBA15MSNGCCK": {
+      "success": 1,
+      "fail": 0
     }
   },
-  "update_time": "2026-11-03 17:39:29"
+  "update_time": "2026-11-03 17:40:29"
 }
