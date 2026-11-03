@@ -1,36 +1,68 @@
 {
-  "update_time": "2026-11-03 19:53:33",
-  "total_dup_spaces": 1,
-  "total_boxes": 10,
+  "update_time": "2026-11-03 19:54:33",
+  "total_dup_spaces": 2,
+  "total_boxes": 18,
   "max_dup": 2,
-  "space_count": 1,
+  "space_count": 2,
   "list": [
     {
-      "space": "FH-12-69",
+      "space": "FH-8-65",
+      "count": 2,
+      "total_boxes": 8,
+      "codes": [
+        "FBA15MTBGZGS",
+        "FBA15MTBGZGS"
+      ],
+      "transports": [
+        "FBA"
+      ],
+      "items": [
+        {
+          "code": "FBA15MTBGZGS",
+          "platform": "FBA",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "FH-8-65",
+          "err_msg": "",
+          "box_total": 4,
+          "creater": "时惠"
+        },
+        {
+          "code": "FBA15MTBGZGS",
+          "platform": "FBA",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "FH-8-65",
+          "err_msg": "",
+          "box_total": 4,
+          "creater": "时惠"
+        }
+      ]
+    },
+    {
+      "space": "FH-9-19",
       "count": 2,
       "total_boxes": 10,
       "codes": [
-        "HWC261027023",
-        "HWC261027023"
+        "HWC261027041",
+        "HWC261027041"
       ],
       "transports": [
         "CHUKOUYI"
       ],
       "items": [
         {
-          "code": "HWC261027023",
+          "code": "HWC261027041",
           "platform": "CHUKOUYI",
           "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-12-69",
+          "space": "FH-9-19",
           "err_msg": "",
           "box_total": 5,
           "creater": "丁胜玥"
         },
         {
-          "code": "HWC261027023",
+          "code": "HWC261027041",
           "platform": "CHUKOUYI",
           "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-12-69",
+          "space": "FH-9-19",
           "err_msg": "",
           "box_total": 5,
           "creater": "丁胜玥"
