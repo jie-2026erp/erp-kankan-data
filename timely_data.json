@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-03 14:09:23",
+  "update_time": "2026-11-03 14:10:24",
   "pack3": {
-    "total": 21,
+    "total": 20,
     "over24": 0,
     "over48": 0,
     "max_hours": 20.5,
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-02 19:55:15",
-        "hours": 18.2,
+        "hours": 18.3,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-03 09:00:58",
-        "hours": 5.1,
+        "hours": 5.2,
         "owner": "文欣",
         "transport": "慢船海派（美西）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "There's an input error with the resource 'sh94934828-6c59-44ca-a3d7-b12017359260'.-ERROR: Invalid transportation option ID that either does not belong to provided shipment ID or is not AVAILABLE was passed in. [RESOURCE_ID: sh94934828-6c59-44ca-a3d7-b12017359260, RESOURCE_TYPE: SHIPMENT]",
         "box_total": 32,
         "pack_time": "2026-11-03 10:36:55",
-        "hours": 3.5,
+        "hours": 3.6,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -143,10 +143,10 @@
         "warehouse": "FBA中转仓-金华2仓",
         "space": "FH-14-47,FH-14-53,FH-15-30,FH-15-26,FH-15-28,FH-14-45",
         "is_dtb": false,
-        "err_msg": "",
+        "err_msg": "There's an input error with the resource 'YH-WF-M8W1-pink'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'YH-WF-M8W1-grey'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'YH-WF-M8W1-black'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 85,
         "pack_time": "2026-11-03 13:30:59",
-        "hours": 0.6,
+        "hours": 0.7,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -162,19 +162,6 @@
         "hours": 0.6,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "HWC261102090",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-3-62",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-03 13:48:11",
-        "hours": 0.4,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
       },
       {
         "code": "HWC261102081",
@@ -258,7 +245,7 @@
         "code": "FBA15MTHV14V",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0772",
+        "space": "FH-3-60",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 7,
@@ -271,7 +258,7 @@
         "code": "FBA15MTJD8B6",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0772",
+        "space": "FH-3-60",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 4,
