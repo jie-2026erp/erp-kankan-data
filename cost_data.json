@@ -1,10 +1,10 @@
 {
- "update_time": "2026-11-03 13:40:21",
+ "update_time": "2026-11-03 13:41:16",
  "today": "2026-11-03",
- "today_out_qty": 1617,
+ "today_out_qty": 1870,
  "today_out_count": 17,
  "today_cost": 1298.02,
- "today_avg": 0.8,
+ "today_avg": 0.69,
  "persons": [
   {
    "name": "詹坤林",
@@ -116,10 +116,10 @@
    "has_hidden_cost": true
   },
   "2026-11-03": {
-   "out_qty": 1617,
+   "out_qty": 1870,
    "out_count": 17,
    "cost": 1298.02,
-   "avg": 0.8,
+   "avg": 0.69,
    "skipped_no_roster": [],
    "cost_error": "当天考勤 sheet 未找到（11.3）（暂按基础日薪预估，考勤更新后自动修正）",
    "estimated": true,
@@ -130,9 +130,9 @@
  "weekly": [
   {
    "week_start": "2026-11-02",
-   "out_qty": 1967,
+   "out_qty": 2220,
    "cost": 2722.04,
-   "avg": 1.38
+   "avg": 1.23
   }
  ],
  "shipments_today": [
@@ -159,6 +159,12 @@
    "warehouse": "FBA中转仓-金华2仓",
    "mark_time": "2026-11-03 13:36:51",
    "per_box": 147
+  },
+  {
+   "code": "HWC261102097",
+   "warehouse": "FBA中转仓-金华2仓",
+   "mark_time": "2026-11-03 13:40:57",
+   "per_box": 279
   },
   {
    "code": "HWC261102096",
@@ -207,12 +213,6 @@
    "warehouse": "FBA中转仓-金华2仓",
    "mark_time": "2026-11-03 11:16:35",
    "per_box": 69
-  },
-  {
-   "code": "HWC261102086",
-   "warehouse": "FBA中转仓-金华2仓",
-   "mark_time": "2026-11-03 11:01:35",
-   "per_box": 26
   },
   {
    "code": "HWC261102085",
