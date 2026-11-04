@@ -1,10 +1,10 @@
 {
-  "update_time": "2026/11/4 11:38:48",
+  "update_time": "2026/11/4 11:39:18",
   "today": "2026-11-03",
-  "today_out_qty": 8847,
+  "today_out_qty": 8522,
   "today_out_count": 198,
-  "today_cost": 1484.52,
-  "today_avg": 0.17,
+  "today_cost": 1298.02,
+  "today_avg": 0.15,
   "persons": [
     {
       "name": "詹坤林",
@@ -218,8 +218,8 @@
     "2026-11-02": {
       "out_qty": 1416,
       "out_count": 12,
-      "cost": 1298.02,
-      "avg": 0.92,
+      "cost": 1424.02,
+      "avg": 1.01,
       "persons_count": 5,
       "cost_error": null,
       "skipped_no_roster": [
@@ -253,32 +253,24 @@
       ],
       "has_hidden_cost": true,
       "off_times": {
-        "詹坤林": "17:30",
-        "汪宗标": "19:30",
-        "叶帆": "19:30",
-        "赵忠军": "19:30",
-        "朱文亮": "19:30",
-        "王梦吉": "17:00"
+        "詹坤林": "17:01",
+        "汪宗标": "20:30",
+        "叶帆": "13:30",
+        "赵忠军": "22:00",
+        "朱文亮": "22:00",
+        "王梦吉": "19:01"
       }
     },
     "2026-11-03": {
       "out_qty": 8847,
       "out_count": 198,
-      "cost": 1484.52,
-      "avg": 0.17,
+      "cost": 1298.02,
+      "avg": 0.15,
       "skipped_no_roster": [],
       "cost_error": "当天考勤 sheet 未找到（11.3）（暂按基础日薪预估，考勤更新后自动修正）",
       "estimated": true,
       "persons_count": 5,
-      "has_hidden_cost": true,
-      "off_times": {
-        "詹坤林": "20:00",
-        "汪宗标": "20:34",
-        "叶帆": "20:34",
-        "赵忠军": "21:30",
-        "朱文亮": "21:30",
-        "王梦吉": "20:42"
-      }
+      "has_hidden_cost": true
     }
   },
   "weekly": [
