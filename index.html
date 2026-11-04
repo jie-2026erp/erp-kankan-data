@@ -1204,11 +1204,19 @@ function selectEditDate(key){
     const totShow = isBoss ? '***' : '';
     const otShow = isBoss ? '***' : '0h';
     const otpShow = isBoss ? '***' : '0.00';
+    const isRest = offTimes[p.name+'_rest'] === true; // 休息标记
+    const restBtnBg = isRest ? 'rgba(255,93,115,.2)' : 'rgba(0,229,255,.1)';
+    const restBtnColor = isRest ? '#ff5d73' : '#71717a';
     html += `<tr style="border-bottom:1px solid rgba(148,190,220,.1);">
       <td style="padding:8px;font-weight:600;color:${isBoss?'#ffab40':'#dff3ff'};">${nameShow}</td>
       <td style="padding:8px;"><span style="font-size:12px;padding:2px 8px;border-radius:8px;background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${badgeColor};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
       <td style="padding:8px;text-align:center;color:#71717a;font-size:12px;">${p.stdOff}</td>
-      <td style="padding:8px;text-align:center;"><input type="time" data-name="${p.name}" value="${saved}" step="1800" style="width:80px;padding:4px 6px;background:rgba(255,122,217,.08);border:1px solid rgba(255,122,217,.25);border-radius:4px;color:#ff7ad9;font-size:13px;text-align:center;" oninput="recalcCost()"></td>
+      <td style="padding:8px;text-align:center;">
+        <div style="display:flex;align-items:center;justify-content:center;gap:4px;">
+          <input type="time" data-name="${p.name}" value="${saved}" step="1800" style="width:80px;padding:4px 6px;background:rgba(255,122,217,.08);border:1px solid rgba(255,122,217,.25);border-radius:4px;color:#ff7ad9;font-size:13px;text-align:center;" oninput="recalcCost()" ${isRest?'disabled style="opacity:.4;"':''}>
+          <button onclick="toggleRest('${p.name}')" style="padding:3px 8px;font-size:11px;border-radius:6px;border:1px solid ${isRest?'rgba(255,93,115,.3)':'rgba(148,190,220,.2)'};background:${restBtnBg};color:${restBtnColor};cursor:pointer;font-weight:600;">休</button>
+        </div>
+      </td>
       <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="ot_${p.name}">${otShow}</td>
       <td style="padding:8px;text-align:right;color:#ffcc4d;font-size:13px;" id="otp_${p.name}">${otpShow}</td>
       <td style="padding:8px;text-align:right;color:#71717a;font-size:13px;">${payShow}</td>
@@ -1219,27 +1227,42 @@ function selectEditDate(key){
   recalcCost();
 }
 
+function toggleRest(name){
+  if(!_curEditDate) return;
+  const d = _costDataCache;
+  const rec = (d.daily||{})[_curEditDate] || {};
+  const offTimes = rec.off_times = rec.off_times || {};
+  offTimes[name+'_rest'] = !offTimes[name+'_rest'];
+  selectEditDate(_curEditDate); // 重新渲染
+}
+
 function recalcCost(){
   if(!_curEditDate) return;
   let totalCost = 0;
+  const d = _costDataCache;
+  const rec = (d.daily||{})[_curEditDate] || {};
+  const offTimes = rec.off_times || {};
   ROSTER.forEach(p=>{
+    const isRest = offTimes[p.name+'_rest'] === true;
     const inp = document.querySelector(`#edPersonsBody input[data-name="${p.name}"]`);
     const actualStr = inp ? inp.value : p.stdOff;
     const actualMin = strToMin(actualStr);
-    let otMin = 0, otH = 0, otPay = 0;
-    if(actualMin != null && actualMin > p.stdOffMin){
+    let otMin = 0, otH = 0, otPay = 0, basePay = p.dailyBase + MEAL;
+    if(isRest){
+      basePay = 0; // 休息不算薪资
+    } else if(actualMin != null && actualMin > p.stdOffMin){
       otMin = actualMin - p.stdOffMin;
       otMin = Math.floor(otMin/30)*30; // 半小时取整
       otH = otMin/60;
       otPay = otH * p.otRate;
     }
-    const personTotal = p.dailyBase + MEAL + otPay;
+    const personTotal = basePay + otPay;
     totalCost += personTotal;
     // BOSS行金额保密不显示
     if(p.shift !== 'BOSS'){
-      document.getElementById('ot_'+p.name).textContent = otH.toFixed(1)+'h';
-      document.getElementById('otp_'+p.name).textContent = otPay.toFixed(2);
-      document.getElementById('tot_'+p.name).textContent = personTotal.toFixed(2);
+      document.getElementById('ot_'+p.name).textContent = isRest ? '休' : otH.toFixed(1)+'h';
+      document.getElementById('otp_'+p.name).textContent = isRest ? '休' : otPay.toFixed(2);
+      document.getElementById('tot_'+p.name).textContent = isRest ? '0.00' : personTotal.toFixed(2);
     }
   });
   const oq = parseFloat(document.getElementById('edOutQty').value)||0;
