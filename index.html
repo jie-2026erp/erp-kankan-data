@@ -1094,7 +1094,7 @@ async function loadCostData(){
             let html='';
             persons.forEach(p=>{
                 html += `<tr>
-                    <td style="font-weight:600;color:#dff3ff;">${p.name}</td>
+                    <td style="font-weight:700;color:#0a0a0a;">${p.name}</td>
                     <td><span class="tag" style="background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${p.shift==='BOSS'?'#ffab40':'#0a0a0a'};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
                     <td style="color:#71717a;font-size:12px;">${p.shift_actual||''}</td>
                     <td>${p.leave}</td>
@@ -1208,7 +1208,7 @@ function selectEditDate(key){
     const restBtnBg = isRest ? 'rgba(255,93,115,.2)' : 'rgba(0,229,255,.1)';
     const restBtnColor = isRest ? '#ff5d73' : '#71717a';
     html += `<tr style="border-bottom:1px solid rgba(148,190,220,.1);">
-      <td style="padding:8px;font-weight:600;color:${isBoss?'#ffab40':'#dff3ff'};">${nameShow}</td>
+      <td style="padding:8px;font-weight:700;color:${isBoss?'#ffab40':'#0a0a0a'};">${nameShow}</td>
       <td style="padding:8px;"><span style="font-size:12px;padding:2px 8px;border-radius:8px;background:${p.shift==='BOSS'?'rgba(255,171,64,.14)':'rgba(0,229,255,.12)'};color:${badgeColor};">${p.shift==='BOSS'?'老板':'班次'+p.shift}</span></td>
       <td style="padding:8px;text-align:center;color:#71717a;font-size:12px;">${p.stdOff}</td>
       <td style="padding:8px;text-align:center;">
