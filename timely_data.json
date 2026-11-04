@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 20:38:29",
+  "update_time": "2026-11-04 20:40:35",
   "pack3": {
     "total": 16,
     "over24": 0,
@@ -99,6 +99,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MTZ1DB9",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1988,JH11-1989",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 25,
+        "pack_time": "2026-11-04 19:48:53",
+        "hours": 0.9,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MTZ08K7",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -108,19 +121,6 @@
         "box_total": 12,
         "pack_time": "2026-11-04 19:47:18",
         "hours": 0.9,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MTZ1DB9",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-114",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 25,
-        "pack_time": "2026-11-04 19:48:53",
-        "hours": 0.8,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -177,6 +177,19 @@
         "transport": "卡航英国"
       },
       {
+        "code": "FBA15MTZHMZX",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1978,JH11-1976",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 27,
+        "pack_time": "2026-11-04 20:30:10",
+        "hours": 0.2,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "HWC261103064",
         "platform": "LOUISTONE",
         "warehouse": "FBA中转仓-金华2仓",
@@ -201,19 +214,6 @@
         "hours": 0.1,
         "owner": "金盼",
         "transport": "海运英国卡派"
-      },
-      {
-        "code": "FBA15MTZHMZX",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1978,JH11-1976",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 27,
-        "pack_time": "2026-11-04 20:30:10",
-        "hours": 0.1,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
       }
     ]
   },
