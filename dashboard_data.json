@@ -1,10 +1,36 @@
 {
-  "total": 0,
-  "success": 0,
+  "total": 2,
+  "success": 2,
   "fail": 0,
-  "rate": 0,
+  "rate": 100,
   "fail_logs": [],
-  "all_logs": [],
-  "shipment_stats": {},
-  "update_time": "2026-11-04 14:28:31"
+  "all_logs": [
+    {
+      "时间": "2026-11-04 14:28:31",
+      "文件名": "FBA19VW72Y00.pdf",
+      "货件号": "FBA19VW72Y00",
+      "页码范围": "1-2页",
+      "状态": "成功",
+      "备注": ""
+    },
+    {
+      "时间": "2026-11-04 14:28:55",
+      "文件名": "FBA19VYN9V4W.pdf",
+      "货件号": "FBA19VYN9V4W",
+      "页码范围": "1-2页",
+      "状态": "成功",
+      "备注": ""
+    }
+  ],
+  "shipment_stats": {
+    "FBA19VW72Y00": {
+      "success": 1,
+      "fail": 0
+    },
+    "FBA19VYN9V4W": {
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "update_time": "2026-11-04 14:29:31"
 }
