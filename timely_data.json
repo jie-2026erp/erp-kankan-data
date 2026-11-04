@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 11:30:17",
+  "update_time": "2026-11-04 11:32:17",
   "pack3": {
     "total": 13,
     "over24": 3,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 40.2,
+        "hours": 40.3,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -102,7 +102,7 @@
         "code": "FBA15MTS7WBG",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0627",
+        "space": "FH-3-55",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 16,
@@ -110,19 +110,6 @@
         "hours": 0.4,
         "owner": "杨雨薇",
         "transport": "卡航英国"
-      },
-      {
-        "code": "FBA15MTSWZ2M",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-51",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-04 11:04:12",
-        "hours": 0.4,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MTRP828",
@@ -133,7 +120,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-04 11:10:33",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -164,12 +151,25 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA261103103",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0622",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-04 11:31:08",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA261103090",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0619",
         "is_dtb": false,
-        "err_msg": "",
+        "err_msg": "Empty reply from server",
         "box_total": 4,
         "pack_time": "2026-11-04 11:29:21",
         "hours": 0.0,
