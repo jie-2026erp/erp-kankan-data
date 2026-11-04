@@ -1,21 +1,29 @@
 {
   "date": "2026-11-04",
-  "update_time": "2026-11-04 14:05:15",
-  "total_boxes": 55,
-  "total_users": 1,
+  "update_time": "2026-11-04 14:09:05",
+  "total_boxes": 83,
+  "total_users": 2,
   "total_batches": 3,
   "total_marked_bulk": 12.14,
   "by_user": [
     {
       "name": "叶帆",
-      "boxes": 55,
-      "shipments": 10
+      "boxes": 73,
+      "shipments": 12
+    },
+    {
+      "name": "汪宗标",
+      "boxes": 10,
+      "shipments": 1
     }
   ],
   "hourly": {
     "叶帆": {
       "11": 47,
-      "14": 8
+      "14": 26
+    },
+    "汪宗标": {
+      "14": 10
     }
   },
   "unmarked": [
@@ -82,8 +90,8 @@
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "美巡",
       "total_box": 103,
-      "marked_box": 13,
-      "unmarked_box": 90
+      "marked_box": 42,
+      "unmarked_box": 61
     }
   ],
   "partial_count": 1,
