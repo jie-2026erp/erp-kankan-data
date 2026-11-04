@@ -1310,24 +1310,9 @@ function parseAttendance(input){
         targetDay = now.getDate();
       }
       
-      // 先找和编辑日期匹配的sheet（比如"11.3仓库考勤异常"对应11月3日）
-      let targetSheet = null;
-      for(let sn of wb.SheetNames){
-        // 匹配格式：M.D 开头，比如 "11.3仓库考勤异常"、"7.1仓库异常考勤"
-        const m = sn.match(/^(\d{1,2})\.(\d{1,2})/);
-        if(m){
-          const sm = parseInt(m[1]), sd = parseInt(m[2]);
-          if(sm === targetMonth && sd === targetDay){
-            targetSheet = sn;
-            break;
-          }
-        }
-      }
-      
-      // 如果没找到当天的，就找第一个有考勤列的sheet
+      // 遍历所有sheet，全部解析，后面的sheet覆盖前面的（最新的在最后）
       let found = {};
-      let sheetsToCheck = targetSheet ? [targetSheet] : wb.SheetNames;
-      for(let sn of sheetsToCheck){
+      for(let sn of wb.SheetNames){
         const ws = wb.Sheets[sn];
         const rows = XLSX.utils.sheet_to_json(ws, {header:1, raw:false});
         if(rows.length < 2) continue;
@@ -1362,9 +1347,8 @@ function parseAttendance(input){
             else continue;
           }
           outT = outT.slice(0,5);
-          found[name] = outT;
+          found[name] = outT; // 后面的sheet覆盖前面的
         }
-        if(!targetSheet) break; // 不是指定sheet的话，找到第一个就停
       }
       if(Object.keys(found).length === 0){
         document.getElementById('attFileName').textContent = '未识别到考勤数据';
@@ -1382,7 +1366,7 @@ function parseAttendance(input){
         }
       });
       recalcCost();
-      document.getElementById('attFileName').textContent = `✅ 识别到${filled}人下班时间（来自${targetSheet||'第一个sheet'}）`;
+      document.getElementById('attFileName').textContent = `✅ 识别到${filled}人下班时间`;
     }catch(err){
       document.getElementById('attFileName').textContent = '解析失败: '+err.message;
     }
