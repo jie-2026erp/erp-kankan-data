@@ -256,10 +256,6 @@ td:first-child { color:#1890ff; font-weight:600; }
             <div class="v" id="stockQuote">-</div>
             <div class="l">🚚 待上传物流询价 <span id="stockQuoteCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
         </div>
-        <div class="kpi" style="--c:#2affb2;">
-            <div class="v" id="stockConfirm">-</div>
-            <div class="l">✅ 待确认发货 <span id="stockConfirmCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
-        </div>
     </div>
     <!-- 今日/昨日打印箱子标签 当日量 -->
     <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;padding:0 16px 16px;">
@@ -270,22 +266,6 @@ td:first-child { color:#1890ff; font-weight:600; }
         <div class="kpi" style="--c:#0a0a0a;">
             <div class="v" id="stockYestPrint">-</div>
             <div class="l">🗓️ 昨日打印箱子标签 <span id="stockYestPrintCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
-        </div>
-    </div>
-    <!-- 待确认发货明细 -->
-    <div class="card" style="margin:0 16px 16px;">
-        <div class="card-t">📦 待确认发货明细 <span class="tip" id="confirmCountTip"></span></div>
-        <div style="overflow-x:auto;">
-            <table style="width:100%;border-collapse:collapse;font-size:13px;table-layout:fixed;">
-                <thead><tr style="background:rgba(148,190,220,.12);">
-                    <th style="padding:8px;text-align:left;width:28%;">货件单号</th>
-                    <th style="padding:8px;text-align:left;width:20%;">暂存库位</th>
-                    <th style="padding:8px;text-align:left;width:18%;">操作人</th>
-                    <th style="padding:8px;text-align:right;width:12%;">箱数</th>
-                    <th style="padding:8px;text-align:left;width:22%;">运输方式</th>
-                </tr></thead>
-                <tbody id="confirmTable"></tbody>
-            </table>
         </div>
     </div>
 </div>
@@ -457,19 +437,6 @@ async function loadStock(){
                 });
             }
         }catch(e){ console.warn('print hourly chart init fail:', e); }
-        // 明细
-        const lst = d.confirm_list||[];
-        document.getElementById('confirmCountTip').textContent = '共'+lst.length+'票';
-        let html = '';
-        lst.forEach(it=>{
-            html += `<tr style="border-bottom:1px solid rgba(148,190,220,.12);">
-                <td style="padding:10px;color:#333;font-weight:600;">${it.code}</td>
-                <td style="padding:10px;color:#71717a;">${it.space||'-'}</td>
-                <td style="padding:10px;">${it.creater||'-'}</td>
-                <td style="padding:10px;text-align:right;font-weight:600;color:#2affb2;">${it.boxes}</td>
-                <td style="padding:10px;color:#71717a;">${it.transport||'-'}</td></tr>`;
-        });
-        document.getElementById('confirmTable').innerHTML = html;
     }catch(e){ document.getElementById('stockUpdateTime').textContent='加载失败'; }
 }
 setInterval(loadStock, 60000);
