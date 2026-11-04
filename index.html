@@ -501,9 +501,9 @@ document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click',()=>
     document.querySelectorAll('.tab-page').forEach(p=>p.classList.remove('active'));
     b.classList.add('active');
     document.getElementById('tab-'+b.dataset.tab).classList.add('active');
-    // 切换到scan tab时，重新渲染打印小时图表
+    // 切换到scan tab时，重新渲染图表
     if(b.dataset.tab === 'scan'){
-        setTimeout(()=>{ loadPrintHourly(); }, 100);
+        loadScanData();
     }
 }));
 
