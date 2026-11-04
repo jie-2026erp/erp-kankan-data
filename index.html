@@ -429,8 +429,8 @@ async function loadStock(){
                 window._printHourlyChart.setOption({
                     tooltip:{trigger:'axis'},
                     grid:{left:40,right:20,top:20,bottom:30},
-                    xAxis:{type:'category',data:hours,axisLabel:{color:#666,fontSize:11}},
-                    yAxis:{type:'value',axisLabel:{color:#666,fontSize:11}},
+                    xAxis:{type:'category',data:hours,axisLabel:{color:'#666',fontSize:11}},
+                    yAxis:{type:'value',axisLabel:{color:'#666',fontSize:11}},
                     series:[{type:'bar',data:values,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
                 });
             }
