@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-04 15:32:22",
+  "update_time": "2026-11-04 15:34:23",
   "pack3": {
     "total": 16,
     "over24": 3,
     "over48": 0,
-    "max_hours": 44.4,
+    "max_hours": 44.5,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-02 19:06:09",
-        "hours": 44.4,
+        "hours": 44.5,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-02 19:55:15",
-        "hours": 43.6,
+        "hours": 43.7,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -76,7 +76,7 @@
         "code": "FBA15MTTKVXV",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0577",
+        "space": "FH-15-32",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
@@ -120,8 +120,34 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 15:00:58",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "金珍",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MTWYSKH",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0544",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-04 15:18:07",
+        "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MTX0NKK",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0545",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-04 15:17:48",
+        "hours": 0.3,
+        "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
       {
@@ -174,32 +200,6 @@
         "pack_time": "2026-11-04 15:14:03",
         "hours": 0.3,
         "owner": "金珍",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MTWYSKH",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0544",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-04 15:18:07",
-        "hours": 0.2,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MTX0NKK",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0545",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-04 15:17:48",
-        "hours": 0.2,
-        "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
       {
