@@ -851,7 +851,7 @@ function renderTimelyTable(tbodyId, list, highlightDtb){
             ? `<span style="color:#ff5d73;font-weight:700;">🔴 ${r.space||''}</span>`
             : `<span style="color:#71717a;">${r.space||''}</span>`;
         html += `<tr style="${rowBg}">
-            <td style="font-weight:600;color:#dff3ff;">${r.code||''}</td>
+            <td style="font-weight:700;color:#0a0a0a;">${r.code||''}</td>
             <td style="font-size:12px;color:#71717a;">${(r.warehouse||'').replace('FBA中转仓-','')}</td>
             <td>${r.platform||''}</td>
             <td>${spaceHtml}</td>
@@ -892,7 +892,7 @@ async function loadTransferData(){
                     errHtml = `<span style="color:#f5222d;font-weight:600;">⚠ ${r.err_msg.slice(0,20)}${r.err_msg.length>20?'…':''}</span>`;
                 }
                 html += `<tr style="${rowBg}">
-                    <td style="font-weight:600;color:#1890ff;">${r.code||''}</td>
+                    <td style="font-weight:700;color:#0a0a0a;">${r.code||''}</td>
                     <td style="font-size:12px;color:#666;">${(r.warehouse||'').replace('FBA中转仓-','')}</td>
                     <td>${r.platform||''}</td>
                     <td style="color:${spaceColor};font-weight:600;">🔴 ${r.space||''}</td>
