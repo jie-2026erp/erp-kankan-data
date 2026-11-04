@@ -1,15 +1,15 @@
 {
   "date": "2026-11-04",
-  "update_time": "2026-11-04 19:48:12",
-  "total_boxes": 1083,
+  "update_time": "2026-11-04 19:50:17",
+  "total_boxes": 1087,
   "total_users": 2,
-  "total_batches": 10,
-  "total_marked_bulk": 94.16,
+  "total_batches": 11,
+  "total_marked_bulk": 118.66,
   "by_user": [
     {
       "name": "叶帆",
-      "boxes": 715,
-      "shipments": 102
+      "boxes": 719,
+      "shipments": 103
     },
     {
       "name": "汪宗标",
@@ -19,7 +19,7 @@
   ],
   "hourly": {
     "叶帆": {
-      "19": 164,
+      "19": 168,
       "18": 187,
       "14": 176,
       "17": 55,
@@ -33,21 +33,20 @@
       "16": 145
     }
   },
-  "unmarked": [
+  "unmarked": [],
+  "unmarked_count": 0,
+  "unmarked_bulk": 0.0,
+  "partial_list": [
     {
       "batch_code": "TH26110400311",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "喜运达",
-      "datetime": "2026-11-04 16:20:33",
-      "bulk": 24.5002,
-      "sum_box": "261",
-      "is_write": "已填写"
+      "total_box": 261,
+      "marked_box": 4,
+      "unmarked_box": 257
     }
   ],
-  "unmarked_count": 1,
-  "unmarked_bulk": 24.5,
-  "partial_list": [],
-  "partial_count": 0,
+  "partial_count": 1,
   "week_stat": {
     "bulk": 267.03,
     "boxes": 3213,
