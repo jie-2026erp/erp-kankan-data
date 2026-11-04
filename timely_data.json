@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-04 11:14:41",
+  "update_time": "2026-11-04 11:16:36",
   "pack3": {
-    "total": 18,
+    "total": 17,
     "over24": 3,
     "over48": 0,
-    "max_hours": 40.1,
+    "max_hours": 40.2,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-02 19:06:09",
-        "hours": 40.1,
+        "hours": 40.2,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-02 19:55:15",
-        "hours": 39.3,
+        "hours": 39.4,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -151,19 +151,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MTS0GP3",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-35",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 18,
-        "pack_time": "2026-11-04 10:47:28",
-        "hours": 0.5,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA15MTSVXD2",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -172,6 +159,19 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 10:51:46",
+        "hours": 0.4,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
+      },
+      {
+        "code": "FBA15MTSH6R4",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-2-2",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 15,
+        "pack_time": "2026-11-04 10:55:30",
         "hours": 0.4,
         "owner": "杨雨薇",
         "transport": "海运英国"
@@ -188,19 +188,6 @@
         "hours": 0.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA15MTSH6R4",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0629",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 15,
-        "pack_time": "2026-11-04 10:55:30",
-        "hours": 0.3,
-        "owner": "杨雨薇",
-        "transport": "海运英国"
       },
       {
         "code": "FBA15MTSWZ2M",

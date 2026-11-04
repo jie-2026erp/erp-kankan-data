@@ -1,8 +1,41 @@
 {
-  "update_time": "2026-11-04 11:15:33",
-  "total_dup_spaces": 0,
-  "total_boxes": 0,
-  "max_dup": 0,
-  "space_count": 0,
-  "list": []
+  "update_time": "2026-11-04 11:16:33",
+  "total_dup_spaces": 1,
+  "total_boxes": 6,
+  "max_dup": 2,
+  "space_count": 1,
+  "list": [
+    {
+      "space": "6FH-01-01-13",
+      "count": 2,
+      "total_boxes": 6,
+      "codes": [
+        "HWC261030055",
+        "HWC261030055"
+      ],
+      "transports": [
+        "GOODCANG"
+      ],
+      "items": [
+        {
+          "code": "HWC261030055",
+          "platform": "GOODCANG",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "6FH-01-01-13",
+          "err_msg": "",
+          "box_total": 3,
+          "creater": "system"
+        },
+        {
+          "code": "HWC261030055",
+          "platform": "GOODCANG",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "6FH-01-01-13",
+          "err_msg": "",
+          "box_total": 3,
+          "creater": "system"
+        }
+      ]
+    }
+  ]
 }
