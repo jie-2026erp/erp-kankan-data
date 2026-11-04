@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-04 14:32:36",
+  "update_time": "2026-11-04 14:34:34",
   "pack3": {
-    "total": 17,
+    "total": 23,
     "over24": 3,
     "over48": 0,
-    "max_hours": 43.4,
+    "max_hours": 43.5,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-02 19:06:09",
-        "hours": 43.4,
+        "hours": 43.5,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-02 19:55:15",
-        "hours": 42.6,
+        "hours": 42.7,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -125,19 +125,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261103046",
-        "platform": "CHUKOUYI",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0584",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-04 14:14:40",
-        "hours": 0.3,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261103045",
         "platform": "CHUKOUYI",
         "warehouse": "FBA中转仓-金华2仓",
@@ -167,7 +154,7 @@
         "code": "HWC261103025",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0578",
+        "space": "FH-13-25",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 6,
@@ -224,9 +211,100 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 14:29:44",
+        "hours": 0.1,
+        "owner": "华陈茜",
+        "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261103055",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0572",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-04 14:32:51",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261103053",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0571",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-04 14:32:57",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261103050",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0568",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-04 14:32:50",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261103043",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0565",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-04 14:32:47",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261103042",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0569",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-04 14:32:50",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261103022",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0573",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-04 14:32:55",
         "hours": 0.0,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261103017",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0563",
+        "is_dtb": false,
+        "err_msg": "后台产品未审核成功",
+        "box_total": 13,
+        "pack_time": "2026-11-04 14:33:06",
+        "hours": 0.0,
+        "owner": "system",
+        "transport": "海运欧洲"
       }
     ]
   },
