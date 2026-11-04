@@ -503,7 +503,7 @@ document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click',()=>
     document.getElementById('tab-'+b.dataset.tab).classList.add('active');
     // 切换到scan tab时，重新渲染打印小时图表
     if(b.dataset.tab === 'scan'){
-        setTimeout(()=>{ if(window._printHourlyChart) window._printHourlyChart.resize(); }, 100);
+        setTimeout(()=>{ loadPrintHourly(); }, 100);
     }
 }));
 
@@ -781,6 +781,10 @@ async function loadPrintHourly(){
 }
 loadPrintHourly();
 setInterval(loadPrintHourly, 60000);
+// 页面加载时如果当前就在scan tab，立即加载
+if(document.querySelector('.tab-btn.active').dataset.tab === 'scan'){
+    loadPrintHourly();
+}
 
 async function loadTimelyData(){
     try{
