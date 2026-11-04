@@ -1302,19 +1302,36 @@ function parseAttendance(input){
         const rows = XLSX.utils.sheet_to_json(ws, {header:1, raw:false});
         if(rows.length < 2) continue;
         const header = rows[0].map(h=>String(h||'').trim());
-        // 找列
-        let iName = header.indexOf('姓名');
+        // 找列（模糊匹配）
+        let iName = header.findIndex(h=>h.indexOf('姓名')>=0);
         let iOut = header.findIndex(h=>h.indexOf('下班')>=0 && h.indexOf('打卡时间')>=0);
+        let iOutRes = header.findIndex(h=>h.indexOf('下班')>=0 && h.indexOf('打卡结果')>=0);
+        let iRemark = header.findIndex(h=>h.indexOf('备注')>=0);
+        let iShift = header.findIndex(h=>h.indexOf('班次')>=0);
         if(iName<0 || iOut<0) continue;
         // 遍历数据行
         for(let r of rows.slice(1)){
+          if(!r || iName >= r.length) continue;
           const name = String(r[iName]||'').trim();
-          if(!name || name==='姓名') continue;
-          let outT = r[iOut];
-          if(!outT) continue;
+          if(!name || name==='姓名' || name.indexOf('离职')>=0) continue;
+          // 过滤休息、请假
+          let shift = iShift>=0 && iShift<r.length ? String(r[iShift]||'').trim() : '';
+          let outRes = iOutRes>=0 && iOutRes<r.length ? String(r[iOutRes]||'').trim() : '';
+          let remark = iRemark>=0 && iRemark<r.length ? String(r[iRemark]||'').trim() : '';
+          if(remark.indexOf('请假')>=0 || outRes.indexOf('请假')>=0) continue;
+          if(shift.indexOf('休息')>=0 || remark==='休息') continue;
+          // 下班时间
+          let outT = iOut<r.length ? r[iOut] : null;
+          if(outT==null || outT==='') continue;
           outT = String(outT).trim();
-          // 只保留HH:MM格式
-          if(outT.indexOf(':')<0) continue;
+          if(outT==='0' || outT==='None' || outT==='-') continue;
+          // 时间格式处理：如果是日期时间，提取HH:MM
+          if(outT.indexOf(':')<0){
+            // 可能是序列号或者其他格式，尝试提取时间部分
+            const m = outT.match(/(\d{1,2}:\d{2})/);
+            if(m) outT = m[1];
+            else continue;
+          }
           outT = outT.slice(0,5);
           found[name] = outT;
         }
