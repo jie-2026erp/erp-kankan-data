@@ -1,7 +1,7 @@
 {
-  "update_time": "2026/11/4 08:54:05",
+  "update_time": "2026/11/4 08:55:54",
   "today": "2026-11-03",
-  "today_out_qty": 8847,
+  "today_out_qty": 8522,
   "today_out_count": 198,
   "today_cost": 1298.02,
   "today_avg": 0.15,
@@ -216,10 +216,10 @@
       "avg": null
     },
     "2026-11-02": {
-      "out_qty": 350,
+      "out_qty": 1416,
       "out_count": 12,
-      "cost": 1424.02,
-      "avg": 4.07,
+      "cost": 1298.02,
+      "avg": 0.92,
       "persons_count": 5,
       "cost_error": null,
       "skipped_no_roster": [
@@ -251,7 +251,15 @@
         "梁少伟",
         "张国杰"
       ],
-      "has_hidden_cost": true
+      "has_hidden_cost": true,
+      "off_times": {
+        "詹坤林": "17:30",
+        "汪宗标": "19:30",
+        "叶帆": "19:30",
+        "赵忠军": "19:30",
+        "朱文亮": "19:30",
+        "王梦吉": "17:00"
+      }
     },
     "2026-11-03": {
       "out_qty": 8847,
@@ -262,15 +270,7 @@
       "cost_error": "当天考勤 sheet 未找到（11.3）（暂按基础日薪预估，考勤更新后自动修正）",
       "estimated": true,
       "persons_count": 5,
-      "has_hidden_cost": true,
-      "off_times": {
-        "詹坤林": "17:30",
-        "汪宗标": "19:30",
-        "叶帆": "19:30",
-        "赵忠军": "19:30",
-        "朱文亮": "19:30",
-        "王梦吉": "17:00"
-      }
+      "has_hidden_cost": true
     }
   },
   "weekly": [
