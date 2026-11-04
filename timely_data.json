@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 11:42:00",
+  "update_time": "2026-11-04 11:43:55",
   "pack3": {
-    "total": 10,
+    "total": 11,
     "over24": 3,
     "over48": 0,
     "max_hours": 40.6,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 40.4,
+        "hours": 40.5,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -68,7 +68,7 @@
         "err_msg": "There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is missing necessary information; dimensions need to be provided in the manufacturer's original packaging.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is missing necessary information; weight need to be provided in he manufacturer's original packaging.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: Additional information is mandatory in order to complete the Hazmat review review.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product does not exist in the destination marketplace catalog. The necessary product information will need to be provided before it can be inbounded.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must have a category specified before it can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must have a title before it can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must be removed. You can send in new inventory by creating a new listing for this product that requires product labels.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 2,
         "pack_time": "2026-11-04 10:33:11",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -89,12 +89,12 @@
         "code": "FBA15MTRP828",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0625",
+        "space": "FH-3-84",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-04 11:10:33",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -133,6 +133,19 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 11:40:38",
+        "hours": 0.1,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
+      },
+      {
+        "code": "FBA261103110",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0618",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-04 11:42:29",
         "hours": 0.0,
         "owner": "杨雨薇",
         "transport": "卡航英国"
