@@ -402,12 +402,10 @@ async function loadStock(){
         document.getElementById('stockUpdateTime').textContent = '实时 · '+(d.update_time||'--');
         document.getElementById('stockPrint').textContent = d.print_boxes||0;
         document.getElementById('stockQuote').textContent = d.quote_boxes||0;
-        document.getElementById('stockConfirm').textContent = d.confirm_boxes||0;
         document.getElementById('stockPrintCount').textContent = '('+(d.print_count||0)+'票)';
         document.getElementById('stockQuoteCount').textContent = '('+(d.quote_count||0)+'票)';
-        document.getElementById('stockConfirmCount').textContent = '('+(d.confirm_count||0)+'票)';
-        var _tb = (d.print_boxes||0)+(d.quote_boxes||0)+(d.confirm_boxes||0);
-        var _tc = (d.print_count||0)+(d.quote_count||0)+(d.confirm_count||0);
+        var _tb = (d.print_boxes||0)+(d.quote_boxes||0);
+        var _tc = (d.print_count||0)+(d.quote_count||0);
         document.getElementById('stockTotal').textContent = _tb;
         document.getElementById('stockTotalCount').textContent = '共'+_tc+'票';
         document.getElementById('stockTodayPrint').textContent = d.print_today_boxes||0;
