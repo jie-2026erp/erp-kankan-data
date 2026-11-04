@@ -1,15 +1,15 @@
 {
-  "update_time": "2026-11-04 13:46:03",
+  "update_time": "2026-11-04 13:49:26",
   "print_boxes": 2668,
   "print_count": 376,
-  "print_today_boxes": 502,
-  "print_today_count": 64,
-  "print_yesterday_boxes": 1263,
-  "print_yesterday_count": 241,
+  "print_today_boxes": 0,
+  "print_today_count": 0,
+  "print_yesterday_boxes": 0,
+  "print_yesterday_count": 0,
   "quote_boxes": 0,
   "quote_count": 0,
-  "confirm_boxes": 977,
-  "confirm_count": 100,
+  "confirm_boxes": 964,
+  "confirm_count": 96,
   "confirm_list": [
     {
       "code": "FBA15MTJK045",
@@ -159,20 +159,6 @@
       "transport": "海运英国卡派"
     },
     {
-      "code": "FBA15MTHDGK4",
-      "space": "FH-14-64",
-      "creater": "王贝贝",
-      "boxes": 8,
-      "transport": "海运欧洲卡派"
-    },
-    {
-      "code": "FBA15MTHXYBB",
-      "space": "FH-14-58",
-      "creater": "王贝贝",
-      "boxes": 2,
-      "transport": "海运欧洲卡派"
-    },
-    {
       "code": "FBA15MTGVD73",
       "space": "FH-14-66",
       "creater": "丁胜玥",
@@ -297,13 +283,6 @@
       "creater": "system",
       "boxes": 12,
       "transport": "海运欧洲卡派"
-    },
-    {
-      "code": "HWC261030059",
-      "space": "FH-11-21",
-      "creater": "system",
-      "boxes": 2,
-      "transport": "海运欧洲"
     },
     {
       "code": "FBA15MT2FY53",
@@ -649,13 +628,6 @@
       "transport": "海运英国卡派"
     },
     {
-      "code": "FBA15MSSVD01",
-      "space": "6FH-01-01-36",
-      "creater": "杨雨薇",
-      "boxes": 1,
-      "transport": "海运欧洲卡派"
-    },
-    {
       "code": "FBA15MSQ6CQ2",
       "space": "FH-15-86",
       "creater": "杨雨薇",
@@ -711,12 +683,5 @@
       "boxes": 1,
       "transport": "东南亚菲律宾（海运）"
     }
-  ],
-  "print_hourly": {
-    "09": 7,
-    "13": 12,
-    "11": 26,
-    "12": 1,
-    "10": 18
-  }
+  ]
 }
