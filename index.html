@@ -746,31 +746,31 @@ async function loadPrintData(){
         }
     }catch(e){ console.log(e); document.getElementById('printUpdateTime').textContent='加载失败'; }
 
-    // 每小时打印箱子标签统计
-    try{
-        const phRes = await fetch('https://jie-2026erp.github.io/erp-kankan-data/dashboard_data.json?t='+Date.now());
-        const phData = await phRes.json();
-        const phHourly = phData.print_hourly || {};
-        const phHours = [];
-        const phValues = [];
-        for(let h=8; h<=23; h++){
-            const key = String(h).padStart(2,'0');
-            phHours.push(h+'时');
-            phValues.push(phHourly[key] || 0);
-        }
-        if(window._printHourlyChart){ window._printHourlyChart.dispose(); }
-        const phEl = document.getElementById('printHourlyChart');
-        if(phEl && phEl.offsetWidth > 0){
-            window._printHourlyChart = echarts.init(phEl);
-            window._printHourlyChart.setOption({
-                tooltip:{trigger:'axis'},
-                grid:{left:40,right:20,top:20,bottom:30},
-                xAxis:{type:'category',data:phHours,axisLabel:{color:'#666',fontSize:11}},
-                yAxis:{type:'value',axisLabel:{color:'#666',fontSize:11}},
-                series:[{type:'bar',data:phValues,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
+        // 每小时打印箱子标签统计 - 原生div柱状图
+        try{
+            const phRes2 = await fetch('https://jie-2026erp.github.io/erp-kankan-data/dashboard_data.json?t='+Date.now());
+            const phData2 = await phRes2.json();
+            const phHourly2 = phData2.print_hourly || {};
+            const phHours2 = [];
+            const phValues2 = [];
+            for(let h=8; h<=23; h++){
+                const key = String(h).padStart(2,'0');
+                phHours2.push(h+'时');
+                phValues2.push(phHourly2[key] || 0);
+            }
+            const maxV = Math.max(...phValues2, 1);
+            let phHtml = '<div style="display:flex;align-items:flex-end;justify-content:space-around;height:200px;padding:10px 10px 0;">';
+            phValues2.forEach((v,i)=>{
+                const h = Math.round(v/maxV*180);
+                phHtml += `<div style="display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;">
+                    <div style="font-size:12px;color:#666;margin-bottom:4px;">${v||''}</div>
+                    <div style="width:24px;height:${h}px;background:#ff9f43;border-radius:4px 4px 0 0;"></div>
+                    <div style="margin-top:6px;font-size:11px;color:#999;">${phHours2[i]}</div>
+                </div>`;
             });
-        }
-    }catch(e){ console.warn('print hourly chart fail:', e); }
+            phHtml += '</div>';
+            document.getElementById('printHourlyChart').innerHTML = phHtml;
+        }catch(e){ console.warn('print hourly chart fail:', e); }
 }
 
 loadScanData();
