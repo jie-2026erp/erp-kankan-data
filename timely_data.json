@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 16:22:12",
+  "update_time": "2026-11-04 16:24:17",
   "pack3": {
-    "total": 16,
+    "total": 17,
     "over24": 3,
     "over48": 0,
     "max_hours": 45.3,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-02 19:55:15",
-        "hours": 44.4,
+        "hours": 44.5,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -55,7 +55,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 2,
         "pack_time": "2026-11-04 13:13:47",
-        "hours": 3.1,
+        "hours": 3.2,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 14:51:14",
-        "hours": 1.5,
+        "hours": 1.6,
         "owner": "李淑雯",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 15:14:01",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "刘瑜",
         "transport": "卡航欧洲"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 15:15:17",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "金珍",
         "transport": "海运欧洲"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 15:14:01",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "金珍",
         "transport": "卡航欧洲"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 15:14:03",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "金珍",
         "transport": "卡航欧洲"
       },
@@ -203,7 +203,7 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA261103157",
+        "code": "FBA15MTWMD4N",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0529",
@@ -211,9 +211,22 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 16:20:31",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "丁胜玥",
         "transport": "卡航英国"
+      },
+      {
+        "code": "HWC261103065",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0528",
+        "is_dtb": false,
+        "err_msg": "后台产品未审核成功",
+        "box_total": 2,
+        "pack_time": "2026-11-04 16:22:35",
+        "hours": 0.0,
+        "owner": "system",
+        "transport": "海运欧洲"
       }
     ]
   },
