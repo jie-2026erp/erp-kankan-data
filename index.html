@@ -755,7 +755,7 @@ setInterval(loadPrintData, 5000);
 // 每小时打印箱子标签统计
 async function loadPrintHourly(){
     try{
-        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/transfer_data.json?t='+Date.now());
+        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/dashboard_data.json?t='+Date.now());
         const d = await res.json();
         const hourly = d.print_hourly || {};
         const hours = [];
