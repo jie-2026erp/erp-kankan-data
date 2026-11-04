@@ -1295,9 +1295,28 @@ function parseAttendance(input){
     try{
       const data = new Uint8Array(e.target.result);
       const wb = XLSX.read(data, {type:'array', cellDates:true});
-      // 遍历所有sheet找考勤表
-      let found = {};
+      const now = new Date();
+      const todayMonth = now.getMonth()+1;
+      const todayDay = now.getDate();
+      
+      // 先找和当天日期匹配的sheet（比如"11.3仓库考勤异常"对应11月3日）
+      let targetSheet = null;
       for(let sn of wb.SheetNames){
+        // 匹配格式：M.D 开头，比如 "11.3仓库考勤异常"、"7.1仓库异常考勤"
+        const m = sn.match(/^(\d{1,2})\.(\d{1,2})/);
+        if(m){
+          const sm = parseInt(m[1]), sd = parseInt(m[2]);
+          if(sm === todayMonth && sd === todayDay){
+            targetSheet = sn;
+            break;
+          }
+        }
+      }
+      
+      // 如果没找到当天的，就找第一个有考勤列的sheet
+      let found = {};
+      let sheetsToCheck = targetSheet ? [targetSheet] : wb.SheetNames;
+      for(let sn of sheetsToCheck){
         const ws = wb.Sheets[sn];
         const rows = XLSX.utils.sheet_to_json(ws, {header:1, raw:false});
         if(rows.length < 2) continue;
@@ -1327,7 +1346,6 @@ function parseAttendance(input){
           if(outT==='0' || outT==='None' || outT==='-') continue;
           // 时间格式处理：如果是日期时间，提取HH:MM
           if(outT.indexOf(':')<0){
-            // 可能是序列号或者其他格式，尝试提取时间部分
             const m = outT.match(/(\d{1,2}:\d{2})/);
             if(m) outT = m[1];
             else continue;
@@ -1335,7 +1353,7 @@ function parseAttendance(input){
           outT = outT.slice(0,5);
           found[name] = outT;
         }
-        break; // 找到第一个sheet就够
+        if(!targetSheet) break; // 不是指定sheet的话，找到第一个就停
       }
       if(Object.keys(found).length === 0){
         document.getElementById('attFileName').textContent = '未识别到考勤数据';
@@ -1353,7 +1371,7 @@ function parseAttendance(input){
         }
       });
       recalcCost();
-      document.getElementById('attFileName').textContent = `✅ 识别到${filled}人下班时间`;
+      document.getElementById('attFileName').textContent = `✅ 识别到${filled}人下班时间（来自${targetSheet||'第一个sheet'}）`;
     }catch(err){
       document.getElementById('attFileName').textContent = '解析失败: '+err.message;
     }
