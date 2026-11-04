@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 11:28:24",
+  "update_time": "2026-11-04 11:30:17",
   "pack3": {
-    "total": 14,
+    "total": 13,
     "over24": 3,
     "over48": 0,
     "max_hours": 40.4,
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 09:07:45",
-        "hours": 2.3,
+        "hours": 2.4,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-04 10:14:40",
-        "hours": 1.2,
+        "hours": 1.3,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -81,7 +81,7 @@
         "err_msg": "There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is missing necessary information; dimensions need to be provided in the manufacturer's original packaging.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is missing necessary information; weight need to be provided in he manufacturer's original packaging.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: Additional information is mandatory in order to complete the Hazmat review review.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product does not exist in the destination marketplace catalog. The necessary product information will need to be provided before it can be inbounded.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must have a category specified before it can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must have a title before it can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must be removed. You can send in new inventory by creating a new listing for this product that requires product labels.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 2,
         "pack_time": "2026-11-04 10:33:11",
-        "hours": 0.9,
+        "hours": 1.0,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -99,30 +99,17 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MTQRSBR",
+        "code": "FBA15MTS7WBG",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-47",
+        "space": "JH11-0627",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-04 10:46:32",
-        "hours": 0.7,
+        "box_total": 16,
+        "pack_time": "2026-11-04 11:08:53",
+        "hours": 0.4,
         "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MTSVXD2",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "6FH-02-01-32",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-04 10:51:46",
-        "hours": 0.6,
-        "owner": "杨雨薇",
-        "transport": "海运英国"
+        "transport": "卡航英国"
       },
       {
         "code": "FBA15MTSWZ2M",
@@ -138,19 +125,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MTS7WBG",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0627",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 16,
-        "pack_time": "2026-11-04 11:08:53",
-        "hours": 0.3,
-        "owner": "杨雨薇",
-        "transport": "卡航英国"
-      },
-      {
         "code": "FBA15MTRP828",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -164,10 +138,23 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "FBA15MTTCF2C",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0621",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-04 11:21:16",
+        "hours": 0.2,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA15MTTCDZ4",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0623",
+        "space": "FH-8-34",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 4,
@@ -177,17 +164,17 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MTTCF2C",
+        "code": "FBA261103090",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0621",
+        "space": "JH11-0619",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-04 11:21:16",
-        "hours": 0.1,
+        "box_total": 4,
+        "pack_time": "2026-11-04 11:29:21",
+        "hours": 0.0,
         "owner": "杨雨薇",
-        "transport": "海运英国"
+        "transport": "卡航英国"
       }
     ]
   },
