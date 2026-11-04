@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 09:11:01",
+  "update_time": "2026-11-04 09:13:01",
   "pack3": {
-    "total": 13,
+    "total": 14,
     "over24": 3,
     "over48": 0,
     "max_hours": 38.1,
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 16,
         "pack_time": "2026-11-03 13:32:26",
-        "hours": 19.6,
+        "hours": 19.7,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -120,9 +120,35 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 08:50:30",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MTRZ53P",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0664",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-04 09:03:04",
+        "hours": 0.2,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
+      },
+      {
+        "code": "FBA261103067",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0661",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-04 09:09:38",
+        "hours": 0.1,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
       },
       {
         "code": "FBA15MTRZCY9",
@@ -138,7 +164,7 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA261103056",
+        "code": "FBA15MTR4J09",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "LS-TP-114",
@@ -151,30 +177,17 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MTRZ53P",
+        "code": "FBA261103064",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0664",
+        "space": "JH11-0660",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 3,
-        "pack_time": "2026-11-04 09:03:04",
-        "hours": 0.1,
-        "owner": "杨雨薇",
-        "transport": "海运英国"
-      },
-      {
-        "code": "FBA261103067",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0661",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-04 09:09:38",
+        "pack_time": "2026-11-04 09:11:32",
         "hours": 0.0,
         "owner": "杨雨薇",
-        "transport": "卡航英国"
+        "transport": "海运欧洲"
       }
     ]
   },
