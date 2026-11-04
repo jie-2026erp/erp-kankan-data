@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 12:59:33",
+  "update_time": "2026-11-04 13:01:33",
   "pack3": {
     "total": 13,
     "over24": 3,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 41.7,
+        "hours": 41.8,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -55,7 +55,7 @@
         "err_msg": "There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is missing necessary information; dimensions need to be provided in the manufacturer's original packaging.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is missing necessary information; weight need to be provided in he manufacturer's original packaging.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: Additional information is mandatory in order to complete the Hazmat review review.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product does not exist in the destination marketplace catalog. The necessary product information will need to be provided before it can be inbounded.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must have a category specified before it can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must have a title before it can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must be removed. You can send in new inventory by creating a new listing for this product that requires product labels.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 2,
         "pack_time": "2026-11-04 10:33:11",
-        "hours": 2.4,
+        "hours": 2.5,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -125,6 +125,19 @@
         "transport": "卡航英国"
       },
       {
+        "code": "FBA15MTQTPV8",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0613",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-04 11:51:47",
+        "hours": 1.2,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
+      },
+      {
         "code": "FBA15MTQTQZ3",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -138,19 +151,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MTQTPV8",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0613",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-04 11:51:47",
-        "hours": 1.1,
-        "owner": "杨雨薇",
-        "transport": "卡航英国"
-      },
-      {
         "code": "FBA15MTSB3HB",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 11:57:26",
-        "hours": 1.0,
+        "hours": 1.1,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -172,7 +172,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 1,
         "pack_time": "2026-11-04 11:57:26",
-        "hours": 1.0,
+        "hours": 1.1,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       }
