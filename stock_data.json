@@ -1,11 +1,11 @@
 {
-  "update_time": "2026-11-04 16:53:30",
+  "update_time": "2026-11-04 16:53:44",
   "print_boxes": 2875,
   "print_count": 429,
-  "print_today_boxes": 0,
-  "print_today_count": 0,
-  "print_yesterday_boxes": 0,
-  "print_yesterday_count": 0,
+  "print_today_boxes": 726,
+  "print_today_count": 200,
+  "print_yesterday_boxes": 1004,
+  "print_yesterday_count": 241,
   "quote_boxes": 0,
   "quote_count": 0,
   "confirm_boxes": 351,
@@ -340,5 +340,15 @@
       "boxes": 1,
       "transport": "东南亚菲律宾（海运）"
     }
-  ]
+  ],
+  "print_hourly": {
+    "16": 10,
+    "09": 6,
+    "15": 57,
+    "14": 70,
+    "13": 12,
+    "11": 26,
+    "12": 1,
+    "10": 18
+  }
 }
