@@ -745,46 +745,38 @@ async function loadPrintData(){
             document.getElementById('printLogs').innerHTML = html;
         }
     }catch(e){ console.log(e); document.getElementById('printUpdateTime').textContent='加载失败'; }
+
+    // 每小时打印箱子标签统计
+    try{
+        const phRes = await fetch('https://jie-2026erp.github.io/erp-kankan-data/dashboard_data.json?t='+Date.now());
+        const phData = await phRes.json();
+        const phHourly = phData.print_hourly || {};
+        const phHours = [];
+        const phValues = [];
+        for(let h=8; h<=23; h++){
+            const key = String(h).padStart(2,'0');
+            phHours.push(h+'时');
+            phValues.push(phHourly[key] || 0);
+        }
+        if(window._printHourlyChart){ window._printHourlyChart.dispose(); }
+        const phEl = document.getElementById('printHourlyChart');
+        if(phEl && phEl.offsetWidth > 0){
+            window._printHourlyChart = echarts.init(phEl);
+            window._printHourlyChart.setOption({
+                tooltip:{trigger:'axis'},
+                grid:{left:40,right:20,top:20,bottom:30},
+                xAxis:{type:'category',data:phHours,axisLabel:{color:'#666',fontSize:11}},
+                yAxis:{type:'value',axisLabel:{color:'#666',fontSize:11}},
+                series:[{type:'bar',data:phValues,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
+            });
+        }
+    }catch(e){ console.warn('print hourly chart fail:', e); }
 }
 
 loadScanData();
 setInterval(loadScanData, 30000);
 loadPrintData();
 setInterval(loadPrintData, 5000);
-
-// 每小时打印箱子标签统计
-async function loadPrintHourly(){
-    try{
-        const res = await fetch('https://jie-2026erp.github.io/erp-kankan-data/dashboard_data.json?t='+Date.now());
-        const d = await res.json();
-        const hourly = d.print_hourly || {};
-        const hours = [];
-        const values = [];
-        for(let h=8; h<=23; h++){
-            const key = String(h).padStart(2,'0');
-            hours.push(h+'时');
-            values.push(hourly[key] || 0);
-        }
-        if(window._printHourlyChart){ window._printHourlyChart.dispose(); }
-        const el = document.getElementById('printHourlyChart');
-        if(el && el.offsetWidth > 0){
-            window._printHourlyChart = echarts.init(el);
-            window._printHourlyChart.setOption({
-                tooltip:{trigger:'axis'},
-                grid:{left:40,right:20,top:20,bottom:30},
-                xAxis:{type:'category',data:hours,axisLabel:{color:'#666',fontSize:11}},
-                yAxis:{type:'value',axisLabel:{color:'#666',fontSize:11}},
-                series:[{type:'bar',data:values,itemStyle:{color:'#ff9f43',borderRadius:[4,4,0,0]},barWidth:'50%'}]
-            });
-        }
-    }catch(e){ console.warn('print hourly chart load fail:', e); }
-}
-loadPrintHourly();
-setInterval(loadPrintHourly, 60000);
-// 页面加载时如果当前就在scan tab，立即加载
-if(document.querySelector('.tab-btn.active').dataset.tab === 'scan'){
-    loadPrintHourly();
-}
 
 async function loadTimelyData(){
     try{
