@@ -941,18 +941,19 @@ function costChart(svgId, labels, bars, line, opts){
         const x = xOf(i)-bw/2, y = yBar(v);
         const h = padT+plotH-y;
         s += `<rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="4" fill="${opts.barColor||'rgba(0,0,0,.5)'}"/>`;
-        // 0值也显示数字，在x轴上方
+        // 0值在x轴上方，非0值在柱子顶部上方，错开折线
         const labelY = v === 0 ? padT+plotH-8 : y-6;
         s += `<text x="${x+bw/2}" y="${labelY}" text-anchor="middle" font-size="11" fill="#333" font-weight="600">${fmtNum(v)}</text>`;
     });
-    // 线
+    // 线 - 数据标签往下挪，避免和柱子数字重叠
     let path='', dots='', labelsSvg='';
     line.forEach((v,i)=>{
         if(v===null||isNaN(v)) return;
         const x=xOf(i), y=yLine(v);
         path += (path===''?'M':'L')+x+','+y+' ';
         dots += `<circle cx="${x}" cy="${y}" r="5" fill="#fff" stroke="#ff7ad9" stroke-width="2.5"/>`;
-        labelsSvg += `<text x="${x}" y="${y-12}" text-anchor="middle" font-size="11" font-weight="600" fill="#ff7ad9">${fmtMoney(v)}</text>`;
+        // 件均数字放在节点下方，避免和柱子顶部数字重叠
+        labelsSvg += `<text x="${x}" y="${y+18}" text-anchor="middle" font-size="11" font-weight="600" fill="#ff7ad9">${fmtMoney(v)}</text>`;
     });
     if(path){ s += `<path d="${path}" fill="none" stroke="#ff7ad9" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`+dots+labelsSvg; }
     // x 轴标签
