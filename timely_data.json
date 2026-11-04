@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-04 19:17:35",
+  "update_time": "2026-11-04 19:19:49",
   "pack3": {
-    "total": 14,
+    "total": 13,
     "over24": 0,
     "over48": 0,
-    "max_hours": 4.4,
+    "max_hours": 4.5,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 14:51:14",
-        "hours": 4.4,
+        "hours": 4.5,
         "owner": "李淑雯",
         "transport": "喜运达（海运）"
       },
@@ -94,20 +94,7 @@
         "err_msg": "",
         "box_total": 40,
         "pack_time": "2026-11-04 18:52:25",
-        "hours": 0.4,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MTYST4B",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-55",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 15,
-        "pack_time": "2026-11-04 18:54:33",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -151,6 +138,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MTZ05FG",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-099",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 20,
+        "pack_time": "2026-11-04 19:14:40",
+        "hours": 0.1,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MTYSZ7D",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -175,19 +175,6 @@
         "hours": 0.1,
         "owner": "陈静",
         "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MTZ05FG",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-099",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 20,
-        "pack_time": "2026-11-04 19:14:40",
-        "hours": 0.0,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
       }
     ]
   },
