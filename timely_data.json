@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-04 19:35:23",
+  "update_time": "2026-11-04 19:37:33",
   "pack3": {
     "total": 16,
     "over24": 0,
     "over48": 0,
-    "max_hours": 4.7,
+    "max_hours": 4.8,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 14:51:14",
-        "hours": 4.7,
+        "hours": 4.8,
         "owner": "李淑雯",
         "transport": "喜运达（海运）"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 40,
         "pack_time": "2026-11-04 18:52:25",
-        "hours": 0.7,
+        "hours": 0.8,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 20,
         "pack_time": "2026-11-04 19:14:40",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -159,12 +159,25 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-04 19:20:40",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "李淑雯",
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA261103195",
+        "code": "FBA261103196",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-114",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 37,
+        "pack_time": "2026-11-04 19:33:50",
+        "hours": 0.1,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MTZ1G4F",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1987",
@@ -198,19 +211,6 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-04 19:34:39",
-        "hours": 0.0,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA261103196",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-114",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 37,
-        "pack_time": "2026-11-04 19:33:50",
         "hours": 0.0,
         "owner": "王贝贝",
         "transport": "海运欧洲"
