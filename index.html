@@ -196,7 +196,7 @@ td:first-child { color:#1890ff; font-weight:600; }
 
     <!-- 每小时打印箱子标签统计 -->
     <div class="card">
-        <div class="card-t">🖨️ 每小时打印箱子标签统计 <span class="tip">今天</span> <span id="printTotal" style="margin-left:15px;color:#e74c3c;font-weight:600;font-size:15px;"></span> <span id="printAvg" style="margin-left:10px;color:#666;font-size:13px;"></span></div>
+        <div class="card-t">🖨️ 每小时打印箱子标签统计 <span class="tip">今天</span> <span id="printHourlyTotal" style="margin-left:15px;color:#e74c3c;font-weight:600;font-size:15px;"></span> <span id="printHourlyAvg" style="margin-left:10px;color:#666;font-size:13px;"></span></div>
         <div id="printHourlyChart" style="height:260px;"></div>
     </div>
 
@@ -775,8 +775,8 @@ async function loadPrintData(){
             const phTotal = phValues2.reduce((a,b) => a+b, 0);
             const activeHours = phValues2.filter(v => v > 0).length;
             const phAvg = activeHours > 0 ? (phTotal / activeHours).toFixed(1) : 0;
-            document.getElementById('printTotal').textContent = `共${phTotal}条`;
-            document.getElementById('printAvg').textContent = `平均${phAvg}条/小时`;
+            document.getElementById('printHourlyTotal').textContent = `共${phTotal}条`;
+            document.getElementById('printHourlyAvg').textContent = `平均${phAvg}条/小时`;
         }catch(e){ console.warn('print hourly chart fail:', e); }
 }
 
