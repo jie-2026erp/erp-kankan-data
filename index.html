@@ -941,7 +941,6 @@ async function loadCostData(){
         const todayStr = now0.getFullYear()+'-'+String(now0.getMonth()+1).padStart(2,'0')+'-'+String(now0.getDate()).padStart(2,'0');
         const mon0 = new Date(now0.getFullYear(), now0.getMonth(), now0.getDate() - ((now0.getDay()+6)%7));
         const dMap = d.daily || {};
-        const dMap = d.daily||{};
         let wkOut=0, wkCost=0;
         for(let i=0;i<7;i++){
             const dd = new Date(mon0.getFullYear(), mon0.getMonth(), mon0.getDate()+i);
