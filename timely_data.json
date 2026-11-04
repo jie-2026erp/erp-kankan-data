@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-04 18:41:13",
+  "update_time": "2026-11-04 18:43:18",
   "pack3": {
     "total": 10,
     "over24": 0,
     "over48": 0,
-    "max_hours": 3.8,
+    "max_hours": 3.9,
     "dtb_count": 0,
     "list": [
       {
@@ -16,22 +16,9 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 14:51:14",
-        "hours": 3.8,
+        "hours": 3.9,
         "owner": "李淑雯",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261102069",
-        "platform": "Cdiscount",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-71",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-04 15:15:17",
-        "hours": 3.4,
-        "owner": "金珍",
-        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MTX1MHY",
@@ -81,7 +68,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-04 18:20:55",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "王贝贝",
         "transport": "海运英国"
       },
@@ -96,19 +83,6 @@
         "pack_time": "2026-11-04 18:25:52",
         "hours": 0.3,
         "owner": "杨雨薇",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MTZ7870",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-3-76",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-04 18:28:54",
-        "hours": 0.2,
-        "owner": "王贝贝",
         "transport": "海运欧洲"
       },
       {
@@ -136,6 +110,32 @@
         "hours": 0.1,
         "owner": "欧阳子航",
         "transport": "慢船海卡（美东）"
+      },
+      {
+        "code": "FBA261103191",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0504",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 16,
+        "pack_time": "2026-11-04 18:42:08",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261103186",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0506",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 18,
+        "pack_time": "2026-11-04 18:43:17",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "海运英国"
       }
     ]
   },
