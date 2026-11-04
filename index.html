@@ -1295,18 +1295,29 @@ function parseAttendance(input){
     try{
       const data = new Uint8Array(e.target.result);
       const wb = XLSX.read(data, {type:'array', cellDates:true});
-      const now = new Date();
-      const todayMonth = now.getMonth()+1;
-      const todayDay = now.getDate();
+      // 用当前编辑日期匹配sheet（比如编辑11/3就找11.3的sheet）
+      let targetMonth = 0, targetDay = 0;
+      if(_curEditDate){
+        const parts = _curEditDate.split('-');
+        if(parts.length === 3){
+          targetMonth = parseInt(parts[1]);
+          targetDay = parseInt(parts[2]);
+        }
+      }
+      if(!targetMonth){
+        const now = new Date();
+        targetMonth = now.getMonth()+1;
+        targetDay = now.getDate();
+      }
       
-      // 先找和当天日期匹配的sheet（比如"11.3仓库考勤异常"对应11月3日）
+      // 先找和编辑日期匹配的sheet（比如"11.3仓库考勤异常"对应11月3日）
       let targetSheet = null;
       for(let sn of wb.SheetNames){
         // 匹配格式：M.D 开头，比如 "11.3仓库考勤异常"、"7.1仓库异常考勤"
         const m = sn.match(/^(\d{1,2})\.(\d{1,2})/);
         if(m){
           const sm = parseInt(m[1]), sd = parseInt(m[2]);
-          if(sm === todayMonth && sd === todayDay){
+          if(sm === targetMonth && sd === targetDay){
             targetSheet = sn;
             break;
           }
