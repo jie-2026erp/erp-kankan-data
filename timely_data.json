@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 20:36:22",
+  "update_time": "2026-11-04 20:38:29",
   "pack3": {
     "total": 16,
     "over24": 0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-04 16:53:19",
-        "hours": 3.7,
+        "hours": 3.8,
         "owner": "徐娇红",
         "transport": "海运欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 18:04:50",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 40,
         "pack_time": "2026-11-04 18:52:25",
-        "hours": 1.7,
+        "hours": 1.8,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 19:11:03",
-        "hours": 1.4,
+        "hours": 1.5,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -99,19 +99,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MTZ1DB9",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-114",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 25,
-        "pack_time": "2026-11-04 19:48:53",
-        "hours": 0.8,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MTZ08K7",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -120,6 +107,19 @@
         "err_msg": "",
         "box_total": 12,
         "pack_time": "2026-11-04 19:47:18",
+        "hours": 0.9,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MTZ1DB9",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-114",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 25,
+        "pack_time": "2026-11-04 19:48:53",
         "hours": 0.8,
         "owner": "王贝贝",
         "transport": "海运欧洲"
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 20:15:53",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "罗楠",
         "transport": "卡航欧洲"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -172,9 +172,35 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 20:28:29",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "丁胜玥",
         "transport": "卡航英国"
+      },
+      {
+        "code": "HWC261103064",
+        "platform": "LOUISTONE",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1966",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 19,
+        "pack_time": "2026-11-04 20:29:23",
+        "hours": 0.2,
+        "owner": "李思佳",
+        "transport": "慢船海派（美东）"
+      },
+      {
+        "code": "FBA15MTZGGM5",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-061",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 50,
+        "pack_time": "2026-11-04 20:35:21",
+        "hours": 0.1,
+        "owner": "金盼",
+        "transport": "海运英国卡派"
       },
       {
         "code": "FBA15MTZHMZX",
@@ -188,32 +214,6 @@
         "hours": 0.1,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261103064",
-        "platform": "LOUISTONE",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1966",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 19,
-        "pack_time": "2026-11-04 20:29:23",
-        "hours": 0.1,
-        "owner": "李思佳",
-        "transport": "慢船海派（美东）"
-      },
-      {
-        "code": "FBA15MTZGGM5",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-061",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 50,
-        "pack_time": "2026-11-04 20:35:21",
-        "hours": 0.0,
-        "owner": "金盼",
-        "transport": "海运英国卡派"
       }
     ]
   },
