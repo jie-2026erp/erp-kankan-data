@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 17:33:33",
+  "update_time": "2026-11-04 17:35:37",
   "pack3": {
     "total": 22,
     "over24": 3,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-02 19:55:15",
-        "hours": 45.6,
+        "hours": 45.7,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -55,7 +55,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 2,
         "pack_time": "2026-11-04 13:13:47",
-        "hours": 4.3,
+        "hours": 4.4,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 15:00:58",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "金珍",
         "transport": "卡航欧洲"
       },
@@ -107,8 +107,34 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 15:14:01",
-        "hours": 2.3,
+        "hours": 2.4,
         "owner": "刘瑜",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261102066",
+        "platform": "Cdiscount",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-12-60",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-04 15:14:01",
+        "hours": 2.4,
+        "owner": "金珍",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261102065",
+        "platform": "Cdiscount",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-11-40",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-04 15:14:03",
+        "hours": 2.4,
+        "owner": "金珍",
         "transport": "卡航欧洲"
       },
       {
@@ -123,32 +149,6 @@
         "hours": 2.3,
         "owner": "金珍",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261102066",
-        "platform": "Cdiscount",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-60",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-04 15:14:01",
-        "hours": 2.3,
-        "owner": "金珍",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261102065",
-        "platform": "Cdiscount",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-40",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-04 15:14:03",
-        "hours": 2.3,
-        "owner": "金珍",
-        "transport": "卡航欧洲"
       },
       {
         "code": "HWC261103030",
@@ -219,7 +219,7 @@
         "code": "FBA15MTXSMWS",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0524",
+        "space": "FH-3-59",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 10,
@@ -258,7 +258,7 @@
         "code": "FBA15MTV7X5V",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0520",
+        "space": "FH-4-78",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 5,
