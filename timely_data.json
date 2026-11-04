@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 13:36:26",
+  "update_time": "2026-11-04 13:38:22",
   "pack3": {
-    "total": 11,
+    "total": 10,
     "over24": 3,
     "over48": 0,
     "max_hours": 42.5,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 42.3,
+        "hours": 42.4,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -76,26 +76,26 @@
         "code": "FBA15MTS78F0",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0624",
+        "space": "FH-3-47",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 11:40:38",
-        "hours": 1.9,
+        "hours": 2.0,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MTRT9MJ",
-        "platform": "FBA",
+        "code": "HWC261103019",
+        "platform": "GOODCANG",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-46",
+        "space": "FH-3-51",
         "is_dtb": false,
-        "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-04 13:06:49",
-        "hours": 0.5,
-        "owner": "杨雨薇",
+        "err_msg": "后台产品未审核成功",
+        "box_total": 5,
+        "pack_time": "2026-11-04 13:16:57",
+        "hours": 0.4,
+        "owner": "system",
         "transport": "海运欧洲"
       },
       {
@@ -110,19 +110,6 @@
         "hours": 0.4,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261103019",
-        "platform": "GOODCANG",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-3-51",
-        "is_dtb": false,
-        "err_msg": "后台产品未审核成功",
-        "box_total": 5,
-        "pack_time": "2026-11-04 13:16:57",
-        "hours": 0.3,
-        "owner": "system",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261103018",
