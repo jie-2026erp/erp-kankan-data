@@ -1085,23 +1085,30 @@ async function loadCostData(){
             document.getElementById('monthlyTable').innerHTML = mh+'</tbody></table>';
         }catch(e){ console.warn('monthly detail render fail:', e); }
 
-        // 周度对比图（当月4段：1-7号、8-14号、15-21号、22号~月底）
+        // 周度对比图（按周一到周日为一周，当月4周）
         try{
             const now = new Date();
             const y = now.getFullYear(), m = now.getMonth();
-            const daysInMonth = new Date(y, m+1, 0).getDate();
-            // 4段的起止日期
-            const weeks = [
-                {start: 1, end: 7, label: '1-7日'},
-                {start: 8, end: 14, label: '8-14日'},
-                {start: 15, end: 21, label: '15-21日'},
-                {start: 22, end: daysInMonth, label: '22日-月底'}
-            ];
+            // 当月第一天是星期几（0=周日，1=周一，...，6=周六）
+            const firstDay = new Date(y, m, 1).getDay();
+            // 计算当月第一个周一的日期
+            // 如果1号是周一，offset=0，第一个周一是1号
+            // 如果1号是周二，offset=6，第一个周一是7号
+            // 如果1号是周日，offset=1，第一个周一是2号
+            const offset = (1 - firstDay + 7) % 7;
+            const firstMonday = new Date(y, m, 1 + offset);
             const weekLabels = [], weekBars = [], weekLine = [];
-            weeks.forEach(w=>{
+            for(let w=0; w<4; w++){
+                // 第w周：周一到周日
+                const wStart = new Date(firstMonday);
+                wStart.setDate(firstMonday.getDate() + w*7);
+                const wEnd = new Date(wStart);
+                wEnd.setDate(wStart.getDate() + 6); // 周一+6天=周日
+                // 统计这一周的数据
                 let wOut = 0, wCost = 0;
-                for(let day=w.start; day<=w.end; day++){
+                for(let day=1; day<=31; day++){
                     const dd = new Date(y, m, day);
+                    if(dd.getTime() < wStart.getTime() || dd.getTime() > wEnd.getTime()) continue;
                     if(dd.getTime() > now.getTime()) break;
                     const key = y+'-'+String(m+1).padStart(2,'0')+'-'+String(day).padStart(2,'0');
                     const rec = dMap[key];
@@ -1111,10 +1118,10 @@ async function loadCostData(){
                     }
                 }
                 const wAvg = wOut>0 ? wCost/wOut : null;
-                weekLabels.push(w.label);
+                weekLabels.push('第'+(w+1)+'周');
                 weekBars.push(wOut);
                 weekLine.push(wAvg);
-            });
+            }
             costChart('weeklyCompareSvg', weekLabels, weekBars, weekLine, {barColor:'rgba(255,171,64,.5)'});
         }catch(e){ console.warn('weekly chart render fail:', e); }
 
