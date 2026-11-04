@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 20:57:34",
+  "update_time": "2026-11-04 20:59:39",
   "pack3": {
-    "total": 14,
+    "total": 15,
     "over24": 0,
     "over48": 0,
     "max_hours": 6.1,
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 18:50:19",
-        "hours": 2.1,
+        "hours": 2.2,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -73,6 +73,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MTZ1DB9",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1988,JH11-1989",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 25,
+        "pack_time": "2026-11-04 19:48:53",
+        "hours": 1.2,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MTZ08K7",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -86,19 +99,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MTZ1DB9",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1988,JH11-1989",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 25,
-        "pack_time": "2026-11-04 19:48:53",
-        "hours": 1.1,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA261104002",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 13,
         "pack_time": "2026-11-04 19:55:46",
-        "hours": 1.0,
+        "hours": 1.1,
         "owner": "柯宗磊",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -164,6 +164,19 @@
         "transport": "慢船海派（美东）"
       },
       {
+        "code": "HWC261104005",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1964",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-04 20:43:12",
+        "hours": 0.3,
+        "owner": "杨晓如",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA15MTZGGM5",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -177,16 +190,16 @@
         "transport": "海运英国卡派"
       },
       {
-        "code": "HWC261104005",
-        "platform": "GOODCANG",
+        "code": "FBA261103205",
+        "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1964",
+        "space": "JH11-1963,JH11-1962",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-04 20:43:12",
-        "hours": 0.2,
-        "owner": "杨晓如",
+        "box_total": 17,
+        "pack_time": "2026-11-04 20:58:18",
+        "hours": 0.0,
+        "owner": "丁胜玥",
         "transport": "海运英国"
       }
     ]
