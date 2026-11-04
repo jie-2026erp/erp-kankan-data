@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-04 19:58:57",
+  "update_time": "2026-11-04 20:01:07",
   "pack3": {
-    "total": 18,
+    "total": 17,
     "over24": 0,
     "over48": 0,
-    "max_hours": 5.1,
+    "max_hours": 5.2,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 14:51:14",
-        "hours": 5.1,
+        "hours": 5.2,
         "owner": "李淑雯",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 18:50:19",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -107,22 +107,9 @@
         "err_msg": "",
         "box_total": 20,
         "pack_time": "2026-11-04 19:14:40",
-        "hours": 0.7,
+        "hours": 0.8,
         "owner": "王贝贝",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261103068",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-91",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-04 19:20:40",
-        "hours": 0.6,
-        "owner": "李淑雯",
-        "transport": "喜运达（海运）"
       },
       {
         "code": "FBA15MTZ1G4F",
@@ -164,6 +151,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MTYV386",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-12-34,FH-6-86",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 18,
+        "pack_time": "2026-11-04 19:50:19",
+        "hours": 0.2,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MTZ1DB9",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -193,24 +193,11 @@
         "code": "FBA15MTZ2GGD",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1985,JH11-1984",
+        "space": "FH-12-34",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-04 19:52:43",
-        "hours": 0.1,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MTYV386",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-86",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 18,
-        "pack_time": "2026-11-04 19:50:19",
         "hours": 0.1,
         "owner": "王贝贝",
         "transport": "海运欧洲"
