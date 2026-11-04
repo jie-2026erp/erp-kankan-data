@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 18:39:08",
+  "update_time": "2026-11-04 18:41:13",
   "pack3": {
-    "total": 11,
+    "total": 10,
     "over24": 0,
     "over48": 0,
     "max_hours": 3.8,
@@ -73,23 +73,10 @@
         "transport": "海运阿联酋"
       },
       {
-        "code": "FBA19W31BY6H",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-61",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 10,
-        "pack_time": "2026-11-04 18:14:23",
-        "hours": 0.4,
-        "owner": "滕明静",
-        "transport": "慢船海派（美西）"
-      },
-      {
         "code": "FBA15MTY5C3S",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0510",
+        "space": "FH-9-49",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 15,
@@ -97,6 +84,19 @@
         "hours": 0.3,
         "owner": "王贝贝",
         "transport": "海运英国"
+      },
+      {
+        "code": "FBA15MTYGVJ7",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-12-35",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 18,
+        "pack_time": "2026-11-04 18:25:52",
+        "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MTZ7870",
@@ -112,19 +112,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MTYGVJ7",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0509",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 18,
-        "pack_time": "2026-11-04 18:25:52",
-        "hours": 0.2,
-        "owner": "杨雨薇",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MTYR0KR",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -133,7 +120,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 18:31:29",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "王贝贝",
         "transport": "卡航英国"
       },
@@ -146,7 +133,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 18:37:27",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "欧阳子航",
         "transport": "慢船海卡（美东）"
       }
