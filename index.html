@@ -256,6 +256,10 @@ td:first-child { color:#1890ff; font-weight:600; }
             <div class="v" id="stockQuote">-</div>
             <div class="l">🚚 待上传物流询价 <span id="stockQuoteCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
         </div>
+        <div class="kpi" style="--c:#2affb2;">
+            <div class="v" id="stockConfirm">-</div>
+            <div class="l">✅ 待确认发货 <span id="stockConfirmCount" style="font-weight:400;font-size:12px;color:#71717a;"></span></div>
+        </div>
     </div>
     <!-- 今日/昨日打印箱子标签 当日量 -->
     <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;padding:0 16px 16px;">
@@ -402,10 +406,12 @@ async function loadStock(){
         document.getElementById('stockUpdateTime').textContent = '实时 · '+(d.update_time||'--');
         document.getElementById('stockPrint').textContent = d.print_boxes||0;
         document.getElementById('stockQuote').textContent = d.quote_boxes||0;
+        document.getElementById('stockConfirm').textContent = d.confirm_boxes||0;
         document.getElementById('stockPrintCount').textContent = '('+(d.print_count||0)+'票)';
         document.getElementById('stockQuoteCount').textContent = '('+(d.quote_count||0)+'票)';
-        var _tb = (d.print_boxes||0)+(d.quote_boxes||0);
-        var _tc = (d.print_count||0)+(d.quote_count||0);
+        document.getElementById('stockConfirmCount').textContent = '('+(d.confirm_count||0)+'票)';
+        var _tb = (d.print_boxes||0)+(d.quote_boxes||0)+(d.confirm_boxes||0);
+        var _tc = (d.print_count||0)+(d.quote_count||0)+(d.confirm_count||0);
         document.getElementById('stockTotal').textContent = _tb;
         document.getElementById('stockTotalCount').textContent = '共'+_tc+'票';
         document.getElementById('stockTodayPrint').textContent = d.print_today_boxes||0;
