@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 17:46:17",
+  "update_time": "2026-11-04 17:48:22",
   "pack3": {
-    "total": 19,
+    "total": 20,
     "over24": 3,
     "over48": 0,
     "max_hours": 46.7,
@@ -55,7 +55,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 2,
         "pack_time": "2026-11-04 13:13:47",
-        "hours": 4.5,
+        "hours": 4.6,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 14:51:14",
-        "hours": 2.9,
+        "hours": 3.0,
         "owner": "李淑雯",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 15:14:01",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "刘瑜",
         "transport": "卡航欧洲"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 15:15:17",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "金珍",
         "transport": "海运欧洲"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 15:14:01",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "金珍",
         "transport": "卡航欧洲"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-04 15:14:03",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "金珍",
         "transport": "卡航欧洲"
       },
@@ -229,7 +229,7 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA261103170",
+        "code": "FBA15MTY1XWW",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0518",
@@ -250,9 +250,22 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-04 17:44:04",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "李思佳",
         "transport": "慢船海派（美西）"
+      },
+      {
+        "code": "FBA261103206",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0516",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-04 17:46:38",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
       }
     ]
   },
