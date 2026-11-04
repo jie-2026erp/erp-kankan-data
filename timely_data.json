@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 13:30:32",
+  "update_time": "2026-11-04 13:32:35",
   "pack3": {
     "total": 13,
     "over24": 3,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 42.2,
+        "hours": 42.3,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 10:47:27",
-        "hours": 2.7,
+        "hours": 2.8,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 11:40:38",
-        "hours": 1.8,
+        "hours": 1.9,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -112,6 +112,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "HWC261103019",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-3-51",
+        "is_dtb": false,
+        "err_msg": "后台产品未审核成功",
+        "box_total": 5,
+        "pack_time": "2026-11-04 13:16:57",
+        "hours": 0.3,
+        "owner": "system",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA261103101",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -125,16 +138,16 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261103019",
-        "platform": "GOODCANG",
+        "code": "HWC261103035",
+        "platform": "CHUKOUYI",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-3-51",
+        "space": "FH-3-49",
         "is_dtb": false,
-        "err_msg": "后台产品未审核成功",
-        "box_total": 5,
-        "pack_time": "2026-11-04 13:16:57",
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-04 13:22:17",
         "hours": 0.2,
-        "owner": "system",
+        "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
       {
@@ -148,19 +161,6 @@
         "pack_time": "2026-11-04 13:20:13",
         "hours": 0.2,
         "owner": "system",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261103035",
-        "platform": "CHUKOUYI",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0603",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-04 13:22:17",
-        "hours": 0.1,
-        "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
       {
