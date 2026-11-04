@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-04 11:03:17",
+  "update_time": "2026-11-04 11:05:10",
   "pack3": {
     "total": 21,
     "over24": 3,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-02 19:55:15",
-        "hours": 39.1,
+        "hours": 39.2,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 09:07:45",
-        "hours": 1.9,
+        "hours": 2.0,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -125,25 +125,12 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA15MTRM7YG",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-9-29",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-04 10:27:52",
-        "hours": 0.6,
-        "owner": "杨雨薇",
-        "transport": "海运英国"
-      },
-      {
         "code": "FBA261103080",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0644",
         "is_dtb": false,
-        "err_msg": "",
+        "err_msg": "There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is missing necessary information; dimensions need to be provided in the manufacturer's original packaging.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is missing necessary information; weight need to be provided in he manufacturer's original packaging.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: Additional information is mandatory in order to complete the Hazmat review review.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product does not exist in the destination marketplace catalog. The necessary product information will need to be provided before it can be inbounded.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must have a category specified before it can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must have a title before it can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product must be removed. You can send in new inventory by creating a new listing for this product that requires product labels.;There's an input error with the resource 'ZL-WJH-DE-0HJFMA0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 2,
         "pack_time": "2026-11-04 10:33:11",
         "hours": 0.5,
@@ -219,7 +206,7 @@
         "code": "FBA15MTSTXZH",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0637",
+        "space": "FH-4-73",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 3,
@@ -255,6 +242,19 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA15MTSH6R4",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0629",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 15,
+        "pack_time": "2026-11-04 10:55:30",
+        "hours": 0.2,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
+      },
+      {
         "code": "HWC261102110",
         "platform": "BAISHIMY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -268,17 +268,17 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA15MTSH6R4",
+        "code": "FBA261103078",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0629",
+        "space": "JH11-0628",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 15,
-        "pack_time": "2026-11-04 10:55:30",
-        "hours": 0.1,
+        "box_total": 7,
+        "pack_time": "2026-11-04 11:04:12",
+        "hours": 0.0,
         "owner": "杨雨薇",
-        "transport": "海运英国"
+        "transport": "卡航欧洲"
       }
     ]
   },
