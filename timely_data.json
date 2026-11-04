@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-04 09:05:03",
+  "update_time": "2026-11-04 09:07:02",
   "pack3": {
-    "total": 10,
+    "total": 11,
     "over24": 3,
     "over48": 0,
     "max_hours": 38.0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-02 19:16:02",
-        "hours": 37.8,
+        "hours": 37.9,
         "owner": "郝诗佳",
         "transport": "铁路罗马尼亚"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 16,
         "pack_time": "2026-11-03 13:32:26",
-        "hours": 19.5,
+        "hours": 19.6,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 08:50:30",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -133,9 +133,22 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 09:03:04",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "杨雨薇",
         "transport": "海运英国"
+      },
+      {
+        "code": "FBA261103060",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0662",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 10,
+        "pack_time": "2026-11-04 09:05:30",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
       }
     ]
   },
