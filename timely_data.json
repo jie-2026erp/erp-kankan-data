@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-05 19:47:23",
+  "update_time": "2026-11-05 19:49:33",
   "pack3": {
-    "total": 11,
+    "total": 12,
     "over24": 2,
     "over48": 0,
     "max_hours": 25.7,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 23.5,
+        "hours": 23.6,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 28,
         "pack_time": "2026-11-05 15:46:25",
-        "hours": 4.0,
+        "hours": 4.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 34,
         "pack_time": "2026-11-05 15:51:37",
-        "hours": 3.9,
+        "hours": 4.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 19:21:12",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -141,7 +141,7 @@
         "code": "HWC261104069",
         "platform": "LOUISTONE",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH21-0667,JH21-0681,JH21-0684,JH21-0683,JH21-0682",
+        "space": "FH-11-72",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 77,
@@ -149,6 +149,19 @@
         "hours": 0.3,
         "owner": "朱磊",
         "transport": "美森美西-海派美西（正班）"
+      },
+      {
+        "code": "FBA261104133",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1821",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-05 19:49:10",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
       }
     ]
   },
