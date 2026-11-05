@@ -1,8 +1,8 @@
 {
-  "update_time": "2026-11-05 20:11:25",
+  "update_time": "2026-11-05 20:13:39",
   "pack3": {
     "total": 17,
-    "over24": 2,
+    "over24": 3,
     "over48": 0,
     "max_hours": 26.1,
     "dtb_count": 0,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 23.9,
+        "hours": 24.0,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 28,
         "pack_time": "2026-11-05 15:46:25",
-        "hours": 4.4,
+        "hours": 4.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 34,
         "pack_time": "2026-11-05 15:51:37",
-        "hours": 4.3,
+        "hours": 4.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 19:21:12",
-        "hours": 0.8,
+        "hours": 0.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -154,7 +154,7 @@
         "code": "FBA15MV8810S",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1819",
+        "space": "FH-8-50",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 6,
@@ -190,6 +190,19 @@
         "transport": "卡航英国"
       },
       {
+        "code": "HWC261104010",
+        "platform": "NEWOUDA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1816",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-05 20:03:12",
+        "hours": 0.2,
+        "owner": "杨晓如",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MV86LLC",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -213,19 +226,6 @@
         "pack_time": "2026-11-05 20:05:42",
         "hours": 0.1,
         "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261104010",
-        "platform": "NEWOUDA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1816",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-05 20:03:12",
-        "hours": 0.1,
-        "owner": "杨晓如",
         "transport": "海运欧洲"
       }
     ]
