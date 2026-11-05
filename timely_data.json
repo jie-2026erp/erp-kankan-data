@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-05 16:35:05",
+  "update_time": "2026-11-05 16:37:10",
   "pack3": {
-    "total": 13,
+    "total": 12,
     "over24": 0,
     "over48": 0,
     "max_hours": 22.5,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 18:50:20",
-        "hours": 21.7,
+        "hours": 21.8,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 20.3,
+        "hours": 20.4,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -73,6 +73,19 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "HWC261104040",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-92,FH-6-83,FH-6-81",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 34,
+        "pack_time": "2026-11-05 15:51:37",
+        "hours": 0.8,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
         "code": "HWC261104034",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -86,32 +99,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261104040",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-92,FH-6-83,FH-6-81",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 34,
-        "pack_time": "2026-11-05 15:51:37",
-        "hours": 0.7,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA15MV5YVFX",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "6FH-01-01-03",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-05 16:12:59",
-        "hours": 0.4,
-        "owner": "朱磊",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261104050",
         "platform": "BAISHIMY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -120,7 +107,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-05 16:09:46",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -128,12 +115,12 @@
         "code": "FBA15MV569LR",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1868",
+        "space": "FH-8-75",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-05 16:09:45",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "朱磊",
         "transport": "海运英国"
       },
