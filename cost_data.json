@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-03 14:36:33",
+  "update_time": "2026/11/5 17:04:28",
   "today": "2026-11-03",
   "today_out_qty": 8522,
   "today_out_count": 198,
@@ -11,9 +11,9 @@
       "shift": "A",
       "leave": "",
       "daily": 173.08,
-      "ot_hours": 0.0,
-      "ot_pay": 0.0,
-      "meal": 8.0,
+      "ot_hours": 0,
+      "ot_pay": 0,
+      "meal": 8,
       "total": 181.08,
       "shift_actual": "",
       "result": "考勤未出·按基础日薪预估",
@@ -24,9 +24,9 @@
       "shift": "B",
       "leave": "",
       "daily": 173.08,
-      "ot_hours": 0.0,
-      "ot_pay": 0.0,
-      "meal": 8.0,
+      "ot_hours": 0,
+      "ot_pay": 0,
+      "meal": 8,
       "total": 181.08,
       "shift_actual": "",
       "result": "考勤未出·按基础日薪预估",
@@ -37,9 +37,9 @@
       "shift": "B",
       "leave": "",
       "daily": 173.08,
-      "ot_hours": 0.0,
-      "ot_pay": 0.0,
-      "meal": 8.0,
+      "ot_hours": 0,
+      "ot_pay": 0,
+      "meal": 8,
       "total": 181.08,
       "shift_actual": "",
       "result": "考勤未出·按基础日薪预估",
@@ -50,9 +50,9 @@
       "shift": "B",
       "leave": "",
       "daily": 173.08,
-      "ot_hours": 0.0,
-      "ot_pay": 0.0,
-      "meal": 8.0,
+      "ot_hours": 0,
+      "ot_pay": 0,
+      "meal": 8,
       "total": 181.08,
       "shift_actual": "",
       "result": "考勤未出·按基础日薪预估",
@@ -63,9 +63,9 @@
       "shift": "B",
       "leave": "",
       "daily": 173.08,
-      "ot_hours": 0.0,
-      "ot_pay": 0.0,
-      "meal": 8.0,
+      "ot_hours": 0,
+      "ot_pay": 0,
+      "meal": 8,
       "total": 181.08,
       "shift_actual": "",
       "result": "考勤未出·按基础日薪预估",
@@ -266,38 +266,52 @@
     },
     "2026-11-05": {
       "out_qty": 12089
+    },
+    "2026-11-04": {
+      "out_qty": 0,
+      "cost": 1447.02,
+      "avg": 0,
+      "persons_count": 5,
+      "off_times": {
+        "詹坤林": "17:00",
+        "汪宗标": "21:00",
+        "叶帆": "21:00",
+        "赵忠军": "21:30",
+        "朱文亮": "21:30",
+        "王梦吉": "19:39"
+      }
     }
   },
   "weekly": [
     {
       "week_start": "2026-09-28",
       "out_qty": 439,
-      "cost": 0.0,
-      "avg": 0.0
+      "cost": 0,
+      "avg": 0
     },
     {
       "week_start": "2026-10-05",
       "out_qty": 4132,
-      "cost": 0.0,
-      "avg": 0.0
+      "cost": 0,
+      "avg": 0
     },
     {
       "week_start": "2026-10-12",
       "out_qty": 9248,
-      "cost": 0.0,
-      "avg": 0.0
+      "cost": 0,
+      "avg": 0
     },
     {
       "week_start": "2026-10-19",
       "out_qty": 10487,
-      "cost": 0.0,
-      "avg": 0.0
+      "cost": 0,
+      "avg": 0
     },
     {
       "week_start": "2026-10-26",
       "out_qty": 212707,
-      "cost": 0.0,
-      "avg": 0.0
+      "cost": 0,
+      "avg": 0
     },
     {
       "week_start": "2026-11-02",
