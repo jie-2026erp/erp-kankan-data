@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-05 19:56:03",
+  "update_time": "2026-11-05 19:58:12",
   "pack3": {
-    "total": 12,
+    "total": 13,
     "over24": 2,
     "over48": 0,
     "max_hours": 25.9,
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:12",
-        "hours": 8.0,
+        "hours": 8.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B7];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B6];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B5];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B4];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B8]",
         "box_total": 8,
         "pack_time": "2026-11-05 18:30:40",
-        "hours": 1.4,
+        "hours": 1.5,
         "owner": "喻子娟",
         "transport": "卡航欧洲"
       },
@@ -128,12 +128,12 @@
         "code": "HWC261104062",
         "platform": "BAISHIMY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-76",
+        "space": "FH-11-66,FH-11-76,FH-12-30",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 27,
         "pack_time": "2026-11-05 19:23:33",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-05 19:49:10",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "杨雨薇",
         "transport": "海运英国"
       },
@@ -156,12 +156,25 @@
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1820",
         "is_dtb": false,
-        "err_msg": "",
+        "err_msg": "-ERROR: Something went wrong. Please try again later.",
         "box_total": 8,
         "pack_time": "2026-11-05 19:52:21",
         "hours": 0.1,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261104118",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1819",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-05 19:56:08",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
       }
     ]
   },
