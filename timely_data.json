@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-05 19:43:04",
+  "update_time": "2026-11-05 19:45:12",
   "pack3": {
     "total": 13,
     "over24": 2,
     "over48": 0,
-    "max_hours": 25.6,
+    "max_hours": 25.7,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 18:04:58",
-        "hours": 25.6,
+        "hours": 25.7,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 23.4,
+        "hours": 23.5,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -73,19 +73,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261104040",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-92,FH-6-83,FH-6-81",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 34,
-        "pack_time": "2026-11-05 15:51:37",
-        "hours": 3.9,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261104034",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -94,6 +81,19 @@
         "err_msg": "",
         "box_total": 28,
         "pack_time": "2026-11-05 15:46:25",
+        "hours": 4.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261104040",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-92,FH-6-83,FH-6-81",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 34,
+        "pack_time": "2026-11-05 15:51:37",
         "hours": 3.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
@@ -133,15 +133,28 @@
         "err_msg": "",
         "box_total": 27,
         "pack_time": "2026-11-05 19:23:33",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261104064",
+        "platform": "LOUISTONE",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-10-37",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 52,
+        "pack_time": "2026-11-05 19:29:08",
+        "hours": 0.3,
+        "owner": "朱磊",
+        "transport": "美森美西-海派美西（正班）"
       },
       {
         "code": "HWC261104060",
         "platform": "LOUISTONE",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH21-0668,JH21-0688,JH21-0689",
+        "space": "FH-10-47",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 50,
@@ -159,19 +172,6 @@
         "err_msg": "",
         "box_total": 77,
         "pack_time": "2026-11-05 19:30:56",
-        "hours": 0.2,
-        "owner": "朱磊",
-        "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "HWC261104064",
-        "platform": "LOUISTONE",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH21-0669,JH21-0690,JH21-0691",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 52,
-        "pack_time": "2026-11-05 19:29:08",
         "hours": 0.2,
         "owner": "朱磊",
         "transport": "美森美西-海派美西（正班）"
