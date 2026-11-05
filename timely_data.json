@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-05 19:38:47",
+  "update_time": "2026-11-05 19:40:55",
   "pack3": {
     "total": 14,
     "over24": 2,
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:12",
-        "hours": 7.7,
+        "hours": 7.8,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:14",
-        "hours": 7.7,
+        "hours": 7.8,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B7];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B6];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B5];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B4];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B8]",
         "box_total": 8,
         "pack_time": "2026-11-05 18:30:40",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "喻子娟",
         "transport": "卡航欧洲"
       },
@@ -138,19 +138,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261104064",
-        "platform": "LOUISTONE",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH21-0669,JH21-0690,JH21-0691",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 52,
-        "pack_time": "2026-11-05 19:29:08",
-        "hours": 0.2,
-        "owner": "朱磊",
-        "transport": "美森美西-海派美西（正班）"
-      },
-      {
         "code": "HWC261104060",
         "platform": "LOUISTONE",
         "warehouse": "FBA中转仓-金华2仓",
@@ -159,7 +146,7 @@
         "err_msg": "",
         "box_total": 50,
         "pack_time": "2026-11-05 19:24:44",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "朱磊",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -167,12 +154,12 @@
         "code": "HWC261104072",
         "platform": "LOUISTONE",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-078",
+        "space": "JH21-0670,JH21-0692,JH21-0693",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 51,
         "pack_time": "2026-11-05 19:30:54",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "朱磊",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -185,7 +172,20 @@
         "err_msg": "",
         "box_total": 77,
         "pack_time": "2026-11-05 19:30:56",
-        "hours": 0.1,
+        "hours": 0.2,
+        "owner": "朱磊",
+        "transport": "美森美西-海派美西（正班）"
+      },
+      {
+        "code": "HWC261104064",
+        "platform": "LOUISTONE",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH21-0669,JH21-0690,JH21-0691",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 52,
+        "pack_time": "2026-11-05 19:29:08",
+        "hours": 0.2,
         "owner": "朱磊",
         "transport": "美森美西-海派美西（正班）"
       }
