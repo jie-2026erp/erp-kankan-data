@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-05 16:07:22",
+  "update_time": "2026-11-05 16:09:27",
   "pack3": {
-    "total": 13,
+    "total": 12,
     "over24": 0,
     "over48": 0,
-    "max_hours": 22.0,
+    "max_hours": 22.1,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 18:04:58",
-        "hours": 22.0,
+        "hours": 22.1,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -112,15 +112,28 @@
         "transport": "海运英国"
       },
       {
-        "code": "HWC261104061",
+        "code": "HWC261104041",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "6FH-02-01-12",
+        "space": "JH11-1874",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-05 15:40:11",
-        "hours": 0.5,
+        "box_total": 14,
+        "pack_time": "2026-11-05 15:46:24",
+        "hours": 0.4,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261104034",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-89,FH-8-70",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 28,
+        "pack_time": "2026-11-05 15:46:25",
+        "hours": 0.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -138,40 +151,14 @@
         "transport": "海运英国"
       },
       {
-        "code": "HWC261104041",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1874",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 14,
-        "pack_time": "2026-11-05 15:46:24",
-        "hours": 0.3,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261104040",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1872,JH11-1871,JH11-1870",
+        "space": "FH-6-92",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 34,
         "pack_time": "2026-11-05 15:51:37",
-        "hours": 0.3,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261104034",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-89,FH-8-70",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 28,
-        "pack_time": "2026-11-05 15:46:25",
         "hours": 0.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
