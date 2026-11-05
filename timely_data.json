@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-05 17:58:58",
+  "update_time": "2026-11-05 18:01:07",
   "pack3": {
     "total": 17,
     "over24": 0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 18:50:20",
-        "hours": 23.1,
+        "hours": 23.2,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 21.7,
+        "hours": 21.8,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -73,6 +73,19 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "HWC261104040",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-92,FH-6-83,FH-6-81",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 34,
+        "pack_time": "2026-11-05 15:51:37",
+        "hours": 2.2,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
         "code": "HWC261104034",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -82,19 +95,6 @@
         "box_total": 28,
         "pack_time": "2026-11-05 15:46:25",
         "hours": 2.2,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261104040",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-92,FH-6-83,FH-6-81",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 34,
-        "pack_time": "2026-11-05 15:51:37",
-        "hours": 2.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 17:39:28",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "曹晓华",
         "transport": "慢船海卡（美西）"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 17:57:11",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 17:57:09",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -185,9 +185,35 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 17:57:11",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261104045",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1847,JH11-1845",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 23,
+        "pack_time": "2026-11-05 17:57:29",
+        "hours": 0.1,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261104021",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1853",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-05 17:57:24",
+        "hours": 0.1,
+        "owner": "曹晓华",
+        "transport": "慢船海卡（美中）"
       },
       {
         "code": "FBA261104094",
@@ -201,32 +227,6 @@
         "hours": 0.0,
         "owner": "丁胜玥",
         "transport": "海运英国"
-      },
-      {
-        "code": "HWC261104045",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1847,JH11-1845",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 23,
-        "pack_time": "2026-11-05 17:57:29",
-        "hours": 0.0,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261104021",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1853",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-05 17:57:24",
-        "hours": 0.0,
-        "owner": "曹晓华",
-        "transport": "慢船海卡（美中）"
       }
     ]
   },
