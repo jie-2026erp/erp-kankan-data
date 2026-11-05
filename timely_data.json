@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-05 13:11:29",
+  "update_time": "2026-11-05 13:13:21",
   "pack3": {
-    "total": 17,
+    "total": 18,
     "over24": 0,
     "over48": 0,
-    "max_hours": 22.3,
+    "max_hours": 22.4,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-04 14:51:14",
-        "hours": 22.3,
+        "hours": 22.4,
         "owner": "李淑雯",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 16.9,
+        "hours": 17.0,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -97,19 +97,6 @@
         "hours": 2.2,
         "owner": "丁胜玥",
         "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MV20KQN",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-43",
-        "is_dtb": false,
-        "err_msg": "货件收件地址异常!",
-        "box_total": 20,
-        "pack_time": "2026-11-05 11:02:06",
-        "hours": 2.2,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MV34BBG",
@@ -227,6 +214,32 @@
         "hours": 1.3,
         "owner": "丁胜玥",
         "transport": "海运英国"
+      },
+      {
+        "code": "HWC261104026",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1898",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-05 13:12:33",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261104016",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1896",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-05 13:12:06",
+        "hours": 0.0,
+        "owner": "曹晓华",
+        "transport": "慢船海卡（美西）"
       }
     ]
   },
