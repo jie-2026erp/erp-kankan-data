@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-05 16:03:12",
+  "update_time": "2026-11-05 16:05:17",
   "pack3": {
     "total": 13,
     "over24": 0,
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:12",
-        "hours": 4.1,
+        "hours": 4.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:14",
-        "hours": 4.1,
+        "hours": 4.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 15:00:39",
-        "hours": 1.0,
+        "hours": 1.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 15:12:40",
-        "hours": 0.8,
+        "hours": 0.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -125,6 +125,19 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "FBA15MV5JB6S",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1869",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-05 15:50:14",
+        "hours": 0.3,
+        "owner": "朱磊",
+        "transport": "海运英国"
+      },
+      {
         "code": "HWC261104041",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -141,7 +154,7 @@
         "code": "HWC261104034",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1880,JH11-1879",
+        "space": "FH-8-89",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 28,
@@ -149,19 +162,6 @@
         "hours": 0.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA15MV5JB6S",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1869",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-05 15:50:14",
-        "hours": 0.2,
-        "owner": "朱磊",
-        "transport": "海运英国"
       },
       {
         "code": "HWC261104040",
