@@ -1,15 +1,25 @@
 {
   "date": "2026-11-05",
-  "update_time": "2026-11-05 13:38:02",
+  "update_time": "2026-11-05 13:40:03",
   "total_boxes": 0,
   "total_users": 0,
   "total_batches": 0,
   "total_marked_bulk": 0.0,
   "by_user": [],
   "hourly": {},
-  "unmarked": [],
-  "unmarked_count": 0,
-  "unmarked_bulk": 0.0,
+  "unmarked": [
+    {
+      "batch_code": "TH26110500302",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "鸿泰",
+      "datetime": "2026-11-05 13:40:56",
+      "bulk": 10.1376,
+      "sum_box": "112",
+      "is_write": "未填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 10.14,
   "partial_list": [],
   "partial_count": 0,
   "week_stat": {
