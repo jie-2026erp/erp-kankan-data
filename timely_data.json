@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-05 18:38:31",
+  "update_time": "2026-11-05 18:40:36",
   "pack3": {
-    "total": 15,
+    "total": 12,
     "over24": 1,
     "over48": 0,
     "max_hours": 24.6,
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:12",
-        "hours": 6.7,
+        "hours": 6.8,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:14",
-        "hours": 6.7,
+        "hours": 6.8,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -99,19 +99,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261104065",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-1-31",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-05 16:28:12",
-        "hours": 2.2,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261104023",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
@@ -125,43 +112,17 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "FBA15MV8B9XV",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-1-37",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-05 17:46:11",
-        "hours": 0.9,
-        "owner": "朱磊",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MV7DWG1",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1838",
+        "space": "FH-8-36",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-05 18:12:28",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "丁胜玥",
         "transport": "海运英国"
-      },
-      {
-        "code": "HWC261104056",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-56",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 9,
-        "pack_time": "2026-11-05 18:21:29",
-        "hours": 0.3,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
       },
       {
         "code": "HWC261104068",
@@ -172,7 +133,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-05 18:23:34",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "朱磊",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -180,12 +141,12 @@
         "code": "HWC261104066",
         "platform": "LOUISTONE",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1834",
+        "space": "6FH-02-01-20",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-05 18:23:34",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "朱磊",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -198,7 +159,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B7];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B6];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B5];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B4];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B8]",
         "box_total": 8,
         "pack_time": "2026-11-05 18:30:40",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "喻子娟",
         "transport": "卡航欧洲"
       }
