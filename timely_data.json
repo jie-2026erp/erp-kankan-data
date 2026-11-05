@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-05 18:42:41",
+  "update_time": "2026-11-05 18:44:47",
   "pack3": {
-    "total": 9,
+    "total": 8,
     "over24": 1,
     "over48": 0,
-    "max_hours": 24.6,
+    "max_hours": 24.7,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 18:04:58",
-        "hours": 24.6,
+        "hours": 24.7,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 22.4,
+        "hours": 22.5,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -73,6 +73,19 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "HWC261104034",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-89,FH-8-70",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 28,
+        "pack_time": "2026-11-05 15:46:25",
+        "hours": 3.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
         "code": "HWC261104040",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -84,32 +97,6 @@
         "hours": 2.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261104034",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-89,FH-8-70",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 28,
-        "pack_time": "2026-11-05 15:46:25",
-        "hours": 2.9,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA15MV7DWG1",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-36",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 9,
-        "pack_time": "2026-11-05 18:12:28",
-        "hours": 0.5,
-        "owner": "丁胜玥",
-        "transport": "海运英国"
       },
       {
         "code": "FBA261103135",
