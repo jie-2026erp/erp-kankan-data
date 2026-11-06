@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-06 16:27:01",
+  "update_time": "2026-11-06 16:28:52",
   "pack3": {
-    "total": 10,
+    "total": 11,
     "over24": 0,
     "over48": 0,
-    "max_hours": 21.9,
+    "max_hours": 22.0,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B7];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B6];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B5];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B4];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B8]",
         "box_total": 8,
         "pack_time": "2026-11-05 18:30:40",
-        "hours": 21.9,
+        "hours": 22.0,
         "owner": "喻子娟",
         "transport": "卡航欧洲"
       },
@@ -42,9 +42,22 @@
         "err_msg": "There's an input error with the resource 'ZL-DE-YZJ-0HNABA0000001-02'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-DE-YZJ-0HNABA0000001-02'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 5,
         "pack_time": "2026-11-06 15:30:07",
-        "hours": 0.9,
+        "hours": 1.0,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MVFHW88",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1648",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-06 16:07:15",
+        "hours": 0.4,
+        "owner": "丁胜玥",
+        "transport": "海运英国"
       },
       {
         "code": "FBA15MVFNM7D",
@@ -60,23 +73,10 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MVFHW88",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1648",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-06 16:07:15",
-        "hours": 0.3,
-        "owner": "丁胜玥",
-        "transport": "海运英国"
-      },
-      {
         "code": "FBA15MVFYY37",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1646",
+        "space": "FH-2-10",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 6,
@@ -89,7 +89,7 @@
         "code": "FBA15MVFMX47",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1646",
+        "space": "FH-2-10",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 4,
@@ -136,6 +136,19 @@
         "hours": 0.2,
         "owner": "曹晓华",
         "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "FBA261106037",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1640",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-06 16:27:45",
+        "hours": 0.0,
+        "owner": "陈静",
+        "transport": "海运日本"
       }
     ]
   },
