@@ -1,11 +1,11 @@
 {
-  "update_time": "2026-11-06 08:19:14",
+  "update_time": "2026-11-06 08:21:32",
   "pack3": {
     "total": 11,
     "over24": 3,
     "over48": 0,
-    "max_hours": 38.2,
-    "dtb_count": 0,
+    "max_hours": 38.3,
+    "dtb_count": 1,
     "list": [
       {
         "code": "HWC261103013",
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 18:04:58",
-        "hours": 38.2,
+        "hours": 38.3,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -73,19 +73,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261104040",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-92,FH-6-83,FH-6-81",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 34,
-        "pack_time": "2026-11-05 15:51:37",
-        "hours": 16.5,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261104034",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -94,6 +81,19 @@
         "err_msg": "",
         "box_total": 28,
         "pack_time": "2026-11-05 15:46:25",
+        "hours": 16.6,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261104040",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-92,FH-6-83,FH-6-81",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 34,
+        "pack_time": "2026-11-05 15:51:37",
         "hours": 16.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
@@ -128,12 +128,12 @@
         "code": "FBA15MV81RVF",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-065",
-        "is_dtb": false,
+        "space": "DTB-2-68",
+        "is_dtb": true,
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-05 20:41:09",
-        "hours": 11.6,
+        "hours": 11.7,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-05 20:52:35",
-        "hours": 11.4,
+        "hours": 11.5,
         "owner": "杨晓如",
         "transport": "卡航欧洲"
       }
