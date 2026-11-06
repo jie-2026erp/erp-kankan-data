@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-06 15:28:13",
+  "update_time": "2026-11-06 15:30:27",
   "pack3": {
-    "total": 15,
+    "total": 18,
     "over24": 0,
     "over48": 0,
     "max_hours": 21.0,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 13:26:56",
-        "hours": 2.0,
+        "hours": 2.1,
         "owner": "何子怡",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -71,6 +71,19 @@
         "hours": 0.9,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
+      },
+      {
+        "code": "FBA15MVFRN32",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1669",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-06 15:15:07",
+        "hours": 0.3,
+        "owner": "时惠",
+        "transport": "卡航英国"
       },
       {
         "code": "FBA15MVF19BL",
@@ -125,19 +138,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MVFRN32",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1669",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-06 15:15:07",
-        "hours": 0.2,
-        "owner": "时惠",
-        "transport": "卡航英国"
-      },
-      {
         "code": "HWC261105015",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
@@ -146,9 +146,35 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-06 15:20:53",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "FBA19W9KVP47",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1674",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-06 15:26:22",
+        "hours": 0.1,
+        "owner": "何子怡",
+        "transport": "美森美西-海卡美西（正班）"
+      },
+      {
+        "code": "FBA19W9M6VJX",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1674",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-06 15:26:19",
+        "hours": 0.1,
+        "owner": "何子怡",
+        "transport": "美森美西-海卡美西（正班）"
       },
       {
         "code": "HWC261105016",
@@ -164,30 +190,30 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "FBA19W9KVP47",
+        "code": "FBA261105049",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1674",
+        "space": "JH11-1665",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-06 15:26:22",
+        "box_total": 6,
+        "pack_time": "2026-11-06 15:29:27",
         "hours": 0.0,
-        "owner": "何子怡",
-        "transport": "美森美西-海卡美西（正班）"
+        "owner": "时惠",
+        "transport": "卡航英国"
       },
       {
-        "code": "FBA19W9M6VJX",
-        "platform": "FBA",
+        "code": "HWC261105013",
+        "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1674",
+        "space": "JH11-1664",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-06 15:26:19",
+        "box_total": 2,
+        "pack_time": "2026-11-06 15:29:26",
         "hours": 0.0,
-        "owner": "何子怡",
-        "transport": "美森美西-海卡美西（正班）"
+        "owner": "华陈茜",
+        "transport": "慢船海卡（美西）"
       },
       {
         "code": "HWC261105011",
@@ -201,6 +227,19 @@
         "hours": 0.0,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "FBA261104181",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1662",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-06 15:30:07",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
       }
     ]
   },
