@@ -1,22 +1,31 @@
 {
   "date": "2026-11-06",
-  "update_time": "2026-11-06 11:38:27",
-  "total_boxes": 0,
-  "total_users": 0,
-  "total_batches": 0,
-  "total_marked_bulk": 0.0,
-  "by_user": [],
-  "hourly": {},
-  "unmarked": [
+  "update_time": "2026-11-06 11:40:36",
+  "total_boxes": 15,
+  "total_users": 2,
+  "total_batches": 2,
+  "total_marked_bulk": 2.87,
+  "by_user": [
     {
-      "batch_code": "TH26110600304",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "路易通",
-      "datetime": "2026-11-06 11:36:02",
-      "bulk": 2.518,
-      "sum_box": "27",
-      "is_write": "已填写"
+      "name": "汪宗标",
+      "boxes": 12,
+      "shipments": 1
     },
+    {
+      "name": "叶帆",
+      "boxes": 3,
+      "shipments": 1
+    }
+  ],
+  "hourly": {
+    "汪宗标": {
+      "11": 12
+    },
+    "叶帆": {
+      "11": 3
+    }
+  },
+  "unmarked": [
     {
       "batch_code": "TH26110600303",
       "warehouse": "FBA中转仓-金华2仓",
@@ -25,25 +34,33 @@
       "bulk": 18.592,
       "sum_box": "200",
       "is_write": "已填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 18.59,
+  "partial_list": [
+    {
+      "batch_code": "TH26110600304",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "路易通",
+      "total_box": 27,
+      "marked_box": 12,
+      "unmarked_box": 15
     },
     {
       "batch_code": "TH26110600301",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "苏恩",
-      "datetime": "2026-11-06 11:25:21",
-      "bulk": 0.3562,
-      "sum_box": "6",
-      "is_write": "已填写"
+      "total_box": 6,
+      "marked_box": 5,
+      "unmarked_box": 1
     }
   ],
-  "unmarked_count": 3,
-  "unmarked_bulk": 21.47,
-  "partial_list": [],
-  "partial_count": 0,
+  "partial_count": 2,
   "week_stat": {
-    "bulk": 390.87,
-    "boxes": 4602,
-    "count": 29
+    "bulk": 391.23,
+    "boxes": 4608,
+    "count": 30
   },
   "last_week_stat": {
     "bulk": 619.21,
@@ -51,8 +68,8 @@
     "count": 50
   },
   "month_stat": {
-    "bulk": 390.87,
-    "boxes": 4602,
-    "count": 29
+    "bulk": 391.23,
+    "boxes": 4608,
+    "count": 30
   }
 }
