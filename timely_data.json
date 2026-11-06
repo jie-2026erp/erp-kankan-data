@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-06 09:25:07",
+  "update_time": "2026-11-06 09:27:31",
   "pack3": {
     "total": 21,
     "over24": 3,
     "over48": 0,
-    "max_hours": 39.3,
+    "max_hours": 39.4,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 18:04:58",
-        "hours": 39.3,
+        "hours": 39.4,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -73,19 +73,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261104040",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-92,FH-6-83,FH-6-81",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 34,
-        "pack_time": "2026-11-05 15:51:37",
-        "hours": 17.6,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261104034",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -94,6 +81,19 @@
         "err_msg": "",
         "box_total": 28,
         "pack_time": "2026-11-05 15:46:25",
+        "hours": 17.7,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261104040",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-92,FH-6-83,FH-6-81",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 34,
+        "pack_time": "2026-11-05 15:51:37",
         "hours": 17.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-05 20:52:35",
-        "hours": 12.5,
+        "hours": 12.6,
         "owner": "杨晓如",
         "transport": "卡航欧洲"
       },
@@ -190,6 +190,32 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA15MVBXD47",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1786",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-06 09:10:29",
+        "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MVBMVP5",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1784",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 11,
+        "pack_time": "2026-11-06 09:10:28",
+        "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "FBA15MVBXNCQ",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -216,19 +242,6 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MVBXD47",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1786",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-06 09:10:29",
-        "hours": 0.2,
-        "owner": "杨雨薇",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MVBTSB2",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -242,20 +255,7 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MVBMVP5",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1784",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 11,
-        "pack_time": "2026-11-06 09:10:28",
-        "hours": 0.2,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA261104157",
+        "code": "FBA15MVBX6KB",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1776",
@@ -286,7 +286,7 @@
     "total": 1,
     "over24": 0,
     "over48": 0,
-    "max_hours": 1.0,
+    "max_hours": 1.1,
     "dtb_count": 1,
     "list": [
       {
@@ -298,7 +298,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-06 08:22:42",
-        "hours": 1.0,
+        "hours": 1.1,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       }
