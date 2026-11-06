@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-06 18:10:41",
+  "update_time": "2026-11-06 18:12:45",
   "pack3": {
-    "total": 6,
+    "total": 7,
     "over24": 0,
     "over48": 0,
     "max_hours": 23.7,
@@ -60,6 +60,19 @@
         "transport": "海运日本"
       },
       {
+        "code": "FBA261106007",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1626",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-06 18:09:03",
+        "hours": 0.1,
+        "owner": "柯宗磊",
+        "transport": "美森美西-海派美西（正班）"
+      },
+      {
         "code": "HWC261105021",
         "platform": "eMAG",
         "warehouse": "FBA中转仓-金华2仓",
@@ -73,17 +86,17 @@
         "transport": "铁路罗马尼亚"
       },
       {
-        "code": "FBA261106007",
+        "code": "FBA261106050",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1626",
+        "space": "JH11-1625",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-06 18:09:03",
+        "box_total": 5,
+        "pack_time": "2026-11-06 18:11:56",
         "hours": 0.0,
-        "owner": "柯宗磊",
-        "transport": "美森美西-海派美西（正班）"
+        "owner": "巩晓玉",
+        "transport": "卡航英国"
       }
     ]
   },
