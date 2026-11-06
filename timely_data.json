@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-06 13:05:16",
+  "update_time": "2026-11-06 13:07:27",
   "pack3": {
-    "total": 8,
+    "total": 9,
     "over24": 3,
     "over48": 0,
     "max_hours": 43.0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 18:50:20",
-        "hours": 42.2,
+        "hours": 42.3,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 40.8,
+        "hours": 40.9,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-05 20:03:12",
-        "hours": 17.0,
+        "hours": 17.1,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -107,9 +107,22 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 4,
         "pack_time": "2026-11-06 11:40:23",
-        "hours": 1.4,
+        "hours": 1.5,
         "owner": "system",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261104091",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1724",
+        "is_dtb": false,
+        "err_msg": "后台产品未审核成功",
+        "box_total": 3,
+        "pack_time": "2026-11-06 13:05:51",
+        "hours": 0.0,
+        "owner": "system",
+        "transport": "卡航欧洲"
       }
     ]
   },
