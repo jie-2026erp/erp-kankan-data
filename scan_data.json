@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "update_time": "2026-11-06 11:28:19",
+  "update_time": "2026-11-06 11:30:19",
   "total_boxes": 0,
   "total_users": 0,
   "total_batches": 0,
@@ -8,6 +8,15 @@
   "by_user": [],
   "hourly": {},
   "unmarked": [
+    {
+      "batch_code": "TH26110600302",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "路易通",
+      "datetime": "2026-11-06 11:29:36",
+      "bulk": 3.6368,
+      "sum_box": "38",
+      "is_write": "未填写"
+    },
     {
       "batch_code": "TH26110600301",
       "warehouse": "FBA中转仓-金华2仓",
@@ -18,8 +27,8 @@
       "is_write": "未填写"
     }
   ],
-  "unmarked_count": 1,
-  "unmarked_bulk": 0.36,
+  "unmarked_count": 2,
+  "unmarked_bulk": 3.99,
   "partial_list": [],
   "partial_count": 0,
   "week_stat": {
