@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-06 16:00:10",
+  "update_time": "2026-11-06 16:02:33",
   "pack3": {
-    "total": 18,
+    "total": 16,
     "over24": 0,
     "over48": 0,
     "max_hours": 21.5,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 13:10:02",
-        "hours": 2.8,
+        "hours": 2.9,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 13:39:51",
-        "hours": 2.3,
+        "hours": 2.4,
         "owner": "汪颖",
         "transport": "慢船海卡（美西）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-06 14:34:59",
-        "hours": 1.4,
+        "hours": 1.5,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -80,10 +80,23 @@
         "is_dtb": false,
         "err_msg": "",
         "box_total": 4,
-        "pack_time": "2026-11-06 15:17:07",
-        "hours": 0.7,
+        "pack_time": "2026-11-06 15:27:32",
+        "hours": 0.6,
         "owner": "王贝贝",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MVDTBXJ",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1660",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 10,
+        "pack_time": "2026-11-06 15:34:30",
+        "hours": 0.5,
+        "owner": "丁胜玥",
+        "transport": "海运英国"
       },
       {
         "code": "FBA261104181",
@@ -97,19 +110,6 @@
         "hours": 0.5,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MVDTBXJ",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1660",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 10,
-        "pack_time": "2026-11-06 15:34:30",
-        "hours": 0.4,
-        "owner": "丁胜玥",
-        "transport": "海运英国"
       },
       {
         "code": "FBA261105066",
@@ -149,32 +149,6 @@
         "hours": 0.3,
         "owner": "丁胜玥",
         "transport": "卡航英国"
-      },
-      {
-        "code": "FBA15MVFXDV2",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-88",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-06 15:43:04",
-        "hours": 0.3,
-        "owner": "王贝贝",
-        "transport": "海运英国"
-      },
-      {
-        "code": "FBA15GL866SC",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-66",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-06 15:50:34",
-        "hours": 0.2,
-        "owner": "陈静",
-        "transport": "海运日本"
       },
       {
         "code": "FBA15MVFS63T",
