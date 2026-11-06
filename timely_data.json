@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-06 17:47:38",
+  "update_time": "2026-11-06 17:49:31",
   "pack3": {
     "total": 10,
     "over24": 0,
@@ -112,6 +112,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15GL8GJG3",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1628",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-06 17:45:11",
+        "hours": 0.1,
+        "owner": "陈静",
+        "transport": "海运日本"
+      },
+      {
         "code": "FBA15MVH72WB",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -123,19 +136,6 @@
         "hours": 0.1,
         "owner": "郝惜",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15GL8GJG3",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1628",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-06 17:45:11",
-        "hours": 0.0,
-        "owner": "陈静",
-        "transport": "海运日本"
       }
     ]
   },
