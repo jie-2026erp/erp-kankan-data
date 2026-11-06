@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-06 08:31:16",
+  "update_time": "2026-11-06 08:34:00",
   "pack3": {
     "total": 10,
     "over24": 3,
     "over48": 0,
-    "max_hours": 38.4,
+    "max_hours": 38.5,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-04 18:04:58",
-        "hours": 38.4,
+        "hours": 38.5,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -73,6 +73,19 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "HWC261104034",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-89,FH-8-70",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 28,
+        "pack_time": "2026-11-05 15:46:25",
+        "hours": 16.8,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
         "code": "HWC261104040",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -86,19 +99,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261104034",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-89,FH-8-70",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 28,
-        "pack_time": "2026-11-05 15:46:25",
-        "hours": 16.7,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "FBA261103135",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B7];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B6];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B5];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B4];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B8]",
         "box_total": 8,
         "pack_time": "2026-11-05 18:30:40",
-        "hours": 14.0,
+        "hours": 14.1,
         "owner": "喻子娟",
         "transport": "卡航欧洲"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-05 20:52:35",
-        "hours": 11.6,
+        "hours": 11.7,
         "owner": "杨晓如",
         "transport": "卡航欧洲"
       }
@@ -143,7 +143,7 @@
     "total": 1,
     "over24": 0,
     "over48": 0,
-    "max_hours": 0.1,
+    "max_hours": 0.2,
     "dtb_count": 1,
     "list": [
       {
@@ -155,7 +155,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-06 08:22:42",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       }
