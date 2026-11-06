@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-06 16:28:52",
+  "update_time": "2026-11-06 16:30:49",
   "pack3": {
-    "total": 11,
+    "total": 12,
     "over24": 0,
     "over48": 0,
     "max_hours": 22.0,
@@ -63,26 +63,13 @@
         "code": "FBA15MVFNM7D",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1649",
+        "space": "FH-1-7",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 12,
         "pack_time": "2026-11-06 16:05:30",
         "hours": 0.4,
         "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MVFYY37",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-2-10",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-06 16:16:17",
-        "hours": 0.2,
-        "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
       {
@@ -115,7 +102,7 @@
         "code": "FBA15MVFZHG9",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1644",
+        "space": "FH-1-8",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 13,
@@ -146,9 +133,35 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-06 16:27:45",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "陈静",
         "transport": "海运日本"
+      },
+      {
+        "code": "FBA15MVFYY37",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-2-10",
+        "is_dtb": false,
+        "err_msg": "货件收件地址异常!",
+        "box_total": 6,
+        "pack_time": "2026-11-06 16:30:05",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261106009",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1639",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-06 16:29:01",
+        "hours": 0.0,
+        "owner": "巩晓玉",
+        "transport": "卡航欧洲"
       }
     ]
   },
