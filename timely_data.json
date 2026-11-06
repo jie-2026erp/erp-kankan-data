@@ -1,11 +1,11 @@
 {
-  "update_time": "2026-11-06 08:21:32",
+  "update_time": "2026-11-06 08:23:56",
   "pack3": {
-    "total": 11,
+    "total": 10,
     "over24": 3,
     "over48": 0,
     "max_hours": 38.3,
-    "dtb_count": 1,
+    "dtb_count": 0,
     "list": [
       {
         "code": "HWC261103013",
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-04 18:50:20",
-        "hours": 37.5,
+        "hours": 37.6,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:12",
-        "hours": 20.4,
+        "hours": 20.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-05 11:55:14",
-        "hours": 20.4,
+        "hours": 20.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B7];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B6];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B5];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B4];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B8]",
         "box_total": 8,
         "pack_time": "2026-11-05 18:30:40",
-        "hours": 13.8,
+        "hours": 13.9,
         "owner": "喻子娟",
         "transport": "卡航欧洲"
       },
@@ -125,19 +125,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MV81RVF",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "DTB-2-68",
-        "is_dtb": true,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-05 20:41:09",
-        "hours": 11.7,
-        "owner": "杨雨薇",
-        "transport": "卡航英国"
-      },
-      {
         "code": "HWC261104009",
         "platform": "NEWOUDA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -153,11 +140,25 @@
     ]
   },
   "pack9": {
-    "total": 0,
+    "total": 1,
     "over24": 0,
     "over48": 0,
-    "max_hours": 0,
-    "dtb_count": 0,
-    "list": []
+    "max_hours": 0.0,
+    "dtb_count": 1,
+    "list": [
+      {
+        "code": "FBA15MV81RVF",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "DTB-2-68",
+        "is_dtb": true,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-06 08:22:42",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
+      }
+    ]
   }
 }
