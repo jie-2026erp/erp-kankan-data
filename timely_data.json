@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-06 15:17:09",
+  "update_time": "2026-11-06 15:19:19",
   "pack3": {
     "total": 12,
     "over24": 0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 13:10:02",
-        "hours": 2.1,
+        "hours": 2.2,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 13:26:56",
-        "hours": 1.8,
+        "hours": 1.9,
         "owner": "何子怡",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 13:39:51",
-        "hours": 1.6,
+        "hours": 1.7,
         "owner": "汪颖",
         "transport": "慢船海卡（美西）"
       },
@@ -76,7 +76,7 @@
         "code": "FBA15MVDPBC7",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1673",
+        "space": "FH-15-9",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
@@ -86,14 +86,27 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA261105044",
+        "code": "FBA261105052",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1669",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-06 15:15:07",
+        "hours": 0.1,
+        "owner": "时惠",
+        "transport": "卡航英国"
+      },
+      {
+        "code": "FBA15MVF19BL",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1672",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 5,
-        "pack_time": "2026-11-06 15:12:58",
+        "pack_time": "2026-11-06 15:13:01",
         "hours": 0.1,
         "owner": "赵心怡",
         "transport": "卡航欧洲"
@@ -149,19 +162,6 @@
         "hours": 0.0,
         "owner": "王贝贝",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA261105052",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1669",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-06 15:15:07",
-        "hours": 0.0,
-        "owner": "时惠",
-        "transport": "卡航英国"
       }
     ]
   },
