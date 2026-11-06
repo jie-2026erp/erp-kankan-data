@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-06 09:53:25",
+  "update_time": "2026-11-06 09:55:28",
   "pack3": {
     "total": 33,
     "over24": 3,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-04 20:16:05",
-        "hours": 37.6,
+        "hours": 37.7,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-05 20:03:12",
-        "hours": 13.8,
+        "hours": 13.9,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -83,6 +83,19 @@
         "pack_time": "2026-11-05 20:52:35",
         "hours": 13.0,
         "owner": "杨晓如",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MVB8ZCD",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1787",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-06 09:02:48",
+        "hours": 0.9,
+        "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
       {
@@ -125,15 +138,28 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA15MVB8ZCD",
+        "code": "FBA15MVBMVP5",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1787",
+        "space": "JH11-1784",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 11,
+        "pack_time": "2026-11-06 09:10:28",
+        "hours": 0.8,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MVBXNCQ",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1781",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
-        "pack_time": "2026-11-06 09:02:48",
-        "hours": 0.8,
+        "pack_time": "2026-11-06 09:14:32",
+        "hours": 0.7,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -177,32 +203,6 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MVBMVP5",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1784",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 11,
-        "pack_time": "2026-11-06 09:10:28",
-        "hours": 0.7,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MVBXNCQ",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1781",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-06 09:14:32",
-        "hours": 0.6,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA15MVBX6KB",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -211,7 +211,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-06 09:22:02",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -242,6 +242,32 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA15MVBTGQ0",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1771",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 13,
+        "pack_time": "2026-11-06 09:33:53",
+        "hours": 0.4,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MVBX37R",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1768",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-06 09:40:22",
+        "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "FBA15MVBP8P1",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -253,19 +279,6 @@
         "hours": 0.3,
         "owner": "杨雨薇",
         "transport": "卡航英国"
-      },
-      {
-        "code": "FBA15MVBTGQ0",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1771",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 13,
-        "pack_time": "2026-11-06 09:33:53",
-        "hours": 0.3,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
       },
       {
         "code": "FBA261104169",
@@ -289,19 +302,6 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-06 09:43:58",
-        "hours": 0.2,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MVBX37R",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1768",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-06 09:40:22",
         "hours": 0.2,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
@@ -385,7 +385,7 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA261104195",
+        "code": "FBA15MVC7JB7",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1764",
@@ -396,6 +396,19 @@
         "hours": 0.1,
         "owner": "杨雨薇",
         "transport": "卡航英国"
+      },
+      {
+        "code": "FBA261104179",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1762",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-06 09:51:10",
+        "hours": 0.1,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
       },
       {
         "code": "FBA261104174",
@@ -422,19 +435,6 @@
         "hours": 0.1,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA261104179",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1762",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-06 09:51:10",
-        "hours": 0.0,
-        "owner": "杨雨薇",
-        "transport": "海运英国"
       }
     ]
   },
