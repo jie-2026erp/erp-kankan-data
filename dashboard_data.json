@@ -1,11 +1,25 @@
 {
-  "total": 0,
-  "success": 0,
+  "total": 1,
+  "success": 1,
   "fail": 0,
-  "rate": 0,
+  "rate": 100,
   "fail_logs": [],
-  "all_logs": [],
-  "shipment_stats": {},
+  "all_logs": [
+    {
+      "时间": "2026-11-06 14:08:55",
+      "文件名": "FBA19VZR8XRF,FBA19W4MJVKQ.pdf",
+      "货件号": "FBA19VZR8XRF",
+      "页码范围": "1-11页",
+      "状态": "成功",
+      "备注": ""
+    }
+  ],
+  "shipment_stats": {
+    "FBA19VZR8XRF": {
+      "success": 1,
+      "fail": 0
+    }
+  },
   "print_hourly": {
     "08": 5,
     "09": 4,
@@ -13,5 +27,5 @@
     "11": 39,
     "13": 19
   },
-  "update_time": "2026-11-06 14:09:11"
+  "update_time": "2026-11-06 14:09:29"
 }
