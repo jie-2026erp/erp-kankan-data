@@ -1,20 +1,20 @@
 {
   "date": "2026-11-06",
-  "update_time": "2026-11-06 18:58:44",
-  "total_boxes": 1418,
+  "update_time": "2026-11-06 19:00:46",
+  "total_boxes": 1437,
   "total_users": 2,
-  "total_batches": 8,
-  "total_marked_bulk": 127.86,
+  "total_batches": 9,
+  "total_marked_bulk": 158.99,
   "by_user": [
     {
       "name": "叶帆",
-      "boxes": 771,
-      "shipments": 63
+      "boxes": 780,
+      "shipments": 65
     },
     {
       "name": "汪宗标",
-      "boxes": 647,
-      "shipments": 66
+      "boxes": 657,
+      "shipments": 68
     }
   ],
   "hourly": {
@@ -23,10 +23,11 @@
       "17": 112,
       "15": 168,
       "11": 27,
-      "14": 76
+      "14": 76,
+      "19": 10
     },
     "叶帆": {
-      "18": 363,
+      "18": 372,
       "17": 144,
       "15": 197,
       "14": 61,
@@ -34,15 +35,6 @@
     }
   },
   "unmarked": [
-    {
-      "batch_code": "TH26110600330",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "喜运达",
-      "datetime": "2026-11-06 18:53:08",
-      "bulk": 31.1318,
-      "sum_box": "453",
-      "is_write": "已填写"
-    },
     {
       "batch_code": "TH26110600325",
       "warehouse": "FBA中转仓-金华2仓",
@@ -62,23 +54,23 @@
       "is_write": "已填写"
     }
   ],
-  "unmarked_count": 3,
-  "unmarked_bulk": 48.81,
+  "unmarked_count": 2,
+  "unmarked_bulk": 17.68,
   "partial_list": [
     {
-      "batch_code": "TH26110600327",
+      "batch_code": "TH26110600330",
       "warehouse": "FBA中转仓-金华2仓",
-      "provider": "苏恩",
-      "total_box": 19,
+      "provider": "喜运达",
+      "total_box": 453,
       "marked_box": 10,
-      "unmarked_box": 9
+      "unmarked_box": 443
     }
   ],
   "partial_count": 1,
   "week_stat": {
-    "bulk": 517.31,
-    "boxes": 6010,
-    "count": 36
+    "bulk": 518.73,
+    "boxes": 6029,
+    "count": 37
   },
   "last_week_stat": {
     "bulk": 619.21,
@@ -86,8 +78,8 @@
     "count": 50
   },
   "month_stat": {
-    "bulk": 517.31,
-    "boxes": 6010,
-    "count": 36
+    "bulk": 518.73,
+    "boxes": 6029,
+    "count": 37
   }
 }
