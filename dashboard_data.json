@@ -1,9 +1,18 @@
 {
-  "total": 33,
+  "total": 34,
   "success": 33,
-  "fail": 0,
-  "rate": 100,
-  "fail_logs": [],
+  "fail": 1,
+  "rate": 97,
+  "fail_logs": [
+    {
+      "时间": "2026-11-07 10:30:17",
+      "文件名": "HWC261104081.pdf",
+      "货件号": "HWC261104081",
+      "页码范围": "1-17页",
+      "状态": "失败",
+      "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a:has-text(\\\"HWC261104081\\\")\").first\n"
+    }
+  ],
   "all_logs": [
     {
       "时间": "2026-11-07 10:05:20",
@@ -268,6 +277,14 @@
       "页码范围": "1-1页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-07 10:30:17",
+      "文件名": "HWC261104081.pdf",
+      "货件号": "HWC261104081",
+      "页码范围": "1-17页",
+      "状态": "失败",
+      "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a:has-text(\\\"HWC261104081\\\")\").first\n"
     }
   ],
   "shipment_stats": {
@@ -402,6 +419,10 @@
     "HWC261104080": {
       "success": 1,
       "fail": 0
+    },
+    "HWC261104081": {
+      "success": 0,
+      "fail": 1
     }
   },
   "print_hourly": {
@@ -409,5 +430,5 @@
     "09": 2,
     "10": 39
   },
-  "update_time": "2026-11-07 10:30:00"
+  "update_time": "2026-11-07 10:31:32"
 }
