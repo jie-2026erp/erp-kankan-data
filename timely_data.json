@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-07 14:38:31",
+  "update_time": "2026-11-07 14:40:20",
   "pack3": {
-    "total": 22,
+    "total": 25,
     "over24": 2,
     "over48": 0,
-    "max_hours": 44.1,
+    "max_hours": 44.2,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B7];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B6];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B5];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B4];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B8]",
         "box_total": 8,
         "pack_time": "2026-11-05 18:30:40",
-        "hours": 44.1,
+        "hours": 44.2,
         "owner": "喻子娟",
         "transport": "卡航欧洲"
       },
@@ -73,6 +73,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA261106195",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-7-37",
+        "is_dtb": false,
+        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
+        "box_total": 10,
+        "pack_time": "2026-11-07 13:48:58",
+        "hours": 0.9,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA261106190",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -99,17 +112,17 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA261106195",
+        "code": "FBA15MVM26G0",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-37",
+        "space": "FH-10-7",
         "is_dtb": false,
-        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
-        "box_total": 10,
-        "pack_time": "2026-11-07 13:48:58",
-        "hours": 0.8,
+        "err_msg": "货件收件地址异常!",
+        "box_total": 5,
+        "pack_time": "2026-11-07 14:11:46",
+        "hours": 0.5,
         "owner": "肖琴",
-        "transport": "海运英国"
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261106015",
@@ -125,6 +138,32 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "FBA261106200",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-12-83",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-07 14:11:44",
+        "hours": 0.5,
+        "owner": "肖琴",
+        "transport": "卡航英国"
+      },
+      {
+        "code": "FBA261106198",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-7-59",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-07 14:11:45",
+        "hours": 0.5,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA261106197",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -138,45 +177,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MVM26G0",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-7",
-        "is_dtb": false,
-        "err_msg": "货件收件地址异常!",
-        "box_total": 5,
-        "pack_time": "2026-11-07 14:11:46",
-        "hours": 0.4,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA261106200",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-83",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-07 14:11:44",
-        "hours": 0.4,
-        "owner": "肖琴",
-        "transport": "卡航英国"
-      },
-      {
-        "code": "FBA261106198",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-59",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-07 14:11:45",
-        "hours": 0.4,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA261106194",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -185,7 +185,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-07 14:11:45",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "肖琴",
         "transport": "卡航英国"
       },
@@ -198,7 +198,7 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
         "box_total": 13,
         "pack_time": "2026-11-07 14:11:51",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "肖琴",
         "transport": "卡航英国"
       },
@@ -211,9 +211,35 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 14:12:56",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "肖琴",
         "transport": "海运日本"
+      },
+      {
+        "code": "FBA261106206",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0447",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-07 14:24:17",
+        "hours": 0.3,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
+        "code": "FBA15MVM5M1K",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-121",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 24,
+        "pack_time": "2026-11-07 14:24:44",
+        "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261106022",
@@ -229,30 +255,17 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA261106206",
+        "code": "FBA15MVM9RBZ",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0447",
+        "space": "JH11-0444",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-07 14:24:17",
+        "box_total": 12,
+        "pack_time": "2026-11-07 14:31:18",
         "hours": 0.2,
         "owner": "肖琴",
         "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MVM5M1K",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-121",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 24,
-        "pack_time": "2026-11-07 14:24:44",
-        "hours": 0.2,
-        "owner": "杨雨薇",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261106023",
@@ -268,19 +281,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MVM9RBZ",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0444",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 12,
-        "pack_time": "2026-11-07 14:31:18",
-        "hours": 0.1,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
         "code": "HWC261106021",
         "platform": "CHUKOUYI",
         "warehouse": "FBA中转仓-金华2仓",
@@ -289,9 +289,48 @@
         "err_msg": "",
         "box_total": 12,
         "pack_time": "2026-11-07 14:36:04",
+        "hours": 0.1,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261106024",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0443",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-07 14:39:50",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261106016",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0445",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-07 14:39:52",
         "hours": 0.0,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA261106166",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-113",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 60,
+        "pack_time": "2026-11-07 14:39:46",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
       }
     ]
   },
