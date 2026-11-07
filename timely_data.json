@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-07 14:58:49",
+  "update_time": "2026-11-07 15:00:38",
   "pack3": {
     "total": 18,
     "over24": 2,
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 19:20:22",
-        "hours": 19.6,
+        "hours": 19.7,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -112,6 +112,19 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA261106197",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-64",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-07 14:09:21",
+        "hours": 0.9,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MVM26G0",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -151,25 +164,12 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA261106197",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-64",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-07 14:09:21",
-        "hours": 0.8,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA261106194",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "FH-10-13",
         "is_dtb": false,
-        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
+        "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-07 14:11:45",
         "hours": 0.8,
@@ -232,7 +232,7 @@
         "code": "FBA15MVM1H6B",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-88",
+        "space": "FH-10-21,FH-12-88",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 60,
