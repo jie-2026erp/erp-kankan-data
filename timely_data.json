@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-07 18:04:46",
+  "update_time": "2026-11-07 18:06:45",
   "pack3": {
-    "total": 23,
+    "total": 24,
     "over24": 2,
     "over48": 0,
     "max_hours": 47.6,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 19:20:22",
-        "hours": 22.7,
+        "hours": 22.8,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -86,12 +86,25 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA261106197",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-64",
+        "is_dtb": false,
+        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
+        "box_total": 8,
+        "pack_time": "2026-11-07 14:09:21",
+        "hours": 4.0,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA261106200",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "FH-12-83",
         "is_dtb": false,
-        "err_msg": "",
+        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
         "box_total": 3,
         "pack_time": "2026-11-07 14:11:44",
         "hours": 3.9,
@@ -107,19 +120,6 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
         "box_total": 4,
         "pack_time": "2026-11-07 14:11:45",
-        "hours": 3.9,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA261106197",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-64",
-        "is_dtb": false,
-        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
-        "box_total": 8,
-        "pack_time": "2026-11-07 14:09:21",
         "hours": 3.9,
         "owner": "肖琴",
         "transport": "海运欧洲"
@@ -185,7 +185,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 15:20:27",
-        "hours": 2.7,
+        "hours": 2.8,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -276,7 +276,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-07 18:01:57",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -289,7 +289,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-07 18:02:01",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -302,6 +302,19 @@
         "err_msg": "",
         "box_total": 23,
         "pack_time": "2026-11-07 18:02:03",
+        "hours": 0.1,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261106067",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0372",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-07 18:05:19",
         "hours": 0.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
