@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-07 14:18:24",
+  "update_time": "2026-11-07 14:20:11",
   "pack3": {
     "total": 24,
     "over24": 1,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-06 14:34:59",
-        "hours": 23.7,
+        "hours": 23.8,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 11:46:46",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "肖琴",
         "transport": "卡航英国"
       },
@@ -125,10 +125,23 @@
         "transport": "卡航英国"
       },
       {
+        "code": "FBA261106190",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-42,FH-8-47",
+        "is_dtb": false,
+        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
+        "box_total": 20,
+        "pack_time": "2026-11-07 13:46:51",
+        "hours": 0.6,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA15MVLQ9ZQ",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0482",
+        "space": "FH-7-35",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 6,
@@ -172,19 +185,6 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
         "box_total": 10,
         "pack_time": "2026-11-07 13:48:58",
-        "hours": 0.5,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
-        "code": "FBA261106190",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-42,FH-8-47",
-        "is_dtb": false,
-        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
-        "box_total": 20,
-        "pack_time": "2026-11-07 13:46:51",
         "hours": 0.5,
         "owner": "肖琴",
         "transport": "海运英国"
@@ -294,7 +294,7 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA261106172",
+        "code": "FBA15GL9LRNT",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0455",
