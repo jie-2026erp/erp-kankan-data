@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-07 15:17:26",
+  "update_time": "2026-11-07 15:19:16",
   "pack3": {
     "total": 20,
     "over24": 2,
@@ -112,6 +112,19 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA261106197",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-64",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-07 14:09:21",
+        "hours": 1.2,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MVM26G0",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -146,19 +159,6 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-07 14:11:45",
-        "hours": 1.1,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA261106197",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-64",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-07 14:09:21",
         "hours": 1.1,
         "owner": "肖琴",
         "transport": "海运欧洲"
@@ -224,9 +224,22 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 14:39:50",
-        "hours": 0.6,
+        "hours": 0.7,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "FBA15GL9GR2W",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0439",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-07 15:09:21",
+        "hours": 0.2,
+        "owner": "肖琴",
+        "transport": "海运日本"
       },
       {
         "code": "FBA15MVLR84L",
@@ -240,19 +253,6 @@
         "hours": 0.2,
         "owner": "肖琴",
         "transport": "卡航英国"
-      },
-      {
-        "code": "FBA15GL9GR2W",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0439",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-07 15:09:21",
-        "hours": 0.1,
-        "owner": "肖琴",
-        "transport": "海运日本"
       },
       {
         "code": "HWC261106019",
