@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-07 11:52:57",
+  "update_time": "2026-11-07 11:54:47",
   "pack3": {
-    "total": 14,
+    "total": 15,
     "over24": 1,
     "over48": 0,
     "max_hours": 41.4,
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 19:20:22",
-        "hours": 16.5,
+        "hours": 16.6,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 11:15:46",
-        "hours": 0.6,
+        "hours": 0.7,
         "owner": "杨雨薇",
         "transport": "海运英国"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 11:27:47",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 11:26:25",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 11:33:20",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 11:45:18",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "肖琴",
         "transport": "海运日本"
       },
@@ -177,7 +177,7 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA261106173",
+        "code": "FBA15MVLJVFL",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0490",
@@ -188,6 +188,19 @@
         "hours": 0.1,
         "owner": "肖琴",
         "transport": "海运英国"
+      },
+      {
+        "code": "FBA261106188",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0489",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 12,
+        "pack_time": "2026-11-07 11:53:38",
+        "hours": 0.0,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
       }
     ]
   },
