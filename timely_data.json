@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-07 12:03:44",
+  "update_time": "2026-11-07 12:05:30",
   "pack3": {
     "total": 14,
     "over24": 1,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 16:37:38",
-        "hours": 19.4,
+        "hours": 19.5,
         "owner": "陈静",
         "transport": "海运日本"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-06 19:20:22",
-        "hours": 16.7,
+        "hours": 16.8,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 11:26:25",
-        "hours": 0.6,
+        "hours": 0.7,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -151,6 +151,19 @@
         "transport": "卡航英国"
       },
       {
+        "code": "FBA15MVLJVFL",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0490",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-07 11:49:02",
+        "hours": 0.3,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA15MVL8WY9",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -164,19 +177,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MVLJVFL",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0490",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-07 11:49:02",
-        "hours": 0.2,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
         "code": "FBA15MVKYRR9",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -185,7 +185,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-07 11:56:04",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       }
