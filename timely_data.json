@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-07 17:18:57",
+  "update_time": "2026-11-07 17:20:55",
   "pack3": {
     "total": 22,
     "over24": 3,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-06 14:34:59",
-        "hours": 26.7,
+        "hours": 26.8,
         "owner": "王雪梅",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -60,6 +60,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA261106190",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-42,FH-8-47",
+        "is_dtb": false,
+        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
+        "box_total": 20,
+        "pack_time": "2026-11-07 13:46:51",
+        "hours": 3.6,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA261106205",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -86,17 +99,30 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA261106190",
+        "code": "FBA261106200",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-42,FH-8-47",
+        "space": "FH-12-83",
         "is_dtb": false,
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
-        "box_total": 20,
-        "pack_time": "2026-11-07 13:46:51",
-        "hours": 3.5,
+        "box_total": 3,
+        "pack_time": "2026-11-07 14:11:44",
+        "hours": 3.2,
         "owner": "肖琴",
-        "transport": "海运英国"
+        "transport": "卡航英国"
+      },
+      {
+        "code": "FBA261106198",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-7-59",
+        "is_dtb": false,
+        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
+        "box_total": 4,
+        "pack_time": "2026-11-07 14:11:45",
+        "hours": 3.2,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
       },
       {
         "code": "FBA261106197",
@@ -112,32 +138,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA261106200",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-83",
-        "is_dtb": false,
-        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
-        "box_total": 3,
-        "pack_time": "2026-11-07 14:11:44",
-        "hours": 3.1,
-        "owner": "肖琴",
-        "transport": "卡航英国"
-      },
-      {
-        "code": "FBA261106198",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-59",
-        "is_dtb": false,
-        "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
-        "box_total": 4,
-        "pack_time": "2026-11-07 14:11:45",
-        "hours": 3.1,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA261106194",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -146,7 +146,7 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
         "box_total": 6,
         "pack_time": "2026-11-07 14:11:45",
-        "hours": 3.1,
+        "hours": 3.2,
         "owner": "肖琴",
         "transport": "卡航英国"
       },
@@ -159,7 +159,7 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MRN64YT]",
         "box_total": 13,
         "pack_time": "2026-11-07 14:11:51",
-        "hours": 3.1,
+        "hours": 3.2,
         "owner": "肖琴",
         "transport": "卡航英国"
       },
@@ -250,7 +250,7 @@
         "err_msg": "",
         "box_total": 42,
         "pack_time": "2026-11-07 16:11:47",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "文欣",
         "transport": "慢船海派（美西）"
       },
