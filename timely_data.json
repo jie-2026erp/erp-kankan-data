@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-09 19:49:08",
+  "update_time": "2026-11-09 19:51:00",
   "pack3": {
-    "total": 8,
+    "total": 9,
     "over24": 7,
     "over48": 5,
     "max_hours": 53.2,
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 16:11:58",
-        "hours": 51.6,
+        "hours": 51.7,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -81,7 +81,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 15,
         "pack_time": "2026-11-07 20:23:53",
-        "hours": 47.4,
+        "hours": 47.5,
         "owner": "system",
         "transport": "卡航英国"
       },
@@ -107,9 +107,22 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-09 11:22:26",
-        "hours": 8.4,
+        "hours": 8.5,
         "owner": "杨晓如",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261109040",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0257",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-09 19:49:55",
+        "hours": 0.0,
+        "owner": "肖琴",
+        "transport": "卡航英国"
       }
     ]
   },
