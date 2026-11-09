@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-09 18:32:25",
+  "update_time": "2026-11-09 18:34:19",
   "pack3": {
-    "total": 11,
+    "total": 10,
     "over24": 7,
     "over48": 4,
     "max_hours": 51.9,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 15:48:53",
-        "hours": 50.7,
+        "hours": 50.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 16:11:58",
-        "hours": 50.3,
+        "hours": 50.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -81,7 +81,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 15,
         "pack_time": "2026-11-07 20:23:53",
-        "hours": 46.1,
+        "hours": 46.2,
         "owner": "system",
         "transport": "卡航英国"
       },
@@ -112,36 +112,10 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MVSKT9V",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-48",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-09 15:16:08",
-        "hours": 3.3,
-        "owner": "郝惜",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA261109037",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-58",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-09 16:23:17",
-        "hours": 2.2,
-        "owner": "蒋宇林",
-        "transport": "美森美西-海派美西（正班）"
-      },
-      {
         "code": "FBA15MVT2FKG",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0259",
+        "space": "FH-1-32",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 30,
@@ -149,6 +123,19 @@
         "hours": 1.8,
         "owner": "张澳雯",
         "transport": "海运英国"
+      },
+      {
+        "code": "FBA19WKYWWSZ",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-11-58",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-09 18:34:09",
+        "hours": 0.0,
+        "owner": "蒋宇林",
+        "transport": "美森美西-海派美西（正班）"
       }
     ]
   },
