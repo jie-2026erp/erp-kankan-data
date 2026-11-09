@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-09 15:33:29",
+  "update_time": "2026-11-09 15:35:44",
   "pack3": {
     "total": 24,
     "over24": 7,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 15:48:53",
-        "hours": 47.7,
+        "hours": 47.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 16:01:29",
-        "hours": 47.5,
+        "hours": 47.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 20,
         "pack_time": "2026-11-07 19:02:09",
-        "hours": 44.5,
+        "hours": 44.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 10,
         "pack_time": "2026-11-07 20:37:46",
-        "hours": 42.9,
+        "hours": 43.0,
         "owner": "system",
         "transport": "卡航欧洲"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-09 14:01:34",
-        "hours": 1.5,
+        "hours": 1.6,
         "owner": "卞孜孜",
         "transport": "海运英国"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-09 14:19:35",
-        "hours": 1.2,
+        "hours": 1.3,
         "owner": "卞孜孜",
         "transport": "海运英国"
       },
@@ -190,19 +190,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MVRJVK9",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0294",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-09 14:33:20",
-        "hours": 1.0,
-        "owner": "郝惜",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MVRRBMV",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -211,7 +198,7 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-09 14:31:31",
-        "hours": 1.0,
+        "hours": 1.1,
         "owner": "郝惜",
         "transport": "海运欧洲"
       },
@@ -224,9 +211,22 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-09 14:32:41",
-        "hours": 1.0,
+        "hours": 1.1,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "FBA15MVRJVK9",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0294",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-09 14:33:20",
+        "hours": 1.0,
+        "owner": "郝惜",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261109012",
@@ -250,7 +250,7 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-09 14:42:56",
-        "hours": 0.8,
+        "hours": 0.9,
         "owner": "金盼",
         "transport": "海运欧洲"
       },
@@ -263,8 +263,21 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-09 15:01:19",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "卞孜孜",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MVSGGST",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0285",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-09 15:12:58",
+        "hours": 0.4,
+        "owner": "郝惜",
         "transport": "海运欧洲"
       },
       {
@@ -279,19 +292,6 @@
         "hours": 0.3,
         "owner": "郝惜",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MVSGGST",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0285",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-09 15:12:58",
-        "hours": 0.3,
-        "owner": "郝惜",
-        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MVSM5F0",
@@ -315,7 +315,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-09 15:24:58",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
       }
