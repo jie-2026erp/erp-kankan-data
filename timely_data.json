@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-09 16:42:21",
+  "update_time": "2026-11-09 16:44:10",
   "pack3": {
     "total": 18,
     "over24": 7,
     "over48": 4,
-    "max_hours": 50.0,
+    "max_hours": 50.1,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 14:39:50",
-        "hours": 50.0,
+        "hours": 50.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-09 11:22:26",
-        "hours": 5.3,
+        "hours": 5.4,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-09 15:16:08",
-        "hours": 1.4,
+        "hours": 1.5,
         "owner": "郝惜",
         "transport": "卡航欧洲"
       },
@@ -180,7 +180,7 @@
         "code": "HWC261109024",
         "platform": "GOODCANG",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0260",
+        "space": "FH-12-38",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 14,
@@ -188,19 +188,6 @@
         "hours": 0.3,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MVTLLHH",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0265,JH11-0264",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 29,
-        "pack_time": "2026-11-09 16:29:43",
-        "hours": 0.2,
-        "owner": "郝惜",
-        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MVT90R4",
@@ -211,7 +198,20 @@
         "err_msg": "",
         "box_total": 50,
         "pack_time": "2026-11-09 16:33:27",
-        "hours": 0.1,
+        "hours": 0.2,
+        "owner": "郝惜",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MVTLLHH",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-12-40",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 29,
+        "pack_time": "2026-11-09 16:29:43",
+        "hours": 0.2,
         "owner": "郝惜",
         "transport": "海运欧洲"
       },
@@ -224,7 +224,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-09 16:40:04",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -237,7 +237,7 @@
         "err_msg": "",
         "box_total": 30,
         "pack_time": "2026-11-09 16:40:21",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "张澳雯",
         "transport": "海运英国"
       }
