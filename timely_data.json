@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-09 16:33:16",
+  "update_time": "2026-11-09 16:35:06",
   "pack3": {
     "total": 19,
     "over24": 7,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 15:48:53",
-        "hours": 48.7,
+        "hours": 48.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 16:01:29",
-        "hours": 48.5,
+        "hours": 48.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 10,
         "pack_time": "2026-11-07 20:37:46",
-        "hours": 43.9,
+        "hours": 44.0,
         "owner": "system",
         "transport": "卡航欧洲"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-09 15:01:19",
-        "hours": 1.5,
+        "hours": 1.6,
         "owner": "卞孜孜",
         "transport": "海运欧洲"
       },
@@ -138,17 +138,17 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261109008",
+        "code": "HWC261106006",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-50",
+        "space": "FH-11-52",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 3,
-        "pack_time": "2026-11-09 15:51:17",
+        "pack_time": "2026-11-09 15:55:29",
         "hours": 0.7,
-        "owner": "华陈茜",
-        "transport": "慢船海卡（美西）"
+        "owner": "刘启瑞",
+        "transport": "慢船海卡（美中）"
       },
       {
         "code": "FBA15MVSYCTD",
@@ -164,19 +164,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "HWC261106006",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0271",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-09 15:55:29",
-        "hours": 0.6,
-        "owner": "刘启瑞",
-        "transport": "慢船海卡（美中）"
-      },
-      {
         "code": "FBA15MVS8DP6",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -185,7 +172,7 @@
         "err_msg": "",
         "box_total": 22,
         "pack_time": "2026-11-09 16:01:35",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "郝惜",
         "transport": "海运欧洲"
       },
@@ -211,7 +198,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-09 16:25:03",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -249,10 +236,23 @@
         "is_dtb": false,
         "err_msg": "",
         "box_total": 50,
-        "pack_time": "2026-11-09 16:30:21",
+        "pack_time": "2026-11-09 16:33:27",
         "hours": 0.0,
         "owner": "郝惜",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261109004",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-071",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 30,
+        "pack_time": "2026-11-09 16:33:24",
+        "hours": 0.0,
+        "owner": "张澳雯",
+        "transport": "海运英国"
       }
     ]
   },
