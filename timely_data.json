@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-10 00:20:48",
+  "update_time": "2026-11-10 00:22:55",
   "pack3": {
     "total": 16,
     "over24": 7,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 15:48:53",
-        "hours": 56.5,
+        "hours": 56.6,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 16:01:29",
-        "hours": 56.3,
+        "hours": 56.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 16:11:58",
-        "hours": 56.1,
+        "hours": 56.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -81,7 +81,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 15,
         "pack_time": "2026-11-07 20:23:53",
-        "hours": 51.9,
+        "hours": 52.0,
         "owner": "system",
         "transport": "卡航英国"
       },
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 10,
         "pack_time": "2026-11-07 20:37:46",
-        "hours": 51.7,
+        "hours": 51.8,
         "owner": "system",
         "transport": "卡航欧洲"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 22,
         "pack_time": "2026-11-09 20:24:53",
-        "hours": 3.9,
+        "hours": 4.0,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -159,6 +159,19 @@
         "err_msg": "",
         "box_total": 25,
         "pack_time": "2026-11-09 21:10:03",
+        "hours": 3.2,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261109021",
+        "platform": "ALLEGRO",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-11-66,FH-17-16",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 24,
+        "pack_time": "2026-11-09 21:12:37",
         "hours": 3.2,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
@@ -201,19 +214,6 @@
         "hours": 3.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261109021",
-        "platform": "ALLEGRO",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-66,FH-17-16",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 24,
-        "pack_time": "2026-11-09 21:12:37",
-        "hours": 3.1,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
       }
     ]
   },
@@ -221,7 +221,7 @@
     "total": 3,
     "over24": 0,
     "over48": 0,
-    "max_hours": 2.3,
+    "max_hours": 2.4,
     "dtb_count": 3,
     "list": [
       {
@@ -233,7 +233,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-09 22:01:39",
-        "hours": 2.3,
+        "hours": 2.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -259,7 +259,7 @@
         "err_msg": "",
         "box_total": 37,
         "pack_time": "2026-11-09 22:13:02",
-        "hours": 2.1,
+        "hours": 2.2,
         "owner": "肖琴",
         "transport": "海运欧洲"
       }
