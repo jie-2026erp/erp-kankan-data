@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-09 11:47:17",
+  "update_time": "2026-11-09 11:49:27",
   "pack3": {
     "total": 26,
     "over24": 22,
@@ -47,6 +47,19 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA15MVQKT7B",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-64",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-07 14:09:21",
+        "hours": 45.7,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MVQCZ8N",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -68,19 +81,6 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-07 14:11:45",
-        "hours": 45.6,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MVQKT7B",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-64",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-07 14:09:21",
         "hours": 45.6,
         "owner": "肖琴",
         "transport": "海运欧洲"
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 14:39:50",
-        "hours": 45.1,
+        "hours": 45.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-07 20:16:14",
-        "hours": 39.5,
+        "hours": 39.6,
         "owner": "system",
         "transport": "卡航欧洲"
       },
@@ -341,7 +341,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-09 11:22:26",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       }
