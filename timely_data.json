@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-09 21:32:40",
+  "update_time": "2026-11-09 21:34:33",
   "pack3": {
-    "total": 25,
+    "total": 23,
     "over24": 7,
     "over48": 7,
     "max_hours": 54.9,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 15:48:53",
-        "hours": 53.7,
+        "hours": 53.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 16:01:29",
-        "hours": 53.5,
+        "hours": 53.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 16:11:58",
-        "hours": 53.3,
+        "hours": 53.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -81,7 +81,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 15,
         "pack_time": "2026-11-07 20:23:53",
-        "hours": 49.1,
+        "hours": 49.2,
         "owner": "system",
         "transport": "卡航英国"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 22,
         "pack_time": "2026-11-09 20:24:53",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -164,19 +164,6 @@
         "transport": "海运英国"
       },
       {
-        "code": "HWC261109028",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "6FH-01-01-33",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-09 20:56:09",
-        "hours": 0.6,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261109022",
         "platform": "ALLEGRO",
         "warehouse": "FBA中转仓-金华2仓",
@@ -190,10 +177,23 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "HWC261109021",
+        "platform": "ALLEGRO",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0222,JH11-0223",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 24,
+        "pack_time": "2026-11-09 21:12:36",
+        "hours": 0.4,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "HWC261109039",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0213",
+        "space": "6FH-02-01-31",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 1,
@@ -203,23 +203,10 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261109037",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "6FH-02-01-35",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-09 21:17:33",
-        "hours": 0.3,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261109036",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0215",
+        "space": "6FH-02-01-34",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 1,
@@ -242,17 +229,17 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261109021",
-        "platform": "ALLEGRO",
+        "code": "HWC261109031",
+        "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0222,JH11-0223",
+        "space": "JH11-0217",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 24,
-        "pack_time": "2026-11-09 21:12:36",
+        "box_total": 13,
+        "pack_time": "2026-11-09 21:17:41",
         "hours": 0.3,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
       },
       {
         "code": "HWC261109034",
@@ -281,17 +268,17 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261109031",
-        "platform": "GOLUCKY",
+        "code": "FBA15MVXG1KC",
+        "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0217",
+        "space": "JH11-0218,JH11-0219",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 13,
-        "pack_time": "2026-11-09 21:17:41",
+        "box_total": 29,
+        "pack_time": "2026-11-09 21:25:24",
         "hours": 0.2,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
+        "owner": "肖琴",
+        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MVWW9YY",
@@ -315,19 +302,6 @@
         "err_msg": "",
         "box_total": 20,
         "pack_time": "2026-11-09 21:26:22",
-        "hours": 0.1,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MVXG1KC",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0218,JH11-0219",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 29,
-        "pack_time": "2026-11-09 21:25:24",
         "hours": 0.1,
         "owner": "肖琴",
         "transport": "海运欧洲"
