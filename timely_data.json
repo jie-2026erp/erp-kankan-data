@@ -1,12 +1,25 @@
 {
-  "update_time": "2026-11-09 14:16:04",
+  "update_time": "2026-11-09 14:18:14",
   "pack3": {
-    "total": 23,
-    "over24": 18,
+    "total": 22,
+    "over24": 16,
     "over48": 8,
     "max_hours": 48.5,
     "dtb_count": 0,
     "list": [
+      {
+        "code": "FBA15MVQ933S",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-2-8",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-07 13:49:39",
+        "hours": 48.5,
+        "owner": "肖琴",
+        "transport": "卡航欧洲"
+      },
       {
         "code": "FBA15MVQCB80",
         "platform": "FBA",
@@ -32,19 +45,6 @@
         "hours": 48.5,
         "owner": "肖琴",
         "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MVQ933S",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-2-8",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-07 13:49:39",
-        "hours": 48.4,
-        "owner": "肖琴",
-        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MVQCZ8N",
@@ -112,19 +112,6 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MVQGTJ4",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-14",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-07 14:24:17",
-        "hours": 47.9,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
         "code": "HWC261106024",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -159,7 +146,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 16:01:29",
-        "hours": 46.2,
+        "hours": 46.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -185,22 +172,9 @@
         "err_msg": "",
         "box_total": 20,
         "pack_time": "2026-11-07 19:02:09",
-        "hours": 43.2,
+        "hours": 43.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261106079",
-        "platform": "GOODCANG",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-49",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-07 20:16:14",
-        "hours": 42.0,
-        "owner": "system",
-        "transport": "卡航欧洲"
       },
       {
         "code": "HWC261106084",
@@ -224,7 +198,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 10,
         "pack_time": "2026-11-07 20:37:46",
-        "hours": 41.6,
+        "hours": 41.7,
         "owner": "system",
         "transport": "卡航欧洲"
       },
@@ -240,6 +214,19 @@
         "hours": 40.7,
         "owner": "肖琴",
         "transport": "卡航英国"
+      },
+      {
+        "code": "FBA15MVQGTJ4",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-11-14",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-09 11:23:26",
+        "hours": 2.9,
+        "owner": "肖琴",
+        "transport": "海运英国"
       },
       {
         "code": "HWC261104006",
@@ -263,7 +250,7 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-09 14:01:34",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "卞孜孜",
         "transport": "海运英国"
       },
@@ -276,7 +263,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-09 14:09:13",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
       },
@@ -289,7 +276,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-09 14:15:10",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "卞孜孜",
         "transport": "卡航欧洲"
       },
