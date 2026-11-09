@@ -1,12 +1,12 @@
 {
-  "update_time": "2026-11-09 16:05:06",
+  "update_time": "2026-11-09 16:06:44",
   "total_dup_spaces": 1,
-  "total_boxes": 42,
-  "max_dup": 3,
+  "total_boxes": 30,
+  "max_dup": 2,
   "space_count": 1,
   "print_hourly": {
+    "16": 4,
     "15": 4,
-    "16": 3,
     "13": 2,
     "14": 17,
     "10": 2,
@@ -15,10 +15,9 @@
   "list": [
     {
       "space": "FH-9-59,FH-8-65",
-      "count": 3,
-      "total_boxes": 42,
+      "count": 2,
+      "total_boxes": 30,
       "codes": [
-        "FBA19WJ7YMKV",
         "FBA19WJ4F3PK",
         "FBA19WJ5FGR3"
       ],
@@ -26,15 +25,6 @@
         "FBA"
       ],
       "items": [
-        {
-          "code": "FBA19WJ7YMKV",
-          "platform": "FBA",
-          "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-9-59,FH-8-65",
-          "err_msg": "",
-          "box_total": 12,
-          "creater": "文欣"
-        },
         {
           "code": "FBA19WJ4F3PK",
           "platform": "FBA",
