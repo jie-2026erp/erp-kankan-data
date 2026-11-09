@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-09 14:42:27",
+  "update_time": "2026-11-09 14:44:38",
   "pack3": {
     "total": 19,
     "over24": 7,
     "over48": 1,
-    "max_hours": 48.0,
+    "max_hours": 48.1,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 14:39:50",
-        "hours": 48.0,
+        "hours": 48.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-09 11:22:26",
-        "hours": 3.3,
+        "hours": 3.4,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -177,6 +177,19 @@
         "transport": "慢船海卡（美西）"
       },
       {
+        "code": "FBA15MVRD3RB",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0290",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-09 14:27:30",
+        "hours": 0.3,
+        "owner": "卞孜孜",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "FBA15MVRJVK9",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -188,19 +201,6 @@
         "hours": 0.2,
         "owner": "郝惜",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MVRD3RB",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0290",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-09 14:27:30",
-        "hours": 0.2,
-        "owner": "卞孜孜",
-        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MVRRBMV",
@@ -237,7 +237,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-09 14:39:59",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
       },
@@ -249,7 +249,7 @@
         "is_dtb": false,
         "err_msg": "",
         "box_total": 11,
-        "pack_time": "2026-11-09 14:40:14",
+        "pack_time": "2026-11-09 14:42:56",
         "hours": 0.0,
         "owner": "金盼",
         "transport": "海运欧洲"
