@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-09 16:44:10",
+  "update_time": "2026-11-09 16:45:59",
   "pack3": {
     "total": 18,
     "over24": 7,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 15:48:53",
-        "hours": 48.9,
+        "hours": 49.0,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 16:11:58",
-        "hours": 48.5,
+        "hours": 48.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -81,7 +81,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 15,
         "pack_time": "2026-11-07 20:23:53",
-        "hours": 44.3,
+        "hours": 44.4,
         "owner": "system",
         "transport": "卡航英国"
       },
@@ -154,7 +154,7 @@
         "code": "FBA15MVS8DP6",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-42",
+        "space": "FH-12-36,FH-12-42",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 22,
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-09 16:23:17",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "蒋宇林",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -190,19 +190,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MVT90R4",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-1-16,FH-11-54",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 50,
-        "pack_time": "2026-11-09 16:33:27",
-        "hours": 0.2,
-        "owner": "郝惜",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MVTLLHH",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -211,6 +198,19 @@
         "err_msg": "",
         "box_total": 29,
         "pack_time": "2026-11-09 16:29:43",
+        "hours": 0.3,
+        "owner": "郝惜",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MVT90R4",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-1-16,FH-11-54",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 50,
+        "pack_time": "2026-11-09 16:33:27",
         "hours": 0.2,
         "owner": "郝惜",
         "transport": "海运欧洲"
@@ -236,8 +236,8 @@
         "is_dtb": false,
         "err_msg": "",
         "box_total": 30,
-        "pack_time": "2026-11-09 16:40:21",
-        "hours": 0.1,
+        "pack_time": "2026-11-09 16:45:47",
+        "hours": 0.0,
         "owner": "张澳雯",
         "transport": "海运英国"
       }
