@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-10 09:14:32",
+  "update_time": "2026-11-10 09:16:34",
   "pack3": {
-    "total": 19,
+    "total": 20,
     "over24": 7,
     "over48": 7,
     "max_hours": 66.6,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 15:48:53",
-        "hours": 65.4,
+        "hours": 65.5,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 16:01:29",
-        "hours": 65.2,
+        "hours": 65.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-07 16:11:58",
-        "hours": 65.0,
+        "hours": 65.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -81,7 +81,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 15,
         "pack_time": "2026-11-07 20:23:53",
-        "hours": 60.8,
+        "hours": 60.9,
         "owner": "system",
         "transport": "卡航英国"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 22,
         "pack_time": "2026-11-09 20:24:53",
-        "hours": 12.8,
+        "hours": 12.9,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -164,6 +164,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "HWC261109021",
+        "platform": "ALLEGRO",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-11-66,FH-17-16",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 24,
+        "pack_time": "2026-11-09 21:12:37",
+        "hours": 12.1,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "HWC261109039",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -177,19 +190,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261109021",
-        "platform": "ALLEGRO",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-66,FH-17-16",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 24,
-        "pack_time": "2026-11-09 21:12:37",
-        "hours": 12.0,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261109036",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-09 21:17:39",
-        "hours": 11.9,
+        "hours": 12.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -211,7 +211,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-09 21:17:39",
-        "hours": 11.9,
+        "hours": 12.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -224,7 +224,7 @@
         "err_msg": "",
         "box_total": 16,
         "pack_time": "2026-11-10 09:12:32",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -237,7 +237,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-10 09:12:30",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -250,6 +250,19 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-10 09:12:32",
+        "hours": 0.1,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261109054",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0200",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-10 09:14:49",
         "hours": 0.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
@@ -298,7 +311,7 @@
         "err_msg": "",
         "box_total": 37,
         "pack_time": "2026-11-09 22:13:02",
-        "hours": 11.0,
+        "hours": 11.1,
         "owner": "肖琴",
         "transport": "海运欧洲"
       }
