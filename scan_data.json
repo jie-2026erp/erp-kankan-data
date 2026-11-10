@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
-  "update_time": "2026-11-10 15:32:04",
-  "total_boxes": 403,
+  "update_time": "2026-11-10 15:34:10",
+  "total_boxes": 408,
   "total_users": 2,
   "total_batches": 3,
   "total_marked_bulk": 68.01,
@@ -13,14 +13,15 @@
     },
     {
       "name": "汪宗标",
-      "boxes": 167,
-      "shipments": 20
+      "boxes": 172,
+      "shipments": 21
     }
   ],
   "hourly": {
     "汪宗标": {
       "10": 52,
-      "14": 115
+      "14": 115,
+      "15": 5
     },
     "叶帆": {
       "10": 125,
@@ -45,7 +46,7 @@
       "datetime": "2026-11-10 15:21:53",
       "bulk": 40.2617,
       "sum_box": "461",
-      "is_write": "未填写"
+      "is_write": "已填写"
     },
     {
       "batch_code": "TH26111000311",
@@ -101,8 +102,8 @@
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "满天星",
       "total_box": 506,
-      "marked_box": 382,
-      "unmarked_box": 124
+      "marked_box": 384,
+      "unmarked_box": 122
     }
   ],
   "partial_count": 1,
