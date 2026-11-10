@@ -35,25 +35,17 @@ async function loadPendingOrders() {
     list.forEach(order => {
       const card = document.createElement('div');
       card.className = 'order-card';
-      card.innerHTML = `
-        <div class="order-info">
-          <div class="code">${order.batch_code}</div>
-          <div class="meta">${order.warehouse_name || ''} | ${order.total_box||0}箱</div>
-        </div>
-        <button class="print-btn" onclick="sendPrintTask('${order.batch_code}')">打印</button>
-      `;
+      card.innerHTML = '<div class="order-info"><div class="code">'+order.batch_code+'</div><div class="meta">'+(order.warehouse_name||'')+' | '+(order.total_box||0)+'箱</div></div><button class="print-btn" onclick="sendPrintTask(\''+order.batch_code+'\')">打印</button>';
       container.appendChild(card);
     });
   } catch(e) {
     document.getElementById('orderList').innerHTML = '<div style="text-align:center;color:red;">加载失败，下拉刷新重试</div>';
   }
 }
-
 async function sendPrintTask(code) {
-  alert(`已发送打印请求: ${code}，请稍等拿标签`);
+  alert('已发送打印请求: '+code+'，请稍等拿标签');
   setTimeout(() => location.reload(), 2000);
 }
-
 loadPendingOrders();
 setInterval(loadPendingOrders, 15000);
 </script>
