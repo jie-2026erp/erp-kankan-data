@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-10 18:17:14",
+  "update_time": "2026-11-10 18:19:04",
   "pack3": {
     "total": 23,
     "over24": 2,
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 25,
         "pack_time": "2026-11-09 21:10:03",
-        "hours": 21.1,
+        "hours": 21.2,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -120,20 +120,7 @@
         "err_msg": "There's an input error with the resource 'JN-linyu-721-QW'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 10,
         "pack_time": "2026-11-10 13:57:24",
-        "hours": 4.3,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MW0VC1Q",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0123,JH11-0121",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 24,
-        "pack_time": "2026-11-10 14:41:33",
-        "hours": 3.6,
+        "hours": 4.4,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -146,6 +133,19 @@
         "err_msg": "",
         "box_total": 13,
         "pack_time": "2026-11-10 14:40:04",
+        "hours": 3.7,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MW0VC1Q",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0123,JH11-0121",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 24,
+        "pack_time": "2026-11-10 14:41:33",
         "hours": 3.6,
         "owner": "王贝贝",
         "transport": "海运欧洲"
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 58,
         "pack_time": "2026-11-10 16:21:19",
-        "hours": 1.9,
+        "hours": 2.0,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -206,7 +206,7 @@
         "code": "FBA15MW3Z3CF",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0062",
+        "space": "6FH-01-01-03",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 4,
@@ -229,19 +229,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MW4FX50",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-70",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-10 18:00:53",
-        "hours": 0.3,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA15MW45WJ8",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -250,9 +237,22 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-10 18:02:58",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MW4CFMR",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0053",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-10 18:08:35",
+        "hours": 0.2,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
       },
       {
         "code": "FBA15MW3T624",
@@ -281,7 +281,7 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA261109194",
+        "code": "FBA15MW3TGLN",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0052",
@@ -294,17 +294,17 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MW4CFMR",
+        "code": "FBA261109186",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0053",
+        "space": "JH11-0047",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-10 18:08:35",
-        "hours": 0.1,
+        "box_total": 5,
+        "pack_time": "2026-11-10 18:17:40",
+        "hours": 0.0,
         "owner": "杨雨薇",
-        "transport": "卡航英国"
+        "transport": "海运欧洲"
       }
     ]
   },
