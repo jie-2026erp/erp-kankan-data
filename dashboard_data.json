@@ -1,9 +1,18 @@
 {
-  "total": 12,
+  "total": 13,
   "success": 12,
-  "fail": 0,
-  "rate": 100,
-  "fail_logs": [],
+  "fail": 1,
+  "rate": 92,
+  "fail_logs": [
+    {
+      "时间": "2026-11-10 12:35:12",
+      "文件名": "HWC261019037.pdf",
+      "货件号": "HWC261019037",
+      "页码范围": "1-8页",
+      "状态": "失败",
+      "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n"
+    }
+  ],
   "all_logs": [
     {
       "时间": "2026-11-10 12:28:26",
@@ -100,6 +109,14 @@
       "页码范围": "1-5页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-10 12:35:12",
+      "文件名": "HWC261019037.pdf",
+      "货件号": "HWC261019037",
+      "页码范围": "1-8页",
+      "状态": "失败",
+      "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n"
     }
   ],
   "shipment_stats": {
@@ -150,6 +167,10 @@
     "FBA19WDWMBX8": {
       "success": 1,
       "fail": 0
+    },
+    "HWC261019037": {
+      "success": 0,
+      "fail": 1
     }
   },
   "print_hourly": {
@@ -159,5 +180,5 @@
     "11": 25,
     "12": 17
   },
-  "update_time": "2026-11-10 12:39:54"
+  "update_time": "2026-11-10 12:40:28"
 }
