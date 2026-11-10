@@ -1,8 +1,8 @@
 {
-  "total": 47,
+  "total": 52,
   "success": 33,
-  "fail": 14,
-  "rate": 70,
+  "fail": 19,
+  "rate": 63,
   "fail_logs": [
     {
       "时间": "2026-11-10 12:35:12",
@@ -115,6 +115,46 @@
       "页码范围": "1-5页",
       "状态": "失败",
       "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n"
+    },
+    {
+      "时间": "2026-11-10 13:21:49",
+      "文件名": "HWC261102009.pdf",
+      "货件号": "HWC261102009",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Keyboard.type: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 13:26:59",
+      "文件名": "HWC261102012.pdf",
+      "货件号": "HWC261102012",
+      "页码范围": "1-12页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 13:27:00",
+      "文件名": "HWC261102017.pdf",
+      "货件号": "HWC261102017",
+      "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 13:27:00",
+      "文件名": "HWC261104019.pdf",
+      "货件号": "HWC261104019",
+      "页码范围": "1-3页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 13:27:01",
+      "文件名": "HWC261104021.pdf",
+      "货件号": "HWC261104021",
+      "页码范围": "1-5页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
     }
   ],
   "all_logs": [
@@ -493,6 +533,46 @@
       "页码范围": "1-5页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-10 13:21:49",
+      "文件名": "HWC261102009.pdf",
+      "货件号": "HWC261102009",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Keyboard.type: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 13:26:59",
+      "文件名": "HWC261102012.pdf",
+      "货件号": "HWC261102012",
+      "页码范围": "1-12页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 13:27:00",
+      "文件名": "HWC261102017.pdf",
+      "货件号": "HWC261102017",
+      "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 13:27:00",
+      "文件名": "HWC261104019.pdf",
+      "货件号": "HWC261104019",
+      "页码范围": "1-3页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 13:27:01",
+      "文件名": "HWC261104021.pdf",
+      "货件号": "HWC261104021",
+      "页码范围": "1-5页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
     }
   ],
   "shipment_stats": {
@@ -582,23 +662,23 @@
     },
     "HWC261102009": {
       "success": 0,
-      "fail": 1
+      "fail": 2
     },
     "HWC261102012": {
       "success": 0,
-      "fail": 1
+      "fail": 2
     },
     "HWC261102017": {
       "success": 0,
-      "fail": 1
+      "fail": 2
     },
     "HWC261104019": {
       "success": 0,
-      "fail": 1
+      "fail": 2
     },
     "HWC261104021": {
       "success": 0,
-      "fail": 1
+      "fail": 2
     }
   },
   "print_hourly": {
@@ -609,5 +689,5 @@
     "12": 23,
     "13": 41
   },
-  "update_time": "2026-11-10 13:26:21"
+  "update_time": "2026-11-10 13:27:32"
 }
