@@ -1,8 +1,8 @@
 {
-  "total": 154,
-  "success": 112,
-  "fail": 42,
-  "rate": 73,
+  "total": 165,
+  "success": 113,
+  "fail": 52,
+  "rate": 68,
   "fail_logs": [
     {
       "时间": "2026-11-10 12:35:12",
@@ -334,6 +334,86 @@
     },
     {
       "时间": "2026-11-10 19:10:16",
+      "文件名": "HWC261106099.pdf",
+      "货件号": "HWC261106099",
+      "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:03",
+      "文件名": "FBA15MVJFK2R.pdf",
+      "货件号": "FBA15MVJFK2R",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.wait_for_timeout: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:15",
+      "文件名": "FBA15MVKYRR9.pdf",
+      "货件号": "FBA15MVKYRR9",
+      "页码范围": "1-5页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:15",
+      "文件名": "FBA15MVM26G0.pdf",
+      "货件号": "FBA15MVM26G0",
+      "页码范围": "1-5页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:16",
+      "文件名": "HWC261104010.pdf",
+      "货件号": "HWC261104010",
+      "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:17",
+      "文件名": "HWC261104093.pdf",
+      "货件号": "HWC261104093",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:17",
+      "文件名": "HWC261106046.pdf",
+      "货件号": "HWC261106046",
+      "页码范围": "1-12页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:18",
+      "文件名": "HWC261106087.pdf",
+      "货件号": "HWC261106087",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:18",
+      "文件名": "HWC261106091.pdf",
+      "货件号": "HWC261106091",
+      "页码范围": "1-2页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:19",
+      "文件名": "HWC261106098.pdf",
+      "货件号": "HWC261106098",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:19",
       "文件名": "HWC261106099.pdf",
       "货件号": "HWC261106099",
       "页码范围": "1-7页",
@@ -1573,6 +1653,94 @@
       "页码范围": "1-7页",
       "状态": "失败",
       "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:12:39",
+      "文件名": "FBA15MVCHK5F.pdf",
+      "货件号": "FBA15MVCHK5F",
+      "页码范围": "1-3页",
+      "状态": "成功",
+      "备注": ""
+    },
+    {
+      "时间": "2026-11-10 19:13:03",
+      "文件名": "FBA15MVJFK2R.pdf",
+      "货件号": "FBA15MVJFK2R",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.wait_for_timeout: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:15",
+      "文件名": "FBA15MVKYRR9.pdf",
+      "货件号": "FBA15MVKYRR9",
+      "页码范围": "1-5页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:15",
+      "文件名": "FBA15MVM26G0.pdf",
+      "货件号": "FBA15MVM26G0",
+      "页码范围": "1-5页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:16",
+      "文件名": "HWC261104010.pdf",
+      "货件号": "HWC261104010",
+      "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:17",
+      "文件名": "HWC261104093.pdf",
+      "货件号": "HWC261104093",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:17",
+      "文件名": "HWC261106046.pdf",
+      "货件号": "HWC261106046",
+      "页码范围": "1-12页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:18",
+      "文件名": "HWC261106087.pdf",
+      "货件号": "HWC261106087",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:18",
+      "文件名": "HWC261106091.pdf",
+      "货件号": "HWC261106091",
+      "页码范围": "1-2页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:19",
+      "文件名": "HWC261106098.pdf",
+      "货件号": "HWC261106098",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:13:19",
+      "文件名": "HWC261106099.pdf",
+      "货件号": "HWC261106099",
+      "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
     }
   ],
   "shipment_stats": {
@@ -1857,7 +2025,7 @@
       "fail": 0
     },
     "FBA15MVCHK5F": {
-      "success": 3,
+      "success": 4,
       "fail": 0
     },
     "FBA15MVCQFZT": {
@@ -1898,7 +2066,7 @@
     },
     "FBA15MVJFK2R": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "FBA15MVKYFK5": {
       "success": 0,
@@ -1906,39 +2074,39 @@
     },
     "FBA15MVKYRR9": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "FBA15MVM26G0": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "HWC261104010": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "HWC261104093": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "HWC261106046": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "HWC261106087": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "HWC261106091": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "HWC261106098": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     },
     "HWC261106099": {
       "success": 1,
-      "fail": 2
+      "fail": 3
     }
   },
   "print_hourly": {
@@ -1955,5 +2123,5 @@
     "18": 32,
     "19": 6
   },
-  "update_time": "2026-11-10 19:12:49"
+  "update_time": "2026-11-10 19:13:33"
 }
