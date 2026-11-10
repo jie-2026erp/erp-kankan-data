@@ -1,10 +1,10 @@
 {
   "date": "2026-11-10",
-  "update_time": "2026-11-10 19:16:18",
-  "total_boxes": 1441,
+  "update_time": "2026-11-10 19:18:17",
+  "total_boxes": 1467,
   "total_users": 2,
-  "total_batches": 11,
-  "total_marked_bulk": 176.31,
+  "total_batches": 12,
+  "total_marked_bulk": 191.5,
   "by_user": [
     {
       "name": "汪宗标",
@@ -13,8 +13,8 @@
     },
     {
       "name": "叶帆",
-      "boxes": 646,
-      "shipments": 83
+      "boxes": 672,
+      "shipments": 84
     }
   ],
   "hourly": {
@@ -25,7 +25,8 @@
       "15": 62,
       "14": 99,
       "10": 125,
-      "9": 12
+      "9": 12,
+      "19": 26
     },
     "汪宗标": {
       "16": 191,
@@ -59,6 +60,14 @@
   "unmarked_bulk": 17.08,
   "partial_list": [
     {
+      "batch_code": "TH26111000323",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "美通",
+      "total_box": 166,
+      "marked_box": 34,
+      "unmarked_box": 132
+    },
+    {
       "batch_code": "TH26111000312",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "华贸",
@@ -75,7 +84,7 @@
       "unmarked_box": 57
     }
   ],
-  "partial_count": 2,
+  "partial_count": 3,
   "week_stat": {
     "bulk": 124.64,
     "boxes": 1298,
