@@ -9,47 +9,43 @@
 body { background: #f5f5f5; padding: 16px; padding-bottom: 40px; }
 h1 { font-size: 20px; text-align: center; margin-bottom: 20px; color: #333; }
 .tip { text-align: center; color: #999; font-size: 14px; margin-bottom: 16px; }
-.shipment-card { background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; }
-.shipment-info .code { font-size: 18px; font-weight: bold; color: #333; }
-.shipment-info .meta { font-size: 14px; color: #666; margin-top: 4px; }
-.print-btn { background: #1677ff; color: white; border: none; border-radius: 8px; padding: 12px 20px; font-size: 16px; font-weight: bold; cursor: pointer; }
+.order-card { background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; }
+.order-info .code { font-size: 18px; font-weight: bold; color: #1677ff; }
+.order-info .meta { font-size: 14px; color: #666; margin-top: 4px; }
+.print-btn { background: #52c41a; color: white; border: none; border-radius: 8px; padding: 12px 20px; font-size: 16px; font-weight: bold; cursor: pointer; }
 .print-btn:disabled { background: #999; }
 </style>
 </head>
 <body>
-<h1>📱 发货管理远程打印</h1>
-<div class="tip">点击对应货件按钮，电脑自动打印标签</div>
-<div id="shipmentList">加载中...</div>
+<h1>📱 提货单远程打印</h1>
+<div class="tip">点击对应提货单按钮，电脑自动打印标签</div>
+<div id="orderList">加载中...</div>
 <script>
-async function loadPendingShipments() {
+async function loadPendingOrders() {
   try {
-    const res = await fetch("https://shipment-api.nantang-tech.com/api/fba/inbound_list", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({page:1, limit:100, status:0})
-    });
+    const res = await fetch("https://jie-2026erp.github.io/erp-kankan-data/scan_data.json?t=" + Date.now());
     const data = await res.json();
-    const list = data.data.list || data.data || [];
-    const container = document.getElementById('shipmentList');
+    const list = data.unmarked || [];
+    const container = document.getElementById('orderList');
     container.innerHTML = '';
     if(list.length === 0) {
-      container.innerHTML = '<div style="text-align:center;color:#999;margin-top:40px;">暂无待打印货件</div>';
+      container.innerHTML = '<div style="text-align:center;color:#999;margin-top:40px;">暂无待打印提货单</div>';
       return;
     }
-    list.forEach(shipment => {
+    list.forEach(order => {
       const card = document.createElement('div');
-      card.className = 'shipment-card';
+      card.className = 'order-card';
       card.innerHTML = `
-        <div class="shipment-info">
-          <div class="code">${shipment.code}</div>
-          <div class="meta">${shipment.space || '待分配库位'} | ${shipment.box_total||0}箱</div>
+        <div class="order-info">
+          <div class="code">${order.batch_code}</div>
+          <div class="meta">${order.warehouse_name || ''} | ${order.total_box||0}箱</div>
         </div>
-        <button class="print-btn" onclick="sendPrintTask('${shipment.code}')">打印</button>
+        <button class="print-btn" onclick="sendPrintTask('${order.batch_code}')">打印</button>
       `;
       container.appendChild(card);
     });
   } catch(e) {
-    document.getElementById('shipmentList').innerHTML = '<div style="text-align:center;color:red;">加载失败，下拉刷新重试</div>';
+    document.getElementById('orderList').innerHTML = '<div style="text-align:center;color:red;">加载失败，下拉刷新重试</div>';
   }
 }
 
@@ -58,8 +54,8 @@ async function sendPrintTask(code) {
   setTimeout(() => location.reload(), 2000);
 }
 
-loadPendingShipments();
-setInterval(loadPendingShipments, 15000);
+loadPendingOrders();
+setInterval(loadPendingOrders, 15000);
 </script>
 </body>
 </html>
