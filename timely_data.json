@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-10 10:05:18",
+  "update_time": "2026-11-10 10:07:19",
   "pack3": {
-    "total": 23,
+    "total": 29,
     "over24": 7,
     "over48": 7,
-    "max_hours": 67.4,
+    "max_hours": 67.5,
     "dtb_count": 1,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-07 14:39:50",
-        "hours": 67.4,
+        "hours": 67.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 25,
         "pack_time": "2026-11-09 21:10:03",
-        "hours": 12.9,
+        "hours": 13.0,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -216,6 +216,19 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "HWC261109054",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0200",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-10 09:14:49",
+        "hours": 0.9,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
         "code": "HWC261109044",
         "platform": "BAISHIMY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -255,19 +268,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261109054",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0200",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-10 09:14:49",
-        "hours": 0.8,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "HWC261109038",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -302,9 +302,87 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-10 09:51:56",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "丁胜玥",
         "transport": "海运英国"
+      },
+      {
+        "code": "FBA261109079",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0188",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-10 10:05:49",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "卡航英国"
+      },
+      {
+        "code": "FBA261109076",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0195",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-10 10:05:56",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "海运英国"
+      },
+      {
+        "code": "HWC261109053",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0190",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-10 10:05:49",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261109047",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-086",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 27,
+        "pack_time": "2026-11-10 10:06:01",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261109045",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0196",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 9,
+        "pack_time": "2026-11-10 10:06:11",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261109030",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0193,JH11-0192,JH11-0191",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 25,
+        "pack_time": "2026-11-10 10:06:09",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
       }
     ]
   },
