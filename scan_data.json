@@ -1,15 +1,15 @@
 {
   "date": "2026-11-10",
-  "update_time": "2026-11-10 18:45:49",
-  "total_boxes": 1363,
+  "update_time": "2026-11-10 18:47:58",
+  "total_boxes": 1377,
   "total_users": 2,
   "total_batches": 10,
   "total_marked_bulk": 175.7,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 747,
-      "shipments": 99
+      "boxes": 761,
+      "shipments": 101
     },
     {
       "name": "叶帆",
@@ -29,10 +29,10 @@
     },
     "汪宗标": {
       "16": 191,
+      "18": 163,
       "14": 115,
       "15": 240,
-      "10": 52,
-      "18": 149
+      "10": 52
     }
   },
   "unmarked": [
@@ -91,17 +91,9 @@
       "total_box": 214,
       "marked_box": 157,
       "unmarked_box": 57
-    },
-    {
-      "batch_code": "TH26111000308",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "苏恩",
-      "total_box": 43,
-      "marked_box": 41,
-      "unmarked_box": 2
     }
   ],
-  "partial_count": 3,
+  "partial_count": 2,
   "week_stat": {
     "bulk": 124.03,
     "boxes": 1283,
