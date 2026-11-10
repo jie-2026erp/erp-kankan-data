@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "update_time": "2026-11-10 10:16:31",
+  "update_time": "2026-11-10 10:18:37",
   "total_boxes": 24,
   "total_users": 1,
   "total_batches": 1,
@@ -18,9 +18,19 @@
       "10": 12
     }
   },
-  "unmarked": [],
-  "unmarked_count": 0,
-  "unmarked_bulk": 0.0,
+  "unmarked": [
+    {
+      "batch_code": "TH26111000302",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "苏恩",
+      "datetime": "2026-11-10 10:18:35",
+      "bulk": 14.4499,
+      "sum_box": "165",
+      "is_write": "未填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 14.45,
   "partial_list": [],
   "partial_count": 0,
   "week_stat": {
