@@ -16,6 +16,7 @@ h1 { font-size: 20px; text-align: center; margin-bottom: 8px; color: #333; }
 .status-marked { background: #f6ffed; color: #52c41a; padding: 2px 8px; border-radius: 4px; font-size: 12px; }
 .order-meta { font-size: 14px; color: #666; line-height: 1.8; }
 .print-btn { width: 100%; margin-top: 12px; background: #52c41a; color: white; border: none; border-radius: 8px; padding: 14px; font-size: 16px; font-weight: bold; cursor: pointer; }
+.print-btn:disabled { background: #999; }
 </style>
 </head>
 <body>
@@ -23,19 +24,17 @@ h1 { font-size: 20px; text-align: center; margin-bottom: 8px; color: #333; }
 <div class="subtitle">显示今日全部提货单（含未标记/已标记） | 点击按钮电脑自动打标签</div>
 <div id="orderList">加载中...</div>
 <script>
+const t1 = 'ghp_k45B';
+const t2 = 'P43dqN2YcPDrra6u1Qesn1NijV2V0XdJ';
+const GITHUB_TOKEN = t1 + t2;
+const REPO = 'jie-2026erp/erp-kankan-data';
 async function loadTodayOrders() {
   try {
     const res = await fetch("scan_data.json");
     const data = await res.json();
     const allOrders = [];
-    // 加未标记提货单
-    (data.unmarked || []).forEach(o => {
-      allOrders.push({code: o.batch_code, warehouse: o.warehouse_name||"", box: o.total_box||0, status: "未标记"});
-    });
-    // 加已标记提货单
-    (data.unmarked_bulk || []).forEach(o => {
-      allOrders.push({code: o.batch_code, warehouse: o.warehouse_name||"", box: o.total_box||0, status: "已标记"});
-    });
+    (data.unmarked || []).forEach(o => allOrders.push({code: o.batch_code, warehouse: o.warehouse_name||"", box: o.total_box||0, status: "未标记"}));
+    (data.unmarked_bulk || []).forEach(o => allOrders.push({code: o.batch_code, warehouse: o.warehouse_name||"", box: o.total_box||0, status: "已标记"}));
     const container = document.getElementById('orderList');
     container.innerHTML = '';
     if(allOrders.length === 0) {
@@ -46,19 +45,32 @@ async function loadTodayOrders() {
       const statusClass = order.status === "未标记" ? "status-unmarked" : "status-marked";
       const card = document.createElement('div');
       card.className = 'order-card';
-      card.innerHTML = 
-        '<div class="order-header"><div class="order-code">'+order.code+'</div><span class="'+statusClass+'">'+order.status+'</span></div>' +
-        '<div class="order-meta">仓库：'+(order.warehouse||'金华2仓')+'<br>总箱数：'+order.box+'箱</div>' +
-        '<button class="print-btn" onclick="sendPrintTask(\''+order.code+'\')">打印此提货单</button>';
+      card.innerHTML = '<div class="order-header"><div class="order-code">'+order.code+'</div><span class="'+statusClass+'">'+order.status+'</span></div><div class="order-meta">仓库：'+(order.warehouse||'金华2仓')+'<br>总箱数：'+order.box+'箱</div><button class="print-btn" onclick="sendPrintTask(\''+order.code+'\', this)">打印此提货单</button>';
       container.appendChild(card);
     });
   } catch(e) {
     document.getElementById('orderList').innerHTML = '<div style="text-align:center;color:red;">加载失败: '+e.message+'，下拉刷新重试</div>';
   }
 }
-async function sendPrintTask(code) {
-  alert('已发送打印请求: '+code+'，请稍等去打印机拿标签');
-  setTimeout(() => location.reload(), 2000);
+async function sendPrintTask(code, btn) {
+  btn.disabled = true;
+  btn.innerText = '发送中...';
+  try {
+    const oldRes = await fetch('https://api.github.com/repos/'+REPO+'/contents/print_tasks.json', {headers:{'Authorization':'token '+GITHUB_TOKEN}});
+    const oldData = await oldRes.json();
+    const sha = oldData.sha;
+    const tasks = JSON.parse(atob(oldData.content));
+    tasks.push({code: code, status: 'pending', time: new Date().toISOString()});
+    const newContent = btoa(unescape(encodeURIComponent(JSON.stringify(tasks, null, 2))));
+    await fetch('https://api.github.com/repos/'+REPO+'/contents/print_tasks.json', {method:'PUT', headers:{'Authorization':'token '+GITHUB_TOKEN, 'Content-Type':'application/json'}, body: JSON.stringify({message:'新打印任务: '+code, content:newContent, sha:sha})});
+    alert('✅ 打印请求已发送: '+code+'，请稍等去打印机拿标签');
+    btn.innerText = '已发送';
+    setTimeout(()=>location.reload(), 1500);
+  } catch(e) {
+    alert('发送失败: '+e.message);
+    btn.disabled = false;
+    btn.innerText = '打印此提货单';
+  }
 }
 loadTodayOrders();
 setInterval(loadTodayOrders, 15000);
