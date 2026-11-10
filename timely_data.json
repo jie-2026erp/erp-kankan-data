@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-10 15:42:33",
+  "update_time": "2026-11-10 15:44:17",
   "pack3": {
     "total": 14,
     "over24": 4,
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-09 11:22:26",
-        "hours": 28.3,
+        "hours": 28.4,
         "owner": "杨晓如",
         "transport": "海运欧洲"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-09 20:22:24",
-        "hours": 19.3,
+        "hours": 19.4,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 25,
         "pack_time": "2026-11-09 21:10:03",
-        "hours": 18.5,
+        "hours": 18.6,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -151,6 +151,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MW0TTXQ",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-101",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 13,
+        "pack_time": "2026-11-10 14:40:04",
+        "hours": 1.1,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MW0VC1Q",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -164,28 +177,15 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MW0TTXQ",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-101",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 13,
-        "pack_time": "2026-11-10 14:40:04",
-        "hours": 1.0,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA261109154",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0094",
         "is_dtb": false,
-        "err_msg": "",
+        "err_msg": "Empty reply from server",
         "box_total": 2,
         "pack_time": "2026-11-10 15:40:10",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       }
