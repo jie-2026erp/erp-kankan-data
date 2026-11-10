@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-10 17:40:53",
+  "update_time": "2026-11-10 17:42:41",
   "pack3": {
     "total": 25,
     "over24": 2,
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-09 20:32:11",
-        "hours": 21.1,
+        "hours": 21.2,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: This ASIN has been identified as a product which requires safety compliance documentation. FBA is unable to fulfill orders for this product without this documentation. Please go to Seller Central > Account Health > Product Compliance Requests, to either provide documentation or appeal the decision.",
         "box_total": 5,
         "pack_time": "2026-11-10 13:08:14",
-        "hours": 4.5,
+        "hours": 4.6,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -120,7 +120,7 @@
         "err_msg": "There's an input error with the resource 'JN-linyu-721-QW'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 10,
         "pack_time": "2026-11-10 13:57:24",
-        "hours": 3.7,
+        "hours": 3.8,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -151,6 +151,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MW1WZ5W",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-49",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-10 15:56:08",
+        "hours": 1.8,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
+      },
+      {
         "code": "FBA15MW1Y7CQ",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -164,17 +177,30 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MW1WZ5W",
+        "code": "FBA15MW27H6Z",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0085",
+        "space": "JH11-0086",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-10 15:56:08",
+        "box_total": 4,
+        "pack_time": "2026-11-10 16:02:35",
         "hours": 1.7,
         "owner": "杨雨薇",
-        "transport": "卡航英国"
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MW25MR1",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-7-87",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-10 16:03:26",
+        "hours": 1.7,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MW1ZN90",
@@ -190,32 +216,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MW27H6Z",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0086",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-10 16:02:35",
-        "hours": 1.6,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MW25MR1",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0087",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-10 16:03:26",
-        "hours": 1.6,
-        "owner": "杨雨薇",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MW2N4WW",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -224,7 +224,7 @@
         "err_msg": "",
         "box_total": 58,
         "pack_time": "2026-11-10 16:21:19",
-        "hours": 1.3,
+        "hours": 1.4,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -237,9 +237,22 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-10 16:32:06",
-        "hours": 1.1,
+        "hours": 1.2,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MW2JTC6",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0069",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-10 16:38:06",
+        "hours": 1.1,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
       },
       {
         "code": "FBA15MW29CRT",
@@ -266,19 +279,6 @@
         "hours": 1.0,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MW2JTC6",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0069",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-10 16:38:06",
-        "hours": 1.0,
-        "owner": "杨雨薇",
-        "transport": "卡航英国"
       },
       {
         "code": "FBA15MW2NR6M",
@@ -315,12 +315,12 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-10 17:32:12",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
       {
-        "code": "FBA261109165",
+        "code": "FBA15MW38SNH",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0063",
