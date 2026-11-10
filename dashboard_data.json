@@ -1,8 +1,8 @@
 {
-  "total": 166,
-  "success": 114,
-  "fail": 52,
-  "rate": 69,
+  "total": 168,
+  "success": 115,
+  "fail": 53,
+  "rate": 68,
   "fail_logs": [
     {
       "时间": "2026-11-10 12:35:12",
@@ -417,6 +417,14 @@
       "文件名": "HWC261106099.pdf",
       "货件号": "HWC261106099",
       "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:15:48",
+      "文件名": "FBA15MVKYRR9.pdf",
+      "货件号": "FBA15MVKYRR9",
+      "页码范围": "1-5页",
       "状态": "失败",
       "备注": "Page.evaluate: Target page, context or browser has been closed"
     }
@@ -1749,6 +1757,22 @@
       "页码范围": "1-3页",
       "状态": "成功",
       "备注": ""
+    },
+    {
+      "时间": "2026-11-10 19:15:21",
+      "文件名": "FBA15MVJFK2R.pdf",
+      "货件号": "FBA15MVJFK2R",
+      "页码范围": "1-4页",
+      "状态": "成功",
+      "备注": ""
+    },
+    {
+      "时间": "2026-11-10 19:15:48",
+      "文件名": "FBA15MVKYRR9.pdf",
+      "货件号": "FBA15MVKYRR9",
+      "页码范围": "1-5页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
     }
   ],
   "shipment_stats": {
@@ -2073,7 +2097,7 @@
       "fail": 0
     },
     "FBA15MVJFK2R": {
-      "success": 1,
+      "success": 2,
       "fail": 3
     },
     "FBA15MVKYFK5": {
@@ -2082,7 +2106,7 @@
     },
     "FBA15MVKYRR9": {
       "success": 1,
-      "fail": 3
+      "fail": 4
     },
     "FBA15MVM26G0": {
       "success": 1,
@@ -2131,5 +2155,5 @@
     "18": 32,
     "19": 8
   },
-  "update_time": "2026-11-10 19:15:45"
+  "update_time": "2026-11-10 19:16:31"
 }
