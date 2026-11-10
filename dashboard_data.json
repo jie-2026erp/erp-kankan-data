@@ -1,8 +1,8 @@
 {
-  "total": 26,
-  "success": 12,
+  "total": 28,
+  "success": 14,
   "fail": 14,
-  "rate": 46,
+  "rate": 50,
   "fail_logs": [
     {
       "时间": "2026-11-10 12:35:12",
@@ -325,15 +325,31 @@
       "页码范围": "1-5页",
       "状态": "失败",
       "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n"
+    },
+    {
+      "时间": "2026-11-10 13:10:56",
+      "文件名": "FBA19W5CF4RX.pdf",
+      "货件号": "FBA19W5CF4RX",
+      "页码范围": "1-4页",
+      "状态": "成功",
+      "备注": ""
+    },
+    {
+      "时间": "2026-11-10 13:11:20",
+      "文件名": "FBA19W5GD8NT.pdf",
+      "货件号": "FBA19W5GD8NT",
+      "页码范围": "1-4页",
+      "状态": "成功",
+      "备注": ""
     }
   ],
   "shipment_stats": {
     "FBA19W5CF4RX": {
-      "success": 1,
+      "success": 2,
       "fail": 0
     },
     "FBA19W5GD8NT": {
-      "success": 1,
+      "success": 2,
       "fail": 0
     },
     "FBA19W5LZYZD": {
@@ -439,7 +455,7 @@
     "10": 21,
     "11": 25,
     "12": 23,
-    "13": 8
+    "13": 13
   },
-  "update_time": "2026-11-10 13:11:03"
+  "update_time": "2026-11-10 13:12:14"
 }
