@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-10 20:21:18",
+  "update_time": "2026-11-10 20:23:14",
   "pack3": {
-    "total": 29,
-    "over24": 3,
+    "total": 31,
+    "over24": 4,
     "over48": 1,
-    "max_hours": 76.5,
+    "max_hours": 76.6,
     "dtb_count": 1,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-07 15:48:53",
-        "hours": 76.5,
+        "hours": 76.6,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 22,
         "pack_time": "2026-11-09 20:24:53",
-        "hours": 23.9,
+        "hours": 24.0,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-09 20:32:11",
-        "hours": 23.8,
+        "hours": 23.9,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 24,
         "pack_time": "2026-11-09 21:12:37",
-        "hours": 23.1,
+        "hours": 23.2,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: This ASIN has been identified as a product which requires safety compliance documentation. FBA is unable to fulfill orders for this product without this documentation. Please go to Seller Central > Account Health > Product Compliance Requests, to either provide documentation or appeal the decision.",
         "box_total": 5,
         "pack_time": "2026-11-10 13:08:14",
-        "hours": 7.2,
+        "hours": 7.3,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -164,19 +164,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MW4S75N",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-9-35",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 9,
-        "pack_time": "2026-11-10 19:51:04",
-        "hours": 0.5,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA15MW5TC4H",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -216,6 +203,32 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261109073",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0018",
+        "is_dtb": false,
+        "err_msg": "后台产品未审核成功",
+        "box_total": 6,
+        "pack_time": "2026-11-10 20:00:40",
+        "hours": 0.4,
+        "owner": "system",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MW563M7",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-71",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-10 20:02:03",
+        "hours": 0.4,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "FBA15MW58X45",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -242,32 +255,6 @@
         "transport": "卡航英国"
       },
       {
-        "code": "HWC261109073",
-        "platform": "GOODCANG",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0018",
-        "is_dtb": false,
-        "err_msg": "后台产品未审核成功",
-        "box_total": 6,
-        "pack_time": "2026-11-10 20:00:40",
-        "hours": 0.3,
-        "owner": "system",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MW563M7",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0017",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-10 20:02:03",
-        "hours": 0.3,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA15MW5V649",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -292,6 +279,19 @@
         "hours": 0.2,
         "owner": "杨雨薇",
         "transport": "卡航英国"
+      },
+      {
+        "code": "HWC261109079",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0007",
+        "is_dtb": false,
+        "err_msg": "后台产品未审核成功",
+        "box_total": 10,
+        "pack_time": "2026-11-10 20:18:19",
+        "hours": 0.1,
+        "owner": "system",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261109014",
@@ -333,17 +333,17 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
-        "code": "HWC261109079",
+        "code": "HWC261109081",
         "platform": "GOODCANG",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0007",
+        "space": "JH11-0002",
         "is_dtb": false,
         "err_msg": "后台产品未审核成功",
-        "box_total": 10,
-        "pack_time": "2026-11-10 20:18:19",
+        "box_total": 2,
+        "pack_time": "2026-11-10 20:22:32",
         "hours": 0.0,
         "owner": "system",
-        "transport": "海运欧洲"
+        "transport": "卡航欧洲"
       },
       {
         "code": "HWC261109078",
@@ -383,6 +383,32 @@
         "hours": 0.0,
         "owner": "system",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261109074",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0015",
+        "is_dtb": false,
+        "err_msg": "后台产品未审核成功",
+        "box_total": 3,
+        "pack_time": "2026-11-10 20:21:17",
+        "hours": 0.0,
+        "owner": "system",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261109017",
+        "platform": "NOON",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0014",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-10 20:21:19",
+        "hours": 0.0,
+        "owner": "吴玉龙",
+        "transport": "海运沙特"
       }
     ]
   },
