@@ -1,8 +1,8 @@
 {
-  "total": 199,
-  "success": 118,
+  "total": 200,
+  "success": 119,
   "fail": 81,
-  "rate": 59,
+  "rate": 60,
   "fail_logs": [
     {
       "时间": "2026-11-10 12:35:12",
@@ -2245,6 +2245,14 @@
       "页码范围": "1-7页",
       "状态": "失败",
       "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-10 19:27:44",
+      "文件名": "FBA15MVCHK5F.pdf",
+      "货件号": "FBA15MVCHK5F",
+      "页码范围": "1-3页",
+      "状态": "成功",
+      "备注": ""
     }
   ],
   "shipment_stats": {
@@ -2529,7 +2537,7 @@
       "fail": 0
     },
     "FBA15MVCHK5F": {
-      "success": 8,
+      "success": 9,
       "fail": 0
     },
     "FBA15MVCQFZT": {
@@ -2627,5 +2635,5 @@
     "18": 32,
     "19": 19
   },
-  "update_time": "2026-11-10 19:27:24"
+  "update_time": "2026-11-10 19:28:32"
 }
