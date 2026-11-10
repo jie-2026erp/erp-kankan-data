@@ -1,15 +1,15 @@
 {
   "date": "2026-11-10",
-  "update_time": "2026-11-10 16:25:25",
-  "total_boxes": 812,
+  "update_time": "2026-11-10 16:27:30",
+  "total_boxes": 823,
   "total_users": 2,
   "total_batches": 5,
   "total_marked_bulk": 79.83,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 499,
-      "shipments": 53
+      "boxes": 510,
+      "shipments": 55
     },
     {
       "name": "叶帆",
@@ -26,8 +26,8 @@
       "9": 12
     },
     "汪宗标": {
+      "16": 103,
       "14": 115,
-      "16": 92,
       "15": 240,
       "10": 52
     }
@@ -108,21 +108,12 @@
   ],
   "unmarked_count": 8,
   "unmarked_bulk": 113.56,
-  "partial_list": [
-    {
-      "batch_code": "TH26111000307",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "福州弘丰国际物流",
-      "total_box": 70,
-      "marked_box": 59,
-      "unmarked_box": 11
-    }
-  ],
-  "partial_count": 1,
+  "partial_list": [],
+  "partial_count": 0,
   "week_stat": {
-    "bulk": 82.86,
-    "boxes": 846,
-    "count": 5
+    "bulk": 88.61,
+    "boxes": 916,
+    "count": 6
   },
   "last_week_stat": {
     "bulk": 650.69,
@@ -130,8 +121,8 @@
     "count": 47
   },
   "month_stat": {
-    "bulk": 733.55,
-    "boxes": 8466,
-    "count": 52
+    "bulk": 739.29,
+    "boxes": 8536,
+    "count": 53
   }
 }
