@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-11 03:07:40",
+  "update_time": "2026-11-11 03:09:35",
   "pack3": {
     "total": 26,
     "over24": 7,
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-10 16:53:28",
-        "hours": 10.2,
+        "hours": 10.3,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -146,7 +146,7 @@
         "err_msg": "货件收件地址异常!",
         "box_total": 4,
         "pack_time": "2026-11-10 18:42:04",
-        "hours": 8.4,
+        "hours": 8.5,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -172,7 +172,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 1,
         "pack_time": "2026-11-10 19:59:28",
-        "hours": 7.1,
+        "hours": 7.2,
         "owner": "system",
         "transport": "卡航欧洲"
       },
@@ -188,6 +188,19 @@
         "hours": 7.1,
         "owner": "system",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261109079",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-12-78",
+        "is_dtb": false,
+        "err_msg": "后台产品未审核成功",
+        "box_total": 10,
+        "pack_time": "2026-11-10 20:18:19",
+        "hours": 6.9,
+        "owner": "system",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261109014",
@@ -227,19 +240,6 @@
         "hours": 6.8,
         "owner": "system",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261109079",
-        "platform": "GOODCANG",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-78",
-        "is_dtb": false,
-        "err_msg": "后台产品未审核成功",
-        "box_total": 10,
-        "pack_time": "2026-11-10 20:18:19",
-        "hours": 6.8,
-        "owner": "system",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261109078",
@@ -351,7 +351,7 @@
     "total": 10,
     "over24": 0,
     "over48": 0,
-    "max_hours": 5.8,
+    "max_hours": 5.9,
     "dtb_count": 10,
     "list": [
       {
@@ -363,7 +363,7 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-10 21:18:34",
-        "hours": 5.8,
+        "hours": 5.9,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -381,6 +381,19 @@
         "transport": "卡航英国"
       },
       {
+        "code": "HWC261110020",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "DTB-2-11",
+        "is_dtb": true,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-10 21:22:50",
+        "hours": 5.8,
+        "owner": "杨晓如",
+        "transport": "卡航英国"
+      },
+      {
         "code": "FBA15MW5FTFG",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -394,19 +407,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261110020",
-        "platform": "GOODCANG",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "DTB-2-11",
-        "is_dtb": true,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-10 21:22:50",
-        "hours": 5.7,
-        "owner": "杨晓如",
-        "transport": "卡航英国"
-      },
-      {
         "code": "FBA15MW57WXF",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -415,7 +415,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-10 21:29:56",
-        "hours": 5.6,
+        "hours": 5.7,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -428,7 +428,7 @@
         "err_msg": "",
         "box_total": 23,
         "pack_time": "2026-11-10 21:35:17",
-        "hours": 5.5,
+        "hours": 5.6,
         "owner": "杨雨薇",
         "transport": "海运英国"
       },
@@ -441,7 +441,7 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-10 21:36:24",
-        "hours": 5.5,
+        "hours": 5.6,
         "owner": "丁胜玥",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -467,7 +467,7 @@
         "err_msg": "",
         "box_total": 17,
         "pack_time": "2026-11-10 21:41:59",
-        "hours": 5.4,
+        "hours": 5.5,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -480,7 +480,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-10 21:46:53",
-        "hours": 5.3,
+        "hours": 5.4,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       }
