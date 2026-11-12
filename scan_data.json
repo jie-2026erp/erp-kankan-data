@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "update_time": "2026-11-12 17:12:46",
+  "update_time": "2026-11-12 17:14:44",
   "total_boxes": 478,
   "total_users": 3,
   "total_batches": 3,
@@ -39,6 +39,15 @@
   },
   "unmarked": [
     {
+      "batch_code": "TH26111200315",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "正信达",
+      "datetime": "2026-11-12 17:14:51",
+      "bulk": 19.5873,
+      "sum_box": "210",
+      "is_write": "未填写"
+    },
+    {
       "batch_code": "TH26111200314",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "正信达",
@@ -66,8 +75,8 @@
       "is_write": "已填写"
     }
   ],
-  "unmarked_count": 3,
-  "unmarked_bulk": 99.18,
+  "unmarked_count": 4,
+  "unmarked_bulk": 118.77,
   "partial_list": [],
   "partial_count": 0,
   "week_stat": {
