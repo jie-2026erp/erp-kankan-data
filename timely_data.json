@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-12 14:48:46",
+  "update_time": "2026-11-12 14:50:29",
   "pack3": {
     "total": 33,
     "over24": 10,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-10 16:53:28",
-        "hours": 45.9,
+        "hours": 46.0,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -133,7 +133,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 24.2,
+        "hours": 24.3,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -164,6 +164,32 @@
         "transport": "卡航英国"
       },
       {
+        "code": "FBA15MWK2F6D",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-11-4",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-12 13:40:57",
+        "hours": 1.2,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MWK2F9M",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-5-71",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 13,
+        "pack_time": "2026-11-12 13:40:28",
+        "hours": 1.2,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "FBA15MWJMD9G",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -190,19 +216,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MWK2F6D",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-4",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-12 13:40:57",
-        "hours": 1.1,
-        "owner": "杨雨薇",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MWK3V7K",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -214,19 +227,6 @@
         "hours": 1.1,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MWK2F9M",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-5-71",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 13,
-        "pack_time": "2026-11-12 13:40:28",
-        "hours": 1.1,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MWJQD3W",
