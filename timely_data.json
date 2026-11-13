@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-13 18:07:08",
+  "update_time": "2026-11-13 18:08:43",
   "pack3": {
     "total": 27,
     "over24": 6,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-10 16:53:28",
-        "hours": 73.2,
+        "hours": 73.3,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -55,7 +55,7 @@
         "err_msg": "There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product is missing necessary information; dimensions need to be provided in the manufacturer's original packaging.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product is missing necessary information; weight need to be provided in he manufacturer's original packaging.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: Additional information is mandatory in order to complete the Hazmat review review.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product does not exist in the destination marketplace catalog. The necessary product information will need to be provided before it can be inbounded.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must have a category specified before it can be sent to Amazon.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must have a title before it can be sent to Amazon.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must be removed. You can send in new inventory by creating a new listing for this product that requires product labels.",
         "box_total": 3,
         "pack_time": "2026-11-11 11:53:34",
-        "hours": 54.2,
+        "hours": 54.3,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -81,7 +81,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 51.5,
+        "hours": 51.6,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -112,19 +112,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261112048",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-21",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-13 13:30:43",
-        "hours": 4.6,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261112066",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -133,7 +120,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-13 13:35:20",
-        "hours": 4.5,
+        "hours": 4.6,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -146,9 +133,22 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-13 13:35:19",
-        "hours": 4.5,
+        "hours": 4.6,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261112048",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-10-21",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-13 13:30:43",
+        "hours": 4.6,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261112054",
@@ -216,6 +216,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261112056",
+        "platform": "SZFLBR",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-58",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-13 14:04:47",
+        "hours": 4.1,
+        "owner": "丁胜玥",
+        "transport": "海运巴西"
+      },
+      {
         "code": "HWC261112047",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -242,19 +255,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "HWC261112056",
-        "platform": "SZFLBR",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-58",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-13 14:04:47",
-        "hours": 4.0,
-        "owner": "丁胜玥",
-        "transport": "海运巴西"
-      },
-      {
         "code": "HWC261112070",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -263,7 +263,7 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-13 14:16:30",
-        "hours": 3.8,
+        "hours": 3.9,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -289,7 +289,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-13 15:22:46",
-        "hours": 2.7,
+        "hours": 2.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -354,7 +354,7 @@
         "err_msg": "",
         "box_total": 13,
         "pack_time": "2026-11-13 16:47:16",
-        "hours": 1.3,
+        "hours": 1.4,
         "owner": "肖琴",
         "transport": "卡航英国"
       }
