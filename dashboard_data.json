@@ -1,9 +1,18 @@
 {
-  "total": 26,
+  "total": 27,
   "success": 26,
-  "fail": 0,
-  "rate": 100,
-  "fail_logs": [],
+  "fail": 1,
+  "rate": 96,
+  "fail_logs": [
+    {
+      "时间": "2026-11-13 12:04:52",
+      "文件名": "FBAOFFLINE",
+      "货件号": "FBA15MT76P8Z",
+      "页码范围": "6页",
+      "状态": "失败",
+      "备注": "重试3次: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\""
+    }
+  ],
   "all_logs": [
     {
       "时间": "2026-11-13 11:13:18",
@@ -212,6 +221,14 @@
       "页码范围": "9页",
       "状态": "成功",
       "备注": "MBTMS 2份"
+    },
+    {
+      "时间": "2026-11-13 12:04:52",
+      "文件名": "FBAOFFLINE",
+      "货件号": "FBA15MT76P8Z",
+      "页码范围": "6页",
+      "状态": "失败",
+      "备注": "重试3次: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\""
     }
   ],
   "shipment_stats": {
@@ -318,6 +335,10 @@
     "HWC261111019": {
       "success": 1,
       "fail": 0
+    },
+    "FBA15MT76P8Z": {
+      "success": 0,
+      "fail": 1
     }
   },
   "print_hourly": {
@@ -326,5 +347,5 @@
     "10": 84,
     "11": 60
   },
-  "update_time": "2026-11-13 12:04:31"
+  "update_time": "2026-11-13 12:05:01"
 }
