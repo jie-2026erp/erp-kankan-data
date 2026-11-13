@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-13 16:15:43",
+  "update_time": "2026-11-13 16:17:39",
   "pack3": {
-    "total": 38,
+    "total": 35,
     "over24": 7,
     "over48": 7,
-    "max_hours": 75.1,
+    "max_hours": 75.2,
     "dtb_count": 1,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: This ASIN has been identified as a product which requires safety compliance documentation. FBA is unable to fulfill orders for this product without this documentation. Please go to Seller Central > Account Health > Product Compliance Requests, to either provide documentation or appeal the decision.",
         "box_total": 5,
         "pack_time": "2026-11-10 13:08:14",
-        "hours": 75.1,
+        "hours": 75.2,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-11 11:02:18",
-        "hours": 53.2,
+        "hours": 53.3,
         "owner": "占雯钦",
         "transport": "海运欧洲"
       },
@@ -164,6 +164,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261112067",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-15-9",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-13 13:43:28",
+        "hours": 2.6,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "HWC261112054",
         "platform": "SZFLBR",
         "warehouse": "FBA中转仓-金华2仓",
@@ -177,17 +190,17 @@
         "transport": "海运巴西"
       },
       {
-        "code": "HWC261112067",
+        "code": "HWC261112071",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-15-9",
+        "space": "FH-15-7",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-13 13:43:28",
+        "box_total": 5,
+        "pack_time": "2026-11-13 13:50:35",
         "hours": 2.5,
         "owner": "丁胜玥",
-        "transport": "卡航欧洲"
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261112045",
@@ -201,19 +214,6 @@
         "hours": 2.5,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261112071",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-15-7",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-13 13:50:35",
-        "hours": 2.4,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261112044",
@@ -245,7 +245,7 @@
         "code": "HWC261112047",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0531",
+        "space": "FH-9-35",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 1,
@@ -294,19 +294,6 @@
         "transport": "海运巴西"
       },
       {
-        "code": "HWC261112016",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-7",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-13 15:14:52",
-        "hours": 1.0,
-        "owner": "郭星媛",
-        "transport": "慢船海卡（美西）"
-      },
-      {
         "code": "HWC261112069",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -320,19 +307,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261113009",
-        "platform": "BFYWOMS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "6FH-02-01-19",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-13 15:43:52",
-        "hours": 0.5,
-        "owner": "白雪娇",
-        "transport": "中俄卡航"
-      },
-      {
         "code": "HWC261112013",
         "platform": "NEWOUDA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -341,7 +315,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-13 15:44:12",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "杨晓如",
         "transport": "卡航欧洲"
       },
@@ -372,15 +346,28 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "FBA15MWW83QZ",
-        "platform": "FBA",
+        "code": "HWC261112062",
+        "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-20",
+        "space": "JH11-0497",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-13 15:51:51",
-        "hours": 0.4,
+        "box_total": 5,
+        "pack_time": "2026-11-13 16:02:26",
+        "hours": 0.3,
+        "owner": "华陈茜",
+        "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "FBA261112068",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0496",
+        "is_dtb": false,
+        "err_msg": "There's an input error with the resource 'shed4b06d8-606b-4f6b-af54-09bbf49e5374'.-ERROR: Invalid transportation option ID that either does not belong to provided shipment ID or is not AVAILABLE was passed in. [RESOURCE_ID: shed4b06d8-606b-4f6b-af54-09bbf49e5374, RESOURCE_TYPE: SHIPMENT]",
+        "box_total": 16,
+        "pack_time": "2026-11-13 16:01:22",
+        "hours": 0.3,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -398,17 +385,17 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261112062",
-        "platform": "WALMART",
+        "code": "HWC261112068",
+        "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0497",
+        "space": "JH11-0500",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-13 16:02:26",
+        "box_total": 7,
+        "pack_time": "2026-11-13 16:07:54",
         "hours": 0.2,
-        "owner": "华陈茜",
-        "transport": "慢船海卡（美西）"
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
       },
       {
         "code": "HWC261112038",
@@ -424,23 +411,10 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "FBA261112068",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0496",
-        "is_dtb": false,
-        "err_msg": "There's an input error with the resource 'shed4b06d8-606b-4f6b-af54-09bbf49e5374'.-ERROR: Invalid transportation option ID that either does not belong to provided shipment ID or is not AVAILABLE was passed in. [RESOURCE_ID: shed4b06d8-606b-4f6b-af54-09bbf49e5374, RESOURCE_TYPE: SHIPMENT]",
-        "box_total": 16,
-        "pack_time": "2026-11-13 16:01:22",
-        "hours": 0.2,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA15MWVW0PJ",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0511",
+        "space": "FH-8-34",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 10,
@@ -453,7 +427,7 @@
         "code": "FBA15MWW34N6",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0511",
+        "space": "FH-8-34",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 8,
@@ -463,17 +437,17 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "HWC261112068",
-        "platform": "ALIEXPRESS",
+        "code": "HWC261113008",
+        "platform": "LOUISTONE",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0500",
+        "space": "LS-TP-106",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-13 16:07:54",
+        "box_total": 34,
+        "pack_time": "2026-11-13 16:14:35",
         "hours": 0.1,
-        "owner": "丁胜玥",
-        "transport": "卡航欧洲"
+        "owner": "李思佳",
+        "transport": "慢船海派（美东）"
       },
       {
         "code": "HWC261113007",
@@ -487,19 +461,6 @@
         "hours": 0.0,
         "owner": "李思佳",
         "transport": "慢船海派（美西）"
-      },
-      {
-        "code": "HWC261113008",
-        "platform": "LOUISTONE",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-106",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 34,
-        "pack_time": "2026-11-13 16:14:35",
-        "hours": 0.0,
-        "owner": "李思佳",
-        "transport": "慢船海派（美东）"
       }
     ]
   },
