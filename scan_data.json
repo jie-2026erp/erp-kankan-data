@@ -1,34 +1,26 @@
 {
   "date": "2026-11-13",
-  "update_time": "2026-11-13 10:16:17",
-  "total_boxes": 40,
+  "update_time": "2026-11-13 10:18:20",
+  "total_boxes": 43,
   "total_users": 1,
   "total_batches": 3,
   "total_marked_bulk": 51.6,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 40,
-      "shipments": 3
+      "boxes": 43,
+      "shipments": 4
     }
   ],
   "hourly": {
     "汪宗标": {
-      "10": 40
+      "10": 43
     }
   },
   "unmarked": [],
   "unmarked_count": 0,
   "unmarked_bulk": 0.0,
   "partial_list": [
-    {
-      "batch_code": "TH26111200318",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "艾姆勒",
-      "total_box": 31,
-      "marked_box": 28,
-      "unmarked_box": 3
-    },
     {
       "batch_code": "TH26111200316",
       "warehouse": "FBA中转仓-金华2仓",
@@ -46,7 +38,7 @@
       "unmarked_box": 0
     }
   ],
-  "partial_count": 3,
+  "partial_count": 2,
   "week_stat": {
     "bulk": 425.03,
     "boxes": 4984,
