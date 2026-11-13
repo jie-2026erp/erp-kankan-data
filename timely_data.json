@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-13 17:18:34",
+  "update_time": "2026-11-13 17:20:30",
   "pack3": {
     "total": 31,
     "over24": 6,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-10 16:53:28",
-        "hours": 72.4,
+        "hours": 72.5,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -81,7 +81,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 50.7,
+        "hours": 50.8,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -112,19 +112,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261112048",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-21",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-13 13:30:43",
-        "hours": 3.8,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261112066",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -133,7 +120,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-13 13:35:20",
-        "hours": 3.7,
+        "hours": 3.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -146,9 +133,22 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-13 13:35:19",
-        "hours": 3.7,
+        "hours": 3.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261112048",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-10-21",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-13 13:30:43",
+        "hours": 3.8,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261112054",
@@ -216,6 +216,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261112056",
+        "platform": "SZFLBR",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-58",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-13 14:04:47",
+        "hours": 3.3,
+        "owner": "丁胜玥",
+        "transport": "海运巴西"
+      },
+      {
         "code": "HWC261112047",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -242,19 +255,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "HWC261112056",
-        "platform": "SZFLBR",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-58",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-13 14:04:47",
-        "hours": 3.2,
-        "owner": "丁胜玥",
-        "transport": "海运巴西"
-      },
-      {
         "code": "HWC261112070",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -263,7 +263,7 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-13 14:16:30",
-        "hours": 3.0,
+        "hours": 3.1,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -276,7 +276,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-13 14:45:42",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "丁胜玥",
         "transport": "海运巴西"
       },
@@ -289,7 +289,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-13 15:22:46",
-        "hours": 1.9,
+        "hours": 2.0,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -315,7 +315,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-13 15:53:19",
-        "hours": 1.4,
+        "hours": 1.5,
         "owner": "华陈茜",
         "transport": "慢船海卡（美西）"
       },
@@ -380,7 +380,7 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-13 16:46:50",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -393,7 +393,7 @@
         "err_msg": "",
         "box_total": 13,
         "pack_time": "2026-11-13 16:47:16",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "肖琴",
         "transport": "卡航英国"
       },
