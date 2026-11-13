@@ -1,8 +1,8 @@
 {
-  "total": 28,
-  "success": 3,
+  "total": 29,
+  "success": 4,
   "fail": 25,
-  "rate": 11,
+  "rate": 14,
   "fail_logs": [
     {
       "时间": "2026-11-13 11:27:45",
@@ -429,6 +429,14 @@
       "页码范围": "30页",
       "状态": "失败",
       "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-13 11:31:45",
+      "文件名": "FBA",
+      "货件号": "FBA15MWS1JMZ",
+      "页码范围": "2页",
+      "状态": "成功",
+      "备注": "FBA 2份"
     }
   ],
   "shipment_stats": {
@@ -485,7 +493,7 @@
       "fail": 1
     },
     "FBA15MWS1JMZ": {
-      "success": 0,
+      "success": 1,
       "fail": 1
     },
     "FBA15MWSM71M": {
@@ -551,5 +559,5 @@
     "10": 84,
     "11": 40
   },
-  "update_time": "2026-11-13 11:31:26"
+  "update_time": "2026-11-13 11:32:32"
 }
