@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-14 17:35:53",
+  "update_time": "2026-11-14 17:37:36",
   "pack3": {
-    "total": 21,
+    "total": 20,
     "over24": 6,
     "over48": 5,
     "max_hours": 100.5,
@@ -68,7 +68,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 75.0,
+        "hours": 75.1,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -112,6 +112,19 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
+        "code": "FBA261113055",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-86",
+        "is_dtb": false,
+        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
+        "box_total": 3,
+        "pack_time": "2026-11-14 11:03:36",
+        "hours": 6.6,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA261113118",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -123,19 +136,6 @@
         "hours": 6.5,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "FBA261113055",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-86",
-        "is_dtb": false,
-        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
-        "box_total": 3,
-        "pack_time": "2026-11-14 11:03:36",
-        "hours": 6.5,
-        "owner": "肖琴",
-        "transport": "海运英国"
       },
       {
         "code": "FBA261113122",
@@ -172,9 +172,22 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 3.0,
+        "hours": 3.1,
         "owner": "王贝贝",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MX1C74V",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1402",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-14 15:16:07",
+        "hours": 2.4,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MX1PYDV",
@@ -186,19 +199,6 @@
         "box_total": 11,
         "pack_time": "2026-11-14 15:11:23",
         "hours": 2.4,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MX1C74V",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1402",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-14 15:16:07",
-        "hours": 2.3,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -240,19 +240,6 @@
         "hours": 0.9,
         "owner": "system",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MX1KBDY",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-64",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-14 16:46:31",
-        "hours": 0.8,
-        "owner": "杨雨薇",
-        "transport": "海运英国"
       },
       {
         "code": "FBA15MX1TWNJ",
