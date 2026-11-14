@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-14 18:11:36",
+  "update_time": "2026-11-14 18:13:28",
   "pack3": {
     "total": 32,
     "over24": 6,
@@ -68,7 +68,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 75.6,
+        "hours": 75.7,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -112,6 +112,19 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
+        "code": "FBA261113055",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-86",
+        "is_dtb": false,
+        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
+        "box_total": 3,
+        "pack_time": "2026-11-14 11:03:36",
+        "hours": 7.2,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA261113118",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -123,19 +136,6 @@
         "hours": 7.1,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "FBA261113055",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-86",
-        "is_dtb": false,
-        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
-        "box_total": 3,
-        "pack_time": "2026-11-14 11:03:36",
-        "hours": 7.1,
-        "owner": "肖琴",
-        "transport": "海运英国"
       },
       {
         "code": "FBA261113122",
@@ -172,7 +172,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 3.6,
+        "hours": 3.7,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -216,6 +216,45 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "HWC261113023",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1363",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-14 17:52:26",
+        "hours": 0.4,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261113022",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1364",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-14 17:52:27",
+        "hours": 0.4,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261113014",
+        "platform": "GOODCANG",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-56",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-14 17:51:09",
+        "hours": 0.4,
+        "owner": "system",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "HWC261113013",
         "platform": "GOODCANG",
         "warehouse": "FBA中转仓-金华2仓",
@@ -239,45 +278,6 @@
         "pack_time": "2026-11-14 17:49:45",
         "hours": 0.4,
         "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261113023",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1363",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-14 17:52:26",
-        "hours": 0.3,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261113022",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1364",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-14 17:52:27",
-        "hours": 0.3,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "HWC261113014",
-        "platform": "GOODCANG",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-56",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-14 17:51:09",
-        "hours": 0.3,
-        "owner": "system",
         "transport": "卡航欧洲"
       },
       {
@@ -307,6 +307,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "FBA15MX24V25",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "DTB-3-2",
+        "is_dtb": true,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-14 17:57:32",
+        "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
+      },
+      {
         "code": "FBA15MX1ZHV7",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -331,6 +344,19 @@
         "hours": 0.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "FBA15MX1Y5X6",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "DTB-2-96",
+        "is_dtb": true,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-14 18:02:44",
+        "hours": 0.2,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MX26HKY",
@@ -359,19 +385,6 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA15MX24V25",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "DTB-3-2",
-        "is_dtb": true,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-14 17:57:32",
-        "hours": 0.2,
-        "owner": "杨雨薇",
-        "transport": "卡航英国"
-      },
-      {
         "code": "FBA15MX26HJN",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -398,23 +411,10 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MX1Y5X6",
+        "code": "FBA15MX21PDF",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "DTB-2-96",
-        "is_dtb": true,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-14 18:02:44",
-        "hours": 0.1,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA261113156",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-094",
+        "space": "JH11-1351,JH11-1352,JH11-1353",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 33,
@@ -429,7 +429,7 @@
     "total": 2,
     "over24": 1,
     "over48": 1,
-    "max_hours": 74.5,
+    "max_hours": 74.6,
     "dtb_count": 2,
     "list": [
       {
@@ -441,7 +441,7 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-11 15:39:15",
-        "hours": 74.5,
+        "hours": 74.6,
         "owner": "肖琴",
         "transport": "海运欧洲"
       },
