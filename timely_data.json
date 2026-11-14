@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-14 11:27:25",
+  "update_time": "2026-11-14 11:29:09",
   "pack3": {
     "total": 41,
     "over24": 6,
@@ -112,6 +112,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261112048",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-10-21",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-13 13:30:43",
+        "hours": 22.0,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "HWC261112066",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -138,19 +151,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261112048",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-21",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-13 13:30:43",
-        "hours": 21.9,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261112067",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-13 13:43:28",
-        "hours": 21.7,
+        "hours": 21.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -263,7 +263,7 @@
         "err_msg": "There's an input error with the resource 'shed4b06d8-606b-4f6b-af54-09bbf49e5374'.-ERROR: Invalid transportation option ID that either does not belong to provided shipment ID or is not AVAILABLE was passed in. [RESOURCE_ID: shed4b06d8-606b-4f6b-af54-09bbf49e5374, RESOURCE_TYPE: SHIPMENT]",
         "box_total": 16,
         "pack_time": "2026-11-13 16:01:22",
-        "hours": 19.4,
+        "hours": 19.5,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -276,7 +276,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-13 16:07:54",
-        "hours": 19.3,
+        "hours": 19.4,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -346,19 +346,6 @@
         "transport": "海运日本"
       },
       {
-        "code": "FBA261113055",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-86",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-14 11:03:36",
-        "hours": 0.4,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
         "code": "FBA261113118",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -367,9 +354,22 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-14 11:07:18",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
+      },
+      {
+        "code": "FBA261113055",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-86",
+        "is_dtb": false,
+        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
+        "box_total": 3,
+        "pack_time": "2026-11-14 11:03:36",
+        "hours": 0.4,
+        "owner": "肖琴",
+        "transport": "海运英国"
       },
       {
         "code": "FBA15MX0WNNQ",
@@ -398,6 +398,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15GLMSQHT",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1460",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-14 11:13:09",
+        "hours": 0.3,
+        "owner": "肖琴",
+        "transport": "海运日本"
+      },
+      {
         "code": "FBA15GLMYVGK",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -424,17 +437,30 @@
         "transport": "海运日本"
       },
       {
-        "code": "FBA15GLMSQHT",
+        "code": "FBA15MX0X5XL",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1460",
+        "space": "FH-8-65",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-14 11:13:09",
+        "box_total": 2,
+        "pack_time": "2026-11-14 11:19:35",
+        "hours": 0.2,
+        "owner": "王贝贝",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MX0Z2KN",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1457",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-14 11:18:50",
         "hours": 0.2,
         "owner": "肖琴",
-        "transport": "海运日本"
+        "transport": "海运英国"
       },
       {
         "code": "FBA15GLMSRQW",
@@ -448,19 +474,6 @@
         "hours": 0.2,
         "owner": "肖琴",
         "transport": "海运日本"
-      },
-      {
-        "code": "FBA15MX0X5XL",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1456",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-14 11:19:35",
-        "hours": 0.1,
-        "owner": "王贝贝",
-        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MX0W9K6",
@@ -489,19 +502,6 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MX0Z2KN",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1457",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-14 11:18:50",
-        "hours": 0.1,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
         "code": "FBA15MX0N78S",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -515,7 +515,7 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA261113060",
+        "code": "FBA15GLMTND9",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1451",
