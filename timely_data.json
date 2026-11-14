@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-14 13:49:42",
+  "update_time": "2026-11-14 13:51:26",
   "pack3": {
-    "total": 28,
+    "total": 29,
     "over24": 9,
     "over48": 5,
     "max_hours": 96.7,
@@ -42,7 +42,7 @@
         "err_msg": "There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product is missing necessary information; dimensions need to be provided in the manufacturer's original packaging.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product is missing necessary information; weight need to be provided in he manufacturer's original packaging.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: Additional information is mandatory in order to complete the Hazmat review review.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product does not exist in the destination marketplace catalog. The necessary product information will need to be provided before it can be inbounded.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must have a category specified before it can be sent to Amazon.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must have a title before it can be sent to Amazon.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must be removed. You can send in new inventory by creating a new listing for this product that requires product labels.",
         "box_total": 3,
         "pack_time": "2026-11-11 11:53:34",
-        "hours": 73.9,
+        "hours": 74.0,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -55,7 +55,7 @@
         "err_msg": "There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product is missing necessary information; dimensions need to be provided in the manufacturer's original packaging.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product is missing necessary information; weight need to be provided in he manufacturer's original packaging.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: Additional information is mandatory in order to complete the Hazmat review review.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product does not exist in the destination marketplace catalog. The necessary product information will need to be provided before it can be inbounded.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must have a category specified before it can be sent to Amazon.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must have a title before it can be sent to Amazon.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must be removed. You can send in new inventory by creating a new listing for this product that requires product labels.",
         "box_total": 2,
         "pack_time": "2026-11-11 13:53:44",
-        "hours": 71.9,
+        "hours": 72.0,
         "owner": "王贝贝",
         "transport": "卡航欧洲"
       },
@@ -73,6 +73,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "HWC261112065",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-12-64",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-13 13:35:19",
+        "hours": 24.3,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "HWC261112048",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -84,19 +97,6 @@
         "hours": 24.3,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261112065",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-64",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-13 13:35:19",
-        "hours": 24.2,
-        "owner": "丁胜玥",
-        "transport": "卡航欧洲"
       },
       {
         "code": "HWC261112067",
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-13 15:22:46",
-        "hours": 22.4,
+        "hours": 22.5,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -276,7 +276,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-14 10:59:13",
-        "hours": 2.8,
+        "hours": 2.9,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -320,6 +320,19 @@
         "transport": "海运英国"
       },
       {
+        "code": "FBA15MX120RR",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1427",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-14 13:34:49",
+        "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "FBA15MX15MF1",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -333,20 +346,20 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MX120RR",
+        "code": "FBA15MX15C48",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1427",
+        "space": "JH11-1425",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-14 13:34:49",
+        "box_total": 4,
+        "pack_time": "2026-11-14 13:42:07",
         "hours": 0.2,
         "owner": "杨雨薇",
-        "transport": "卡航欧洲"
+        "transport": "海运欧洲"
       },
       {
-        "code": "FBA261113114",
+        "code": "FBA15MX0YTZ5",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1424",
@@ -359,17 +372,17 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MX15C48",
+        "code": "FBA261113101",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1425",
+        "space": "JH11-1423",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-14 13:42:07",
-        "hours": 0.1,
+        "box_total": 9,
+        "pack_time": "2026-11-14 13:50:22",
+        "hours": 0.0,
         "owner": "杨雨薇",
-        "transport": "海运欧洲"
+        "transport": "卡航欧洲"
       }
     ]
   },
@@ -377,7 +390,7 @@
     "total": 1,
     "over24": 0,
     "over48": 0,
-    "max_hours": 0.1,
+    "max_hours": 0.2,
     "dtb_count": 1,
     "list": [
       {
@@ -389,7 +402,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-14 13:40:51",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       }
