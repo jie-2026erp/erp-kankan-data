@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-14 21:53:05",
+  "update_time": "2026-11-14 21:55:05",
   "pack3": {
     "total": 20,
     "over24": 6,
     "over48": 5,
-    "max_hours": 104.7,
+    "max_hours": 104.8,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: This ASIN has been identified as a product which requires safety compliance documentation. FBA is unable to fulfill orders for this product without this documentation. Please go to Seller Central > Account Health > Product Compliance Requests, to either provide documentation or appeal the decision.",
         "box_total": 5,
         "pack_time": "2026-11-10 13:08:14",
-        "hours": 104.7,
+        "hours": 104.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-11 11:02:18",
-        "hours": 82.8,
+        "hours": 82.9,
         "owner": "占雯钦",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 3,
         "pack_time": "2026-11-14 10:02:29",
-        "hours": 11.8,
+        "hours": 11.9,
         "owner": "system",
         "transport": "海运欧洲"
       },
@@ -112,6 +112,19 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
+        "code": "FBA261113055",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-86",
+        "is_dtb": false,
+        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
+        "box_total": 3,
+        "pack_time": "2026-11-14 11:03:36",
+        "hours": 10.9,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA261113118",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -123,19 +136,6 @@
         "hours": 10.8,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "FBA261113055",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-86",
-        "is_dtb": false,
-        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
-        "box_total": 3,
-        "pack_time": "2026-11-14 11:03:36",
-        "hours": 10.8,
-        "owner": "肖琴",
-        "transport": "海运英国"
       },
       {
         "code": "FBA261113122",
@@ -229,19 +229,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA261113179",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-52",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 15,
-        "pack_time": "2026-11-14 19:59:52",
-        "hours": 1.9,
-        "owner": "文欣",
-        "transport": "慢船海派（美西）"
-      },
-      {
         "code": "FBA261113178",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -250,6 +237,19 @@
         "err_msg": "",
         "box_total": 20,
         "pack_time": "2026-11-14 19:57:06",
+        "hours": 2.0,
+        "owner": "文欣",
+        "transport": "慢船海派（美西）"
+      },
+      {
+        "code": "FBA261113179",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-11-52",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 15,
+        "pack_time": "2026-11-14 19:59:52",
         "hours": 1.9,
         "owner": "文欣",
         "transport": "慢船海派（美西）"
