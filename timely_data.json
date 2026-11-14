@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-14 14:52:48",
+  "update_time": "2026-11-14 14:54:28",
   "pack3": {
-    "total": 20,
+    "total": 21,
     "over24": 5,
     "over48": 5,
-    "max_hours": 97.7,
+    "max_hours": 97.8,
     "dtb_count": 2,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: This ASIN has been identified as a product which requires safety compliance documentation. FBA is unable to fulfill orders for this product without this documentation. Please go to Seller Central > Account Health > Product Compliance Requests, to either provide documentation or appeal the decision.",
         "box_total": 5,
         "pack_time": "2026-11-10 13:08:14",
-        "hours": 97.7,
+        "hours": 97.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-11 11:02:18",
-        "hours": 75.8,
+        "hours": 75.9,
         "owner": "占雯钦",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 3,
         "pack_time": "2026-11-14 10:02:29",
-        "hours": 4.8,
+        "hours": 4.9,
         "owner": "system",
         "transport": "海运欧洲"
       },
@@ -102,12 +102,12 @@
         "code": "HWC261106042",
         "platform": "CHUKOUYI",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-099",
+        "space": "JH11-1498",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-14 10:15:21",
-        "hours": 4.6,
+        "hours": 4.7,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -156,7 +156,7 @@
         "warehouse": "FBA中转仓-金华2仓",
         "space": "FH-13-19",
         "is_dtb": false,
-        "err_msg": "There's an input error with the resource 'ZL-EU-WH-0HJRZA0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-EU-WH-0HJRZA0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
+        "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-14 14:00:35",
         "hours": 0.9,
@@ -198,7 +198,7 @@
         "err_msg": "There's an input error with the resource 'ZL-WXL-0HOT3A0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-WXL-0HOT3A0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 5,
         "pack_time": "2026-11-14 14:20:03",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -211,7 +211,7 @@
         "err_msg": "",
         "box_total": 21,
         "pack_time": "2026-11-14 14:32:51",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "王贝贝",
         "transport": "海运英国"
       },
@@ -229,6 +229,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MX1LB5H",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1406",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 16,
+        "pack_time": "2026-11-14 14:45:06",
+        "hours": 0.2,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "FBA15MX1H0DP",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -242,7 +255,7 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA261113135",
+        "code": "FBA15MX1FDZF",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1405",
@@ -255,15 +268,15 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MX1LB5H",
+        "code": "FBA261113109",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1406",
+        "space": "JH11-1408",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 16,
-        "pack_time": "2026-11-14 14:45:06",
-        "hours": 0.1,
+        "box_total": 11,
+        "pack_time": "2026-11-14 14:54:04",
+        "hours": 0.0,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       }
