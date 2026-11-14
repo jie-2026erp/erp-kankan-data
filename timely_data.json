@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-14 13:29:27",
+  "update_time": "2026-11-14 13:31:13",
   "pack3": {
     "total": 39,
     "over24": 9,
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-13 13:21:24",
-        "hours": 24.1,
+        "hours": 24.2,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-13 13:45:32",
-        "hours": 23.7,
+        "hours": 23.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -185,7 +185,7 @@
         "err_msg": "",
         "box_total": 17,
         "pack_time": "2026-11-13 13:57:27",
-        "hours": 23.5,
+        "hours": 23.6,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-13 14:02:52",
-        "hours": 23.4,
+        "hours": 23.5,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -211,7 +211,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-13 14:02:50",
-        "hours": 23.4,
+        "hours": 23.5,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -237,7 +237,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-13 14:45:42",
-        "hours": 22.7,
+        "hours": 22.8,
         "owner": "丁胜玥",
         "transport": "海运巴西"
       },
@@ -289,7 +289,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 3,
         "pack_time": "2026-11-14 10:02:29",
-        "hours": 3.4,
+        "hours": 3.5,
         "owner": "system",
         "transport": "海运欧洲"
       },
@@ -302,7 +302,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-14 10:15:21",
-        "hours": 3.2,
+        "hours": 3.3,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -346,6 +346,19 @@
         "transport": "海运日本"
       },
       {
+        "code": "FBA261113055",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-86",
+        "is_dtb": false,
+        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
+        "box_total": 3,
+        "pack_time": "2026-11-14 11:03:36",
+        "hours": 2.5,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA261113118",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -359,19 +372,6 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
-        "code": "FBA261113055",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-86",
-        "is_dtb": false,
-        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
-        "box_total": 3,
-        "pack_time": "2026-11-14 11:03:36",
-        "hours": 2.4,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
         "code": "FBA15MX0WNNQ",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -380,7 +380,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-14 11:09:45",
-        "hours": 2.3,
+        "hours": 2.4,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -411,19 +411,6 @@
         "transport": "海运日本"
       },
       {
-        "code": "FBA15GLMTMXG",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-19",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-14 11:34:02",
-        "hours": 1.9,
-        "owner": "肖琴",
-        "transport": "海运日本"
-      },
-      {
         "code": "FBA15MX1378B",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -435,6 +422,19 @@
         "hours": 0.3,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MX0SY0V",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1434",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-14 13:21:47",
+        "hours": 0.2,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MX12H0P",
@@ -450,7 +450,7 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA261113111",
+        "code": "FBA15MX16SFT",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1431",
@@ -461,19 +461,6 @@
         "hours": 0.1,
         "owner": "杨雨薇",
         "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MX0SY0V",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1434",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-14 13:21:47",
-        "hours": 0.1,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MX0ZVTX",
@@ -510,9 +497,22 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-14 13:27:52",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "杨雨薇",
         "transport": "卡航英国"
+      },
+      {
+        "code": "FBA261113124",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1429",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-14 13:29:51",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
       }
     ]
   },
