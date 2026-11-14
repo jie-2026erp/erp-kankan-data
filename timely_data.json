@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-14 12:56:53",
+  "update_time": "2026-11-14 12:58:38",
   "pack3": {
     "total": 39,
     "over24": 7,
@@ -112,6 +112,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261112048",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-10-21",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-13 13:30:43",
+        "hours": 23.5,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "HWC261112066",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -138,19 +151,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261112048",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-21",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-13 13:30:43",
-        "hours": 23.4,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261112067",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-13 13:43:28",
-        "hours": 23.2,
+        "hours": 23.3,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -263,7 +263,7 @@
         "err_msg": "There's an input error with the resource 'shed4b06d8-606b-4f6b-af54-09bbf49e5374'.-ERROR: Invalid transportation option ID that either does not belong to provided shipment ID or is not AVAILABLE was passed in. [RESOURCE_ID: shed4b06d8-606b-4f6b-af54-09bbf49e5374, RESOURCE_TYPE: SHIPMENT]",
         "box_total": 16,
         "pack_time": "2026-11-13 16:01:22",
-        "hours": 20.9,
+        "hours": 21.0,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -346,6 +346,19 @@
         "transport": "海运日本"
       },
       {
+        "code": "FBA261113118",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-90",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-14 11:07:18",
+        "hours": 1.9,
+        "owner": "袁梦蝶",
+        "transport": "美森美西-海派美西（正班）"
+      },
+      {
         "code": "FBA261113055",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -357,19 +370,6 @@
         "hours": 1.9,
         "owner": "肖琴",
         "transport": "海运英国"
-      },
-      {
-        "code": "FBA261113118",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-90",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-14 11:07:18",
-        "hours": 1.8,
-        "owner": "袁梦蝶",
-        "transport": "美森美西-海派美西（正班）"
       },
       {
         "code": "FBA15MX0WNNQ",
@@ -424,6 +424,19 @@
         "transport": "海运日本"
       },
       {
+        "code": "FBA15GLMVQK1",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1443",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-14 11:35:54",
+        "hours": 1.4,
+        "owner": "肖琴",
+        "transport": "海运日本"
+      },
+      {
         "code": "FBA15GLMTMXG",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -450,19 +463,6 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA15GLMVQK1",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1443",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-14 11:35:54",
-        "hours": 1.3,
-        "owner": "肖琴",
-        "transport": "海运日本"
-      },
-      {
         "code": "FBA15MX14BY5",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -471,7 +471,7 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-14 11:43:03",
-        "hours": 1.2,
+        "hours": 1.3,
         "owner": "杨雨薇",
         "transport": "卡航英国"
       },
@@ -484,9 +484,22 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-14 11:41:57",
-        "hours": 1.2,
+        "hours": 1.3,
         "owner": "肖琴",
         "transport": "海运日本"
+      },
+      {
+        "code": "FBA15MX0ZNC8",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1438",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-14 11:49:23",
+        "hours": 1.2,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MX0Q4QC",
@@ -500,19 +513,6 @@
         "hours": 1.1,
         "owner": "杨雨薇",
         "transport": "卡航英国"
-      },
-      {
-        "code": "FBA15MX0ZNC8",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1438",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-14 11:49:23",
-        "hours": 1.1,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
       }
     ]
   },
