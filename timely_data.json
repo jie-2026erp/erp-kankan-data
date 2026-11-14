@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-14 17:42:53",
+  "update_time": "2026-11-14 17:44:42",
   "pack3": {
-    "total": 21,
+    "total": 22,
     "over24": 6,
     "over48": 5,
     "max_hours": 100.6,
@@ -42,7 +42,7 @@
         "err_msg": "There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product is missing necessary information; dimensions need to be provided in the manufacturer's original packaging.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product is missing necessary information; weight need to be provided in he manufacturer's original packaging.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: Additional information is mandatory in order to complete the Hazmat review review.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product does not exist in the destination marketplace catalog. The necessary product information will need to be provided before it can be inbounded.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must have a category specified before it can be sent to Amazon.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must have a title before it can be sent to Amazon.;There's an input error with the resource 'WS-LXY-004FBA'.-ERROR: This product must be removed. You can send in new inventory by creating a new listing for this product that requires product labels.",
         "box_total": 3,
         "pack_time": "2026-11-11 11:53:34",
-        "hours": 77.8,
+        "hours": 77.9,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -68,7 +68,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 75.1,
+        "hours": 75.2,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-14 10:59:13",
-        "hours": 6.7,
+        "hours": 6.8,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -172,7 +172,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 3.1,
+        "hours": 3.2,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -185,7 +185,7 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-14 15:11:23",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-14 15:16:07",
-        "hours": 2.4,
+        "hours": 2.5,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -279,6 +279,19 @@
         "hours": 0.1,
         "owner": "李聪",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA261113164",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1367",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 10,
+        "pack_time": "2026-11-14 17:43:14",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
       }
     ]
   },
@@ -286,7 +299,7 @@
     "total": 1,
     "over24": 0,
     "over48": 0,
-    "max_hours": 4.0,
+    "max_hours": 4.1,
     "dtb_count": 1,
     "list": [
       {
@@ -298,7 +311,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-14 13:40:51",
-        "hours": 4.0,
+        "hours": 4.1,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       }
