@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-14 18:48:08",
+  "update_time": "2026-11-14 18:49:51",
   "pack3": {
-    "total": 21,
+    "total": 23,
     "over24": 6,
     "over48": 5,
     "max_hours": 101.7,
@@ -68,7 +68,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 76.2,
+        "hours": 76.3,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -112,6 +112,19 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
+        "code": "FBA261113055",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-86",
+        "is_dtb": false,
+        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
+        "box_total": 3,
+        "pack_time": "2026-11-14 11:03:36",
+        "hours": 7.8,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA261113118",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -123,19 +136,6 @@
         "hours": 7.7,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "FBA261113055",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-86",
-        "is_dtb": false,
-        "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
-        "box_total": 3,
-        "pack_time": "2026-11-14 11:03:36",
-        "hours": 7.7,
-        "owner": "肖琴",
-        "transport": "海运英国"
       },
       {
         "code": "FBA261113122",
@@ -172,7 +172,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 4.2,
+        "hours": 4.3,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -203,6 +203,19 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "HWC261113022",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1364",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-14 17:52:27",
+        "hours": 1.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
         "code": "FBA15MX24779",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -214,32 +227,6 @@
         "hours": 1.0,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261113022",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1364",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-14 17:52:27",
-        "hours": 0.9,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA15MX21PDF",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-62,FH-10-41,FH-12-60",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 33,
-        "pack_time": "2026-11-14 18:06:48",
-        "hours": 0.7,
-        "owner": "杨雨薇",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261113033",
@@ -279,6 +266,45 @@
         "hours": 0.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261113037",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1345",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-14 18:49:17",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261113032",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1346",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 19,
+        "pack_time": "2026-11-14 18:49:15",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261113030",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1344",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-14 18:49:21",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
       }
     ]
   },
@@ -286,7 +312,7 @@
     "total": 4,
     "over24": 1,
     "over48": 1,
-    "max_hours": 75.1,
+    "max_hours": 75.2,
     "dtb_count": 4,
     "list": [
       {
@@ -298,7 +324,7 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-11 15:39:15",
-        "hours": 75.1,
+        "hours": 75.2,
         "owner": "肖琴",
         "transport": "海运欧洲"
       },
@@ -311,7 +337,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-14 13:40:51",
-        "hours": 5.1,
+        "hours": 5.2,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -324,7 +350,7 @@
         "err_msg": "",
         "box_total": 27,
         "pack_time": "2026-11-14 18:15:24",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
