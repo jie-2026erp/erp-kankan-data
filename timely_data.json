@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-15 20:53:16",
+  "update_time": "2026-11-15 20:55:14",
   "pack3": {
     "total": 18,
     "over24": 18,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-11 11:02:18",
-        "hours": 105.8,
+        "hours": 105.9,
         "owner": "占雯钦",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 3,
         "pack_time": "2026-11-14 10:02:29",
-        "hours": 34.8,
+        "hours": 34.9,
         "owner": "system",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 3,
         "pack_time": "2026-11-14 11:03:36",
-        "hours": 33.8,
+        "hours": 33.9,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -203,19 +203,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA261113179",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-52",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 15,
-        "pack_time": "2026-11-14 19:59:52",
-        "hours": 24.9,
-        "owner": "文欣",
-        "transport": "慢船海派（美西）"
-      },
-      {
         "code": "FBA261113178",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -224,6 +211,19 @@
         "err_msg": "",
         "box_total": 20,
         "pack_time": "2026-11-14 19:57:06",
+        "hours": 25.0,
+        "owner": "文欣",
+        "transport": "慢船海派（美西）"
+      },
+      {
+        "code": "FBA261113179",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-11-52",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 15,
+        "pack_time": "2026-11-14 19:59:52",
         "hours": 24.9,
         "owner": "文欣",
         "transport": "慢船海派（美西）"
