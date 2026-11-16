@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-16 20:11:09",
+  "update_time": "2026-11-16 20:13:09",
   "pack3": {
-    "total": 27,
+    "total": 26,
     "over24": 16,
     "over48": 15,
-    "max_hours": 151.0,
+    "max_hours": 151.1,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: The Hazmat documentation that was submitted is incomplete.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: This ASIN has been identified as a product which requires safety compliance documentation. FBA is unable to fulfill orders for this product without this documentation. Please go to Seller Central > Account Health > Product Compliance Requests, to either provide documentation or appeal the decision.",
         "box_total": 5,
         "pack_time": "2026-11-10 13:08:14",
-        "hours": 151.0,
+        "hours": 151.1,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-11 11:02:18",
-        "hours": 129.1,
+        "hours": 129.2,
         "owner": "占雯钦",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 3,
         "pack_time": "2026-11-14 10:02:29",
-        "hours": 58.1,
+        "hours": 58.2,
         "owner": "system",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 3,
         "pack_time": "2026-11-14 11:03:36",
-        "hours": 57.1,
+        "hours": 57.2,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -224,7 +224,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 22.68 kg. [boxId: P1 - B11];-ERROR: A box containing standard-size units cannot exceed 22.68 kg. [boxId: P1 - B12]",
         "box_total": 15,
         "pack_time": "2026-11-16 15:33:35",
-        "hours": 4.6,
+        "hours": 4.7,
         "owner": "何子怡",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -268,6 +268,19 @@
         "transport": "海运英国"
       },
       {
+        "code": "HWC261116036",
+        "platform": "LOUISTONE",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1246",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-16 19:51:01",
+        "hours": 0.4,
+        "owner": "吴玉龙",
+        "transport": "美森美西-海派美西（正班）"
+      },
+      {
         "code": "FBA15MXB1HXH",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -281,28 +294,15 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "HWC261116036",
-        "platform": "LOUISTONE",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1246",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-16 19:51:01",
-        "hours": 0.3,
-        "owner": "吴玉龙",
-        "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "FBA15MXB8W7K",
+        "code": "FBA261116052",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-11-50",
+        "space": "FH-12-72",
         "is_dtb": false,
-        "err_msg": "",
-        "box_total": 12,
-        "pack_time": "2026-11-16 20:00:31",
-        "hours": 0.2,
+        "err_msg": "There's an input error with the resource 'PQY-Car seat-02-YYEU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
+        "box_total": 5,
+        "pack_time": "2026-11-16 20:09:23",
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -336,24 +336,11 @@
         "code": "FBA15MXBHW6C",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1243",
+        "space": "FH-11-45",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-16 20:11:08",
-        "hours": 0.0,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA261116052",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-12-72",
-        "is_dtb": false,
-        "err_msg": "There's an input error with the resource 'PQY-Car seat-02-YYEU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
-        "box_total": 5,
-        "pack_time": "2026-11-16 20:09:23",
         "hours": 0.0,
         "owner": "王贝贝",
         "transport": "海运欧洲"
