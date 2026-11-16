@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-16 18:12:22",
+  "update_time": "2026-11-16 18:14:20",
   "pack3": {
-    "total": 21,
+    "total": 22,
     "over24": 16,
     "over48": 12,
     "max_hours": 149.1,
@@ -68,7 +68,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 123.6,
+        "hours": 123.7,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 3,
         "pack_time": "2026-11-14 11:03:36",
-        "hours": 55.1,
+        "hours": 55.2,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -146,7 +146,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 51.6,
+        "hours": 51.7,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -185,7 +185,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-14 19:35:18",
-        "hours": 46.6,
+        "hours": 46.7,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-14 19:35:19",
-        "hours": 46.6,
+        "hours": 46.7,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -224,22 +224,9 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 22.68 kg. [boxId: P1 - B11];-ERROR: A box containing standard-size units cannot exceed 22.68 kg. [boxId: P1 - B12]",
         "box_total": 15,
         "pack_time": "2026-11-16 15:33:35",
-        "hours": 2.6,
+        "hours": 2.7,
         "owner": "何子怡",
         "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "HWC261116011",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1287",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-16 18:05:45",
-        "hours": 0.1,
-        "owner": "汪颖",
-        "transport": "慢船海卡（美西）"
       },
       {
         "code": "HWC261116010",
@@ -250,6 +237,19 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 18:04:35",
+        "hours": 0.2,
+        "owner": "汪颖",
+        "transport": "慢船海卡（美西）"
+      },
+      {
+        "code": "HWC261116011",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1287",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-16 18:05:45",
         "hours": 0.1,
         "owner": "汪颖",
         "transport": "慢船海卡（美西）"
@@ -268,17 +268,30 @@
         "transport": "慢船海卡（美中）"
       },
       {
-        "code": "FBA261116029",
+        "code": "FBA15MX8ZT33",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1285",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 8,
-        "pack_time": "2026-11-16 18:10:54",
+        "pack_time": "2026-11-16 18:14:12",
         "hours": 0.0,
         "owner": "郝惜",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261116023",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1284",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-16 18:13:07",
+        "hours": 0.0,
+        "owner": "汪颖",
+        "transport": "慢船海卡（美西）"
       }
     ]
   },
@@ -286,7 +299,7 @@
     "total": 1,
     "over24": 1,
     "over48": 1,
-    "max_hours": 52.5,
+    "max_hours": 52.6,
     "dtb_count": 1,
     "list": [
       {
@@ -298,7 +311,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-14 13:40:51",
-        "hours": 52.5,
+        "hours": 52.6,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       }
