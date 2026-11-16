@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-16 18:33:19",
+  "update_time": "2026-11-16 18:35:27",
   "pack3": {
-    "total": 25,
+    "total": 24,
     "over24": 16,
     "over48": 12,
-    "max_hours": 149.4,
+    "max_hours": 149.5,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: The Hazmat documentation that was submitted is incomplete.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: This ASIN has been identified as a product which requires safety compliance documentation. FBA is unable to fulfill orders for this product without this documentation. Please go to Seller Central > Account Health > Product Compliance Requests, to either provide documentation or appeal the decision.",
         "box_total": 5,
         "pack_time": "2026-11-10 13:08:14",
-        "hours": 149.4,
+        "hours": 149.5,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-11 11:02:18",
-        "hours": 127.5,
+        "hours": 127.6,
         "owner": "占雯钦",
         "transport": "海运欧洲"
       },
@@ -81,7 +81,7 @@
         "err_msg": "There's an input error with the resource 'shed4b06d8-606b-4f6b-af54-09bbf49e5374'.-ERROR: Invalid transportation option ID that either does not belong to provided shipment ID or is not AVAILABLE was passed in. [RESOURCE_ID: shed4b06d8-606b-4f6b-af54-09bbf49e5374, RESOURCE_TYPE: SHIPMENT]",
         "box_total": 16,
         "pack_time": "2026-11-13 16:01:22",
-        "hours": 74.5,
+        "hours": 74.6,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -120,7 +120,7 @@
         "err_msg": "There's an input error with the resource 'ZL-EU-WH-0HJRZA0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-EU-WH-0HJRZA0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 9,
         "pack_time": "2026-11-14 14:00:35",
-        "hours": 52.5,
+        "hours": 52.6,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -133,7 +133,7 @@
         "err_msg": "There's an input error with the resource 'ZL-WXL-0HOT3A0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-WXL-0HOT3A0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 5,
         "pack_time": "2026-11-14 14:20:03",
-        "hours": 52.2,
+        "hours": 52.3,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -159,7 +159,7 @@
         "err_msg": "There's an input error with the resource 'WZ-WJH-EU-0HPO1A0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'WZ-WJH-EU-0HPO1A0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 2,
         "pack_time": "2026-11-14 15:48:30",
-        "hours": 50.7,
+        "hours": 50.8,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-14 19:25:36",
-        "hours": 47.1,
+        "hours": 47.2,
         "owner": "肖琴",
         "transport": "海运欧洲"
       },
@@ -211,7 +211,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-14 20:20:03",
-        "hours": 46.2,
+        "hours": 46.3,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -255,30 +255,17 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261116038",
-        "platform": "GRL",
+        "code": "HWC261116017",
+        "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1280",
+        "space": "FH-4-70",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-16 18:22:04",
-        "hours": 0.2,
-        "owner": "丁胜玥",
-        "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MX8ZT33",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-4-74",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-16 18:21:10",
-        "hours": 0.2,
-        "owner": "郝惜",
-        "transport": "海运欧洲"
+        "box_total": 6,
+        "pack_time": "2026-11-16 18:19:59",
+        "hours": 0.3,
+        "owner": "汪颖",
+        "transport": "慢船海卡（美西）"
       },
       {
         "code": "HWC261116022",
@@ -294,14 +281,14 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261116017",
+        "code": "HWC261116019",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1281",
+        "space": "JH11-1278",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-16 18:19:59",
+        "box_total": 3,
+        "pack_time": "2026-11-16 18:25:09",
         "hours": 0.2,
         "owner": "汪颖",
         "transport": "慢船海卡（美西）"
@@ -320,17 +307,17 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261116019",
-        "platform": "WALMART",
+        "code": "FBA261116031",
+        "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1278",
+        "space": "JH11-1273",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-16 18:25:09",
-        "hours": 0.1,
-        "owner": "汪颖",
-        "transport": "慢船海卡（美西）"
+        "box_total": 6,
+        "pack_time": "2026-11-16 18:35:19",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
       }
     ]
   },
