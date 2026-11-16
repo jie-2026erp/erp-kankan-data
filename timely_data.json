@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-16 20:24:07",
+  "update_time": "2026-11-16 20:26:22",
   "pack3": {
-    "total": 23,
+    "total": 24,
     "over24": 16,
     "over48": 16,
     "max_hours": 151.3,
@@ -68,7 +68,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 125.8,
+        "hours": 125.9,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 3,
         "pack_time": "2026-11-14 11:03:36",
-        "hours": 57.3,
+        "hours": 57.4,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -146,7 +146,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 53.8,
+        "hours": 53.9,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -185,7 +185,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-14 19:35:18",
-        "hours": 48.8,
+        "hours": 48.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-14 19:35:19",
-        "hours": 48.8,
+        "hours": 48.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -224,7 +224,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 22.68 kg. [boxId: P1 - B11];-ERROR: A box containing standard-size units cannot exceed 22.68 kg. [boxId: P1 - B12]",
         "box_total": 15,
         "pack_time": "2026-11-16 15:33:35",
-        "hours": 4.8,
+        "hours": 4.9,
         "owner": "何子怡",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -250,7 +250,7 @@
         "err_msg": "ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 12,
         "pack_time": "2026-11-16 19:34:55",
-        "hours": 0.8,
+        "hours": 0.9,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -263,7 +263,7 @@
         "err_msg": "There's an input error with the resource 'PQY-Car seat-02-YYEU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 5,
         "pack_time": "2026-11-16 20:09:23",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -276,20 +276,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 20:17:20",
-        "hours": 0.1,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
-        "code": "FBA261116089",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1237",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-16 20:23:56",
-        "hours": 0.0,
+        "hours": 0.2,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -302,9 +289,35 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 20:22:16",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "吴玉龙",
         "transport": "海运沙特"
+      },
+      {
+        "code": "FBA261116089",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1237",
+        "is_dtb": false,
+        "err_msg": "Empty reply from server",
+        "box_total": 2,
+        "pack_time": "2026-11-16 20:25:55",
+        "hours": 0.0,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
+        "code": "FBA261116064",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1236",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-16 20:25:45",
+        "hours": 0.0,
+        "owner": "肖琴",
+        "transport": "卡航英国"
       }
     ]
   },
@@ -312,7 +325,7 @@
     "total": 1,
     "over24": 1,
     "over48": 1,
-    "max_hours": 54.7,
+    "max_hours": 54.8,
     "dtb_count": 1,
     "list": [
       {
@@ -324,7 +337,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-14 13:40:51",
-        "hours": 54.7,
+        "hours": 54.8,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       }
