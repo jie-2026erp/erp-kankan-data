@@ -1,15 +1,25 @@
 {
   "date": "2026-11-17",
-  "update_time": "2026-11-17 10:55:15",
+  "update_time": "2026-11-17 10:57:16",
   "total_boxes": 0,
   "total_users": 0,
   "total_batches": 1,
   "total_marked_bulk": 44.34,
   "by_user": [],
   "hourly": {},
-  "unmarked": [],
-  "unmarked_count": 0,
-  "unmarked_bulk": 0.0,
+  "unmarked": [
+    {
+      "batch_code": "TH26111700301",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "纬狮",
+      "datetime": "2026-11-17 10:57:53",
+      "bulk": 3.0998,
+      "sum_box": "40",
+      "is_write": "未填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 3.1,
   "partial_list": [
     {
       "batch_code": "TH26111300314",
