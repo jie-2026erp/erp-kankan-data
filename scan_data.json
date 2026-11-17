@@ -1,25 +1,25 @@
 {
   "date": "2026-11-17",
-  "update_time": "2026-11-17 16:47:41",
-  "total_boxes": 863,
+  "update_time": "2026-11-17 16:51:14",
+  "total_boxes": 890,
   "total_users": 4,
   "total_batches": 11,
   "total_marked_bulk": 128.65,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 680,
-      "shipments": 94
+      "boxes": 689,
+      "shipments": 96
     },
     {
       "name": "王梦吉",
-      "boxes": 152,
-      "shipments": 7
+      "boxes": 167,
+      "shipments": 8
     },
     {
       "name": "赵忠军",
-      "boxes": 27,
-      "shipments": 3
+      "boxes": 30,
+      "shipments": 4
     },
     {
       "name": "郑韩",
@@ -29,20 +29,20 @@
   ],
   "hourly": {
     "赵忠军": {
-      "16": 27
+      "16": 30
     },
     "汪宗标": {
       "15": 263,
       "14": 8,
       "11": 17,
       "13": 174,
-      "16": 218
+      "16": 227
     },
     "郑韩": {
       "13": 4
     },
     "王梦吉": {
-      "16": 152
+      "16": 167
     }
   },
   "unmarked": [
@@ -91,31 +91,31 @@
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "美通",
       "total_box": 188,
-      "marked_box": 152,
-      "unmarked_box": 36
+      "marked_box": 167,
+      "unmarked_box": 21
     },
     {
       "batch_code": "TH26111700315",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "优商",
       "total_box": 33,
-      "marked_box": 20,
-      "unmarked_box": 13
+      "marked_box": 29,
+      "unmarked_box": 4
     },
     {
       "batch_code": "TH26111700303",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "满天星",
       "total_box": 238,
-      "marked_box": 218,
-      "unmarked_box": 20
+      "marked_box": 227,
+      "unmarked_box": 11
     }
   ],
   "partial_count": 3,
   "week_stat": {
-    "bulk": 83.97,
-    "boxes": 948,
-    "count": 8
+    "bulk": 86.98,
+    "boxes": 981,
+    "count": 9
   },
   "last_week_stat": {
     "bulk": 622.96,
@@ -123,8 +123,8 @@
     "count": 51
   },
   "month_stat": {
-    "bulk": 1357.62,
-    "boxes": 15664,
-    "count": 106
+    "bulk": 1360.63,
+    "boxes": 15697,
+    "count": 107
   }
 }
