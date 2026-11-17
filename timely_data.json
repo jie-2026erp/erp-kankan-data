@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-17 19:29:57",
+  "update_time": "2026-11-17 19:31:51",
   "pack3": {
-    "total": 32,
+    "total": 31,
     "over24": 14,
     "over48": 10,
     "max_hours": 174.4,
@@ -29,7 +29,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 148.9,
+        "hours": 149.0,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 76.9,
+        "hours": 77.0,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 20:22:16",
-        "hours": 23.1,
+        "hours": 23.2,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -250,7 +250,7 @@
         "err_msg": "There's an input error with the resource 'ZAW-YY-0HQ55A-0000001-CWDC'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HPWLA0000001-HorseNet6'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HP1VA0000001-Light2inch'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HPJEA0000001-PortableBoard'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZAW-YY-0HQ55A-0000001-CWDC'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HPWLA0000001-HorseNet6'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HP1VA0000001-Light2inch'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HPJEA0000001-PortableBoard'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 9,
         "pack_time": "2026-11-17 15:51:23",
-        "hours": 3.6,
+        "hours": 3.7,
         "owner": "刘畅",
         "transport": "卡航欧洲"
       },
@@ -263,7 +263,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-17 16:58:11",
-        "hours": 2.5,
+        "hours": 2.6,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -276,7 +276,20 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-17 18:03:21",
-        "hours": 1.4,
+        "hours": 1.5,
+        "owner": "丁胜玥",
+        "transport": "美森美西-海派美西（正班）"
+      },
+      {
+        "code": "HWC261117011",
+        "platform": "LOUISTONE",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1102",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-17 18:27:00",
+        "hours": 1.1,
         "owner": "丁胜玥",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -294,32 +307,6 @@
         "transport": "海运阿联酋"
       },
       {
-        "code": "HWC261117020",
-        "platform": "CHUKOUYI",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "6FH-01-01-23",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-17 18:31:32",
-        "hours": 1.0,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261117011",
-        "platform": "LOUISTONE",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1102",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-17 18:27:00",
-        "hours": 1.0,
-        "owner": "丁胜玥",
-        "transport": "美森美西-海派美西（正班）"
-      },
-      {
         "code": "HWC261117024",
         "platform": "GRL",
         "warehouse": "FBA中转仓-金华2仓",
@@ -333,6 +320,19 @@
         "transport": "海运英国"
       },
       {
+        "code": "HWC261117010",
+        "platform": "LOUISTONE",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1093",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 19,
+        "pack_time": "2026-11-17 18:39:51",
+        "hours": 0.9,
+        "owner": "丁胜玥",
+        "transport": "美森美西-海派美西（正班）"
+      },
+      {
         "code": "HWC261117022",
         "platform": "GRL",
         "warehouse": "FBA中转仓-金华2仓",
@@ -344,19 +344,6 @@
         "hours": 0.8,
         "owner": "肖琴",
         "transport": "海运英国"
-      },
-      {
-        "code": "HWC261117010",
-        "platform": "LOUISTONE",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1093",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 19,
-        "pack_time": "2026-11-17 18:39:51",
-        "hours": 0.8,
-        "owner": "丁胜玥",
-        "transport": "美森美西-海派美西（正班）"
       },
       {
         "code": "HWC261117035",
@@ -393,7 +380,7 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-17 19:03:48",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "肖琴",
         "transport": "海运英国"
       },
