@@ -1,15 +1,15 @@
 {
   "date": "2026-11-17",
-  "update_time": "2026-11-17 14:57:53",
-  "total_boxes": 195,
+  "update_time": "2026-11-17 14:59:55",
+  "total_boxes": 204,
   "total_users": 2,
-  "total_batches": 4,
-  "total_marked_bulk": 60.43,
+  "total_batches": 5,
+  "total_marked_bulk": 78.2,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 191,
-      "shipments": 14
+      "boxes": 200,
+      "shipments": 17
     },
     {
       "name": "郑韩",
@@ -20,7 +20,9 @@
   "hourly": {
     "汪宗标": {
       "11": 17,
-      "13": 174
+      "13": 174,
+      "15": 1,
+      "14": 8
     },
     "郑韩": {
       "13": 4
@@ -34,7 +36,7 @@
       "datetime": "2026-11-17 14:48:25",
       "bulk": 8.378,
       "sum_box": "101",
-      "is_write": "未填写"
+      "is_write": "已填写"
     },
     {
       "batch_code": "TH26111700309",
@@ -43,16 +45,7 @@
       "datetime": "2026-11-17 14:45:15",
       "bulk": 0.7654,
       "sum_box": "12",
-      "is_write": "未填写"
-    },
-    {
-      "batch_code": "TH26111700308",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "美巡",
-      "datetime": "2026-11-17 14:41:17",
-      "bulk": 17.7668,
-      "sum_box": "204",
-      "is_write": "未填写"
+      "is_write": "已填写"
     },
     {
       "batch_code": "TH26111700303",
@@ -64,10 +57,19 @@
       "is_write": "已填写"
     }
   ],
-  "unmarked_count": 4,
-  "unmarked_bulk": 47.51,
-  "partial_list": [],
-  "partial_count": 0,
+  "unmarked_count": 3,
+  "unmarked_bulk": 29.74,
+  "partial_list": [
+    {
+      "batch_code": "TH26111700308",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "美巡",
+      "total_box": 204,
+      "marked_box": 54,
+      "unmarked_box": 150
+    }
+  ],
+  "partial_count": 1,
   "week_stat": {
     "bulk": 60.43,
     "boxes": 670,
