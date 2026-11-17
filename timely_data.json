@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-17 14:17:19",
+  "update_time": "2026-11-17 14:19:15",
   "pack3": {
     "total": 31,
     "over24": 16,
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 3,
         "pack_time": "2026-11-14 10:02:29",
-        "hours": 76.2,
+        "hours": 76.3,
         "owner": "system",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 3,
         "pack_time": "2026-11-14 11:03:36",
-        "hours": 75.2,
+        "hours": 75.3,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -289,7 +289,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 21:03:58",
-        "hours": 17.2,
+        "hours": 17.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -302,7 +302,7 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MMHHM0M]",
         "box_total": 2,
         "pack_time": "2026-11-17 08:14:43",
-        "hours": 6.0,
+        "hours": 6.1,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -375,12 +375,25 @@
         "code": "HWC261116070",
         "platform": "BAISHIMY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1175",
+        "space": "6FH-01-01-28",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-17 13:29:51",
         "hours": 0.8,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261116047",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-14-74",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 26,
+        "pack_time": "2026-11-17 13:38:29",
+        "hours": 0.7,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -396,19 +409,6 @@
         "hours": 0.6,
         "owner": "刘畅",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261116047",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-14-74",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 26,
-        "pack_time": "2026-11-17 13:38:29",
-        "hours": 0.6,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
       }
     ]
   },
