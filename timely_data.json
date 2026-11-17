@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-17 19:43:02",
+  "update_time": "2026-11-17 19:44:52",
   "pack3": {
-    "total": 28,
+    "total": 27,
     "over24": 14,
     "over48": 10,
     "max_hours": 174.6,
@@ -29,7 +29,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 149.1,
+        "hours": 149.2,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 77.1,
+        "hours": 77.2,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -159,7 +159,7 @@
         "err_msg": "ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 8,
         "pack_time": "2026-11-16 19:11:45",
-        "hours": 24.5,
+        "hours": 24.6,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -172,7 +172,7 @@
         "err_msg": "There's an input error with the resource 'PQY-Car seat-02-YYEU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 5,
         "pack_time": "2026-11-16 19:23:40",
-        "hours": 24.3,
+        "hours": 24.4,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 20:22:16",
-        "hours": 23.3,
+        "hours": 23.4,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -263,7 +263,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-17 16:58:11",
-        "hours": 2.7,
+        "hours": 2.8,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -281,19 +281,6 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
-        "code": "HWC261117011",
-        "platform": "LOUISTONE",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1102",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-17 18:27:00",
-        "hours": 1.3,
-        "owner": "丁胜玥",
-        "transport": "美森美西-海派美西（正班）"
-      },
-      {
         "code": "HWC261116035",
         "platform": "NOON",
         "warehouse": "FBA中转仓-金华2仓",
@@ -302,9 +289,22 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-17 18:23:08",
-        "hours": 1.3,
+        "hours": 1.4,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
+      },
+      {
+        "code": "HWC261117011",
+        "platform": "LOUISTONE",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-87",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-17 18:27:00",
+        "hours": 1.3,
+        "owner": "丁胜玥",
+        "transport": "美森美西-海派美西（正班）"
       },
       {
         "code": "HWC261117024",
@@ -316,19 +316,6 @@
         "box_total": 1,
         "pack_time": "2026-11-17 18:37:05",
         "hours": 1.1,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
-        "code": "HWC261117022",
-        "platform": "GRL",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-1-3",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 15,
-        "pack_time": "2026-11-17 18:43:18",
-        "hours": 1.0,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -349,7 +336,7 @@
         "code": "FBA15MXL3XRW",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1087",
+        "space": "FH-10-55",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 11,
