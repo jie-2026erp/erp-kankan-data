@@ -1,24 +1,29 @@
 {
   "date": "2026-11-17",
-  "update_time": "2026-11-17 16:37:34",
-  "total_boxes": 690,
-  "total_users": 3,
-  "total_batches": 9,
-  "total_marked_bulk": 124.86,
+  "update_time": "2026-11-17 16:39:32",
+  "total_boxes": 739,
+  "total_users": 4,
+  "total_batches": 10,
+  "total_marked_bulk": 125.64,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 616,
-      "shipments": 89
+      "boxes": 627,
+      "shipments": 90
     },
     {
       "name": "王梦吉",
-      "boxes": 70,
-      "shipments": 3
+      "boxes": 105,
+      "shipments": 4
     },
     {
       "name": "郑韩",
       "boxes": 4,
+      "shipments": 1
+    },
+    {
+      "name": "赵忠军",
+      "boxes": 3,
       "shipments": 1
     }
   ],
@@ -28,13 +33,16 @@
       "14": 8,
       "11": 17,
       "13": 174,
-      "16": 154
+      "16": 165
     },
     "郑韩": {
       "13": 4
     },
     "王梦吉": {
-      "16": 70
+      "16": 105
+    },
+    "赵忠军": {
+      "16": 3
     }
   },
   "unmarked": [
@@ -45,15 +53,6 @@
       "datetime": "2026-11-17 15:59:22",
       "bulk": 3.0135,
       "sum_box": "33",
-      "is_write": "已填写"
-    },
-    {
-      "batch_code": "TH26111700314",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "苏恩",
-      "datetime": "2026-11-17 15:45:47",
-      "bulk": 0.7731,
-      "sum_box": "7",
       "is_write": "已填写"
     },
     {
@@ -84,27 +83,35 @@
       "is_write": "已填写"
     }
   ],
-  "unmarked_count": 5,
-  "unmarked_bulk": 49.75,
+  "unmarked_count": 4,
+  "unmarked_bulk": 48.97,
   "partial_list": [
     {
       "batch_code": "TH26111700318",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "美通",
       "total_box": 188,
-      "marked_box": 77,
-      "unmarked_box": 111
+      "marked_box": 105,
+      "unmarked_box": 83
+    },
+    {
+      "batch_code": "TH26111700314",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "苏恩",
+      "total_box": 7,
+      "marked_box": 3,
+      "unmarked_box": 4
     },
     {
       "batch_code": "TH26111700303",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "满天星",
       "total_box": 238,
-      "marked_box": 154,
-      "unmarked_box": 84
+      "marked_box": 165,
+      "unmarked_box": 73
     }
   ],
-  "partial_count": 2,
+  "partial_count": 3,
   "week_stat": {
     "bulk": 83.2,
     "boxes": 941,
