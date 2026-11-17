@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-17 18:36:41",
+  "update_time": "2026-11-17 18:38:39",
   "pack3": {
-    "total": 34,
+    "total": 36,
     "over24": 13,
     "over48": 12,
     "max_hours": 173.5,
@@ -42,7 +42,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 148.0,
+        "hours": 148.1,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -120,7 +120,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 76.0,
+        "hours": 76.1,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -224,7 +224,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 20:22:16",
-        "hours": 22.2,
+        "hours": 22.3,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -289,9 +289,22 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-17 16:58:11",
-        "hours": 1.6,
+        "hours": 1.7,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
+      },
+      {
+        "code": "HWC261117015",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1106",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-17 18:05:32",
+        "hours": 0.6,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261117013",
@@ -307,17 +320,17 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
-        "code": "HWC261117015",
-        "platform": "CHUKOUYI",
+        "code": "HWC261116035",
+        "platform": "NOON",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1106",
+        "space": "JH11-1103",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-17 18:05:32",
-        "hours": 0.5,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
+        "box_total": 2,
+        "pack_time": "2026-11-17 18:23:08",
+        "hours": 0.3,
+        "owner": "吴玉龙",
+        "transport": "海运阿联酋"
       },
       {
         "code": "HWC261117011",
@@ -333,17 +346,30 @@
         "transport": "美森美西-海派美西（正班）"
       },
       {
-        "code": "HWC261116035",
-        "platform": "NOON",
+        "code": "HWC261116031",
+        "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1103",
+        "space": "JH11-1104",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 12,
+        "pack_time": "2026-11-17 18:28:48",
+        "hours": 0.2,
+        "owner": "郭星媛",
+        "transport": "慢船海卡（美中）"
+      },
+      {
+        "code": "HWC261117023",
+        "platform": "GRL",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1096",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
-        "pack_time": "2026-11-17 18:23:08",
-        "hours": 0.2,
-        "owner": "吴玉龙",
-        "transport": "海运阿联酋"
+        "pack_time": "2026-11-17 18:35:18",
+        "hours": 0.1,
+        "owner": "肖琴",
+        "transport": "海运英国"
       },
       {
         "code": "HWC261117021",
@@ -398,19 +424,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "HWC261116031",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1104",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 12,
-        "pack_time": "2026-11-17 18:28:48",
-        "hours": 0.1,
-        "owner": "郭星媛",
-        "transport": "慢船海卡（美中）"
-      },
-      {
         "code": "HWC261116007",
         "platform": "WALMART",
         "warehouse": "FBA中转仓-金华2仓",
@@ -424,14 +437,14 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "HWC261117023",
+        "code": "HWC261117024",
         "platform": "GRL",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1096",
+        "space": "JH11-1094",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-17 18:35:18",
+        "box_total": 1,
+        "pack_time": "2026-11-17 18:37:05",
         "hours": 0.0,
         "owner": "肖琴",
         "transport": "海运英国"
@@ -445,6 +458,19 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-17 18:35:56",
+        "hours": 0.0,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261117016",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1097",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-17 18:38:33",
         "hours": 0.0,
         "owner": "肖琴",
         "transport": "海运欧洲"
