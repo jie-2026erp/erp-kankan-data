@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-17 13:34:48",
+  "update_time": "2026-11-17 13:36:57",
   "pack3": {
     "total": 38,
     "over24": 16,
     "over48": 16,
-    "max_hours": 168.4,
+    "max_hours": 168.5,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: The Hazmat documentation that was submitted is incomplete.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'PW-LYS1-UU22'.-ERROR: This ASIN has been identified as a product which requires safety compliance documentation. FBA is unable to fulfill orders for this product without this documentation. Please go to Seller Central > Account Health > Product Compliance Requests, to either provide documentation or appeal the decision.",
         "box_total": 5,
         "pack_time": "2026-11-10 13:08:14",
-        "hours": 168.4,
+        "hours": 168.5,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 6,
         "pack_time": "2026-11-11 11:02:18",
-        "hours": 146.5,
+        "hours": 146.6,
         "owner": "占雯钦",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 3,
         "pack_time": "2026-11-14 10:02:29",
-        "hours": 75.5,
+        "hours": 75.6,
         "owner": "system",
         "transport": "海运欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 3,
         "pack_time": "2026-11-14 11:03:36",
-        "hours": 74.5,
+        "hours": 74.6,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -133,7 +133,7 @@
         "err_msg": "There's an input error with the resource 'ZL-WXL-0HOT3A0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-WXL-0HOT3A0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 5,
         "pack_time": "2026-11-14 14:20:03",
-        "hours": 71.2,
+        "hours": 71.3,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -211,7 +211,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-14 20:20:03",
-        "hours": 65.2,
+        "hours": 65.3,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -302,7 +302,7 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MMHHM0M]",
         "box_total": 2,
         "pack_time": "2026-11-17 08:14:43",
-        "hours": 5.3,
+        "hours": 5.4,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -362,12 +362,12 @@
         "code": "FBA15MXFB3JK",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-053",
+        "space": "JH11-1189",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 25,
         "pack_time": "2026-11-17 10:49:57",
-        "hours": 2.7,
+        "hours": 2.8,
         "owner": "王贝贝",
         "transport": "海运英国"
       },
@@ -380,7 +380,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-17 13:09:24",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -396,19 +396,6 @@
         "hours": 0.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA261117005",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1176",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-17 13:30:10",
-        "hours": 0.1,
-        "owner": "刘畅",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261116073",
@@ -500,6 +487,19 @@
         "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "FBA15MXG0MGD",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1176",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-17 13:35:24",
+        "hours": 0.0,
+        "owner": "刘畅",
+        "transport": "海运欧洲"
       }
     ]
   },
