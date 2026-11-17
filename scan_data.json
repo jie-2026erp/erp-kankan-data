@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "update_time": "2026-11-17 13:06:17",
+  "update_time": "2026-11-17 13:08:15",
   "total_boxes": 17,
   "total_users": 1,
   "total_batches": 2,
@@ -35,19 +35,10 @@
       "bulk": 11.1822,
       "sum_box": "134",
       "is_write": "已填写"
-    },
-    {
-      "batch_code": "TH26111700301",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "纬狮",
-      "datetime": "2026-11-17 10:57:53",
-      "bulk": 3.0998,
-      "sum_box": "40",
-      "is_write": "已填写"
     }
   ],
-  "unmarked_count": 3,
-  "unmarked_bulk": 34.88,
+  "unmarked_count": 2,
+  "unmarked_bulk": 31.78,
   "partial_list": [
     {
       "batch_code": "TH26111300314",
@@ -60,9 +51,9 @@
   ],
   "partial_count": 1,
   "week_stat": {
-    "bulk": 1.81,
-    "boxes": 17,
-    "count": 1
+    "bulk": 4.91,
+    "boxes": 57,
+    "count": 2
   },
   "last_week_stat": {
     "bulk": 622.96,
@@ -70,8 +61,8 @@
     "count": 51
   },
   "month_stat": {
-    "bulk": 1275.45,
-    "boxes": 14733,
-    "count": 99
+    "bulk": 1278.55,
+    "boxes": 14773,
+    "count": 100
   }
 }
