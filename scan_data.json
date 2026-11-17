@@ -1,15 +1,15 @@
 {
   "date": "2026-11-17",
-  "update_time": "2026-11-17 16:45:39",
-  "total_boxes": 831,
+  "update_time": "2026-11-17 16:47:41",
+  "total_boxes": 863,
   "total_users": 4,
-  "total_batches": 10,
-  "total_marked_bulk": 125.64,
+  "total_batches": 11,
+  "total_marked_bulk": 128.65,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 668,
-      "shipments": 93
+      "boxes": 680,
+      "shipments": 94
     },
     {
       "name": "王梦吉",
@@ -18,8 +18,8 @@
     },
     {
       "name": "赵忠军",
-      "boxes": 7,
-      "shipments": 2
+      "boxes": 27,
+      "shipments": 3
     },
     {
       "name": "郑韩",
@@ -29,14 +29,14 @@
   ],
   "hourly": {
     "赵忠军": {
-      "16": 7
+      "16": 27
     },
     "汪宗标": {
       "15": 263,
       "14": 8,
       "11": 17,
       "13": 174,
-      "16": 206
+      "16": 218
     },
     "郑韩": {
       "13": 4
@@ -53,15 +53,6 @@
       "datetime": "2026-11-17 16:45:22",
       "bulk": 0.0122,
       "sum_box": "1",
-      "is_write": "已填写"
-    },
-    {
-      "batch_code": "TH26111700315",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "优商",
-      "datetime": "2026-11-17 15:59:22",
-      "bulk": 3.0135,
-      "sum_box": "33",
       "is_write": "已填写"
     },
     {
@@ -92,8 +83,8 @@
       "is_write": "已填写"
     }
   ],
-  "unmarked_count": 5,
-  "unmarked_bulk": 48.99,
+  "unmarked_count": 4,
+  "unmarked_bulk": 45.97,
   "partial_list": [
     {
       "batch_code": "TH26111700318",
@@ -104,15 +95,23 @@
       "unmarked_box": 36
     },
     {
+      "batch_code": "TH26111700315",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "优商",
+      "total_box": 33,
+      "marked_box": 20,
+      "unmarked_box": 13
+    },
+    {
       "batch_code": "TH26111700303",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "满天星",
       "total_box": 238,
-      "marked_box": 206,
-      "unmarked_box": 32
+      "marked_box": 218,
+      "unmarked_box": 20
     }
   ],
-  "partial_count": 2,
+  "partial_count": 3,
   "week_stat": {
     "bulk": 83.97,
     "boxes": 948,
