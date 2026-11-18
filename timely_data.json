@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-18 09:23:41",
+  "update_time": "2026-11-18 09:25:27",
   "pack3": {
-    "total": 24,
+    "total": 25,
     "over24": 16,
     "over48": 10,
     "max_hours": 188.3,
@@ -94,7 +94,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 90.8,
+        "hours": 90.9,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 20:22:16",
-        "hours": 37.0,
+        "hours": 37.1,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -211,7 +211,7 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MMHHM0M]",
         "box_total": 2,
         "pack_time": "2026-11-17 08:14:43",
-        "hours": 25.1,
+        "hours": 25.2,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -237,7 +237,7 @@
         "err_msg": "There's an input error with the resource 'ZAW-YY-0HQ55A-0000001-CWDC'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HPWLA0000001-HorseNet6'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HP1VA0000001-Light2inch'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HPJEA0000001-PortableBoard'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZAW-YY-0HQ55A-0000001-CWDC'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HPWLA0000001-HorseNet6'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HP1VA0000001-Light2inch'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HPJEA0000001-PortableBoard'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 9,
         "pack_time": "2026-11-17 14:57:22",
-        "hours": 18.4,
+        "hours": 18.5,
         "owner": "刘畅",
         "transport": "卡航欧洲"
       },
@@ -250,7 +250,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-17 16:58:12",
-        "hours": 16.4,
+        "hours": 16.5,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -266,6 +266,19 @@
         "hours": 15.0,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
+      },
+      {
+        "code": "FBA15MXP6K0H",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1078",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-18 09:16:09",
+        "hours": 0.2,
+        "owner": "王盼盼",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261117038",
@@ -294,19 +307,6 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MXP6K0H",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1078",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-18 09:16:09",
-        "hours": 0.1,
-        "owner": "王盼盼",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261117040",
         "platform": "GOODCANG",
         "warehouse": "FBA中转仓-金华2仓",
@@ -317,6 +317,19 @@
         "pack_time": "2026-11-18 09:18:50",
         "hours": 0.1,
         "owner": "system",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA261117046",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1076",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-18 09:25:02",
+        "hours": 0.0,
+        "owner": "王盼盼",
         "transport": "卡航欧洲"
       }
     ]
