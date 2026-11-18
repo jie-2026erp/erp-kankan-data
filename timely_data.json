@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-18 10:25:49",
+  "update_time": "2026-11-18 10:27:35",
   "pack3": {
     "total": 37,
     "over24": 17,
@@ -68,7 +68,7 @@
         "err_msg": "There's an input error with the resource 'ZL-EU-WH-0HJRZA0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZL-EU-WH-0HJRZA0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 9,
         "pack_time": "2026-11-14 14:00:35",
-        "hours": 92.4,
+        "hours": 92.5,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -107,7 +107,7 @@
         "err_msg": "There's an input error with the resource 'WZ-WJH-EU-0HPO1A0000001'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'WZ-WJH-EU-0HPO1A0000001'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 2,
         "pack_time": "2026-11-14 15:48:30",
-        "hours": 90.6,
+        "hours": 90.7,
         "owner": "杨雨薇",
         "transport": "海运欧洲"
       },
@@ -159,7 +159,7 @@
         "err_msg": "ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 8,
         "pack_time": "2026-11-16 19:11:45",
-        "hours": 39.2,
+        "hours": 39.3,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -172,7 +172,7 @@
         "err_msg": "There's an input error with the resource 'PQY-Car seat-02-YYEU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 5,
         "pack_time": "2026-11-16 19:23:40",
-        "hours": 39.0,
+        "hours": 39.1,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -224,7 +224,7 @@
         "err_msg": "There's an input error with the resource 'LW-YY-Pipe'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 4,
         "pack_time": "2026-11-17 10:24:12",
-        "hours": 24.0,
+        "hours": 24.1,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -263,7 +263,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-17 18:23:08",
-        "hours": 16.0,
+        "hours": 16.1,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -359,19 +359,6 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA15MXP9MBB",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-3-68",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-18 09:52:18",
-        "hours": 0.6,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
         "code": "HWC261117033",
         "platform": "GRL",
         "warehouse": "FBA中转仓-金华2仓",
@@ -411,19 +398,6 @@
         "transport": "卡航英国"
       },
       {
-        "code": "FBA15MXPFVQW",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1069",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-18 10:14:21",
-        "hours": 0.2,
-        "owner": "肖琴",
-        "transport": "海运英国"
-      },
-      {
         "code": "FBA15MXPQWXP",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -432,6 +406,19 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-18 10:11:47",
+        "hours": 0.3,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
+        "code": "FBA15MXPFVQW",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1069",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-18 10:14:21",
         "hours": 0.2,
         "owner": "肖琴",
         "transport": "海运英国"
@@ -463,7 +450,7 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA261117044",
+        "code": "FBA15MXPR4XF",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1060",
@@ -484,6 +471,19 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-18 10:23:55",
+        "hours": 0.1,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
+        "code": "HWC261117032",
+        "platform": "GRL",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1058",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-18 10:26:26",
         "hours": 0.0,
         "owner": "肖琴",
         "transport": "海运英国"
