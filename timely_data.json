@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-18 12:11:43",
+  "update_time": "2026-11-18 12:13:36",
   "pack3": {
     "total": 40,
     "over24": 15,
@@ -81,7 +81,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 93.6,
+        "hours": 93.7,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 20:22:16",
-        "hours": 39.8,
+        "hours": 39.9,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -211,7 +211,7 @@
         "err_msg": "There's an input error with the resource 'ZAW-YY-0HQ55A-0000001-CWDC'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HPWLA0000001-HorseNet6'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HP1VA0000001-Light2inch'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'YYLLC-YY0HPJEA0000001-PortableBoard'.-ERROR: Approval is required before this item can be sent to Amazon.;There's an input error with the resource 'ZAW-YY-0HQ55A-0000001-CWDC'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HPWLA0000001-HorseNet6'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HP1VA0000001-Light2inch'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.;There's an input error with the resource 'YYLLC-YY0HPJEA0000001-PortableBoard'.-ERROR: This product is either prohibited, recalled, or requires compliance documentation to fulfill orders for this product in FBA.",
         "box_total": 9,
         "pack_time": "2026-11-17 14:57:22",
-        "hours": 21.2,
+        "hours": 21.3,
         "owner": "刘畅",
         "transport": "卡航欧洲"
       },
@@ -224,7 +224,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-17 16:58:12",
-        "hours": 19.2,
+        "hours": 19.3,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -294,6 +294,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MXQHX2Q",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1045",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-18 11:15:58",
+        "hours": 1.0,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
+      },
+      {
         "code": "HWC261117051",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -318,19 +331,6 @@
         "hours": 1.0,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MXQHX2Q",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1045",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-18 11:15:58",
-        "hours": 0.9,
-        "owner": "杨雨薇",
-        "transport": "卡航英国"
       },
       {
         "code": "HWC261117059",
@@ -359,19 +359,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "HWC261117063",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1035",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-18 11:41:42",
-        "hours": 0.5,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261117055",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -380,7 +367,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-18 11:39:02",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -393,9 +380,35 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-18 11:40:27",
+        "hours": 0.6,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261117068",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1032",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-18 11:45:15",
         "hours": 0.5,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261117063",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1035",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-18 11:41:42",
+        "hours": 0.5,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
       },
       {
         "code": "FBA15MXQN9TF",
@@ -424,17 +437,17 @@
         "transport": "卡航英国"
       },
       {
-        "code": "HWC261117068",
+        "code": "HWC261117065",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1032",
+        "space": "JH11-1026",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-18 11:45:15",
+        "box_total": 2,
+        "pack_time": "2026-11-18 11:52:14",
         "hours": 0.4,
         "owner": "丁胜玥",
-        "transport": "卡航欧洲"
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261117064",
@@ -463,6 +476,32 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261117054",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1027",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-18 11:51:30",
+        "hours": 0.4,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261117046",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1028",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-18 11:51:21",
+        "hours": 0.4,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "HWC261117043",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -476,19 +515,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261117065",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1026",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-18 11:52:14",
-        "hours": 0.3,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "FBA15MXQ12GB",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -500,32 +526,6 @@
         "hours": 0.3,
         "owner": "许斌",
         "transport": "卡航英国"
-      },
-      {
-        "code": "HWC261117054",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1027",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-18 11:51:30",
-        "hours": 0.3,
-        "owner": "丁胜玥",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261117046",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1028",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-18 11:51:21",
-        "hours": 0.3,
-        "owner": "丁胜玥",
-        "transport": "卡航欧洲"
       }
     ]
   },
