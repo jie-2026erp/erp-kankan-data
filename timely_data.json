@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-18 09:12:52",
+  "update_time": "2026-11-18 09:14:37",
   "pack3": {
-    "total": 21,
+    "total": 22,
     "over24": 16,
     "over48": 10,
     "max_hours": 188.1,
@@ -29,7 +29,7 @@
         "err_msg": "There's an input error with the resource 'YH-HQ-Standing Bathtub - Panda'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 20,
         "pack_time": "2026-11-11 14:34:28",
-        "hours": 162.6,
+        "hours": 162.7,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "There's an input error with the resource 'YH-WF-Foldingbathtub'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 25,
         "pack_time": "2026-11-14 14:34:22",
-        "hours": 90.6,
+        "hours": 90.7,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-16 20:22:16",
-        "hours": 36.8,
+        "hours": 36.9,
         "owner": "吴玉龙",
         "transport": "海运沙特"
       },
@@ -250,7 +250,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-17 16:58:12",
-        "hours": 16.2,
+        "hours": 16.3,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -263,7 +263,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-17 18:23:08",
-        "hours": 14.8,
+        "hours": 14.9,
         "owner": "吴玉龙",
         "transport": "海运阿联酋"
       },
@@ -276,9 +276,22 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-18 09:11:23",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "HWC261117036",
+        "platform": "GRL",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1079",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-18 09:13:20",
+        "hours": 0.0,
+        "owner": "肖琴",
+        "transport": "卡航英国"
       }
     ]
   },
