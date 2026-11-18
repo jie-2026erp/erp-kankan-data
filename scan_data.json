@@ -1,28 +1,30 @@
 {
   "date": "2026-11-18",
-  "update_time": "2026-11-18 15:53:54",
-  "total_boxes": 303,
+  "update_time": "2026-11-18 15:57:16",
+  "total_boxes": 311,
   "total_users": 2,
-  "total_batches": 1,
-  "total_marked_bulk": 36.82,
+  "total_batches": 2,
+  "total_marked_bulk": 48.52,
   "by_user": [
     {
       "name": "叶帆",
-      "boxes": 187,
-      "shipments": 13
+      "boxes": 193,
+      "shipments": 16
     },
     {
       "name": "汪宗标",
-      "boxes": 116,
-      "shipments": 19
+      "boxes": 118,
+      "shipments": 20
     }
   ],
   "hourly": {
     "汪宗标": {
-      "10": 116
+      "10": 116,
+      "15": 2
     },
     "叶帆": {
-      "10": 187
+      "10": 187,
+      "15": 6
     }
   },
   "unmarked": [
@@ -33,22 +35,22 @@
       "datetime": "2026-11-18 15:54:42",
       "bulk": 21.1065,
       "sum_box": "221",
-      "is_write": "未填写"
-    },
+      "is_write": "已填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 21.11,
+  "partial_list": [
     {
       "batch_code": "TH26111800302",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "鸿泰",
-      "datetime": "2026-11-18 15:41:10",
-      "bulk": 11.706,
-      "sum_box": "123",
-      "is_write": "未填写"
+      "total_box": 123,
+      "marked_box": 46,
+      "unmarked_box": 77
     }
   ],
-  "unmarked_count": 2,
-  "unmarked_bulk": 32.81,
-  "partial_list": [],
-  "partial_count": 0,
+  "partial_count": 1,
   "week_stat": {
     "bulk": 174.62,
     "boxes": 1923,
