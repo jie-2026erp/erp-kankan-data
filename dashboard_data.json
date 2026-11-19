@@ -1,8 +1,8 @@
 {
-  "total": 19,
+  "total": 25,
   "success": 8,
-  "fail": 11,
-  "rate": 42,
+  "fail": 17,
+  "rate": 32,
   "fail_logs": [
     {
       "时间": "2026-11-19 10:13:21",
@@ -91,6 +91,54 @@
       "页码范围": "1-26页",
       "状态": "失败",
       "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  14 × retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n"
+    },
+    {
+      "时间": "2026-11-19 10:19:20",
+      "文件名": "HWC261116070.pdf",
+      "货件号": "HWC261116070",
+      "页码范围": "1-2页",
+      "状态": "失败",
+      "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  13 × retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n"
+    },
+    {
+      "时间": "2026-11-19 10:19:53",
+      "文件名": "HWC261116072.pdf",
+      "货件号": "HWC261116072",
+      "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Locator.click: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-extensions --disable-features=PrivateNetworkAccessSendPreflights,LocalNetworkAccessChecks,BlockInsecurePrivateNetworkRequests,PrivateNetworkAccess --unsafely-treat-insecure-origin-as-secure=http://127.0.0.1:12345,http://shipment-web.nantang-tech.com --user-data-dir=C:\\Users\\admin\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-PrQVhy --remote-debugging-pipe --no-startup-window\n<launched> pid=16756\n[pid=16756][err] [16756:9652:1119/101037.313:ERROR:content\\browser\\network_service_instance_impl.cc:655] Network service crashed or was terminated, restarting service.\n[pid=16756] <gracefully close start>\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n"
+    },
+    {
+      "时间": "2026-11-19 10:20:00",
+      "文件名": "HWC261116073.pdf",
+      "货件号": "HWC261116073",
+      "页码范围": "1-1页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-19 10:20:01",
+      "文件名": "HWC261116077.pdf",
+      "货件号": "HWC261116077",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-19 10:20:02",
+      "文件名": "HWC261116082.pdf",
+      "货件号": "HWC261116082",
+      "页码范围": "1-1页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-19 10:20:02",
+      "文件名": "HWC261116083.pdf",
+      "货件号": "HWC261116083",
+      "页码范围": "1-6页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
     }
   ],
   "all_logs": [
@@ -245,6 +293,54 @@
       "页码范围": "1-26页",
       "状态": "失败",
       "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  14 × retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n"
+    },
+    {
+      "时间": "2026-11-19 10:19:20",
+      "文件名": "HWC261116070.pdf",
+      "货件号": "HWC261116070",
+      "页码范围": "1-2页",
+      "状态": "失败",
+      "备注": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  13 × retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n"
+    },
+    {
+      "时间": "2026-11-19 10:19:53",
+      "文件名": "HWC261116072.pdf",
+      "货件号": "HWC261116072",
+      "页码范围": "1-7页",
+      "状态": "失败",
+      "备注": "Locator.click: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-extensions --disable-features=PrivateNetworkAccessSendPreflights,LocalNetworkAccessChecks,BlockInsecurePrivateNetworkRequests,PrivateNetworkAccess --unsafely-treat-insecure-origin-as-secure=http://127.0.0.1:12345,http://shipment-web.nantang-tech.com --user-data-dir=C:\\Users\\admin\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-PrQVhy --remote-debugging-pipe --no-startup-window\n<launched> pid=16756\n[pid=16756][err] [16756:9652:1119/101037.313:ERROR:content\\browser\\network_service_instance_impl.cc:655] Network service crashed or was terminated, restarting service.\n[pid=16756] <gracefully close start>\nCall log:\n  - waiting for locator(\"button:has-text(\\\"搜索\\\")\").first\n    - locator resolved to <button type=\"button\" data-v-19bf10e8=\"\" class=\"el-button el-button--primary el-button--medium\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"el-dialog__footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div data-v-19bf10e8=\"\" class=\"dialog-footer\">…</div> from <div data-v-19bf10e8=\"\" class=\"el-dialog__wrapper\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n"
+    },
+    {
+      "时间": "2026-11-19 10:20:00",
+      "文件名": "HWC261116073.pdf",
+      "货件号": "HWC261116073",
+      "页码范围": "1-1页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-19 10:20:01",
+      "文件名": "HWC261116077.pdf",
+      "货件号": "HWC261116077",
+      "页码范围": "1-4页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-19 10:20:02",
+      "文件名": "HWC261116082.pdf",
+      "货件号": "HWC261116082",
+      "页码范围": "1-1页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
+    },
+    {
+      "时间": "2026-11-19 10:20:02",
+      "文件名": "HWC261116083.pdf",
+      "货件号": "HWC261116083",
+      "页码范围": "1-6页",
+      "状态": "失败",
+      "备注": "Page.evaluate: Target page, context or browser has been closed"
     }
   ],
   "shipment_stats": {
@@ -323,10 +419,34 @@
     "HWC261116069": {
       "success": 0,
       "fail": 1
+    },
+    "HWC261116070": {
+      "success": 0,
+      "fail": 1
+    },
+    "HWC261116072": {
+      "success": 0,
+      "fail": 1
+    },
+    "HWC261116073": {
+      "success": 0,
+      "fail": 1
+    },
+    "HWC261116077": {
+      "success": 0,
+      "fail": 1
+    },
+    "HWC261116082": {
+      "success": 0,
+      "fail": 1
+    },
+    "HWC261116083": {
+      "success": 0,
+      "fail": 1
     }
   },
   "print_hourly": {
     "10": 9
   },
-  "update_time": "2026-11-19 10:19:32"
+  "update_time": "2026-11-19 10:20:28"
 }
