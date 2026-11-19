@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "update_time": "2026-11-19 19:37:06",
+  "update_time": "2026-11-19 19:39:05",
   "total_boxes": 204,
   "total_users": 2,
   "total_batches": 2,
@@ -27,6 +27,24 @@
     }
   },
   "unmarked": [
+    {
+      "batch_code": "TH26111900313",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "苏恩",
+      "datetime": "2026-11-19 19:39:58",
+      "bulk": 0.7201,
+      "sum_box": "4",
+      "is_write": "未填写"
+    },
+    {
+      "batch_code": "TH26111900312",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "飞兔",
+      "datetime": "2026-11-19 19:38:26",
+      "bulk": 0.2506,
+      "sum_box": "2",
+      "is_write": "未填写"
+    },
     {
       "batch_code": "TH26111900311",
       "warehouse": "FBA中转仓-金华2仓",
@@ -73,8 +91,8 @@
       "is_write": "已填写"
     }
   ],
-  "unmarked_count": 5,
-  "unmarked_bulk": 78.74,
+  "unmarked_count": 7,
+  "unmarked_bulk": 79.71,
   "partial_list": [],
   "partial_count": 0,
   "week_stat": {
