@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-19 13:19:18",
+  "update_time": "2026-11-19 13:19:33",
   "pack3": {
     "total": 36,
     "over24": 6,
@@ -224,7 +224,7 @@
         "err_msg": "-ERROR: An andon cord has been pulled on your account, please contact seller support for more information. [smsShipmentId: FBA15MC7BW0Q]",
         "box_total": 10,
         "pack_time": "2026-11-19 09:22:25",
-        "hours": 3.9,
+        "hours": 4.0,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -307,6 +307,19 @@
         "transport": "卡航英国"
       },
       {
+        "code": "FBA15MXYJZKK",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1831",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 18,
+        "pack_time": "2026-11-19 11:16:20",
+        "hours": 2.1,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA15MXYPLG7",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -316,19 +329,6 @@
         "box_total": 6,
         "pack_time": "2026-11-19 11:14:06",
         "hours": 2.1,
-        "owner": "王贝贝",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MXYJZKK",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1831",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 18,
-        "pack_time": "2026-11-19 11:16:20",
-        "hours": 2.0,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -450,6 +450,19 @@
         "transport": "东南亚（陆运）"
       },
       {
+        "code": "HWC261118037",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1797",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-19 13:10:28",
+        "hours": 0.2,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
         "code": "FBA15MXZCL4V",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -461,19 +474,6 @@
         "hours": 0.2,
         "owner": "肖琴",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261118037",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1797",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-19 13:10:28",
-        "hours": 0.1,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
       }
     ]
   },
