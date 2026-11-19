@@ -1,42 +1,9 @@
 {
-  "update_time": "2026-11-19 08:25:47",
-  "total_dup_spaces": 1,
-  "total_boxes": 3,
-  "max_dup": 2,
-  "space_count": 1,
+  "update_time": "2026-11-19 08:26:45",
+  "total_dup_spaces": 0,
+  "total_boxes": 0,
+  "max_dup": 0,
+  "space_count": 0,
   "print_hourly": {},
-  "list": [
-    {
-      "space": "FH-14-77",
-      "count": 2,
-      "total_boxes": 3,
-      "codes": [
-        "FBA15MXW7Z6M",
-        "FBA15MXWHCWM"
-      ],
-      "transports": [
-        "FBA"
-      ],
-      "items": [
-        {
-          "code": "FBA15MXW7Z6M",
-          "platform": "FBA",
-          "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-14-77",
-          "err_msg": "",
-          "box_total": 2,
-          "creater": "杨雨薇"
-        },
-        {
-          "code": "FBA15MXWHCWM",
-          "platform": "FBA",
-          "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-14-77",
-          "err_msg": "",
-          "box_total": 1,
-          "creater": "杨雨薇"
-        }
-      ]
-    }
-  ]
+  "list": []
 }
