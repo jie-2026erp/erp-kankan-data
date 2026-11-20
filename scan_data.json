@@ -1,18 +1,26 @@
 {
   "date": "2026-11-20",
-  "update_time": "2026-11-20 09:25:20",
-  "total_boxes": 9,
-  "total_users": 1,
-  "total_batches": 2,
-  "total_marked_bulk": 1.28,
+  "update_time": "2026-11-20 09:27:35",
+  "total_boxes": 13,
+  "total_users": 2,
+  "total_batches": 3,
+  "total_marked_bulk": 1.41,
   "by_user": [
     {
       "name": "王梦吉",
       "boxes": 9,
       "shipments": 2
+    },
+    {
+      "name": "叶帆",
+      "boxes": 4,
+      "shipments": 1
     }
   ],
   "hourly": {
+    "叶帆": {
+      "9": 4
+    },
     "王梦吉": {
       "8": 9
     }
