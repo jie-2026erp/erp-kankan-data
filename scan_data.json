@@ -1,20 +1,20 @@
 {
   "date": "2026-11-20",
-  "update_time": "2026-11-20 11:14:15",
-  "total_boxes": 602,
+  "update_time": "2026-11-20 11:19:48",
+  "total_boxes": 622,
   "total_users": 3,
-  "total_batches": 7,
-  "total_marked_bulk": 61.42,
+  "total_batches": 8,
+  "total_marked_bulk": 85.98,
   "by_user": [
     {
       "name": "叶帆",
-      "boxes": 309,
-      "shipments": 37
+      "boxes": 318,
+      "shipments": 40
     },
     {
       "name": "汪宗标",
-      "boxes": 284,
-      "shipments": 45
+      "boxes": 295,
+      "shipments": 47
     },
     {
       "name": "王梦吉",
@@ -26,11 +26,11 @@
     "叶帆": {
       "9": 4,
       "10": 261,
-      "11": 44
+      "11": 53
     },
     "汪宗标": {
       "10": 247,
-      "11": 37
+      "11": 48
     },
     "王梦吉": {
       "8": 9
@@ -54,28 +54,11 @@
       "bulk": 0.2506,
       "sum_box": "2",
       "is_write": "已填写"
-    },
-    {
-      "batch_code": "TH26111900305",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "满天星",
-      "datetime": "2026-11-19 17:39:34",
-      "bulk": 24.5667,
-      "sum_box": "263",
-      "is_write": "已填写"
     }
   ],
-  "unmarked_count": 3,
-  "unmarked_bulk": 49.12,
+  "unmarked_count": 2,
+  "unmarked_bulk": 24.55,
   "partial_list": [
-    {
-      "batch_code": "TH26111900311",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "华贸",
-      "total_box": 344,
-      "marked_box": 339,
-      "unmarked_box": 5
-    },
     {
       "batch_code": "TH26111900307",
       "warehouse": "FBA中转仓-金华2仓",
@@ -83,13 +66,21 @@
       "total_box": 49,
       "marked_box": 19,
       "unmarked_box": 30
+    },
+    {
+      "batch_code": "TH26111900305",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "满天星",
+      "total_box": 263,
+      "marked_box": 15,
+      "unmarked_box": 248
     }
   ],
   "partial_count": 2,
   "week_stat": {
-    "bulk": 267.31,
-    "boxes": 2887,
-    "count": 26
+    "bulk": 300.07,
+    "boxes": 3231,
+    "count": 27
   },
   "last_week_stat": {
     "bulk": 622.96,
@@ -97,8 +88,8 @@
     "count": 51
   },
   "month_stat": {
-    "bulk": 1540.96,
-    "boxes": 17603,
-    "count": 124
+    "bulk": 1573.71,
+    "boxes": 17947,
+    "count": 125
   }
 }
