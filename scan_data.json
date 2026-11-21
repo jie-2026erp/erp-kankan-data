@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "update_time": "2026-11-21 17:16:49",
+  "update_time": "2026-11-21 17:19:39",
   "total_boxes": 912,
   "total_users": 3,
   "total_batches": 7,
@@ -63,5 +63,79 @@
     "boxes": 19420,
     "pcs": 154812,
     "count": 136
-  }
+  },
+  "week_by_user": [
+    {
+      "name": "汪宗标",
+      "boxes": 2511,
+      "shipments": 438,
+      "hours": 24.0,
+      "eff": 105
+    },
+    {
+      "name": "叶帆",
+      "boxes": 1119,
+      "shipments": 161,
+      "hours": 11.5,
+      "eff": 97
+    },
+    {
+      "name": "赵忠军",
+      "boxes": 393,
+      "shipments": 96,
+      "hours": 6,
+      "eff": 66
+    },
+    {
+      "name": "王梦吉",
+      "boxes": 202,
+      "shipments": 12,
+      "hours": 3,
+      "eff": 67
+    },
+    {
+      "name": "郑韩",
+      "boxes": 4,
+      "shipments": 1,
+      "hours": 1,
+      "eff": 4
+    }
+  ],
+  "last_week_by_user": [
+    {
+      "name": "汪宗标",
+      "boxes": 4526,
+      "shipments": 633,
+      "hours": 33.5,
+      "eff": 135
+    },
+    {
+      "name": "叶帆",
+      "boxes": 1996,
+      "shipments": 256,
+      "hours": 20.5,
+      "eff": 97
+    },
+    {
+      "name": "王梦吉",
+      "boxes": 277,
+      "shipments": 30,
+      "hours": 4,
+      "eff": 69
+    },
+    {
+      "name": "朱文亮",
+      "boxes": 164,
+      "shipments": 22,
+      "hours": 2.5,
+      "eff": 66
+    },
+    {
+      "name": "郑韩",
+      "boxes": 49,
+      "shipments": 3,
+      "hours": 3,
+      "eff": 16
+    }
+  ]
 }
