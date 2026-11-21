@@ -1,29 +1,31 @@
 {
   "date": "2026-11-21",
-  "update_time": "2026-11-21 10:00:22",
-  "total_boxes": 257,
+  "update_time": "2026-11-21 10:02:29",
+  "total_boxes": 276,
   "total_users": 2,
   "total_batches": 3,
   "total_marked_bulk": 30.51,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 163,
-      "shipments": 44
+      "boxes": 171,
+      "shipments": 45
     },
     {
       "name": "赵忠军",
-      "boxes": 94,
-      "shipments": 35
+      "boxes": 105,
+      "shipments": 37
     }
   ],
   "hourly": {
     "汪宗标": {
       "9": 156,
-      "8": 7
+      "8": 7,
+      "10": 8
     },
     "赵忠军": {
-      "9": 94
+      "9": 94,
+      "10": 11
     }
   },
   "unmarked": [
@@ -71,8 +73,8 @@
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "鸿泰",
       "total_box": 145,
-      "marked_box": 84,
-      "unmarked_box": 61
+      "marked_box": 103,
+      "unmarked_box": 42
     }
   ],
   "partial_count": 2,
