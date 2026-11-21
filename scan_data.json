@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "update_time": "2026-11-21 14:44:12",
+  "update_time": "2026-11-21 14:46:12",
   "total_boxes": 901,
   "total_users": 2,
   "total_batches": 6,
@@ -32,9 +32,19 @@
       "9": 94
     }
   },
-  "unmarked": [],
-  "unmarked_count": 0,
-  "unmarked_bulk": 0.0,
+  "unmarked": [
+    {
+      "batch_code": "TH26112100301",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "合联海外仓",
+      "datetime": "2026-11-21 14:45:55",
+      "bulk": 0.5349,
+      "sum_box": "6",
+      "is_write": "已填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 0.53,
   "partial_list": [
     {
       "batch_code": "TH26112000331",
