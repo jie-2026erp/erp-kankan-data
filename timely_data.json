@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-22 20:56:54",
+  "update_time": "2026-11-22 20:57:32",
   "pack3": {
     "total": 65,
     "over24": 65,
@@ -73,6 +73,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261120025",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-2-56",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-20 14:54:09",
+        "hours": 54.1,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "HWC261120012",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -86,17 +99,17 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261120025",
+        "code": "HWC261120024",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-2-56",
+        "space": "FH-6-61",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-20 14:54:09",
+        "box_total": 2,
+        "pack_time": "2026-11-20 15:00:09",
         "hours": 54.0,
         "owner": "丁胜玥",
-        "transport": "卡航欧洲"
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261120008",
@@ -120,19 +133,6 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-20 15:05:49",
-        "hours": 53.9,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261120024",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-61",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-20 15:00:09",
         "hours": 53.9,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
@@ -229,19 +229,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261120050",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-6-55",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-20 15:51:26",
-        "hours": 53.1,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261120023",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -250,6 +237,19 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-20 15:48:13",
+        "hours": 53.2,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261120050",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-6-55",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-20 15:51:26",
         "hours": 53.1,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
@@ -450,6 +450,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261120042",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-10-15",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-20 16:41:59",
+        "hours": 52.3,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "HWC261120033",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -497,19 +510,6 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-20 16:45:00",
-        "hours": 52.2,
-        "owner": "丁胜玥",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261120042",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-15",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-20 16:41:59",
         "hours": 52.2,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
@@ -744,7 +744,7 @@
         "err_msg": "后台产品未审核成功",
         "box_total": 2,
         "pack_time": "2026-11-21 18:12:17",
-        "hours": 26.7,
+        "hours": 26.8,
         "owner": "system",
         "transport": "海运英国"
       },
