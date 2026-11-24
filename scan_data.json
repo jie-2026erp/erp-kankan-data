@@ -1,15 +1,15 @@
 {
   "date": "2026-11-24",
-  "update_time": "2026-11-24 15:02:54",
-  "total_boxes": 300,
+  "update_time": "2026-11-24 15:05:20",
+  "total_boxes": 301,
   "total_users": 2,
   "total_batches": 3,
   "total_marked_bulk": 29.22,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 169,
-      "shipments": 29
+      "boxes": 170,
+      "shipments": 30
     },
     {
       "name": "赵忠军",
@@ -19,11 +19,11 @@
   ],
   "hourly": {
     "汪宗标": {
+      "14": 19,
+      "15": 14,
       "11": 48,
       "10": 77,
-      "9": 12,
-      "14": 19,
-      "15": 13
+      "9": 12
     },
     "赵忠军": {
       "11": 33,
@@ -44,22 +44,13 @@
   ],
   "unmarked_count": 1,
   "unmarked_bulk": 44.69,
-  "partial_list": [
-    {
-      "batch_code": "TH26112400334",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "福州弘丰国际物流",
-      "total_box": 33,
-      "marked_box": 32,
-      "unmarked_box": 1
-    }
-  ],
-  "partial_count": 1,
+  "partial_list": [],
+  "partial_count": 0,
   "week_stat": {
-    "bulk": 26.36,
-    "boxes": 268,
-    "pcs": 1714,
-    "count": 2
+    "bulk": 29.22,
+    "boxes": 301,
+    "pcs": 1882,
+    "count": 3
   },
   "last_week_stat": {
     "bulk": 439.79,
@@ -68,10 +59,10 @@
     "count": 38
   },
   "month_stat": {
-    "bulk": 1739.79,
-    "boxes": 19688,
-    "pcs": 156526,
-    "count": 138
+    "bulk": 1742.65,
+    "boxes": 19721,
+    "pcs": 156694,
+    "count": 139
   },
   "last_month_stat": {
     "bulk": 3273.26,
@@ -82,10 +73,10 @@
   "week_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 137,
-      "shipments": 22,
-      "hours": 3,
-      "eff": 46
+      "boxes": 170,
+      "shipments": 30,
+      "hours": 5,
+      "eff": 34
     },
     {
       "name": "赵忠军",
@@ -135,10 +126,10 @@
   "month_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 10724,
-      "shipments": 1603,
-      "hours": 90.5,
-      "eff": 118
+      "boxes": 10757,
+      "shipments": 1611,
+      "hours": 92.5,
+      "eff": 116
     },
     {
       "name": "叶帆",
