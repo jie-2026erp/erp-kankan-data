@@ -1,12 +1,30 @@
 {
   "date": "2026-11-24",
-  "update_time": "2026-11-24 09:02:46",
-  "total_boxes": 0,
-  "total_users": 0,
-  "total_batches": 0,
-  "total_marked_bulk": 0.0,
-  "by_user": [],
-  "hourly": {},
+  "update_time": "2026-11-24 09:05:28",
+  "total_boxes": 16,
+  "total_users": 2,
+  "total_batches": 1,
+  "total_marked_bulk": 1.75,
+  "by_user": [
+    {
+      "name": "赵忠军",
+      "boxes": 9,
+      "shipments": 2
+    },
+    {
+      "name": "汪宗标",
+      "boxes": 7,
+      "shipments": 1
+    }
+  ],
+  "hourly": {
+    "赵忠军": {
+      "9": 9
+    },
+    "汪宗标": {
+      "9": 7
+    }
+  },
   "unmarked": [
     {
       "batch_code": "TH26112300306",
@@ -20,13 +38,22 @@
   ],
   "unmarked_count": 1,
   "unmarked_bulk": 24.61,
-  "partial_list": [],
-  "partial_count": 0,
+  "partial_list": [
+    {
+      "batch_code": "TH26112300303",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "华贸",
+      "total_box": 21,
+      "marked_box": 19,
+      "unmarked_box": 2
+    }
+  ],
+  "partial_count": 1,
   "week_stat": {
-    "bulk": 0.0,
-    "boxes": 0,
-    "pcs": 0,
-    "count": 0
+    "bulk": 1.75,
+    "boxes": 21,
+    "pcs": 220,
+    "count": 1
   },
   "last_week_stat": {
     "bulk": 439.79,
@@ -35,10 +62,10 @@
     "count": 38
   },
   "month_stat": {
-    "bulk": 1713.43,
-    "boxes": 19420,
-    "pcs": 154812,
-    "count": 136
+    "bulk": 1715.18,
+    "boxes": 19441,
+    "pcs": 155032,
+    "count": 137
   },
   "last_month_stat": {
     "bulk": 3273.26,
@@ -46,7 +73,22 @@
     "pcs": 280420,
     "count": 180
   },
-  "week_by_user": [],
+  "week_by_user": [
+    {
+      "name": "汪宗标",
+      "boxes": 12,
+      "shipments": 2,
+      "hours": 1,
+      "eff": 12
+    },
+    {
+      "name": "赵忠军",
+      "boxes": 9,
+      "shipments": 2,
+      "hours": 1,
+      "eff": 9
+    }
+  ],
   "last_week_by_user": [
     {
       "name": "汪宗标",
@@ -87,10 +129,10 @@
   "month_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 10587,
-      "shipments": 1581,
-      "hours": 87.5,
-      "eff": 121
+      "boxes": 10599,
+      "shipments": 1583,
+      "hours": 88.5,
+      "eff": 120
     },
     {
       "name": "叶帆",
@@ -108,10 +150,10 @@
     },
     {
       "name": "赵忠军",
-      "boxes": 393,
-      "shipments": 96,
-      "hours": 6,
-      "eff": 66
+      "boxes": 402,
+      "shipments": 98,
+      "hours": 7,
+      "eff": 57
     },
     {
       "name": "朱文亮",
