@@ -1,11 +1,11 @@
 {
-  "update_time": "2026-11-24 10:41:29",
+  "update_time": "2026-11-24 10:41:35",
   "print_boxes": 3601,
   "print_count": 524,
-  "print_today_boxes": 0,
-  "print_today_count": 0,
-  "print_yesterday_boxes": 0,
-  "print_yesterday_count": 0,
+  "print_today_boxes": 70,
+  "print_today_count": 23,
+  "print_yesterday_boxes": 340,
+  "print_yesterday_count": 65,
   "quote_boxes": 0,
   "quote_count": 0,
   "confirm_boxes": 0,
@@ -74,5 +74,10 @@
       "c_t": 0,
       "c_b": 0
     }
-  ]
+  ],
+  "print_hourly": {
+    "09": 3,
+    "10": 18,
+    "08": 2
+  }
 }
