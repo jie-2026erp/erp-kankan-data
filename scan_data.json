@@ -1,20 +1,20 @@
 {
   "date": "2026-11-25",
-  "update_time": "2026-11-25 09:40:30",
-  "total_boxes": 244,
+  "update_time": "2026-11-25 09:43:00",
+  "total_boxes": 306,
   "total_users": 3,
-  "total_batches": 3,
-  "total_marked_bulk": 115.97,
+  "total_batches": 4,
+  "total_marked_bulk": 117.52,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 158,
-      "shipments": 23
+      "boxes": 170,
+      "shipments": 26
     },
     {
       "name": "王梦吉",
-      "boxes": 51,
-      "shipments": 19
+      "boxes": 101,
+      "shipments": 20
     },
     {
       "name": "赵忠军",
@@ -24,13 +24,13 @@
   ],
   "hourly": {
     "汪宗标": {
-      "9": 158
+      "9": 170
     },
     "赵忠军": {
       "8": 35
     },
     "王梦吉": {
-      "9": 51
+      "9": 101
     }
   },
   "unmarked": [],
@@ -42,16 +42,24 @@
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "华贸",
       "total_box": 907,
-      "marked_box": 96,
-      "unmarked_box": 811
+      "marked_box": 101,
+      "unmarked_box": 806
+    },
+    {
+      "batch_code": "TH26112400338",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "飞兔",
+      "total_box": 12,
+      "marked_box": 12,
+      "unmarked_box": 0
     }
   ],
-  "partial_count": 1,
+  "partial_count": 2,
   "week_stat": {
-    "bulk": 102.37,
-    "boxes": 1066,
-    "pcs": 5947,
-    "count": 6
+    "bulk": 103.92,
+    "boxes": 1078,
+    "pcs": 5997,
+    "count": 7
   },
   "last_week_stat": {
     "bulk": 439.79,
@@ -60,10 +68,10 @@
     "count": 38
   },
   "month_stat": {
-    "bulk": 1815.8,
-    "boxes": 20486,
-    "pcs": 160759,
-    "count": 142
+    "bulk": 1817.35,
+    "boxes": 20498,
+    "pcs": 160809,
+    "count": 143
   },
   "last_month_stat": {
     "bulk": 3273.26,
@@ -74,10 +82,10 @@
   "week_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 590,
-      "shipments": 85,
+      "boxes": 602,
+      "shipments": 88,
       "hours": 7,
-      "eff": 84
+      "eff": 86
     },
     {
       "name": "赵忠军",
@@ -134,8 +142,8 @@
   "month_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 11177,
-      "shipments": 1666,
+      "boxes": 11189,
+      "shipments": 1669,
       "hours": 94.5,
       "eff": 118
     },
