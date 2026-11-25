@@ -1,23 +1,94 @@
 {
-  "update_time": "2026-11-25 17:02:14",
-  "print_boxes": 3529,
-  "print_count": 586,
-  "print_today_boxes": 0,
-  "print_today_count": 0,
-  "print_yesterday_boxes": 0,
-  "print_yesterday_count": 0,
+  "update_time": "2026-11-25 17:15:26",
+  "print_boxes": 3555,
+  "print_count": 589,
+  "print_today_boxes": 15291,
+  "print_today_count": 2431,
+  "print_yesterday_boxes": 1612,
+  "print_yesterday_count": 272,
   "quote_boxes": 0,
   "quote_count": 0,
   "confirm_boxes": 366,
   "confirm_count": 56,
   "completed_boxes": 0,
   "completed_count": 0,
-  "daily": [],
+  "daily": [
+    {
+      "date": "2026-11-19",
+      "o_t": 0,
+      "o_b": 0,
+      "p_t": 262,
+      "p_b": 1431,
+      "m_t": 31,
+      "c_t": 130,
+      "c_b": 902
+    },
+    {
+      "date": "2026-11-20",
+      "o_t": 0,
+      "o_b": 0,
+      "p_t": 198,
+      "p_b": 1245,
+      "m_t": 180,
+      "c_t": 252,
+      "c_b": 1153
+    },
+    {
+      "date": "2026-11-21",
+      "o_t": 0,
+      "o_b": 0,
+      "p_t": 252,
+      "p_b": 1506,
+      "m_t": 205,
+      "c_t": 3,
+      "c_b": 6
+    },
+    {
+      "date": "2026-11-22",
+      "o_t": 0,
+      "o_b": 0,
+      "p_t": 6,
+      "p_b": 38,
+      "m_t": 0,
+      "c_t": 0,
+      "c_b": 0
+    },
+    {
+      "date": "2026-11-23",
+      "o_t": 0,
+      "o_b": 0,
+      "p_t": 65,
+      "p_b": 405,
+      "m_t": 0,
+      "c_t": 42,
+      "c_b": 268
+    },
+    {
+      "date": "2026-11-24",
+      "o_t": 0,
+      "o_b": 0,
+      "p_t": 272,
+      "p_b": 1612,
+      "m_t": 119,
+      "c_t": 231,
+      "c_b": 1752
+    },
+    {
+      "date": "2026-11-25",
+      "o_t": 0,
+      "o_b": 0,
+      "p_t": 2431,
+      "p_b": 15291,
+      "m_t": 151,
+      "c_t": 4,
+      "c_b": 13
+    }
+  ],
   "print_hourly": {
-    "16": 13,
+    "16": 9,
     "15": 13,
     "14": 813,
-    "13": 1591,
-    "17": 1
+    "13": 1590,
+    "17": 6
   }
 }
