@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-25 20:05:26",
+  "update_time": "2026-11-25 20:07:57",
   "pack3": {
     "total": 33,
     "over24": 22,
     "over48": 9,
-    "max_hours": 51.7,
+    "max_hours": 51.8,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-23 16:21:59",
-        "hours": 51.7,
+        "hours": 51.8,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-23 16:56:51",
-        "hours": 51.1,
+        "hours": 51.2,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-23 17:51:37",
-        "hours": 50.2,
+        "hours": 50.3,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-24 08:22:19",
-        "hours": 35.7,
+        "hours": 35.8,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-24 08:22:18",
-        "hours": 35.7,
+        "hours": 35.8,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-24 09:34:49",
-        "hours": 34.5,
+        "hours": 34.6,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -224,7 +224,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B4];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B3];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B2];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B1]",
         "box_total": 4,
         "pack_time": "2026-11-24 14:10:22",
-        "hours": 29.9,
+        "hours": 30.0,
         "owner": "丁胜玥",
         "transport": "卡航英国"
       },
@@ -237,7 +237,7 @@
         "err_msg": "There's an input error with the resource 'ZHT-0GV3CA-RailCut'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 5,
         "pack_time": "2026-11-24 14:16:04",
-        "hours": 29.8,
+        "hours": 29.9,
         "owner": "肖琴",
         "transport": "海运欧洲"
       },
@@ -250,7 +250,7 @@
         "err_msg": "",
         "box_total": 13,
         "pack_time": "2026-11-24 15:40:12",
-        "hours": 28.4,
+        "hours": 28.5,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -289,7 +289,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-24 19:32:54",
-        "hours": 24.5,
+        "hours": 24.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -320,19 +320,6 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA261125013",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-13-37",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 15,
-        "pack_time": "2026-11-25 19:11:42",
-        "hours": 0.9,
-        "owner": "文欣",
-        "transport": "慢船海派（美西）"
-      },
-      {
         "code": "HWC261123069",
         "platform": "Cdiscount",
         "warehouse": "FBA中转仓-金华2仓",
@@ -359,15 +346,28 @@
         "transport": "慢船海派（美西）"
       },
       {
-        "code": "FBA15MZ900JD",
+        "code": "FBA15MZ89RFS",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "6FH-01-01-01",
+        "space": "LS-TP-145",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-25 19:47:58",
+        "box_total": 19,
+        "pack_time": "2026-11-25 19:51:31",
         "hours": 0.3,
+        "owner": "杨雨薇",
+        "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MZ8YWVK",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0783",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 8,
+        "pack_time": "2026-11-25 19:57:54",
+        "hours": 0.2,
         "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
@@ -385,16 +385,16 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MZ89RFS",
+        "code": "FBA261124187",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-145",
+        "space": "JH11-0781",
         "is_dtb": false,
-        "err_msg": "",
-        "box_total": 19,
-        "pack_time": "2026-11-25 19:51:31",
-        "hours": 0.2,
-        "owner": "杨雨薇",
+        "err_msg": "Empty reply from server",
+        "box_total": 5,
+        "pack_time": "2026-11-25 20:03:48",
+        "hours": 0.1,
+        "owner": "肖琴",
         "transport": "海运欧洲"
       },
       {
@@ -411,30 +411,30 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "FBA15MZ8YWVK",
+        "code": "FBA19YJWML7T",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0783",
+        "space": "FH-13-37",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 8,
-        "pack_time": "2026-11-25 19:57:54",
-        "hours": 0.1,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
+        "box_total": 15,
+        "pack_time": "2026-11-25 20:07:06",
+        "hours": 0.0,
+        "owner": "文欣",
+        "transport": "慢船海派（美西）"
       },
       {
-        "code": "FBA261124187",
-        "platform": "FBA",
+        "code": "HWC261123155",
+        "platform": "BAISHIMY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0781",
+        "space": "JH11-0963",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-25 20:03:48",
+        "box_total": 1,
+        "pack_time": "2026-11-25 20:05:48",
         "hours": 0.0,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
       }
     ]
   },
