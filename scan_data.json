@@ -1,12 +1,22 @@
 {
   "date": "2026-11-25",
-  "update_time": "2026-11-25 08:00:00",
-  "total_boxes": 0,
-  "total_users": 0,
+  "update_time": "2026-11-25 08:02:45",
+  "total_boxes": 35,
+  "total_users": 1,
   "total_batches": 1,
   "total_marked_bulk": 20.15,
-  "by_user": [],
-  "hourly": {},
+  "by_user": [
+    {
+      "name": "赵忠军",
+      "boxes": 35,
+      "shipments": 1
+    }
+  ],
+  "hourly": {
+    "赵忠军": {
+      "8": 35
+    }
+  },
   "unmarked": [
     {
       "batch_code": "TH26112400340",
@@ -44,8 +54,8 @@
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "美通",
       "total_box": 218,
-      "marked_box": 151,
-      "unmarked_box": 67
+      "marked_box": 153,
+      "unmarked_box": 65
     }
   ],
   "partial_count": 1,
