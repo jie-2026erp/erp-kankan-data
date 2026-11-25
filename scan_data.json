@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "update_time": "2026-11-25 17:05:50",
+  "update_time": "2026-11-25 17:08:26",
   "total_boxes": 1112,
   "total_users": 3,
   "total_batches": 4,
@@ -37,9 +37,19 @@
       "8": 35
     }
   },
-  "unmarked": [],
-  "unmarked_count": 0,
-  "unmarked_bulk": 0.0,
+  "unmarked": [
+    {
+      "batch_code": "TH26112500301",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "宝涵",
+      "datetime": "2026-11-25 17:08:48",
+      "bulk": 0.5621,
+      "sum_box": "13",
+      "is_write": "未填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 0.56,
   "partial_list": [],
   "partial_count": 0,
   "week_stat": {
