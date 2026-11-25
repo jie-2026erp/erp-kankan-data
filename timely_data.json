@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-26 06:10:36",
+  "update_time": "2026-11-26 06:13:04",
   "pack3": {
     "total": 27,
     "over24": 22,
     "over48": 10,
-    "max_hours": 61.8,
+    "max_hours": 61.9,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-23 16:21:59",
-        "hours": 61.8,
+        "hours": 61.9,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-23 16:56:51",
-        "hours": 61.2,
+        "hours": 61.3,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-23 17:51:37",
-        "hours": 60.3,
+        "hours": 60.4,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -216,6 +216,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA261123114",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-10-71",
+        "is_dtb": false,
+        "err_msg": "There's an input error with the resource 'ZHT-0GV3CA-RailCut'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
+        "box_total": 5,
+        "pack_time": "2026-11-24 14:16:04",
+        "hours": 40.0,
+        "owner": "肖琴",
+        "transport": "海运欧洲"
+      },
+      {
         "code": "FBA261123111",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -227,19 +240,6 @@
         "hours": 40.0,
         "owner": "丁胜玥",
         "transport": "卡航英国"
-      },
-      {
-        "code": "FBA261123114",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-71",
-        "is_dtb": false,
-        "err_msg": "There's an input error with the resource 'ZHT-0GV3CA-RailCut'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
-        "box_total": 5,
-        "pack_time": "2026-11-24 14:16:04",
-        "hours": 39.9,
-        "owner": "肖琴",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261123059",
@@ -276,7 +276,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-24 19:32:06",
-        "hours": 34.6,
+        "hours": 34.7,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -289,7 +289,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-24 19:32:54",
-        "hours": 34.6,
+        "hours": 34.7,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -302,7 +302,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-25 11:38:15",
-        "hours": 18.5,
+        "hours": 18.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -315,7 +315,7 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-25 19:26:14",
-        "hours": 10.7,
+        "hours": 10.8,
         "owner": "金珍",
         "transport": "卡航欧洲"
       },
@@ -341,7 +341,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-25 20:38:02",
-        "hours": 9.5,
+        "hours": 9.6,
         "owner": "丁胜玥",
         "transport": "美森美西-海派美西（正班）"
       },
