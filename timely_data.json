@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-26 14:55:22",
+  "update_time": "2026-11-26 14:57:35",
   "pack3": {
-    "total": 14,
+    "total": 15,
     "over24": 0,
     "over48": 0,
     "max_hours": 5.1,
@@ -99,10 +99,23 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "FBA15MZF40R7",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0673",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-26 14:42:32",
+        "hours": 0.3,
+        "owner": "丁胜玥",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA15MZDYQ1F",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0672",
+        "space": "FH-5-48",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 13,
@@ -112,16 +125,16 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA15MZF40R7",
+        "code": "FBA15MZF6VQZ",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0673",
+        "space": "JH11-0669",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-26 14:42:32",
+        "box_total": 6,
+        "pack_time": "2026-11-26 14:48:17",
         "hours": 0.2,
-        "owner": "丁胜玥",
+        "owner": "肖琴",
         "transport": "海运英国"
       },
       {
@@ -164,7 +177,7 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA261125106",
+        "code": "FBA15MZDVJDC",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-0667",
@@ -177,17 +190,17 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA15MZF6VQZ",
+        "code": "FBA261125068",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0669",
+        "space": "JH11-0662",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-26 14:48:17",
-        "hours": 0.1,
-        "owner": "肖琴",
-        "transport": "海运英国"
+        "box_total": 7,
+        "pack_time": "2026-11-26 14:56:03",
+        "hours": 0.0,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
       }
     ]
   },
