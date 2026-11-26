@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-26 19:01:37",
+  "update_time": "2026-11-26 19:04:02",
   "pack3": {
     "total": 7,
     "over24": 0,
@@ -73,19 +73,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA15MZJ95MX",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-61",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 27,
-        "pack_time": "2026-11-26 19:00:22",
-        "hours": 0.0,
-        "owner": "郝惜",
-        "transport": "海运欧洲"
-      },
-      {
         "code": "HWC261125038",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
@@ -94,9 +81,22 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-26 19:00:31",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "FBA15MZJ95MX",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-7-61,FH-7-59",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 27,
+        "pack_time": "2026-11-26 19:03:08",
+        "hours": 0.0,
+        "owner": "郝惜",
+        "transport": "海运欧洲"
       }
     ]
   },
