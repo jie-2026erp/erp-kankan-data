@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-26 14:02:53",
+  "update_time": "2026-11-26 14:05:05",
   "pack3": {
     "total": 11,
     "over24": 0,
     "over48": 0,
-    "max_hours": 4.2,
+    "max_hours": 4.3,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 09:49:07",
-        "hours": 4.2,
+        "hours": 4.3,
         "owner": "郭灵",
         "transport": "海运欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 7,
         "pack_time": "2026-11-26 10:19:07",
-        "hours": 3.7,
+        "hours": 3.8,
         "owner": "金珍",
         "transport": "卡航欧洲"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-26 10:54:01",
-        "hours": 3.1,
+        "hours": 3.2,
         "owner": "金珍",
         "transport": "卡航欧洲"
       },
@@ -94,22 +94,9 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-26 13:31:54",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "王贝贝",
         "transport": "海运欧洲"
-      },
-      {
-        "code": "HWC261124015",
-        "platform": "WALMART",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0691",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 6,
-        "pack_time": "2026-11-26 13:39:30",
-        "hours": 0.4,
-        "owner": "汪颖",
-        "transport": "慢船海卡（美西）"
       },
       {
         "code": "FBA15MZD74XJ",
@@ -120,9 +107,22 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 13:43:39",
-        "hours": 0.3,
+        "hours": 0.4,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "HWC261124015",
+        "platform": "WALMART",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-5-87",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 6,
+        "pack_time": "2026-11-26 13:39:30",
+        "hours": 0.4,
+        "owner": "汪颖",
+        "transport": "慢船海卡（美西）"
       },
       {
         "code": "FBA15MZD1SRK",
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 18,
         "pack_time": "2026-11-26 14:01:08",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "欧阳子航",
         "transport": "慢船海卡（美西）"
       }
