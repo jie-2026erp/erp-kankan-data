@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-26 15:06:56",
+  "update_time": "2026-11-26 15:09:11",
   "pack3": {
     "total": 18,
     "over24": 0,
@@ -151,10 +151,23 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA261125115",
+        "code": "HWC261125028",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0664",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-26 14:58:23",
+        "hours": 0.2,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
+      },
+      {
+        "code": "FBA15MZFC20P",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0661",
+        "space": "FH-4-42",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
@@ -162,6 +175,19 @@
         "hours": 0.2,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA15MZF3BXF",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0665",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-26 14:58:09",
+        "hours": 0.2,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MZFBL33",
@@ -177,17 +203,17 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261125028",
-        "platform": "GOLUCKY",
+        "code": "FBA15MZDX3NG",
+        "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0664",
+        "space": "JH11-0663",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-26 14:58:23",
+        "box_total": 2,
+        "pack_time": "2026-11-26 15:05:29",
         "hours": 0.1,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
+        "owner": "郝惜",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261125026",
@@ -203,19 +229,6 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "FBA15MZF3BXF",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0665",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-26 14:58:09",
-        "hours": 0.1,
-        "owner": "丁胜玥",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA15MZDX3Z4",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -227,19 +240,6 @@
         "hours": 0.1,
         "owner": "肖琴",
         "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MZDX3NG",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0663",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-26 15:05:29",
-        "hours": 0.0,
-        "owner": "郝惜",
-        "transport": "海运欧洲"
       }
     ]
   },
