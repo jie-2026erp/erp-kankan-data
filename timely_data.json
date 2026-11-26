@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-26 19:52:29",
+  "update_time": "2026-11-26 19:54:55",
   "pack3": {
     "total": 10,
     "over24": 0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-26 14:27:26",
-        "hours": 5.4,
+        "hours": 5.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 14:39:30",
-        "hours": 5.2,
+        "hours": 5.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-26 14:50:43",
-        "hours": 5.0,
+        "hours": 5.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 11,
         "pack_time": "2026-11-26 19:39:33",
-        "hours": 0.2,
+        "hours": 0.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,9 +107,22 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-26 19:45:44",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
+      },
+      {
+        "code": "FBA15MZJGZ9L",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0615",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 12,
+        "pack_time": "2026-11-26 19:45:42",
+        "hours": 0.2,
+        "owner": "何金凤",
+        "transport": "卡航英国"
       },
       {
         "code": "FBA261125131",
@@ -123,19 +136,6 @@
         "hours": 0.1,
         "owner": "蒋宇林",
         "transport": "美森美西-海派美西（正班）"
-      },
-      {
-        "code": "FBA15MZJGZ9L",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0615",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 12,
-        "pack_time": "2026-11-26 19:45:42",
-        "hours": 0.1,
-        "owner": "何金凤",
-        "transport": "卡航英国"
       }
     ]
   },
