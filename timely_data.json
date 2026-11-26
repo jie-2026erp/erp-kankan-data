@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-26 15:22:27",
+  "update_time": "2026-11-26 15:24:44",
   "pack3": {
-    "total": 10,
+    "total": 11,
     "over24": 0,
     "over48": 0,
     "max_hours": 5.6,
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-26 14:27:26",
-        "hours": 0.9,
+        "hours": 1.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 14:39:30",
-        "hours": 0.7,
+        "hours": 0.8,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-26 14:50:43",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,9 +107,35 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 15:13:54",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "王贝贝",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA15MZF7KMP",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0655",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-26 15:19:52",
+        "hours": 0.1,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
+        "code": "FBA261125103",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0652",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-26 15:23:31",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261125002",
@@ -123,19 +149,6 @@
         "hours": 0.0,
         "owner": "刘启瑞",
         "transport": "慢船海卡（美中）"
-      },
-      {
-        "code": "FBA261124154",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0655",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 2,
-        "pack_time": "2026-11-26 15:19:52",
-        "hours": 0.0,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
       }
     ]
   },
