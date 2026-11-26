@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-26 16:08:27",
+  "update_time": "2026-11-26 16:10:45",
   "pack3": {
-    "total": 7,
+    "total": 8,
     "over24": 0,
     "over48": 0,
-    "max_hours": 6.3,
+    "max_hours": 6.4,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 09:49:07",
-        "hours": 6.3,
+        "hours": 6.4,
         "owner": "郭灵",
         "transport": "海运欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 14:18:56",
-        "hours": 1.8,
+        "hours": 1.9,
         "owner": "张澳雯",
         "transport": "海运欧洲"
       },
@@ -86,17 +86,30 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261125020",
-        "platform": "GRL",
+        "code": "FBA261125100",
+        "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-5-85",
+        "space": "JH11-0649",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 18,
-        "pack_time": "2026-11-26 15:56:34",
-        "hours": 0.2,
+        "box_total": 5,
+        "pack_time": "2026-11-26 16:10:41",
+        "hours": 0.0,
         "owner": "丁胜玥",
         "transport": "海运英国"
+      },
+      {
+        "code": "HWC261125011",
+        "platform": "CHUKOUYI",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0647",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 11,
+        "pack_time": "2026-11-26 16:10:19",
+        "hours": 0.0,
+        "owner": "刘瑜",
+        "transport": "海运欧洲"
       }
     ]
   },
