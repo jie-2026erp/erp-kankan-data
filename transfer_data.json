@@ -1,8 +1,8 @@
 {
-  "update_time": "2026-11-26 12:52:33",
+  "update_time": "2026-11-26 12:54:29",
   "total_dup_spaces": 3,
-  "total_boxes": 34,
-  "max_dup": 3,
+  "total_boxes": 31,
+  "max_dup": 2,
   "space_count": 3,
   "print_hourly": {
     "12": 24,
@@ -12,48 +12,6 @@
     "09": 4
   },
   "list": [
-    {
-      "space": "FH-10-65",
-      "count": 3,
-      "total_boxes": 8,
-      "codes": [
-        "FBA19YM4M3GF",
-        "FBA19YM1417N",
-        "FBA19YM2RKCB"
-      ],
-      "transports": [
-        "FBA"
-      ],
-      "items": [
-        {
-          "code": "FBA19YM4M3GF",
-          "platform": "FBA",
-          "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-10-65",
-          "err_msg": "",
-          "box_total": 3,
-          "creater": "文欣"
-        },
-        {
-          "code": "FBA19YM1417N",
-          "platform": "FBA",
-          "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-10-65",
-          "err_msg": "",
-          "box_total": 2,
-          "creater": "文欣"
-        },
-        {
-          "code": "FBA19YM2RKCB",
-          "platform": "FBA",
-          "warehouse": "FBA中转仓-金华2仓",
-          "space": "FH-10-65",
-          "err_msg": "",
-          "box_total": 3,
-          "creater": "文欣"
-        }
-      ]
-    },
     {
       "space": "FH-14-90",
       "count": 2,
@@ -83,6 +41,38 @@
           "err_msg": "",
           "box_total": 8,
           "creater": "袁梦蝶"
+        }
+      ]
+    },
+    {
+      "space": "FH-10-65",
+      "count": 2,
+      "total_boxes": 5,
+      "codes": [
+        "FBA19YM4M3GF",
+        "FBA19YM1417N"
+      ],
+      "transports": [
+        "FBA"
+      ],
+      "items": [
+        {
+          "code": "FBA19YM4M3GF",
+          "platform": "FBA",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "FH-10-65",
+          "err_msg": "",
+          "box_total": 3,
+          "creater": "文欣"
+        },
+        {
+          "code": "FBA19YM1417N",
+          "platform": "FBA",
+          "warehouse": "FBA中转仓-金华2仓",
+          "space": "FH-10-65",
+          "err_msg": "",
+          "box_total": 2,
+          "creater": "文欣"
         }
       ]
     },
