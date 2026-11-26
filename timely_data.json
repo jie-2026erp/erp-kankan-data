@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-26 19:31:49",
+  "update_time": "2026-11-26 19:34:33",
   "pack3": {
-    "total": 11,
+    "total": 10,
     "over24": 0,
     "over48": 0,
-    "max_hours": 9.7,
+    "max_hours": 9.8,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 09:49:07",
-        "hours": 9.7,
+        "hours": 9.8,
         "owner": "郭灵",
         "transport": "海运欧洲"
       },
@@ -76,12 +76,12 @@
         "code": "FBA261125066",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-45",
+        "space": "FH-7-45,FH-6-37",
         "is_dtb": false,
         "err_msg": "There's an input error with the resource 'JN-XJH-038-EU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'JN-XJH-036-EU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 30,
         "pack_time": "2026-11-26 19:06:47",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -99,15 +99,15 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261125035",
-        "platform": "BAISHIMY",
+        "code": "HWC261125034",
+        "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-7-57,FH-7-43",
+        "space": "JH11-0620",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 13,
-        "pack_time": "2026-11-26 19:14:26",
-        "hours": 0.3,
+        "box_total": 1,
+        "pack_time": "2026-11-26 19:30:57",
+        "hours": 0.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -125,19 +125,6 @@
         "transport": "海运英国"
       },
       {
-        "code": "HWC261125034",
-        "platform": "GOLUCKY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0620",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-26 19:30:57",
-        "hours": 0.0,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "FBA261125071",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -146,7 +133,7 @@
         "err_msg": "",
         "box_total": 9,
         "pack_time": "2026-11-26 19:30:46",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "肖琴",
         "transport": "海运欧洲"
       }
