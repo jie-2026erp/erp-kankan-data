@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-26 18:40:01",
+  "update_time": "2026-11-26 18:42:35",
   "pack3": {
-    "total": 7,
+    "total": 8,
     "over24": 0,
     "over48": 0,
-    "max_hours": 8.8,
+    "max_hours": 8.9,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 09:49:07",
-        "hours": 8.8,
+        "hours": 8.9,
         "owner": "郭灵",
         "transport": "海运欧洲"
       },
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-26 14:27:26",
-        "hours": 4.2,
+        "hours": 4.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 14:39:30",
-        "hours": 4.0,
+        "hours": 4.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-26 14:50:43",
-        "hours": 3.8,
+        "hours": 3.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -76,25 +76,38 @@
         "code": "HWC261125036",
         "platform": "BAISHIMY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0634",
+        "space": "FH-8-66",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-26 18:31:25",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261125031",
-        "platform": "GOLUCKY",
+        "code": "HWC261125089",
+        "platform": "GRL",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-8-72",
+        "space": "JH11-0633",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 17,
-        "pack_time": "2026-11-26 18:31:20",
-        "hours": 0.1,
+        "box_total": 19,
+        "pack_time": "2026-11-26 18:41:27",
+        "hours": 0.0,
+        "owner": "肖琴",
+        "transport": "海运英国"
+      },
+      {
+        "code": "HWC261125037",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0632",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 2,
+        "pack_time": "2026-11-26 18:41:27",
+        "hours": 0.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       }
