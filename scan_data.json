@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "update_time": "2026-11-27 17:28:54",
+  "update_time": "2026-11-27 17:31:24",
   "total_boxes": 816,
   "total_users": 2,
   "total_batches": 5,
@@ -30,9 +30,19 @@
       "10": 14
     }
   },
-  "unmarked": [],
-  "unmarked_count": 0,
-  "unmarked_bulk": 0.0,
+  "unmarked": [
+    {
+      "batch_code": "TH26112700310",
+      "warehouse": "FBA中转仓-金华2仓",
+      "provider": "飞兔",
+      "datetime": "2026-11-27 17:31:33",
+      "bulk": 0.3279,
+      "sum_box": "4",
+      "is_write": "未填写"
+    }
+  ],
+  "unmarked_count": 1,
+  "unmarked_bulk": 0.33,
   "partial_list": [
     {
       "batch_code": "TH26112700305",
