@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-27 20:44:11",
+  "update_time": "2026-11-27 20:46:29",
   "pack3": {
-    "total": 15,
+    "total": 16,
     "over24": 6,
     "over48": 0,
-    "max_hours": 34.9,
+    "max_hours": 35.0,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 09:49:07",
-        "hours": 34.9,
+        "hours": 35.0,
         "owner": "郭灵",
         "transport": "海运欧洲"
       },
@@ -81,7 +81,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 20:43:22",
-        "hours": 24.0,
+        "hours": 24.1,
         "owner": "陈虹",
         "transport": "快递"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:24:32",
-        "hours": 12.3,
+        "hours": 12.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 13:47:26",
-        "hours": 6.9,
+        "hours": 7.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 20:01:08",
-        "hours": 0.7,
+        "hours": 0.8,
         "owner": "肖琴",
         "transport": "海运英国"
       },
@@ -185,20 +185,33 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 20:12:23",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "何子怡",
         "transport": "美森美西-海派美西（正班）"
       },
       {
-        "code": "FBA261126176",
+        "code": "FBA15MZTGX64",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1406,JH11-1401",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 30,
-        "pack_time": "2026-11-27 20:39:16",
-        "hours": 0.1,
+        "box_total": 21,
+        "pack_time": "2026-11-27 20:45:26",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "海运英国"
+      },
+      {
+        "code": "FBA15MZSPCCB",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1406,JH11-1401",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 9,
+        "pack_time": "2026-11-27 20:45:22",
+        "hours": 0.0,
         "owner": "杨雨薇",
         "transport": "海运英国"
       }
