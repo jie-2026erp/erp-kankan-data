@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-27 20:55:36",
+  "update_time": "2026-11-27 20:57:52",
   "pack3": {
-    "total": 16,
+    "total": 14,
     "over24": 6,
     "over48": 0,
     "max_hours": 35.1,
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:24:32",
-        "hours": 12.5,
+        "hours": 12.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:35:08",
-        "hours": 12.3,
+        "hours": 12.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 13:47:26",
-        "hours": 7.1,
+        "hours": 7.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -172,7 +172,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 20:12:23",
-        "hours": 0.7,
+        "hours": 0.8,
         "owner": "何子怡",
         "transport": "美森美西-海派美西（正班）"
       },
@@ -188,41 +188,29 @@
         "hours": 0.1,
         "owner": "杨雨薇",
         "transport": "海运英国"
-      },
-      {
-        "code": "FBA15MZTGX64",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-14-75,FH-14-87",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 21,
-        "pack_time": "2026-11-27 20:52:50",
-        "hours": 0.0,
-        "owner": "杨雨薇",
-        "transport": "海运英国"
-      },
+      }
+    ]
+  },
+  "pack9": {
+    "total": 1,
+    "over24": 0,
+    "over48": 0,
+    "max_hours": 0.0,
+    "dtb_count": 1,
+    "list": [
       {
         "code": "HWC261127056",
         "platform": "LOUISTONE",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1367",
-        "is_dtb": false,
+        "space": "DTB-2-71",
+        "is_dtb": true,
         "err_msg": "",
         "box_total": 8,
-        "pack_time": "2026-11-27 20:53:34",
+        "pack_time": "2026-11-27 20:57:28",
         "hours": 0.0,
         "owner": "丁胜玥",
         "transport": "美森美西-海派美西（正班）"
       }
     ]
-  },
-  "pack9": {
-    "total": 0,
-    "over24": 0,
-    "over48": 0,
-    "max_hours": 0,
-    "dtb_count": 0,
-    "list": []
   }
 }
