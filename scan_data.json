@@ -1,28 +1,28 @@
 {
   "date": "2026-11-27",
-  "update_time": "2026-11-27 09:20:25",
-  "total_boxes": 106,
+  "update_time": "2026-11-27 09:22:48",
+  "total_boxes": 121,
   "total_users": 2,
   "total_batches": 2,
   "total_marked_bulk": 32.22,
   "by_user": [
     {
       "name": "汪宗标",
-      "boxes": 53,
-      "shipments": 10
+      "boxes": 61,
+      "shipments": 11
     },
     {
       "name": "王梦吉",
-      "boxes": 53,
-      "shipments": 19
+      "boxes": 60,
+      "shipments": 26
     }
   ],
   "hourly": {
     "汪宗标": {
-      "9": 53
+      "9": 61
     },
     "王梦吉": {
-      "9": 53
+      "9": 60
     }
   },
   "unmarked": [],
@@ -30,28 +30,20 @@
   "unmarked_bulk": 0.0,
   "partial_list": [
     {
-      "batch_code": "TH26112600322",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "美通",
-      "total_box": 61,
-      "marked_box": 53,
-      "unmarked_box": 8
-    },
-    {
       "batch_code": "TH26112600319",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "正信达",
       "total_box": 298,
-      "marked_box": 53,
-      "unmarked_box": 245
+      "marked_box": 60,
+      "unmarked_box": 238
     }
   ],
-  "partial_count": 2,
+  "partial_count": 1,
   "week_stat": {
-    "bulk": 283.93,
-    "boxes": 2980,
-    "pcs": 23309,
-    "count": 13
+    "bulk": 289.24,
+    "boxes": 3041,
+    "pcs": 23732,
+    "count": 14
   },
   "last_week_stat": {
     "bulk": 439.79,
@@ -60,10 +52,10 @@
     "count": 38
   },
   "month_stat": {
-    "bulk": 1997.36,
-    "boxes": 22400,
-    "pcs": 178121,
-    "count": 149
+    "bulk": 2002.67,
+    "boxes": 22461,
+    "pcs": 178544,
+    "count": 150
   },
   "last_month_stat": {
     "bulk": 3273.26,
@@ -74,10 +66,10 @@
   "week_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 1352,
-      "shipments": 201,
-      "hours": 14,
-      "eff": 97
+      "boxes": 1413,
+      "shipments": 212,
+      "hours": 15,
+      "eff": 94
     },
     {
       "name": "王梦吉",
@@ -141,10 +133,10 @@
   "month_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 11939,
-      "shipments": 1782,
-      "hours": 101.5,
-      "eff": 118
+      "boxes": 12000,
+      "shipments": 1793,
+      "hours": 102.5,
+      "eff": 117
     },
     {
       "name": "叶帆",
