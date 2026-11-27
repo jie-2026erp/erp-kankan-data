@@ -1,15 +1,15 @@
 {
-  "update_time": "2026-11-27 13:30:26",
-  "print_boxes": 3755,
+  "update_time": "2026-11-27 13:34:32",
+  "print_boxes": 3739,
   "print_count": 538,
   "print_today_boxes": 245,
   "print_today_count": 45,
   "print_yesterday_boxes": 1397,
   "print_yesterday_count": 273,
-  "quote_boxes": 517,
-  "quote_count": 90,
-  "confirm_boxes": 0,
-  "confirm_count": 0,
+  "quote_boxes": 506,
+  "quote_count": 88,
+  "confirm_boxes": 11,
+  "confirm_count": 2,
   "completed_boxes": 3,
   "completed_count": 1,
   "daily": [
@@ -66,7 +66,7 @@
     {
       "date": "2026-11-26",
       "o_t": 589,
-      "o_b": 3971,
+      "o_b": 3955,
       "p_t": 273,
       "p_b": 1397,
       "m_t": 177,
@@ -76,19 +76,12 @@
     {
       "date": "2026-11-27",
       "o_t": 685,
-      "o_b": 4386,
+      "o_b": 4370,
       "p_t": 45,
       "p_b": 245,
       "m_t": 101,
       "c_t": 0,
       "c_b": 0
     }
-  ],
-  "print_hourly": {
-    "11": 12,
-    "13": 17,
-    "10": 14,
-    "12": 1,
-    "09": 1
-  }
+  ]
 }
