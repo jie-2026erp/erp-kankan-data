@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-27 08:32:48",
+  "update_time": "2026-11-27 08:35:20",
   "pack3": {
-    "total": 9,
+    "total": 10,
     "over24": 0,
     "over48": 0,
-    "max_hours": 22.7,
+    "max_hours": 22.8,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 09:49:07",
-        "hours": 22.7,
+        "hours": 22.8,
         "owner": "郭灵",
         "transport": "海运欧洲"
       },
@@ -81,7 +81,7 @@
         "err_msg": "There's an input error with the resource 'JN-XJH-038-EU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'JN-XJH-036-EU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 30,
         "pack_time": "2026-11-26 19:06:47",
-        "hours": 13.4,
+        "hours": 13.5,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -94,9 +94,22 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 20:43:22",
-        "hours": 11.8,
+        "hours": 11.9,
         "owner": "陈虹",
         "transport": "快递"
+      },
+      {
+        "code": "HWC261125048",
+        "platform": "GOLUCKY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0602",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-27 08:24:32",
+        "hours": 0.2,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
       },
       {
         "code": "HWC261125050",
@@ -112,15 +125,15 @@
         "transport": "喜运达（海运）"
       },
       {
-        "code": "HWC261125048",
+        "code": "HWC261125054",
         "platform": "GOLUCKY",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0602",
+        "space": "JH11-0598",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 3,
-        "pack_time": "2026-11-27 08:24:32",
-        "hours": 0.1,
+        "pack_time": "2026-11-27 08:35:08",
+        "hours": 0.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       }
