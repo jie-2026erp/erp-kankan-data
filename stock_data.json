@@ -1,11 +1,11 @@
 {
-  "update_time": "2026-11-27 23:57:20",
+  "update_time": "2026-11-28 00:01:30",
   "print_boxes": 2986,
   "print_count": 421,
-  "print_today_boxes": 1146,
-  "print_today_count": 158,
-  "print_yesterday_boxes": 1397,
-  "print_yesterday_count": 273,
+  "print_today_boxes": 33,
+  "print_today_count": 11,
+  "print_yesterday_boxes": 1146,
+  "print_yesterday_count": 158,
   "quote_boxes": 0,
   "quote_count": 0,
   "confirm_boxes": 0,
@@ -13,16 +13,6 @@
   "completed_boxes": 1372,
   "completed_count": 208,
   "daily": [
-    {
-      "date": "2026-11-21",
-      "o_t": 0,
-      "o_b": 0,
-      "p_t": 252,
-      "p_b": 1506,
-      "m_t": 205,
-      "c_t": 3,
-      "c_b": 6
-    },
     {
       "date": "2026-11-22",
       "o_t": 0,
@@ -65,8 +55,8 @@
     },
     {
       "date": "2026-11-26",
-      "o_t": 562,
-      "o_b": 3622,
+      "o_t": 551,
+      "o_b": 3589,
       "p_t": 273,
       "p_b": 1397,
       "m_t": 177,
@@ -75,29 +65,23 @@
     },
     {
       "date": "2026-11-27",
-      "o_t": 658,
-      "o_b": 4037,
+      "o_t": 647,
+      "o_b": 4004,
       "p_t": 158,
       "p_b": 1146,
       "m_t": 187,
       "c_t": 294,
       "c_b": 1840
+    },
+    {
+      "date": "2026-11-28",
+      "o_t": 618,
+      "o_b": 4325,
+      "p_t": 11,
+      "p_b": 33,
+      "m_t": 0,
+      "c_t": 0,
+      "c_b": 0
     }
-  ],
-  "print_hourly": {
-    "20": 6,
-    "19": 10,
-    "21": 2,
-    "15": 23,
-    "14": 15,
-    "17": 5,
-    "18": 22,
-    "16": 16,
-    "13": 19,
-    "11": 12,
-    "10": 14,
-    "23": 12,
-    "12": 1,
-    "09": 1
-  }
+  ]
 }
