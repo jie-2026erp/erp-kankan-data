@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
-  "update_time": "2026-11-27 18:51:52",
-  "total_boxes": 822,
+  "update_time": "2026-11-27 18:54:15",
+  "total_boxes": 825,
   "total_users": 2,
   "total_batches": 5,
   "total_marked_bulk": 79.11,
@@ -13,8 +13,8 @@
     },
     {
       "name": "王梦吉",
-      "boxes": 406,
-      "shipments": 108
+      "boxes": 409,
+      "shipments": 109
     }
   ],
   "hourly": {
@@ -28,7 +28,8 @@
       "15": 28,
       "17": 6,
       "9": 163,
-      "10": 14
+      "10": 14,
+      "18": 3
     }
   },
   "unmarked": [
@@ -80,17 +81,8 @@
   ],
   "unmarked_count": 5,
   "unmarked_bulk": 129.92,
-  "partial_list": [
-    {
-      "batch_code": "TH26112600319",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "正信达",
-      "total_box": 298,
-      "marked_box": 298,
-      "unmarked_box": 0
-    }
-  ],
-  "partial_count": 1,
+  "partial_list": [],
+  "partial_count": 0,
   "week_stat": {
     "bulk": 363.04,
     "boxes": 3805,
