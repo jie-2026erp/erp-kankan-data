@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-27 17:53:53",
+  "update_time": "2026-11-27 17:56:05",
   "pack3": {
-    "total": 18,
+    "total": 20,
     "over24": 5,
     "over48": 0,
     "max_hours": 32.1,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-26 14:27:26",
-        "hours": 27.4,
+        "hours": 27.5,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 14:39:30",
-        "hours": 27.2,
+        "hours": 27.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 14:58:23",
-        "hours": 26.9,
+        "hours": 27.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-27 08:46:24",
-        "hours": 9.1,
+        "hours": 9.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-27 08:46:14",
-        "hours": 9.1,
+        "hours": 9.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-27 08:57:02",
-        "hours": 8.9,
+        "hours": 9.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -206,7 +206,7 @@
         "code": "FBA15MZR3L2P",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1414",
+        "space": "FH-10-25",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 10,
@@ -229,7 +229,20 @@
         "transport": "海运欧洲"
       },
       {
-        "code": "FBA261126153",
+        "code": "FBA261126223",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-137",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 5,
+        "pack_time": "2026-11-27 17:55:32",
+        "hours": 0.0,
+        "owner": "杨雨薇",
+        "transport": "卡航英国"
+      },
+      {
+        "code": "FBA15MZRM7MY",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1405",
@@ -240,6 +253,19 @@
         "hours": 0.0,
         "owner": "肖琴",
         "transport": "海运英国"
+      },
+      {
+        "code": "FBA261126140",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1404",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-27 17:54:55",
+        "hours": 0.0,
+        "owner": "王贝贝",
+        "transport": "海运欧洲"
       }
     ]
   },
