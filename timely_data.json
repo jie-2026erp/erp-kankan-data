@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-27 11:38:26",
+  "update_time": "2026-11-27 11:41:07",
   "pack3": {
     "total": 21,
     "over24": 1,
     "over48": 0,
-    "max_hours": 25.8,
+    "max_hours": 25.9,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 09:49:07",
-        "hours": 25.8,
+        "hours": 25.9,
         "owner": "郭灵",
         "transport": "海运欧洲"
       },
@@ -81,7 +81,7 @@
         "err_msg": "There's an input error with the resource 'JN-XJH-038-EU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.;There's an input error with the resource 'JN-XJH-036-EU'.-ERROR: One or more items in this shipment cannot be sent. Reconfirm shipment quantities on step 1 to view details on the error in order to activate the confirm button.",
         "box_total": 30,
         "pack_time": "2026-11-26 19:06:47",
-        "hours": 16.5,
+        "hours": 16.6,
         "owner": "王贝贝",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 20:43:22",
-        "hours": 14.9,
+        "hours": 15.0,
         "owner": "陈虹",
         "transport": "快递"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:24:32",
-        "hours": 3.2,
+        "hours": 3.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -164,6 +164,19 @@
         "transport": "喜运达（海运）"
       },
       {
+        "code": "HWC261125065",
+        "platform": "GRL",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-0585",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-27 09:48:53",
+        "hours": 1.9,
+        "owner": "肖琴",
+        "transport": "卡航英国"
+      },
+      {
         "code": "HWC261125064",
         "platform": "GRL",
         "warehouse": "FBA中转仓-金华2仓",
@@ -175,19 +188,6 @@
         "hours": 1.9,
         "owner": "肖琴",
         "transport": "海运英国"
-      },
-      {
-        "code": "HWC261125065",
-        "platform": "GRL",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0585",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-27 09:48:53",
-        "hours": 1.8,
-        "owner": "肖琴",
-        "transport": "卡航英国"
       },
       {
         "code": "FBA261126032",
@@ -211,7 +211,7 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-27 11:07:36",
-        "hours": 0.5,
+        "hours": 0.6,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -255,19 +255,6 @@
         "transport": "海运英国"
       },
       {
-        "code": "HWC261125060",
-        "platform": "BAISHIMY",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-0558",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 11,
-        "pack_time": "2026-11-27 11:35:04",
-        "hours": 0.1,
-        "owner": "王贝贝",
-        "transport": "喜运达（海运）"
-      },
-      {
         "code": "FBA261126008",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -276,9 +263,22 @@
         "err_msg": "",
         "box_total": 8,
         "pack_time": "2026-11-27 11:37:02",
-        "hours": 0.0,
+        "hours": 0.1,
         "owner": "袁梦蝶",
         "transport": "美森美西-海派美中（正班）"
+      },
+      {
+        "code": "HWC261125060",
+        "platform": "BAISHIMY",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-8-55",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 11,
+        "pack_time": "2026-11-27 11:35:04",
+        "hours": 0.1,
+        "owner": "王贝贝",
+        "transport": "喜运达（海运）"
       }
     ]
   },
