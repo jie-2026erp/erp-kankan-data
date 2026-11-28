@@ -1,30 +1,30 @@
 {
   "date": "2026-11-28",
-  "update_time": "2026-11-28 10:07:16",
-  "total_boxes": 335,
+  "update_time": "2026-11-28 10:09:39",
+  "total_boxes": 345,
   "total_users": 2,
   "total_batches": 3,
   "total_marked_bulk": 49.02,
   "by_user": [
     {
       "name": "王梦吉",
-      "boxes": 219,
-      "shipments": 34
+      "boxes": 225,
+      "shipments": 36
     },
     {
       "name": "汪宗标",
-      "boxes": 116,
-      "shipments": 14
+      "boxes": 120,
+      "shipments": 16
     }
   ],
   "hourly": {
     "汪宗标": {
       "9": 111,
-      "10": 5
+      "10": 9
     },
     "王梦吉": {
       "9": 203,
-      "10": 16
+      "10": 22
     }
   },
   "unmarked": [
@@ -51,28 +51,20 @@
   "unmarked_bulk": 80.89,
   "partial_list": [
     {
-      "batch_code": "TH26112700312",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "美巡",
-      "total_box": 202,
-      "marked_box": 196,
-      "unmarked_box": 6
-    },
-    {
       "batch_code": "TH26112700311",
       "warehouse": "FBA中转仓-金华2仓",
       "provider": "飞兔",
       "total_box": 209,
-      "marked_box": 5,
-      "unmarked_box": 204
+      "marked_box": 9,
+      "unmarked_box": 200
     }
   ],
-  "partial_count": 2,
+  "partial_count": 1,
   "week_stat": {
-    "bulk": 375.85,
-    "boxes": 3939,
-    "pcs": 31810,
-    "count": 19
+    "bulk": 394.53,
+    "boxes": 4141,
+    "pcs": 32967,
+    "count": 20
   },
   "last_week_stat": {
     "bulk": 439.79,
@@ -81,10 +73,10 @@
     "count": 38
   },
   "month_stat": {
-    "bulk": 2089.29,
-    "boxes": 23359,
-    "pcs": 186622,
-    "count": 155
+    "bulk": 2107.96,
+    "boxes": 23561,
+    "pcs": 187779,
+    "count": 156
   },
   "last_month_stat": {
     "bulk": 3273.26,
@@ -95,17 +87,17 @@
   "week_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 1825,
-      "shipments": 283,
+      "boxes": 1879,
+      "shipments": 292,
       "hours": 18,
-      "eff": 101
+      "eff": 104
     },
     {
       "name": "王梦吉",
-      "boxes": 1615,
-      "shipments": 305,
-      "hours": 16.0,
-      "eff": 101
+      "boxes": 1763,
+      "shipments": 335,
+      "hours": 17.0,
+      "eff": 104
     },
     {
       "name": "赵忠军",
@@ -162,8 +154,8 @@
   "month_by_user": [
     {
       "name": "汪宗标",
-      "boxes": 12412,
-      "shipments": 1864,
+      "boxes": 12466,
+      "shipments": 1873,
       "hours": 105.5,
       "eff": 118
     },
@@ -176,10 +168,10 @@
     },
     {
       "name": "王梦吉",
-      "boxes": 2094,
-      "shipments": 347,
-      "hours": 23.0,
-      "eff": 91
+      "boxes": 2242,
+      "shipments": 377,
+      "hours": 24.0,
+      "eff": 93
     },
     {
       "name": "赵忠军",
