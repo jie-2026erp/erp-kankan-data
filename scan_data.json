@@ -1,15 +1,15 @@
 {
   "date": "2026-11-28",
-  "update_time": "2026-11-28 09:13:42",
-  "total_boxes": 122,
+  "update_time": "2026-11-28 09:16:09",
+  "total_boxes": 134,
   "total_users": 2,
   "total_batches": 1,
   "total_marked_bulk": 12.81,
   "by_user": [
     {
       "name": "王梦吉",
-      "boxes": 65,
-      "shipments": 5
+      "boxes": 77,
+      "shipments": 6
     },
     {
       "name": "汪宗标",
@@ -22,7 +22,7 @@
       "9": 57
     },
     "王梦吉": {
-      "9": 65
+      "9": 77
     }
   },
   "unmarked": [
@@ -65,17 +65,8 @@
   ],
   "unmarked_count": 4,
   "unmarked_bulk": 117.11,
-  "partial_list": [
-    {
-      "batch_code": "TH26112700313",
-      "warehouse": "FBA中转仓-金华2仓",
-      "provider": "美通",
-      "total_box": 134,
-      "marked_box": 124,
-      "unmarked_box": 10
-    }
-  ],
-  "partial_count": 1,
+  "partial_list": [],
+  "partial_count": 0,
   "week_stat": {
     "bulk": 375.85,
     "boxes": 3939,
