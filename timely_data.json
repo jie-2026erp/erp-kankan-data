@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-28 11:37:40",
+  "update_time": "2026-11-28 11:39:54",
   "pack3": {
     "total": 23,
     "over24": 11,
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:24:32",
-        "hours": 27.2,
+        "hours": 27.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:35:08",
-        "hours": 27.0,
+        "hours": 27.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 13:47:26",
-        "hours": 21.8,
+        "hours": 21.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -175,6 +175,32 @@
         "hours": 1.0,
         "owner": "肖琴",
         "transport": "海运欧洲"
+      },
+      {
+        "code": "FBA19YWMBMCV",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-110",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 23,
+        "pack_time": "2026-11-28 11:00:54",
+        "hours": 0.7,
+        "owner": "滕明静",
+        "transport": "慢船海派（美西）"
+      },
+      {
+        "code": "FBA19YWMQ5TG",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "LS-TP-110",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 17,
+        "pack_time": "2026-11-28 10:59:08",
+        "hours": 0.7,
+        "owner": "滕明静",
+        "transport": "慢船海派（美西）"
       },
       {
         "code": "FBA19YWPBR7S",
@@ -203,43 +229,30 @@
         "transport": "慢船海派（美西）"
       },
       {
-        "code": "FBA19YWMBMCV",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-110",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 23,
-        "pack_time": "2026-11-28 11:00:54",
-        "hours": 0.6,
-        "owner": "滕明静",
-        "transport": "慢船海派（美西）"
-      },
-      {
-        "code": "FBA19YWMQ5TG",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "LS-TP-110",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 17,
-        "pack_time": "2026-11-28 10:59:08",
-        "hours": 0.6,
-        "owner": "滕明静",
-        "transport": "慢船海派（美西）"
-      },
-      {
         "code": "FBA15MZVYNCC",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1338",
+        "space": "FH-6-13",
         "is_dtb": false,
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-28 11:12:03",
-        "hours": 0.4,
+        "hours": 0.5,
         "owner": "陈逸潇",
         "transport": "卡航英国"
+      },
+      {
+        "code": "FBA15MZVYZ8G",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "JH11-1334",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-28 11:24:27",
+        "hours": 0.3,
+        "owner": "陈逸潇",
+        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MZVTNB6",
@@ -255,17 +268,17 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MZVYZ8G",
+        "code": "FBA15MZVV852",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1334",
+        "space": "JH11-1332",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-28 11:24:27",
+        "box_total": 5,
+        "pack_time": "2026-11-28 11:29:22",
         "hours": 0.2,
-        "owner": "陈逸潇",
-        "transport": "卡航欧洲"
+        "owner": "肖琴",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261127003",
@@ -281,7 +294,7 @@
         "transport": "慢船海卡（美西）"
       },
       {
-        "code": "FBA261126201",
+        "code": "FBA15MZVPCWD",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
         "space": "JH11-1330",
@@ -291,19 +304,6 @@
         "pack_time": "2026-11-28 11:34:21",
         "hours": 0.1,
         "owner": "杨雨薇",
-        "transport": "海运欧洲"
-      },
-      {
-        "code": "FBA15MZVV852",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1332",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 5,
-        "pack_time": "2026-11-28 11:29:22",
-        "hours": 0.1,
-        "owner": "肖琴",
         "transport": "海运欧洲"
       }
     ]
