@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-11-28 13:47:36",
+  "update_time": "2026-11-28 13:49:55",
   "pack3": {
-    "total": 23,
+    "total": 22,
     "over24": 12,
     "over48": 1,
     "max_hours": 52.0,
@@ -29,7 +29,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-26 14:27:26",
-        "hours": 47.3,
+        "hours": 47.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -42,7 +42,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 14:39:30",
-        "hours": 47.1,
+        "hours": 47.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -55,7 +55,7 @@
         "err_msg": "",
         "box_total": 2,
         "pack_time": "2026-11-26 14:50:43",
-        "hours": 46.9,
+        "hours": 47.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 14:58:23",
-        "hours": 46.8,
+        "hours": 46.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-27 08:46:24",
-        "hours": 29.0,
+        "hours": 29.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-27 08:46:14",
-        "hours": 29.0,
+        "hours": 29.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -146,7 +146,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-27 08:57:02",
-        "hours": 28.8,
+        "hours": 28.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -162,19 +162,6 @@
         "hours": 24.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
-      },
-      {
-        "code": "FBA19YWMQ5TG",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-3-73",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 17,
-        "pack_time": "2026-11-28 10:59:08",
-        "hours": 2.8,
-        "owner": "滕明静",
-        "transport": "慢船海派（美西）"
       },
       {
         "code": "FBA15MZVYZ8G",
@@ -216,6 +203,19 @@
         "transport": "海运欧洲"
       },
       {
+        "code": "FBA15MZW72HV",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-3-84",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 7,
+        "pack_time": "2026-11-28 13:26:57",
+        "hours": 0.4,
+        "owner": "陈逸潇",
+        "transport": "海运英国"
+      },
+      {
         "code": "FBA15MZW4QT9",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -229,17 +229,17 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "FBA15MZW72HV",
+        "code": "FBA15MZVZ452",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1320",
+        "space": "JH11-1313",
         "is_dtb": false,
         "err_msg": "",
-        "box_total": 7,
-        "pack_time": "2026-11-28 13:26:57",
-        "hours": 0.3,
-        "owner": "陈逸潇",
-        "transport": "海运英国"
+        "box_total": 1,
+        "pack_time": "2026-11-28 13:39:45",
+        "hours": 0.2,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
       },
       {
         "code": "FBA15MZW56K2",
@@ -281,19 +281,6 @@
         "transport": "海运英国"
       },
       {
-        "code": "FBA15MZVZ452",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1313",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-28 13:39:45",
-        "hours": 0.1,
-        "owner": "杨雨薇",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA15MZVWDR9",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -312,7 +299,7 @@
     "total": 2,
     "over24": 0,
     "over48": 0,
-    "max_hours": 0.1,
+    "max_hours": 0.2,
     "dtb_count": 2,
     "list": [
       {
@@ -324,7 +311,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-28 13:39:32",
-        "hours": 0.1,
+        "hours": 0.2,
         "owner": "滕明静",
         "transport": "慢船海派（美西）"
       },
