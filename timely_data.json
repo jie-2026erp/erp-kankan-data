@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-11-28 17:55:12",
+  "update_time": "2026-11-28 17:57:24",
   "pack3": {
     "total": 29,
     "over24": 12,
@@ -68,7 +68,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-26 14:58:23",
-        "hours": 50.9,
+        "hours": 51.0,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:35:08",
-        "hours": 33.3,
+        "hours": 33.4,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -120,7 +120,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-27 08:46:24",
-        "hours": 33.1,
+        "hours": 33.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -133,7 +133,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-27 08:46:14",
-        "hours": 33.1,
+        "hours": 33.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 13:47:26",
-        "hours": 28.1,
+        "hours": 28.2,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -198,7 +198,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-28 14:46:23",
-        "hours": 3.1,
+        "hours": 3.2,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -237,7 +237,7 @@
         "err_msg": "",
         "box_total": 5,
         "pack_time": "2026-11-28 15:34:37",
-        "hours": 2.3,
+        "hours": 2.4,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -250,7 +250,7 @@
         "err_msg": "",
         "box_total": 1,
         "pack_time": "2026-11-28 15:58:25",
-        "hours": 1.9,
+        "hours": 2.0,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
@@ -263,7 +263,7 @@
         "err_msg": "",
         "box_total": 4,
         "pack_time": "2026-11-28 16:05:42",
-        "hours": 1.8,
+        "hours": 1.9,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
       },
@@ -289,9 +289,22 @@
         "err_msg": "",
         "box_total": 15,
         "pack_time": "2026-11-28 16:10:40",
-        "hours": 1.7,
+        "hours": 1.8,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
+      },
+      {
+        "code": "HWC261127037",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-16-81",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 1,
+        "pack_time": "2026-11-28 16:28:25",
+        "hours": 1.5,
+        "owner": "丁胜玥",
+        "transport": "海运欧洲"
       },
       {
         "code": "HWC261127014",
@@ -305,19 +318,6 @@
         "hours": 1.5,
         "owner": "丁胜玥",
         "transport": "卡航欧洲"
-      },
-      {
-        "code": "HWC261127037",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-16-81",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 1,
-        "pack_time": "2026-11-28 16:28:25",
-        "hours": 1.4,
-        "owner": "丁胜玥",
-        "transport": "海运欧洲"
       },
       {
         "code": "HWC261127030",
@@ -346,6 +346,19 @@
         "transport": "卡航英国"
       },
       {
+        "code": "FBA15MZX4ZG1",
+        "platform": "FBA",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-4-76",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 3,
+        "pack_time": "2026-11-28 17:47:08",
+        "hours": 0.2,
+        "owner": "杨雨薇",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "FBA15MZX508V",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -356,19 +369,6 @@
         "pack_time": "2026-11-28 17:44:09",
         "hours": 0.2,
         "owner": "陈逸潇",
-        "transport": "卡航欧洲"
-      },
-      {
-        "code": "FBA15MZX4ZG1",
-        "platform": "FBA",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "JH11-1263",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 3,
-        "pack_time": "2026-11-28 17:47:08",
-        "hours": 0.1,
-        "owner": "杨雨薇",
         "transport": "卡航欧洲"
       },
       {
