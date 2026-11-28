@@ -1,15 +1,15 @@
 {
   "date": "2026-11-28",
-  "update_time": "2026-11-28 14:54:48",
-  "total_boxes": 1367,
+  "update_time": "2026-11-28 14:57:15",
+  "total_boxes": 1377,
   "total_users": 2,
-  "total_batches": 5,
-  "total_marked_bulk": 129.92,
+  "total_batches": 6,
+  "total_marked_bulk": 130.98,
   "by_user": [
     {
       "name": "王梦吉",
-      "boxes": 773,
-      "shipments": 118
+      "boxes": 783,
+      "shipments": 120
     },
     {
       "name": "汪宗标",
@@ -18,17 +18,18 @@
     }
   ],
   "hourly": {
+    "王梦吉": {
+      "14": 10,
+      "9": 203,
+      "10": 155,
+      "11": 210,
+      "13": 205
+    },
     "汪宗标": {
       "9": 111,
       "10": 114,
       "13": 167,
       "11": 202
-    },
-    "王梦吉": {
-      "9": 203,
-      "10": 155,
-      "11": 210,
-      "13": 205
     }
   },
   "unmarked": [
@@ -56,10 +57,10 @@
   ],
   "partial_count": 1,
   "week_stat": {
-    "bulk": 412.39,
-    "boxes": 4354,
-    "pcs": 34391,
-    "count": 22
+    "bulk": 413.45,
+    "boxes": 4364,
+    "pcs": 34439,
+    "count": 23
   },
   "last_week_stat": {
     "bulk": 439.79,
@@ -68,10 +69,10 @@
     "count": 38
   },
   "month_stat": {
-    "bulk": 2125.82,
-    "boxes": 23774,
-    "pcs": 189203,
-    "count": 158
+    "bulk": 2126.88,
+    "boxes": 23784,
+    "pcs": 189251,
+    "count": 159
   },
   "last_month_stat": {
     "bulk": 3273.26,
@@ -89,10 +90,10 @@
     },
     {
       "name": "王梦吉",
-      "boxes": 1870,
-      "shipments": 350,
-      "hours": 17.0,
-      "eff": 110
+      "boxes": 1880,
+      "shipments": 352,
+      "hours": 18.0,
+      "eff": 104
     },
     {
       "name": "赵忠军",
@@ -163,10 +164,10 @@
     },
     {
       "name": "王梦吉",
-      "boxes": 2349,
-      "shipments": 392,
-      "hours": 24.0,
-      "eff": 98
+      "boxes": 2359,
+      "shipments": 394,
+      "hours": 25.0,
+      "eff": 94
     },
     {
       "name": "赵忠军",
