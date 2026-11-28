@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-29 00:37:57",
+  "update_time": "2026-11-29 00:40:13",
   "pack3": {
     "total": 19,
     "over24": 12,
     "over48": 6,
-    "max_hours": 62.8,
+    "max_hours": 62.9,
     "dtb_count": 0,
     "list": [
       {
@@ -16,7 +16,7 @@
         "err_msg": "",
         "box_total": 10,
         "pack_time": "2026-11-26 09:49:07",
-        "hours": 62.8,
+        "hours": 62.9,
         "owner": "郭灵",
         "transport": "海运欧洲"
       },
@@ -94,7 +94,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:24:32",
-        "hours": 40.2,
+        "hours": 40.3,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -107,7 +107,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 08:35:08",
-        "hours": 40.0,
+        "hours": 40.1,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -159,7 +159,7 @@
         "err_msg": "",
         "box_total": 3,
         "pack_time": "2026-11-27 13:47:26",
-        "hours": 34.8,
+        "hours": 34.9,
         "owner": "王贝贝",
         "transport": "喜运达（海运）"
       },
@@ -177,6 +177,19 @@
         "transport": "卡航欧洲"
       },
       {
+        "code": "HWC261127049",
+        "platform": "ALIEXPRESS",
+        "warehouse": "FBA中转仓-金华2仓",
+        "space": "FH-10-37",
+        "is_dtb": false,
+        "err_msg": "",
+        "box_total": 4,
+        "pack_time": "2026-11-28 18:05:43",
+        "hours": 6.6,
+        "owner": "丁胜玥",
+        "transport": "卡航欧洲"
+      },
+      {
         "code": "HWC261127026",
         "platform": "ALIEXPRESS",
         "warehouse": "FBA中转仓-金华2仓",
@@ -190,19 +203,6 @@
         "transport": "卡航欧洲"
       },
       {
-        "code": "HWC261127049",
-        "platform": "ALIEXPRESS",
-        "warehouse": "FBA中转仓-金华2仓",
-        "space": "FH-10-37",
-        "is_dtb": false,
-        "err_msg": "",
-        "box_total": 4,
-        "pack_time": "2026-11-28 18:05:43",
-        "hours": 6.5,
-        "owner": "丁胜玥",
-        "transport": "卡航欧洲"
-      },
-      {
         "code": "FBA261127158",
         "platform": "FBA",
         "warehouse": "FBA中转仓-金华2仓",
@@ -211,7 +211,7 @@
         "err_msg": "-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B26];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B27];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B28];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B29];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B37];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B38];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B39];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B33];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B34];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B35];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B36];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B30];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B31];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B32];-ERROR: A box containing standard-size units cannot exceed 63.5x63.5x63.5 cm in size. [boxId: P1 - B40]",
         "box_total": 61,
         "pack_time": "2026-11-28 18:42:54",
-        "hours": 5.9,
+        "hours": 6.0,
         "owner": "丁胜玥",
         "transport": "海运英国"
       },
@@ -224,7 +224,7 @@
         "err_msg": "",
         "box_total": 14,
         "pack_time": "2026-11-28 18:48:31",
-        "hours": 5.8,
+        "hours": 5.9,
         "owner": "丁胜玥",
         "transport": "海运欧洲"
       },
